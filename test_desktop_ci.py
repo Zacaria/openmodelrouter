@@ -452,10 +452,20 @@ class WorkflowTests(unittest.TestCase):
           npm run build --prefix desktop/provider-runtime
 """
         self.assertEqual(offline.count(prerequisite), 1)
-        # Preserve the entire original offline workflow, not merely its suites.
-        # The prerequisite installs/builds the locked dependencies of these tests.
+        whitespace = """      - name: Check whitespace
+        run: |
+          if git rev-parse --verify HEAD^ >/dev/null 2>&1; then
+            git diff --check HEAD^
+          else
+            git diff-tree --root --check HEAD
+          fi
+"""
+        self.assertEqual(offline.count(whitespace), 1)
+        # Preserve the original workflow outside the explicitly changed step.
+        original_whitespace = "      - name: Check whitespace\n        run: git diff --check HEAD^\n"
+        normalized = offline.replace(prerequisite, "").replace(whitespace, original_whitespace)
         self.assertEqual(
-            hashlib.sha256(offline.replace(prerequisite, "").encode("utf-8")).hexdigest(),
+            hashlib.sha256(normalized.encode("utf-8")).hexdigest(),
             "a4c9655009df111d6cfacaa2b59664b101545bd5965753e52791ce02179176c6",
         )
 
