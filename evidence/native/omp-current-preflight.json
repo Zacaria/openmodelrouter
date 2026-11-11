@@ -1,0 +1,28 @@
+{
+  "timestamp_utc": "2026-10-27T06:18:10.634489+00:00",
+  "ssh_exit_code": 0,
+  "ssh_stderr_present": false,
+  "native": {
+    "platform": "Darwin",
+    "architecture": "arm64",
+    "environment": "minimal HOME/PATH/TMPDIR/LANG; native OMP store resolution; no PI_CODING_AGENT_DIR",
+    "cwd": "~/omr-host-adapters-task",
+    "commands": {
+      "version": {
+        "exit_code": 0,
+        "stderr_present": false,
+        "version": "omp/18.13.0"
+      },
+      "models": {
+        "exit_code": 0,
+        "stderr_present": false,
+        "json_type": "dict",
+        "top_level_keys": [
+          "models"
+        ],
+        "model_count": 0,
+        "models": []
+      }
+    }
+  }
+}

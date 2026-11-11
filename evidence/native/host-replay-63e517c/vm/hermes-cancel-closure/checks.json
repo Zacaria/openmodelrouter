@@ -1,0 +1,55 @@
+{
+  "marker": {
+    "request_id": "3b8880a9-f5d2-40cb-a0ec-bd009406cba0",
+    "session": "66b78358-bc3c-4812-8c3f-7a5cf55c3635",
+    "upstream_status": 200,
+    "event": "first_nonempty_chat_delta_after_flush",
+    "signal": "SIGINT",
+    "time_ns": 1793081859836364214,
+    "launcher_pid": 3680595,
+    "child_groups": [
+      3680597
+    ],
+    "upstream_before": [
+      {
+        "local": [
+          "10.77.0.10",
+          59848
+        ],
+        "remote": [
+          "10.77.0.11",
+          11434
+        ],
+        "status": "ESTABLISHED",
+        "fd": 5
+      }
+    ],
+    "terminal_seen": false
+  },
+  "cancel_exit": 130,
+  "upstream_after": [],
+  "live_child_groups": [],
+  "cancel_receipts": [
+    {
+      "request_id": "3b8880a9-f5d2-40cb-a0ec-bd009406cba0",
+      "session": "66b78358-bc3c-4812-8c3f-7a5cf55c3635",
+      "route": "local",
+      "model_requested": "omr-hermes-qwen3-4b:ctx8192",
+      "model_observed": "omr-hermes-qwen3-4b:ctx8192",
+      "effort_transmitted": "none",
+      "effort_acknowledged": null,
+      "effort_applied": null,
+      "usage": {},
+      "decision_ms": 0,
+      "status": "cancelled",
+      "upstream_status": 200,
+      "elapsed_ms": 1044.740448705852
+    }
+  ],
+  "resume_exit": 0,
+  "resume_session_ids": [
+    "local-6cf365d8b27b4cf3ba13321650f35350a267b57bde04dde913a63fe06ca841d6"
+  ],
+  "resume_contains_code": true,
+  "same_native_session": true
+}

@@ -1,0 +1,179 @@
+command: ['python3', '-B', '-m', 'unittest', 'discover', '-v'] cwd: .
+test_optimized_execution_is_refused_before_file_access (test_analyze_campaign.CampaignAnalysisTests.test_optimized_execution_is_refused_before_file_access) ... ok
+test_report_and_manifest_reproduce_without_overwriting (test_analyze_campaign.CampaignAnalysisTests.test_report_and_manifest_reproduce_without_overwriting) ... ok
+test_behavioral_code_oracle (test_benchmark_complete.CompleteTest.test_behavioral_code_oracle) ... ok
+test_child_really_calls_gateway_in_distinct_session (test_benchmark_complete.CompleteTest.test_child_really_calls_gateway_in_distinct_session) ... ok
+test_code_receipt_records_executed_tests (test_benchmark_complete.CompleteTest.test_code_receipt_records_executed_tests) ... ok
+test_diagnostic_requires_evidence_and_ambiguous_first_turn (test_benchmark_complete.CompleteTest.test_diagnostic_requires_evidence_and_ambiguous_first_turn) ... ok
+test_frozen_matrix_and_static_code (test_benchmark_complete.CompleteTest.test_frozen_matrix_and_static_code) ... ok
+test_bounded_plan_persists_before_calls_and_errors (test_benchmark_runner.PilotTest.test_bounded_plan_persists_before_calls_and_errors) ... ok
+test_failure_and_unknown_not_success (test_benchmark_runner.PilotTest.test_failure_and_unknown_not_success) ... ok
+test_http_session_exact_and_redaction (test_benchmark_runner.PilotTest.test_http_session_exact_and_redaction) ... ok
+test_tool_round_trip_and_report_are_simulated (test_benchmark_runner.PilotTest.test_tool_round_trip_and_report_are_simulated) ... ok
+test_certification_discovers_all_expected_suites (test_build_release.ReleaseTests.test_certification_discovers_all_expected_suites) ... b74b83a4acca91a60a82a7f287de0a74b6443b178e43cf90f709b8817a2c6e38  /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/bundle-test_extra.py/open-model-router-test.tar.gz
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-test_extra.py/venv/bin/python omr.py --help
+help
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-test_extra.py/venv/bin/python -m unittest discover
+F
+======================================================================
+FAIL: test_it (test_extra.T.test_it)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-test_extra.py/source/test_extra.py", line 3, in test_it
+    def test_it(self): self.fail("suite ran")
+                       ~~~~~~~~~^^^^^^^^^^^^^
+AssertionError: suite ran
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+add255a1c76fbf6bb92d3bbf39f44cd708d40af8fe261dbf28d0abe8c75e09e3  /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/bundle-host-adapters-test_launch.py/open-model-router-test.tar.gz
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-host-adapters-test_launch.py/venv/bin/python omr.py --help
+help
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-host-adapters-test_launch.py/venv/bin/python -m unittest discover
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-host-adapters-test_launch.py/venv/bin/python host-adapters/test_launch.py
+F
+======================================================================
+FAIL: test_it (__main__.T.test_it)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-host-adapters-test_launch.py/source/host-adapters/test_launch.py", line 3, in test_it
+    def test_it(self): self.fail("suite ran")
+                       ~~~~~~~~~^^^^^^^^^^^^^
+AssertionError: suite ran
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+9878f96cdf356c2da4515c6267b5a3a894fc3cead01fcc7095b0855f8ab9d57b  /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/bundle-tests-test_landing.py/open-model-router-test.tar.gz
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-tests-test_landing.py/venv/bin/python omr.py --help
+help
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-tests-test_landing.py/venv/bin/python -m unittest discover
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-tests-test_landing.py/venv/bin/python host-adapters/test_launch.py
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-tests-test_landing.py/venv/bin/python tests/test_landing.py
+F
+======================================================================
+FAIL: test_it (__main__.T.test_it)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-tests-test_landing.py/source/tests/test_landing.py", line 3, in test_it
+    def test_it(self): self.fail("suite ran")
+                       ~~~~~~~~~^^^^^^^^^^^^^
+AssertionError: suite ran
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+a03a5a46d2e4212f79b3f2ded7d57c52a49cd4cae9e31cbbb91909ceb038005b  /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/bundle-tests-test_other.py/open-model-router-test.tar.gz
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-tests-test_other.py/venv/bin/python omr.py --help
+help
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-tests-test_other.py/venv/bin/python -m unittest discover
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-tests-test_other.py/venv/bin/python host-adapters/test_launch.py
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-tests-test_other.py/venv/bin/python tests/test_landing.py
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-tests-test_other.py/venv/bin/python -m unittest discover -s tests -p test_other.py
+F
+======================================================================
+FAIL: test_it (test_other.T.test_it)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmps10uwnxw/scratch-tests-test_other.py/source/tests/test_other.py", line 3, in test_it
+    def test_it(self): self.fail("suite ran")
+                       ~~~~~~~~~^^^^^^^^^^^^^
+AssertionError: suite ran
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+ok
+test_certification_old_tree_without_optional_directories (test_build_release.ReleaseTests.test_certification_old_tree_without_optional_directories) ... 329783447472084f06b97301304ff00243931a7fcfb4ee444ac1892598d33375  /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmp9xs9svvg/old-bundle/open-model-router-test.tar.gz
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmp9xs9svvg/old-scratch/venv/bin/python omr.py --help
+help
++ /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmp9xs9svvg/old-scratch/venv/bin/python -m unittest discover
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+ok
+test_determinism_and_committed_tree_only (test_build_release.ReleaseTests.test_determinism_and_committed_tree_only) ... ok
+test_forbidden_and_oversized_files_fail_without_output (test_build_release.ReleaseTests.test_forbidden_and_oversized_files_fail_without_output) ... ok
+test_forged_content_and_manifest_rejected_before_extraction (test_build_release.ReleaseTests.test_forged_content_and_manifest_rejected_before_extraction) ... ok
+test_forged_identity_rejected_before_extraction (test_build_release.ReleaseTests.test_forged_identity_rejected_before_extraction) ... ok
+test_hash_mismatch (test_build_release.ReleaseTests.test_hash_mismatch) ... ok
+test_malicious_paths_and_links (test_build_release.ReleaseTests.test_malicious_paths_and_links) ... ok
+test_optimized_rejected_before_access (test_build_release.ReleaseTests.test_optimized_rejected_before_access) ... ok
+test_png_committed_archived_without_omission (test_build_release.ReleaseTests.test_png_committed_archived_without_omission) ... ok
+test_models_missing_local_key_is_rejected_by_route (test_codex_native.CodexNativeTests.test_models_missing_local_key_is_rejected_by_route) ... ok
+test_config_guard_and_mode_off (test_codex_native.OfflineNativeTests.test_config_guard_and_mode_off) ... ok
+test_end_to_end_and_boundaries (test_codex_native.OfflineNativeTests.test_end_to_end_and_boundaries) ... ok
+test_native_stream_disconnect_cancels_upstream (test_codex_native.OfflineNativeTests.test_native_stream_disconnect_cancels_upstream) ... ok
+test_redirect_is_not_followed (test_codex_native.OfflineNativeTests.test_redirect_is_not_followed) ... ok
+test_review_security_boundaries (test_codex_native.OfflineNativeTests.test_review_security_boundaries) ... ok
+test_session_routing_is_isolated_by_account (test_codex_native.OfflineNativeTests.test_session_routing_is_isolated_by_account) ... ok
+test_aggregates_failures_and_value (test_compare.CompareTest.test_aggregates_failures_and_value) ... ok
+test_keeps_dev_and_validation_separate (test_compare.CompareTest.test_keeps_dev_and_validation_separate) ... ok
+test_rejects_missing_tariff_and_nan (test_compare.CompareTest.test_rejects_missing_tariff_and_nan) ... ok
+test_deadline_shutdown_before_upstream_getresponse_returns_504 (test_deadlines.DeadlineTests.test_deadline_shutdown_before_upstream_getresponse_returns_504) ... ok
+test_invalid_decision_never_calls_default_provider (test_deadlines.DeadlineTests.test_invalid_decision_never_calls_default_provider) ... ok
+test_no_headers_deadline_closes_backend_and_next_request_recovers (test_deadlines.DeadlineTests.test_no_headers_deadline_closes_backend_and_next_request_recovers) ... ok
+test_stream_deadline_reports_timeout_after_headers (test_deadlines.DeadlineTests.test_stream_deadline_reports_timeout_after_headers) ... ok
+test_bad_download_does_not_become_a_weight_file (test_download.DownloadTests.test_bad_download_does_not_become_a_weight_file) ... ok
+test_verified_download_is_reusable_and_mismatch_never_overwrites (test_download.DownloadTests.test_verified_download_is_reusable_and_mismatch_never_overwrites) ... ok
+test_bad_streams_and_mime (test_headerless_native.HeaderlessNativeTests.test_bad_streams_and_mime) ... ok
+test_first_frame_is_delayed_until_complete (test_headerless_native.HeaderlessNativeTests.test_first_frame_is_delayed_until_complete) ... ok
+test_headerless_valid_stream (test_headerless_native.HeaderlessNativeTests.test_headerless_valid_stream) ... ok
+test_item_boundary_rejections_on_route (test_headerless_native.HeaderlessNativeTests.test_item_boundary_rejections_on_route) ... ok
+test_live_delivery_and_cancel (test_headerless_native.HeaderlessNativeTests.test_live_delivery_and_cancel) ... ok
+test_non_native_missing_mime_rejected (test_headerless_native.HeaderlessNativeTests.test_non_native_missing_mime_rejected) ... ok
+test_sdk_families_and_invalid_fields (test_headerless_native.HeaderlessNativeTests.test_sdk_families_and_invalid_fields) ... ok
+test_sdk_item_optional_fields (test_headerless_native.HeaderlessNativeTests.test_sdk_item_optional_fields) ... ok
+test_cli_requires_consent_and_secret_without_output (test_jev_decider.DecisionTests.test_cli_requires_consent_and_secret_without_output) ... ok
+test_cli_success_through_injected_transport (test_jev_decider.DecisionTests.test_cli_success_through_injected_transport) ... ok
+test_http_single_request_redirect_and_size (test_jev_decider.DecisionTests.test_http_single_request_redirect_and_size) ... ok
+test_invalid_inputs_never_call_transport (test_jev_decider.DecisionTests.test_invalid_inputs_never_call_transport) ... ok
+test_invalid_provider_answers_fail_closed (test_jev_decider.DecisionTests.test_invalid_provider_answers_fail_closed) ... ok
+test_valid_decision_and_request (test_jev_decider.DecisionTests.test_valid_decision_and_request) ... ok
+test_fixed_chat_passes_tools_and_upstream_identity (test_omr.GatewayTest.test_fixed_chat_passes_tools_and_upstream_identity) ... ok
+test_drip_body_has_absolute_deadline (test_review_regressions.ReviewRegressions.test_drip_body_has_absolute_deadline) ... ok
+test_receipt_rejects_untrusted_strings_and_truncated_stream (test_review_regressions.ReviewRegressions.test_receipt_rejects_untrusted_strings_and_truncated_stream) ... ok
+test_terminal_line_without_event_delimiter_is_not_complete (test_review_regressions.ReviewRegressions.test_terminal_line_without_event_delimiter_is_not_complete) ... ok
+test_child_does_not_inherit_secret_environment (test_router.RouterTest.test_child_does_not_inherit_secret_environment) ... ok
+test_child_failure_is_not_retried (test_router.RouterTest.test_child_failure_is_not_retried) ... ok
+test_configurable_cli_routes_end_to_end (test_router.RouterTest.test_configurable_cli_routes_end_to_end) ... ok
+test_configurable_decider_receives_only_first_prompt (test_router.RouterTest.test_configurable_decider_receives_only_first_prompt) ... ok
+test_executes_selected_route_and_uses_first_user_message (test_router.RouterTest.test_executes_selected_route_and_uses_first_user_message) ... ok
+test_invalid_score_never_executes_route (test_router.RouterTest.test_invalid_score_never_executes_route) ... ok
+test_command_decides_once_per_session_and_effort_reaches_provider (test_transport.TransportTests.test_command_decides_once_per_session_and_effort_reaches_provider) ... ok
+test_configuration_rejects_unverified_weights_and_unsafe_auth (test_transport.TransportTests.test_configuration_rejects_unverified_weights_and_unsafe_auth) ... ok
+test_stream_is_live_and_disconnect_aborts_stalled_upstream (test_transport.TransportTests.test_stream_is_live_and_disconnect_aborts_stalled_upstream) ... ok
+
+----------------------------------------------------------------------
+Ran 64 tests in 19.676s
+
+OK
+Offline certification passed; no host integration was tested.
+043cad99f0c831be6c6bfbbc0ac5acf2b84132eda3503f0c85670ad3f962bf86  /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmpw2xbvbhi/one/open-model-router-test.tar.gz
+043cad99f0c831be6c6bfbbc0ac5acf2b84132eda3503f0c85670ad3f962bf86  /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmpw2xbvbhi/two/open-model-router-test.tar.gz
+043cad99f0c831be6c6bfbbc0ac5acf2b84132eda3503f0c85670ad3f962bf86  /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmp9urv7g1g/bundle/open-model-router-test.tar.gz
+c3f5a42c707a77672cd61658b71b74338898f3178ffb82b83d5eceedc8f07d2e  /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmppw1b197g/bundle/open-model-router-test.tar.gz
+043cad99f0c831be6c6bfbbc0ac5acf2b84132eda3503f0c85670ad3f962bf86  /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmpthjsk2y2/bundle/open-model-router-test.tar.gz
+fe5137b50cf76f74c7397953a5b9742f4088036b43ddf6a22e503ede910cc61a  /home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/tmp/tmpix6jk3hn/png-bundle/open-model-router-test.tar.gz

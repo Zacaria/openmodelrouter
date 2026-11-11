@@ -1,0 +1,11 @@
+command: ['python3', '-B', '-m', 'unittest', 'discover', '-v'] cwd: comparator-t_14313d5b
+test_deterministic_order_and_configurable_decider (test_runner.ComparatorTests.test_deterministic_order_and_configurable_decider) ... ok
+test_failed_adapter_is_error_not_success (test_runner.ComparatorTests.test_failed_adapter_is_error_not_success) ... ok
+test_first_prompt_once_and_session_route_frozen (test_runner.ComparatorTests.test_first_prompt_once_and_session_route_frozen) ... ok
+test_unavailable_baseline_no_substitution (test_runner.ComparatorTests.test_unavailable_baseline_no_substitution) ... ok
+test_unsupported_and_non_evaluated_not_success (test_runner.ComparatorTests.test_unsupported_and_non_evaluated_not_success) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK

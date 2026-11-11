@@ -1,0 +1,147 @@
+{
+  "marker": {
+    "event": "first_nonempty_chat_delta_after_flush",
+    "signal": "SIGINT",
+    "time_ns": 1793068285437627465,
+    "launcher_pid": 3358399,
+    "child_groups": [
+      3358403
+    ],
+    "upstream_before": [
+      {
+        "local": [
+          "10.77.0.10",
+          43990
+        ],
+        "remote": [
+          "10.77.0.11",
+          11434
+        ],
+        "status": "ESTABLISHED"
+      }
+    ],
+    "terminal_seen": false
+  },
+  "cancel_exit": 130,
+  "upstream_after": [],
+  "live_child_groups": [],
+  "cancel_receipts": [
+    {
+      "request_id": "67db4d0c-466d-4b0c-b88d-da81df0de55e",
+      "session": "864bb3bb-55f8-4636-8ddd-9cf04c3f1962",
+      "route": "local",
+      "model_requested": "omr-hermes-qwen3-4b:ctx8192",
+      "model_observed": "omr-hermes-qwen3-4b:ctx8192",
+      "effort_transmitted": "none",
+      "effort_acknowledged": null,
+      "effort_applied": null,
+      "usage": {
+        "total_tokens": 3817,
+        "prompt_tokens": 3809,
+        "completion_tokens": 8,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "decision_ms": 0.004625879228115082,
+      "status": "completed",
+      "upstream_status": 200,
+      "elapsed_ms": 2125.3490527160466
+    },
+    {
+      "request_id": "959aa650-7b39-46c5-b7de-7c8fa4f6e2dd",
+      "session": "864bb3bb-55f8-4636-8ddd-9cf04c3f1962",
+      "route": "local",
+      "model_requested": "omr-hermes-qwen3-4b:ctx8192",
+      "model_observed": "omr-hermes-qwen3-4b:ctx8192",
+      "effort_transmitted": "none",
+      "effort_acknowledged": null,
+      "effort_applied": null,
+      "usage": {
+        "total_tokens": 270,
+        "prompt_tokens": 253,
+        "completion_tokens": 17,
+        "prompt_tokens_details": {
+          "cached_tokens": 4
+        }
+      },
+      "decision_ms": 0,
+      "status": "completed",
+      "upstream_status": 200,
+      "elapsed_ms": 209.7942647524178
+    },
+    {
+      "request_id": "f334bc0e-37c2-4b98-ab64-e28bd6fa4556",
+      "session": null,
+      "route": null,
+      "model_requested": null,
+      "model_observed": null,
+      "effort_transmitted": null,
+      "effort_acknowledged": null,
+      "effort_applied": null,
+      "usage": {},
+      "decision_ms": 0,
+      "status": "invalid_request",
+      "upstream_status": null,
+      "elapsed_ms": 0.7672356441617012
+    },
+    {
+      "request_id": "e5306cd4-3480-47e5-99e3-523550271682",
+      "session": "864bb3bb-55f8-4636-8ddd-9cf04c3f1962",
+      "route": "local",
+      "model_requested": "omr-hermes-qwen3-4b:ctx8192",
+      "model_observed": "omr-hermes-qwen3-4b:ctx8192",
+      "effort_transmitted": "none",
+      "effort_acknowledged": null,
+      "effort_applied": null,
+      "usage": {},
+      "decision_ms": 0,
+      "status": "cancelled",
+      "upstream_status": 200,
+      "elapsed_ms": 519.0812828950584
+    },
+    {
+      "request_id": "3c17b7b3-bda7-42ce-b43b-d49e3b174a45",
+      "session": "864bb3bb-55f8-4636-8ddd-9cf04c3f1962",
+      "route": "local",
+      "model_requested": "omr-hermes-qwen3-4b:ctx8192",
+      "model_observed": "omr-hermes-qwen3-4b:ctx8192",
+      "effort_transmitted": "none",
+      "effort_acknowledged": null,
+      "effort_applied": null,
+      "usage": {
+        "total_tokens": 6472,
+        "prompt_tokens": 3986,
+        "completion_tokens": 2486,
+        "prompt_tokens_details": {
+          "cached_tokens": 3900
+        }
+      },
+      "decision_ms": 0,
+      "status": "completed",
+      "upstream_status": 200,
+      "elapsed_ms": 14436.34353671223
+    },
+    {
+      "request_id": "12e8f17f-da13-4b1d-bc68-06c716e6ee23",
+      "session": null,
+      "route": null,
+      "model_requested": null,
+      "model_observed": null,
+      "effort_transmitted": null,
+      "effort_acknowledged": null,
+      "effort_applied": null,
+      "usage": {},
+      "decision_ms": 0,
+      "status": "invalid_request",
+      "upstream_status": null,
+      "elapsed_ms": 0.6829360499978065
+    }
+  ],
+  "resume_exit": 0,
+  "resume_session_ids": [
+    "local-84837aaeb4b38688678aa4d036182343d6d0218d310a020e67b98cfa76354c77"
+  ],
+  "resume_contains_code": true,
+  "same_native_session": true
+}

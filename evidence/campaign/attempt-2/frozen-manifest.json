@@ -1,0 +1,12 @@
+{
+  "frozen_at_utc": "2026-10-27T00:24:42.539820+00:00",
+  "files": {
+    "/srv/omr-private/workspaces/open-model-router/runtime/run_campaign.py": "f6ba105475764f6b9e8f3b90d51ea9c899ef9e7fc05d5de97d3313f0f0cb0b00",
+    "/srv/omr-private/workspaces/open-model-router/router-gateway/omr.py": "e361c704c7790578b979e3645f70f619f94a188c6e43063bc619c290b901b568",
+    "/srv/omr-private/workspaces/open-model-router/benchmark/benchmark_runner.py": "d9258897b243f75cb3e8efea0ba139367ba71c5458b0d7b28526a0b127975efe",
+    "/srv/omr-private/workspaces/open-model-router/host-adapters/jev_decider.py": "4d28c95d95c7d2910d983602fb7ecb15992d81c6bc476413ba272ab161f28034",
+    "/srv/omr-private/workspaces/open-model-router/runtime/default-campaign-v2.json": "25c665b793a64b47acb2f1f22e062fefd7a702642eb9b704d0d9954e8357e432",
+    "/srv/omr-private/workspaces/open-model-router/runtime/s1d1-campaign-v2.json": "ffcb8d292e60bf7dde8a4dc19ab0101334eef9702d67bfb8ab9505f5b77f64d9",
+    "/srv/omr-private/workspaces/open-model-router/runtime/configurable-campaign-v2.json": "22993204fd93c75da7fbb93894c41552166756c4fac591b4ddd3bf1db7846576"
+  }
+}

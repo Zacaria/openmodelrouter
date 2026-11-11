@@ -1,0 +1,21 @@
+# Prettier-checked frontend text is LF on Windows as well as Unix.
+desktop/src/**/*.ts text eol=lf
+desktop/src/**/*.tsx text eol=lf
+desktop/src/**/*.css text eol=lf
+desktop/*.json text eol=lf
+desktop/*.ts text eol=lf
+desktop/*.html text eol=lf
+
+# Preserve the historical CLI capture byte-for-byte, including its empty session_id suffix.
+evidence/native/hermes/multiturn.jsonl -whitespace
+# Preserve raw SSH/GPU captures, including their original CR line endings.
+evidence/native/host-replay-7e25c6e7/vm-native-sse/preflight.txt -text -whitespace
+evidence/native/host-replay-7e25c6e7/vm-native-sse/after.txt -text -whitespace
+evidence/native/host-replay-63e517c/vm/after-gpu.txt -text -whitespace
+evidence/native/host-replay-63e517c/vm/preflight.txt -text -whitespace
+evidence/native/host-replay-63e517c/vm/hermes-cancel-closure/after.txt -text -whitespace
+# Preserve historical cleanup output and observer source exactly as executed.
+evidence/native/host-replay-63e517c/mac/cleanup-scan.txt -text -whitespace
+evidence/native/host-replay-63e517c/vm/hermes-cancel-closure/observe.py -text -whitespace
+# Keep collected upstream grants byte-for-byte, including quoted blank lines.
+desktop/licenses/Tokenizers-0.23.3-NOTICES.txt -text -whitespace

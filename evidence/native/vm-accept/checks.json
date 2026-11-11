@@ -1,0 +1,28 @@
+{
+  "hermes": {
+    "read_called": true,
+    "fixture_tool_result": true,
+    "first_result_sentinel": true,
+    "streaming": true,
+    "resume_result_sentinel_no_reread": true,
+    "error_502_and_timeout_124": true,
+    "after_error_resume": true,
+    "cancel_text_exit130": true,
+    "socket_open_then_closed": true,
+    "process_group_clean": true,
+    "after_cancel_resume": true
+  },
+  "claude": {
+    "read_called": true,
+    "fixture_tool_result": true,
+    "first_result_sentinel": true,
+    "streaming": true,
+    "resume_result_sentinel_no_reread": true,
+    "error_502_and_timeout_124": true,
+    "after_error_resume": true,
+    "cancel_text_exit130": true,
+    "socket_open_then_closed": true,
+    "process_group_clean": true,
+    "after_cancel_resume": true
+  }
+}

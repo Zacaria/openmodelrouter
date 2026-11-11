@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "OMR Desktop",
+  "version": "0.3.2",
+  "identifier": "io.havesomecode.omr",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [{"label": "main", "title": "OMR Desktop", "width": 1180, "height": 820, "minWidth": 800, "minHeight": 640, "visible": false}],
+    "security": {"csp": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src ipc: http://ipc.localhost; script-src 'self'; object-src 'none'; base-uri 'none'; frame-src 'none'"}
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "externalBin": ["binaries/omr-engine"],
+    "resources": {"../THIRD-PARTY-NOTICES.md": "licenses/THIRD-PARTY-NOTICES.md", "../licenses/": "licenses/runtime/", "../.sidecar-build/licenses/": "licenses/dependencies/"},
+    "icon": ["icons/icon.png", "icons/icon.ico", "icons/icon.icns"],
+    "shortDescription": "Local model routing and usage inspector",
+    "category": "DeveloperTool"
+  }
+}

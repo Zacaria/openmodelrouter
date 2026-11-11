@@ -1,0 +1,134 @@
+{
+  "source_root": "/srv/omr-private/workspaces/open-model-router/vm-final-accept/hermes-cancel-replay",
+  "runtime_matches_commit": "97d2b77d1fd804531e6820800cc2f03bea4aec65",
+  "files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 4025,
+      "sha256": "49bb586376df379849c46e8b318fc145ecce2f9210e4cd5d48d0144429b9d204"
+    },
+    {
+      "path": "after.txt",
+      "bytes": 1056,
+      "sha256": "66445461745326e6c150052ae8a314e5f8b0ffa1aaf7df5616c3097347d7ea0e"
+    },
+    {
+      "path": "cancel-result.json",
+      "bytes": 798,
+      "sha256": "e9262d821a19f567b7b2a4df7248e04fcee6acd872e1df87b2cb4db124774d4b"
+    },
+    {
+      "path": "cancel.err",
+      "bytes": 243,
+      "sha256": "952c651de05fd812346117bd77a0247b9cadc3838546719d78c602b42b4c2049"
+    },
+    {
+      "path": "cancel.jsonl",
+      "bytes": 442,
+      "sha256": "85bea94cadbdd5e1d6dac8a7c8cc43be8bd4aea137819f36cd9b71600305c85e"
+    },
+    {
+      "path": "checks.json",
+      "bytes": 4173,
+      "sha256": "21dbb0d8027adc092b71d4f5e0e578309eaff0a92752ba88395f1f3ea323746e"
+    },
+    {
+      "path": "config.json",
+      "bytes": 481,
+      "sha256": "14af51e2cb149f06576eaf716732a0678e8edfb87f608339145eb44aeb87b435"
+    },
+    {
+      "path": "gateway.log",
+      "bytes": 6,
+      "sha256": "d8f52bb2610809a9f825970cb3acd41315fcd3c301daa26a73e4e407da677247"
+    },
+    {
+      "path": "initial-result.json",
+      "bytes": 676,
+      "sha256": "3c087fb21dbf42469899ae6b27839791ad49056c53b390b0a94d914b365aa3e2"
+    },
+    {
+      "path": "initial.err",
+      "bytes": 497,
+      "sha256": "1048f31a28478d37857a1c7db2abfd794a5f1245c2ff55245024eded08e6d905"
+    },
+    {
+      "path": "initial.jsonl",
+      "bytes": 814,
+      "sha256": "e6efc2cb41070b51b6794625fee58ffe3de4f6813befecdbd79404bbcf1aec85"
+    },
+    {
+      "path": "launcher-session.txt",
+      "bytes": 37,
+      "sha256": "8abad1960fcff2936bf9f97c8a2dff3c6bf2342c1b0b61c8e57d477d80c5e50d"
+    },
+    {
+      "path": "marker.json",
+      "bytes": 297,
+      "sha256": "8522376ebb3bdbb7265b2921dd56844bfd0b7001b1dd8966a1c28e2ee51e5e41"
+    },
+    {
+      "path": "native-session.txt",
+      "bytes": 71,
+      "sha256": "943ded0d4aa82f8430f6f04538354d766d422aff63b7362b9fe70f26e9d1f5ac"
+    },
+    {
+      "path": "observe.py",
+      "bytes": 1693,
+      "sha256": "49a09b588fc67cf43eb627135ff99ef40ab3cd1370b2385a297e2a4683c762f8"
+    },
+    {
+      "path": "preflight.txt",
+      "bytes": 577,
+      "sha256": "ed367526ce93edbe392d58bc6a1aa72b2c9a03d6a7bc2c77420b46a82107047d"
+    },
+    {
+      "path": "receipts.jsonl",
+      "bytes": 3576,
+      "sha256": "bb3774fabc805a70a44c233eaffa3c17e9162d1758fe8d88f69b4f51e386380b"
+    },
+    {
+      "path": "replay.log",
+      "bytes": 4174,
+      "sha256": "2d9861e797b8cfc2cea8ddf74d40cc7da1472730b323f7cb3b4b84e0cf628354"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 4202,
+      "sha256": "764a5b95a79823e57b9883d0a2f696bef047630bcc83ca06490d736e9d7718f4"
+    },
+    {
+      "path": "resume-result.json",
+      "bytes": 776,
+      "sha256": "ce75747938dcb32446a7212766ef53b524964b16072e5d84bd947ebc15e71a8d"
+    },
+    {
+      "path": "resume.err",
+      "bytes": 193,
+      "sha256": "3db00bc0f15e0836758edb33dfe3192bd85e119eae12247a9c3c2a6fac3e395f"
+    },
+    {
+      "path": "resume.jsonl",
+      "bytes": 817,
+      "sha256": "f57188018ea64620c6d7d1cf33cbfecdc80b4ed5247d18d2dedb4d01ba23f514"
+    },
+    {
+      "path": "verify.log",
+      "bytes": 126,
+      "sha256": "9e4974348027c7aba89c63de8f9803ffe0645d502da00589903333e94962a096"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 730,
+      "sha256": "4764c28f2569839af3fe3bb06a2639b75bb7cbaa883bd0746ac9264fcf7eda5a"
+    }
+  ],
+  "binary_captures_preserved_without_transcoding": [
+    "after.txt"
+  ],
+  "limitations": [
+    "Marker has no request ID; receipt association is sequence/session based.",
+    "Socket closure does not prove GPU computation stopped.",
+    "Credential scan is heuristic and less informative on binary captures; test homes/state databases were excluded."
+  ]
+}

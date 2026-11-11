@@ -1,0 +1,6 @@
+# Preserve exact captured console bytes; do not reformat historical evidence.
+gpu-before.txt -text -whitespace
+gpu-after.txt -text -whitespace
+ram-before.json -text -whitespace
+hermes-cancel-replay/after.txt -text -whitespace
+hermes-cancel-replay/preflight.txt -text -whitespace

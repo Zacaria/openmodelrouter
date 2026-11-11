@@ -1,0 +1,9 @@
+# Diagnostic synthétique Imajev — t_5794a3e9
+
+Base : `6f76b57069c61ce99aba7ff625dfb548fabefd91`. Les trois prompts de `native-probe.jsonl` sont les textes synthétiques observés dans le rapport OMP Mac `hermes-omr-omp-t_93b74e8b-imajev-warm/report.json` (commentaire 1262 de t_93b74e8b). Chaque appel utilise `imajev_payload` et `/v1/systemone`, puis le décodeur de cette base, via le forward VM existant. Pas de conversation personnelle, génération, outil ou fallback. Le classifieur extrait seulement le dernier message utilisateur.
+
+Le premier prompt produit une décision acceptée. Les deux suivants reproduisent des abstentions réelles avec `unknown_probability` respectivement 0,946 et 0,796, donc le refus `invalid_decision` est conforme au contrat. Les réponses brutes originales du premier essai OMP ne figurent pas dans les reçus ; cette reproduction explique les deux prompts correspondants sans prouver la réponse brute historique du serveur ni la cause du troisième refus OMP. Une politique alternative ne peut pas être déduite de ces résultats.
+
+À froid, un premier appel direct réellement observé a pris 15,558 s, dont 1,465 s rapportée par le modèle : le plafond OMR précédent de 15 s est insuffisant dans ces conditions. Une seconde exécution enregistrée ici a pris 8,380 s ; le chargement est variable. Dans `cold-test.json`, l'état `/v1/models` indiquait `loaded=false` avant un appel réel via `Runtime.api` avec plafond 30 s : réussite en 8,035 s. Ce dernier essai ne prouve pas à lui seul le franchissement de 15 s ni un plafond universel ; l'échéance globale et l'annulation restent prioritaires. Aucun préchauffage permanent n'est activé.
+
+La requalification de la conversation OMP, des outils, de l'annulation et du binaire Mac incombe à release après revue. Le correctif du délai ne rend pas les abstentions acceptables et ne garantit pas le succès de ces parcours.

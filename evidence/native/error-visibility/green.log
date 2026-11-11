@@ -1,0 +1,16 @@
+test_omp_limits_and_validation (__main__.BudgetTests.test_omp_limits_and_validation) ... ok
+test_timeout_kills_group_and_recovers (__main__.BudgetTests.test_timeout_kills_group_and_recovers) ... ok
+test_cancel_before_headers_closes_upstream (__main__.ReplayTests.test_cancel_before_headers_closes_upstream) ... OMR: upstream HTTP error 502
+ok
+test_collision_fails_and_auth_is_stripped (__main__.ReplayTests.test_collision_fails_and_auth_is_stripped) ... ok
+test_signal_reaps_process_group (__main__.ReplayTests.test_signal_reaps_process_group) ... ok
+test_stable_port_and_override (__main__.ReplayTests.test_stable_port_and_override) ... ok
+test_error_visibility_over_sockets (__main__.Test.test_error_visibility_over_sockets) ... ok
+test_session_and_stream (__main__.Test.test_session_and_stream) ... ok
+test_upstream_connection_closed_on_failure (__main__.Test.test_upstream_connection_closed_on_failure) ... OMR: upstream HTTP error 502
+ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 9.424s
+
+OK

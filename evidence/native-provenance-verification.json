@@ -1,0 +1,20 @@
+{
+  "evidence_files": 91,
+  "redacted_files": 18,
+  "jsonl_files_parsed": 29,
+  "scan_counts": {
+    "private_key": 0,
+    "provider_key": 0,
+    "bearer": 0,
+    "email": 0,
+    "home_identity": 0
+  },
+  "source_hashes_rechecked": 91,
+  "output_hashes_rechecked": 91,
+  "vm_scripts_and_source_identity_unchanged": true,
+  "limitations": [
+    "Le scan est heuristique et ne démontre pas l’absence de toute donnée sensible ou conversation privée.",
+    "Le manifeste Mac désigne un arbre Git, pas un commit ; aucun commit correspondant trouvé parmi les références locales.",
+    "Les chemins et propriétaires de répertoires ont été anonymisés ; les métriques et résultats restent conservés."
+  ]
+}

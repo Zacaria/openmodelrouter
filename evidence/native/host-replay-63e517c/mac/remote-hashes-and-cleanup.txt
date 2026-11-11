@@ -1,0 +1,14 @@
+6670df32c589ea6a3324eeff79dd10e45c9eaddb5d62f8526c7bf3e5e0b33a3b  omr.py
+7f8fba60b815ddb51b1a2e4b175343192b32a7bdff98ee66a015d43308f1c131  operator.py
+d2f370974071670c6e41dc5d9bc8c7d04ba2f09bcb98c0fb850b5616e1308cb5  result.json
+97baed7ac7fc3445d1d4be6ebf696369c4fc217b1f5622c406ea85d853148304  error-recovery-events.jsonl
+6e731e5822e1442bfb82099794595e05cfe8387fdae2c16ba477bb0c06c2a243  first-events.jsonl
+65488cf3ae0dab3955798ff38d1a863fa947dedb3e3286e40e3f92089a91eb2f  interrupt-events.jsonl
+f2f5be6985d3c57b545d92ed4c8a3d903e290e6ddd9a606d66edd2f15dea772d  interrupt-recovery-events.jsonl
+d123b408be1b83f90fc61a9d12f4bf21e4469d4bb473ad937565d3d03f0bc384  invalid-session-events.jsonl
+58ebe2385747ebe4e869643293910364ec901ec86ba8afc4a568336d1c37435c  resume-events.jsonl
+a2a1abce4b0b5cf8f7f6ac3e3c708df6fd18328125f9223d6a61532dd527a573  stream-observation.jsonl
+65a2ceb0cd6f583268f04173eb0d5ccf0bf92e2a364766369b5f8740ebf67e06  local-reject.jsonl
+ddbcc42f3fc04c82f0696940f65f700740aca58a02aeab22ce823b7aa8a333c9  upstream-count.jsonl
+f0ff3081b3389106dba09766a2dd444eb8113a7c61a95a858b09dcf773bbd0f5  interrupt.json
+26909 zsh -c cd "$HOME/omr-mac-deadline-accept-63e517c25caa-20261027"; shasum -a 256 omr.py operator.py result.json *-events.jsonl stream-observation.jsonl local-reject.jsonl upstream-count.jsonl interrupt.json; ps -axo pid=,command= | grep "[o]mr-mac-deadline-accept-63e517c25caa-20261027" || true; command -v omp || true

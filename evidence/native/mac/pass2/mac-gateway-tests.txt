@@ -1,0 +1,49 @@
+date: Tue Oct 27 01:33:55 CET 2026
+python: Python 3.9.6
+codex: codex-cli 0.162.1
+omp: omp/18.13.0
+gateway sha256: e361c704c7790578b979e3645f70f619f94a188c6e43063bc619c290b901b568  omr.py
+test_fixed_chat_passes_tools_and_upstream_identity (test_omr.GatewayTest) ... ok
+test_command_decides_once_per_session_and_effort_reaches_provider (test_transport.TransportTests) ... ok
+test_configuration_rejects_unverified_weights_and_unsafe_auth (test_transport.TransportTests) ... ok
+test_stream_is_live_and_disconnect_aborts_stalled_upstream (test_transport.TransportTests) ... ok
+test_invalid_decision_never_calls_default_provider (test_deadlines.DeadlineTests) ... ok
+test_no_headers_deadline_closes_backend_and_next_request_recovers (test_deadlines.DeadlineTests) ... FAIL
+test_drip_body_has_absolute_deadline (test_review_regressions.ReviewRegressions) ... FAIL
+/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/unittest/case.py:621: ResourceWarning: unclosed <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 56778)>
+  outcome.errors.clear()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+test_receipt_rejects_untrusted_strings_and_truncated_stream (test_review_regressions.ReviewRegressions) ... ok
+test_terminal_line_without_event_delimiter_is_not_complete (test_review_regressions.ReviewRegressions) ... ok
+
+======================================================================
+FAIL: test_no_headers_deadline_closes_backend_and_next_request_recovers (test_deadlines.DeadlineTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/[REDACTED]/omr-native-mac-20261027/pass2/test_deadlines.py", line 37, in test_no_headers_deadline_closes_backend_and_next_request_recovers
+    self.assertEqual(statuses,[504,200])
+AssertionError: Lists differ: [502, 200] != [504, 200]
+
+First differing element 0:
+502
+504
+
+- [502, 200]
+?    ^
+
++ [504, 200]
+?    ^
+
+
+======================================================================
+FAIL: test_drip_body_has_absolute_deadline (test_review_regressions.ReviewRegressions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/[REDACTED]/omr-native-mac-20261027/pass2/test_review_regressions.py", line 73, in test_drip_body_has_absolute_deadline
+    self.assertIn(b'504',response)
+AssertionError: b'504' not found in b'HTTP/1.1 400 Bad Request\r\nServer: BaseHTTP/0.6 Python/3.9.6\r\nDate: Tue, 27 Oct 2026 00:34:00 GMT\r\nContent-Type: application/json\r\nContent-Length: 95\r\nConnection: close\r\n\r\n'
+
+----------------------------------------------------------------------
+Ran 9 tests in 5.591s
+
+FAILED (failures=2)

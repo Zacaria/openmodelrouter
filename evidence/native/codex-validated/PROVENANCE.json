@@ -1,0 +1,105 @@
+{
+  "source_commit": "7e25c6e7e6547fb9d3bf1f2f1d71602dd3950f3b",
+  "source_tree": "dfd45901284f6948d7d86d23b5a38fbb9773afb1",
+  "core_sha256": "ec9c11ac447bf37eb5919d98e535d4c91b82a0b39e36202030d01fd8b8eabb0c",
+  "path_namespace": "repository root",
+  "scope": "16 byte-identical imported proof/review files; excludes this manifest and DELIVERY-STATUS.md. Original operator paths describe historical execution, not portable installation prerequisites.",
+  "files": [
+    {
+      "path": "evidence/native/codex-validated/REPORT.md",
+      "source": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/REPORT.md",
+      "bytes": 4171,
+      "sha256": "638851c8c6d90c5f42f70a1b6ed2329848dacff0801287573e3a4b076abaec98"
+    },
+    {
+      "path": "evidence/native/codex-validated/operator.py",
+      "source": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/operator.py",
+      "bytes": 6897,
+      "sha256": "cbdff31ea3b8d321adaca8c01db530747d0cf15a359d634b22802f4a2b8ef882"
+    },
+    {
+      "path": "evidence/native/codex-validated/remote-path.txt",
+      "source": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/remote-path.txt",
+      "bytes": 75,
+      "sha256": "d2a9062c763dafbb218db6123beb5e7b72536f102cf963144dc16de33c9be665"
+    },
+    {
+      "path": "evidence/native/codex-validated/result.json",
+      "source": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/result.json",
+      "bytes": 7985,
+      "sha256": "1ae444c6a1223b1471507b440f83ef2384963328001e3cdeaac3a22801e95ef4"
+    },
+    {
+      "path": "evidence/native/codex-validated/interrupt.json",
+      "source": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/interrupt.json",
+      "bytes": 152,
+      "sha256": "77813caea879b398edcf2a59306665f0bd6147f4f1f9a1b99b9c9b301f4e6e5a"
+    },
+    {
+      "path": "evidence/native/codex-validated/stream-observation.jsonl",
+      "source": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/stream-observation.jsonl",
+      "bytes": 6396,
+      "sha256": "8ff3bcc4dde40906438411e7be32eae9c81aaf7f0c451e69136d2e9ee6d0a11c"
+    },
+    {
+      "path": "evidence/native/codex-validated/first-events.jsonl",
+      "source": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/first-events.jsonl",
+      "bytes": 689,
+      "sha256": "07611c2ac256ff225f6422c85d9382aedb18f679d146f95ef36ed7489e7ab97c"
+    },
+    {
+      "path": "evidence/native/codex-validated/resume-events.jsonl",
+      "source": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/resume-events.jsonl",
+      "bytes": 358,
+      "sha256": "b2781a00bff137dceca19ef54557db52916bcec41f4b8815b8b45d4c4c829e60"
+    },
+    {
+      "path": "evidence/native/codex-validated/network-refused-events.jsonl",
+      "source": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/network-refused-events.jsonl",
+      "bytes": 226,
+      "sha256": "16820804711d2d94644b48f7fa24cbb6601b8c6561f26239964baba106134de5"
+    },
+    {
+      "path": "evidence/native/codex-validated/network-recovery-events.jsonl",
+      "source": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/network-recovery-events.jsonl",
+      "bytes": 360,
+      "sha256": "80329fa9203417e5f4171c9a7b7d7ed0ad5f467a58936f0ef86257faeb24a8fd"
+    },
+    {
+      "path": "evidence/native/codex-validated/interrupt-events.jsonl",
+      "source": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/interrupt-events.jsonl",
+      "bytes": 105,
+      "sha256": "a3cd6adacd9e9e3a549cbdcf6f4c95f78c7ff1ccb9498100f4e99d1a192438d7"
+    },
+    {
+      "path": "evidence/native/codex-validated/interrupt-recovery-events.jsonl",
+      "source": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/interrupt-recovery-events.jsonl",
+      "bytes": 361,
+      "sha256": "9186cd26733a6f219acbde3c4ee82211aebfa89f38c01b13057a13aec29774c2"
+    },
+    {
+      "path": "evidence/reviews/native-sse/native-sse-independent-review.md",
+      "source": "/srv/omr-private/workspaces/open-model-router/native-sse-independent-review.md",
+      "bytes": 4261,
+      "sha256": "a882424b3b118ca8f89256360f924b34b4446830f244a661cc3f3039d83ef849"
+    },
+    {
+      "path": "evidence/reviews/native-sse/native-sse-review-repair.md",
+      "source": "/srv/omr-private/workspaces/open-model-router/native-sse-review-repair.md",
+      "bytes": 3919,
+      "sha256": "fc8936e7d7356df342d3593f99e8e0ee9a3cad8c84f8dbc87cd27bec414aeb2f"
+    },
+    {
+      "path": "evidence/reviews/native-sse/native-sse-independent-closed.md",
+      "source": "/srv/omr-private/workspaces/open-model-router/native-sse-independent-closed.md",
+      "bytes": 2054,
+      "sha256": "6dfcb898156026d32df4eda7c1755b7c6a5dca2521409d387985fc5ede0d5022"
+    },
+    {
+      "path": "evidence/reviews/native-sse/native-sse-integration-review.md",
+      "source": "/srv/omr-private/workspaces/open-model-router/native-sse-integration-review.md",
+      "bytes": 3165,
+      "sha256": "5a72d4e3a1a2c7868b308bad5f0df0234b985d0cbc34083a3d2318bccdde78ca"
+    }
+  ]
+}

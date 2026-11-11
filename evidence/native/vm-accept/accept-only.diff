@@ -1,0 +1,14 @@
+diff --git a/omr.py b/omr.py
+index 69a5933..e3a327d 100644
+--- a/omr.py
++++ b/omr.py
+@@ -464,7 +464,8 @@ def handler(config):
+                 upstream_socket.append(connection.sock)
+                 if stopped.is_set():
+                     raise TimeoutError()
+-                headers = {'Content-Type': 'application/json', 'Accept-Encoding': 'identity'}
++                headers = {'Content-Type': 'application/json', 'Accept-Encoding': 'identity',
++                           'Accept': 'text/event-stream' if data.get('stream') else 'application/json'}
+                 if is_native: headers.update(self.native_headers())
+                 for name in (() if is_native else ('anthropic-version', 'anthropic-beta')):
+                     if self.headers.get(name): headers[name] = self.headers[name]

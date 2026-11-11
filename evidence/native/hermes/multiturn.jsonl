@@ -1,0 +1,5 @@
+{"type": "system", "subtype": "init", "model": "open-model-router", "session_id": "", "timestamp": 1793059820650}
+Error: Resume retains gateway session policy; creation overrides are unsupported on resume. --base-url differs from this session's launch: resume without it and use /model after resuming to switch.
+{"type": "result", "session_id": "", "exit_code": 2, "text": "", "tokens": {"input": 0, "output": 0, "total": 0, "cache_read": 0, "cache_write": 0}, "duration_ms": 487, "error": "Resume retains gateway session policy; creation overrides are unsupported on resume. --base-url differs from this session's launch: resume without it and use /model after resuming to switch.", "timestamp": 1793059821137}
+
+session_id: 

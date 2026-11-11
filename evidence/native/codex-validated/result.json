@@ -1,0 +1,318 @@
+{
+  "sha256": "ec9c11ac447bf37eb5919d98e535d4c91b82a0b39e36202030d01fd8b8eabb0c",
+  "tree": "dbbbc6681fda17d5fc387d27f8b96015c835af02",
+  "gateway_session": "a613b532-750f-4663-92cc-33aada43c022",
+  "turns": [
+    {
+      "label": "first",
+      "returncode": 0,
+      "reason": "exit",
+      "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c",
+      "events": [
+        {
+          "type": "thread.started",
+          "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c"
+        },
+        {
+          "type": "turn.started"
+        },
+        {
+          "type": "item.completed",
+          "item_type": "agent_message",
+          "sentinel_seen": false
+        },
+        {
+          "type": "item.started",
+          "item_type": "command_execution",
+          "status": "in_progress",
+          "exit_code": null,
+          "sentinel_seen": false
+        },
+        {
+          "type": "item.completed",
+          "item_type": "command_execution",
+          "status": "completed",
+          "exit_code": 0,
+          "sentinel_seen": true
+        },
+        {
+          "type": "item.completed",
+          "item_type": "agent_message",
+          "sentinel_seen": true
+        },
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 46170,
+            "cached_input_tokens": 21760,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 74,
+            "reasoning_output_tokens": 0
+          }
+        }
+      ],
+      "error_categories": [],
+      "stderr_bytes": 39,
+      "group_absent": true
+    },
+    {
+      "label": "resume",
+      "returncode": 0,
+      "reason": "exit",
+      "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c",
+      "events": [
+        {
+          "type": "thread.started",
+          "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c"
+        },
+        {
+          "type": "turn.started"
+        },
+        {
+          "type": "item.completed",
+          "item_type": "agent_message",
+          "sentinel_seen": true
+        },
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 76509,
+            "cached_input_tokens": 44672,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 92,
+            "reasoning_output_tokens": 0
+          }
+        }
+      ],
+      "error_categories": [],
+      "stderr_bytes": 0,
+      "group_absent": true
+    },
+    {
+      "label": "network-refused",
+      "returncode": -15,
+      "reason": "timeout",
+      "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c",
+      "events": [
+        {
+          "type": "thread.started",
+          "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c"
+        },
+        {
+          "type": "item.completed",
+          "item_type": "error"
+        },
+        {
+          "type": "turn.started"
+        },
+        {
+          "type": "error"
+        },
+        {
+          "type": "error"
+        },
+        {
+          "type": "error"
+        },
+        {
+          "type": "error"
+        }
+      ],
+      "error_categories": [
+        "timed out"
+      ],
+      "stderr_bytes": 238,
+      "group_absent": true
+    },
+    {
+      "label": "network-recovery",
+      "returncode": 0,
+      "reason": "exit",
+      "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c",
+      "events": [
+        {
+          "type": "thread.started",
+          "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c"
+        },
+        {
+          "type": "turn.started"
+        },
+        {
+          "type": "item.completed",
+          "item_type": "agent_message",
+          "sentinel_seen": false
+        },
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 120882,
+            "cached_input_tokens": 51840,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 99,
+            "reasoning_output_tokens": 0
+          }
+        }
+      ],
+      "error_categories": [],
+      "stderr_bytes": 0,
+      "group_absent": true
+    },
+    {
+      "label": "interrupt",
+      "returncode": 1,
+      "reason": "exit",
+      "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c",
+      "events": [
+        {
+          "type": "thread.started",
+          "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c"
+        },
+        {
+          "type": "turn.started"
+        }
+      ],
+      "error_categories": [],
+      "stderr_bytes": 0,
+      "group_absent": true
+    },
+    {
+      "label": "interrupt-recovery",
+      "returncode": 0,
+      "reason": "exit",
+      "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c",
+      "events": [
+        {
+          "type": "thread.started",
+          "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c"
+        },
+        {
+          "type": "turn.started"
+        },
+        {
+          "type": "item.completed",
+          "item_type": "agent_message",
+          "sentinel_seen": false
+        },
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 165348,
+            "cached_input_tokens": 96000,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 106,
+            "reasoning_output_tokens": 0
+          }
+        }
+      ],
+      "error_categories": [],
+      "stderr_bytes": 0,
+      "group_absent": true
+    }
+  ],
+  "owned_groups_absent": true,
+  "receipts": [
+    {
+      "model_requested": "gpt-6.1-terra",
+      "model_observed": "gpt-6.1-terra",
+      "effort_transmitted": "low",
+      "status": "cancelled",
+      "route": "native",
+      "usage": {
+        "input_tokens": 23039,
+        "output_tokens": 56,
+        "total_tokens": 23095,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    },
+    {
+      "model_requested": "gpt-6.1-terra",
+      "model_observed": "gpt-6.1-terra",
+      "effort_transmitted": "low",
+      "status": "cancelled",
+      "route": "native",
+      "usage": {
+        "input_tokens": 23131,
+        "output_tokens": 18,
+        "total_tokens": 23149,
+        "input_tokens_details": {
+          "cached_tokens": 21760,
+          "cache_write_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    },
+    {
+      "model_requested": "gpt-6.1-terra",
+      "model_observed": "gpt-6.1-terra",
+      "effort_transmitted": "low",
+      "status": "cancelled",
+      "route": "native",
+      "usage": {
+        "input_tokens": 30339,
+        "output_tokens": 18,
+        "total_tokens": 30357,
+        "input_tokens_details": {
+          "cached_tokens": 22912,
+          "cache_write_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    },
+    {
+      "model_requested": "gpt-6.1-terra",
+      "model_observed": "gpt-6.1-terra",
+      "effort_transmitted": "low",
+      "status": "cancelled",
+      "route": "native",
+      "usage": {
+        "input_tokens": 44373,
+        "output_tokens": 7,
+        "total_tokens": 44380,
+        "input_tokens_details": {
+          "cached_tokens": 7168,
+          "cache_write_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    },
+    {
+      "model_requested": "gpt-6.1-terra",
+      "model_observed": "gpt-6.1-terra",
+      "effort_transmitted": "low",
+      "status": "cancelled",
+      "route": "native",
+      "usage": {}
+    },
+    {
+      "model_requested": "gpt-6.1-terra",
+      "model_observed": "gpt-6.1-terra",
+      "effort_transmitted": "low",
+      "status": "cancelled",
+      "route": "native",
+      "usage": {
+        "input_tokens": 44466,
+        "output_tokens": 7,
+        "total_tokens": 44473,
+        "input_tokens_details": {
+          "cached_tokens": 44160,
+          "cache_write_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ]
+}

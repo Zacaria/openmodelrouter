@@ -1,0 +1,109 @@
+{
+  "tree": "07589117ac3f0e469bcf6f1b60481e376c2ee0d4",
+  "scope": "packaged Mac Chat JSONL / live local D3 / live local generator / synthetic text; not native WebView input",
+  "engine_sha256": "b436f9de6f48fac20dd8eaeb95a76444e5e441e3fea28a9b319eb910e99e3ea3",
+  "checks": [
+    {
+      "name": "no unrelated Ollama model loaded",
+      "ok": true
+    },
+    {
+      "name": "existing D3 and generator available",
+      "ok": true
+    },
+    {
+      "name": "economy complete text stream",
+      "ok": true
+    },
+    {
+      "name": "economy concrete identity confirmed",
+      "ok": true
+    },
+    {
+      "name": "economy useful first response",
+      "ok": true
+    },
+    {
+      "name": "economy complete text stream",
+      "ok": true
+    },
+    {
+      "name": "economy concrete identity confirmed",
+      "ok": true
+    },
+    {
+      "name": "economy second-turn context retained",
+      "ok": true
+    },
+    {
+      "name": "balanced complete text stream",
+      "ok": true
+    },
+    {
+      "name": "balanced concrete identity confirmed",
+      "ok": true
+    },
+    {
+      "name": "balanced useful first response",
+      "ok": true
+    },
+    {
+      "name": "balanced complete text stream",
+      "ok": true
+    },
+    {
+      "name": "balanced concrete identity confirmed",
+      "ok": true
+    },
+    {
+      "name": "balanced second-turn context retained",
+      "ok": true
+    },
+    {
+      "name": "quality complete text stream",
+      "ok": true
+    },
+    {
+      "name": "quality concrete identity confirmed",
+      "ok": true
+    },
+    {
+      "name": "quality useful first response",
+      "ok": true
+    },
+    {
+      "name": "quality complete text stream",
+      "ok": true
+    },
+    {
+      "name": "quality concrete identity confirmed",
+      "ok": true
+    },
+    {
+      "name": "quality second-turn context retained",
+      "ok": true
+    },
+    {
+      "name": "balanced cancellation acknowledged",
+      "ok": true
+    },
+    {
+      "name": "balanced cancellation receipt",
+      "ok": true
+    },
+    {
+      "name": "six completed turns and one cancellation",
+      "ok": true
+    },
+    {
+      "name": "six typed SystemOne decisions accepted by strict D3 decoder",
+      "ok": true
+    },
+    {
+      "name": "missing consent refuses before fallback",
+      "ok": true
+    }
+  ],
+  "sidecar_exit": 0,
+  "ended_at_epoch": 1793857289.595659
+}

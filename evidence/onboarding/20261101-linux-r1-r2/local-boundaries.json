@@ -1,0 +1,34 @@
+{
+  "oversize_refused_without_truncation": true,
+  "worker_survives_refusal": true,
+  "decisions": [
+    {
+      "result": {
+        "required_quality": 1,
+        "reason": "task_requirement",
+        "score": 0.09088727831840515,
+        "usage": {
+          "input_tokens": 9,
+          "output_tokens": 0
+        }
+      },
+      "elapsed_seconds": 0.006331602111458778
+    },
+    {
+      "result": {
+        "required_quality": 2,
+        "reason": "task_requirement",
+        "score": 0.45224321261048317,
+        "usage": {
+          "input_tokens": 12,
+          "output_tokens": 0
+        }
+      },
+      "elapsed_seconds": 0.00565820699557662
+    }
+  ],
+  "frozen_worker": true,
+  "sidecar_sha256": "02511db18bd2749ce8e2a51f92b4fda602e2accf55ba0d61808e32684809e0d6",
+  "stopped": true,
+  "worker_home_removed": true
+}

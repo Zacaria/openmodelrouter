@@ -1,0 +1,22 @@
+{
+  "commit": "6b4d33b7272b2dc0124f12e0fe2acd2453bbe368",
+  "tree": "07589117ac3f0e469bcf6f1b60481e376c2ee0d4",
+  "file": "omr-desktop-6b4d33b-macos-arm64-dev.dmg",
+  "bytes": 147870996,
+  "sha256": "4dafd947d0b6c36b6a499d0aa7b337eabe65d2900fb621a02ea99989dd208666",
+  "binaries": {
+    "omr-engine": "b436f9de6f48fac20dd8eaeb95a76444e5e441e3fea28a9b319eb910e99e3ea3",
+    "omr-desktop": "7f546c9aa7dd6d08147e4c5a2c2b6c4f3adbaae3dae18ef0dcc97150473e0dbc"
+  },
+  "mounted_binaries_match": true,
+  "version": "0.3.0",
+  "minimum_macos": "14.0",
+  "architecture": "arm64",
+  "signature": "ad-hoc",
+  "notarized": false,
+  "gatekeeper_exit": 3,
+  "gatekeeper_stderr": "/Volumes/OMR Desktop DEV 6b4d33b/OMR Desktop.app: rejected",
+  "gui_exercised": false,
+  "publicly_released": false,
+  "mount_detached": true
+}

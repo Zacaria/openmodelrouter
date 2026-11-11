@@ -1,0 +1,18 @@
+{"type": "system", "subtype": "init", "model": "open-model-router", "session_id": "", "timestamp": 1793079241963}
+{"type": "text", "text": "OM", "timestamp": 1793079245628}
+{"type": "text", "text": "R", "timestamp": 1793079245657}
+{"type": "text", "text": "_SYN", "timestamp": 1793079245657}
+{"type": "text", "text": "TH", "timestamp": 1793079245664}
+{"type": "text", "text": "ET", "timestamp": 1793079245667}
+{"type": "text", "text": "IC", "timestamp": 1793079245676}
+{"type": "text", "text": "_FIX", "timestamp": 1793079245682}
+{"type": "text", "text": "TURE", "timestamp": 1793079245690}
+{"type": "text", "text": "=", "timestamp": 1793079245690}
+{"type": "text", "text": "blue", "timestamp": 1793079245694}
+{"type": "text", "text": "-", "timestamp": 1793079245700}
+{"type": "text", "text": "ot", "timestamp": 1793079245705}
+{"type": "text", "text": "ter", "timestamp": 1793079245710}
+{"type": "text", "text": "-", "timestamp": 1793079245715}
+{"type": "text", "text": "7", "timestamp": 1793079245720}
+{"type": "text", "text": "3", "timestamp": 1793079245726}
+{"type": "result", "session_id": "local-067a17b985b4a80d54f9f4caa843e81850836abf2ebff67a74121d01c64dd3ad", "exit_code": 0, "text": "OMR_SYNTHETIC_FIXTURE=blue-otter-73", "tokens": {"input": 3939, "output": 17, "total": 3956, "cache_read": 3913, "cache_write": 0}, "duration_ms": 4730, "timestamp": 1793079246694}

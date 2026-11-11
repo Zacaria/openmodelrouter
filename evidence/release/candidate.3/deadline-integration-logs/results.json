@@ -1,0 +1,42 @@
+[
+  {
+    "suite": "root",
+    "returncode": 0,
+    "log": "/home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/root.log"
+  },
+  {
+    "suite": "pilot-t_f21a25b3",
+    "returncode": 0,
+    "log": "/home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/pilot-t_f21a25b3.log"
+  },
+  {
+    "suite": "loop-t_daf181c7",
+    "returncode": 0,
+    "log": "/home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/loop-t_daf181c7.log"
+  },
+  {
+    "suite": "comparator-t_14313d5b",
+    "returncode": 0,
+    "log": "/home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/comparator-t_14313d5b.log"
+  },
+  {
+    "suite": "integrated-t_dab1958b",
+    "returncode": 0,
+    "log": "/home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/integrated-t_dab1958b.log"
+  },
+  {
+    "suite": "demo-t_a3c46d97",
+    "returncode": 0,
+    "log": "/home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/demo-t_a3c46d97.log"
+  },
+  {
+    "suite": "host-adapters",
+    "returncode": 0,
+    "log": "/home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/host-adapters.log"
+  },
+  {
+    "suite": "landing",
+    "returncode": 0,
+    "log": "/home/operator/.hermes/cache/scratch/omr-final-9q_2o7dw/landing.log"
+  }
+]

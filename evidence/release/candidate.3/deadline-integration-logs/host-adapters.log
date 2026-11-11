@@ -1,0 +1,8 @@
+command: ['python3', '-B', 'host-adapters/test_launch.py'] cwd: .
+..OMR: upstream HTTP error 502
+......OMR: upstream HTTP error 502
+.
+----------------------------------------------------------------------
+Ran 9 tests in 9.422s
+
+OK

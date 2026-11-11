@@ -1,0 +1,22 @@
+test_error_visibility_over_sockets (__main__.Test.test_error_visibility_over_sockets) ... FAIL
+
+======================================================================
+FAIL: test_error_visibility_over_sockets (__main__.Test.test_error_visibility_over_sockets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/srv/omr-private/workspaces/open-model-router/host-adapters/host-adapters/test_launch.py", line 31, in test_error_visibility_over_sockets
+    self.assertEqual(stderr.getvalue().splitlines(), ['OMR: upstream HTTP error 503', 'OMR: upstream HTTP error 502'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [] != ['OMR: upstream HTTP error 503', 'OMR: upstream HTTP error 502']
+
+Second list contains 2 additional elements.
+First extra element 0:
+'OMR: upstream HTTP error 503'
+
+- []
++ ['OMR: upstream HTTP error 503', 'OMR: upstream HTTP error 502']
+
+----------------------------------------------------------------------
+Ran 1 test in 1.007s
+
+FAILED (failures=1)

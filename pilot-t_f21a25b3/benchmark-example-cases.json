@@ -1,0 +1,16 @@
+[
+  {
+    "case": "example",
+    "split": "dev",
+    "family": "simple",
+    "request": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "synthetic"
+        }
+      ]
+    },
+    "expected": "ok"
+  }
+]

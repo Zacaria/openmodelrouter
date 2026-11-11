@@ -1,0 +1,16 @@
+{
+  "source_candidate": "5737f77f8a05f8a87301a0dfd139f1a31834f7b1",
+  "file": "omr-macos-native-5737f77-evidence.zip",
+  "sha256": "b7acafebffa5ad56d52fc539fdb61fd7bef1aab1e57822bd5c41146d30e864dd",
+  "bytes": 207558,
+  "members": 103,
+  "crc": "pass",
+  "report_sha256": "120d936332d1dfe7d9de82e77ed09f4f8140f9c3ef8ea40d7413b99d51d68878",
+  "excludes": [
+    "native binary package stored separately",
+    "model weights",
+    "OS vault state",
+    "signing secrets",
+    "client transcripts"
+  ]
+}

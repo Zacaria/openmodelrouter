@@ -1,0 +1,12 @@
+command: ['python3', '-B', '-m', 'unittest', 'discover', '-v'] cwd: loop-t_daf181c7
+test_decider_failure_without_fallback_stops (test_loop.LoopTests.test_decider_failure_without_fallback_stops) ... ok
+test_extra_fields_and_history_change_rejected_before_decision (test_loop.LoopTests.test_extra_fields_and_history_change_rejected_before_decision) ... ok
+test_fallback_is_recorded_and_frozen (test_loop.LoopTests.test_fallback_is_recorded_and_frozen) ... ok
+test_generator_failure_never_uses_fallback (test_loop.LoopTests.test_generator_failure_never_uses_fallback) ... ok
+test_oversized_request_rejected (test_loop.LoopTests.test_oversized_request_rejected) ... ok
+test_route_fixed_on_first_user_and_usage_visible (test_loop.LoopTests.test_route_fixed_on_first_user_and_usage_visible) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.164s
+
+OK

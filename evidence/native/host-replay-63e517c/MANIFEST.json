@@ -1,0 +1,851 @@
+{
+  "schema": 1,
+  "copied_file_count": 93,
+  "by_destination_root": {
+    "mac": 18,
+    "vm-first-attempt": 51,
+    "vm-hermes-cancel-closure": 24
+  },
+  "generated_metadata": {
+    "RECONCILIATION.md": "b7dc8f23fd23674219622f2892349ad02d5d0e5a082d13a4721866245f3522f0"
+  },
+  "files": [
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/REPORT.md",
+      "destination": "mac/REPORT.md",
+      "classification": "report",
+      "redaction": "none; exact copy",
+      "original_sha256": "7c0fceb8a1f5e487254c6efe632b5d3f67565e2b6b8b4d80603475169588cf80",
+      "destination_sha256": "7c0fceb8a1f5e487254c6efe632b5d3f67565e2b6b8b4d80603475169588cf80",
+      "bytes": 2856
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/verify.py",
+      "destination": "mac/verify.py",
+      "classification": "source-verifier",
+      "redaction": "none; exact copy",
+      "original_sha256": "f9c0fcffdd726dc4cf4d339691391ac1b2eeffa68982c4f8107a54d2b3afded0",
+      "destination_sha256": "f9c0fcffdd726dc4cf4d339691391ac1b2eeffa68982c4f8107a54d2b3afded0",
+      "bytes": 2444
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/verifier-output.json",
+      "destination": "mac/verifier-output.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "a4e1e6215568e1fb6ef0b1c9c9e98113edc75e0c7c46d80a4b94a17c4511f2d3",
+      "destination_sha256": "a4e1e6215568e1fb6ef0b1c9c9e98113edc75e0c7c46d80a4b94a17c4511f2d3",
+      "bytes": 302
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/remote-hashes-and-cleanup.txt",
+      "destination": "mac/remote-hashes-and-cleanup.txt",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "420bffc29b07f8ad6ff459f6db3b18034a9e9e3410e9427427ba1c7a4f043701",
+      "destination_sha256": "420bffc29b07f8ad6ff459f6db3b18034a9e9e3410e9427427ba1c7a4f043701",
+      "bytes": 1443
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/cleanup-scan.txt",
+      "destination": "mac/cleanup-scan.txt",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "71f42f193bca1d190440480c8c59df392cf14087f070dcc2703f8160c92abdaa",
+      "destination_sha256": "71f42f193bca1d190440480c8c59df392cf14087f070dcc2703f8160c92abdaa",
+      "bytes": 29
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/omr.py",
+      "destination": "mac/omr.py",
+      "classification": "source-verifier",
+      "redaction": "none; exact copy",
+      "original_sha256": "6670df32c589ea6a3324eeff79dd10e45c9eaddb5d62f8526c7bf3e5e0b33a3b",
+      "destination_sha256": "6670df32c589ea6a3324eeff79dd10e45c9eaddb5d62f8526c7bf3e5e0b33a3b",
+      "bytes": 43552
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/operator.py",
+      "destination": "mac/operator.py",
+      "classification": "source-verifier",
+      "redaction": "none; exact copy",
+      "original_sha256": "7f8fba60b815ddb51b1a2e4b175343192b32a7bdff98ee66a015d43308f1c131",
+      "destination_sha256": "7f8fba60b815ddb51b1a2e4b175343192b32a7bdff98ee66a015d43308f1c131",
+      "bytes": 7982
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/result.json",
+      "destination": "mac/result.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "d2f370974071670c6e41dc5d9bc8c7d04ba2f09bcb98c0fb850b5616e1308cb5",
+      "destination_sha256": "d2f370974071670c6e41dc5d9bc8c7d04ba2f09bcb98c0fb850b5616e1308cb5",
+      "bytes": 8188
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/error-recovery-events.jsonl",
+      "destination": "mac/error-recovery-events.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "97baed7ac7fc3445d1d4be6ebf696369c4fc217b1f5622c406ea85d853148304",
+      "destination_sha256": "97baed7ac7fc3445d1d4be6ebf696369c4fc217b1f5622c406ea85d853148304",
+      "bytes": 360
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/first-events.jsonl",
+      "destination": "mac/first-events.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "6e731e5822e1442bfb82099794595e05cfe8387fdae2c16ba477bb0c06c2a243",
+      "destination_sha256": "6e731e5822e1442bfb82099794595e05cfe8387fdae2c16ba477bb0c06c2a243",
+      "bytes": 689
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/interrupt-events.jsonl",
+      "destination": "mac/interrupt-events.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "65488cf3ae0dab3955798ff38d1a863fa947dedb3e3286e40e3f92089a91eb2f",
+      "destination_sha256": "65488cf3ae0dab3955798ff38d1a863fa947dedb3e3286e40e3f92089a91eb2f",
+      "bytes": 105
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/interrupt-recovery-events.jsonl",
+      "destination": "mac/interrupt-recovery-events.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "f2f5be6985d3c57b545d92ed4c8a3d903e290e6ddd9a606d66edd2f15dea772d",
+      "destination_sha256": "f2f5be6985d3c57b545d92ed4c8a3d903e290e6ddd9a606d66edd2f15dea772d",
+      "bytes": 361
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/invalid-session-events.jsonl",
+      "destination": "mac/invalid-session-events.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "d123b408be1b83f90fc61a9d12f4bf21e4469d4bb473ad937565d3d03f0bc384",
+      "destination_sha256": "d123b408be1b83f90fc61a9d12f4bf21e4469d4bb473ad937565d3d03f0bc384",
+      "bytes": 147
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/resume-events.jsonl",
+      "destination": "mac/resume-events.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "58ebe2385747ebe4e869643293910364ec901ec86ba8afc4a568336d1c37435c",
+      "destination_sha256": "58ebe2385747ebe4e869643293910364ec901ec86ba8afc4a568336d1c37435c",
+      "bytes": 358
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/stream-observation.jsonl",
+      "destination": "mac/stream-observation.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "a2a1abce4b0b5cf8f7f6ac3e3c708df6fd18328125f9223d6a61532dd527a573",
+      "destination_sha256": "a2a1abce4b0b5cf8f7f6ac3e3c708df6fd18328125f9223d6a61532dd527a573",
+      "bytes": 6283
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/local-reject.jsonl",
+      "destination": "mac/local-reject.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "65a2ceb0cd6f583268f04173eb0d5ccf0bf92e2a364766369b5f8740ebf67e06",
+      "destination_sha256": "65a2ceb0cd6f583268f04173eb0d5ccf0bf92e2a364766369b5f8740ebf67e06",
+      "bytes": 714
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/upstream-count.jsonl",
+      "destination": "mac/upstream-count.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "ddbcc42f3fc04c82f0696940f65f700740aca58a02aeab22ce823b7aa8a333c9",
+      "destination_sha256": "ddbcc42f3fc04c82f0696940f65f700740aca58a02aeab22ce823b7aa8a333c9",
+      "bytes": 366
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-deadline-accept/interrupt.json",
+      "destination": "mac/interrupt.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "f0ff3081b3389106dba09766a2dd444eb8113a7c61a95a858b09dcf773bbd0f5",
+      "destination_sha256": "f0ff3081b3389106dba09766a2dd444eb8113a7c61a95a858b09dcf773bbd0f5",
+      "bytes": 152
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/REPORT.md",
+      "destination": "vm/REPORT.md",
+      "classification": "report",
+      "redaction": "none; exact copy",
+      "original_sha256": "d92d9e5d34f99cbf6b8c12ab00d94149a905e936df26b31deb2392622616a380",
+      "destination_sha256": "d92d9e5d34f99cbf6b8c12ab00d94149a905e936df26b31deb2392622616a380",
+      "bytes": 4473
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/verify.py",
+      "destination": "vm/verify.py",
+      "classification": "source-verifier",
+      "redaction": "none; exact copy",
+      "original_sha256": "0aca8e3cec84a33c99ab9dd410210b88e1d364c83cb09092f1cb08cd9035cee1",
+      "destination_sha256": "0aca8e3cec84a33c99ab9dd410210b88e1d364c83cb09092f1cb08cd9035cee1",
+      "bytes": 2427
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/observe.py",
+      "destination": "vm/observe.py",
+      "classification": "source-verifier",
+      "redaction": "none; exact copy",
+      "original_sha256": "b9b03441ed8d707755970b689c07534bfd3b8a0f23a80bc46fd8af2bf6f64fea",
+      "destination_sha256": "b9b03441ed8d707755970b689c07534bfd3b8a0f23a80bc46fd8af2bf6f64fea",
+      "bytes": 2606
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/replay.py",
+      "destination": "vm/replay.py",
+      "classification": "source-verifier",
+      "redaction": "none; exact copy",
+      "original_sha256": "fb35c8ec0a61c47b8d780abaf879131b6c507c952d649f68fbc9221c4a9aff4e",
+      "destination_sha256": "fb35c8ec0a61c47b8d780abaf879131b6c507c952d649f68fbc9221c4a9aff4e",
+      "bytes": 5227
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/commands.jsonl",
+      "destination": "vm/commands.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "8f284c9911f2a95f04084019a35bc4b506e98b9e642e6df42c27d083f571f958",
+      "destination_sha256": "8f284c9911f2a95f04084019a35bc4b506e98b9e642e6df42c27d083f571f958",
+      "bytes": 10104
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/replay.log",
+      "destination": "vm/replay.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "8f284c9911f2a95f04084019a35bc4b506e98b9e642e6df42c27d083f571f958",
+      "destination_sha256": "8f284c9911f2a95f04084019a35bc4b506e98b9e642e6df42c27d083f571f958",
+      "bytes": 10104
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/checks.json",
+      "destination": "vm/checks.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "854608a232474e3490a746a906be2837043f30d1e9d387fbebb19f607a716c3d",
+      "destination_sha256": "854608a232474e3490a746a906be2837043f30d1e9d387fbebb19f607a716c3d",
+      "bytes": 1679
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/checks.log",
+      "destination": "vm/checks.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "8035dc1c4f473733ab0b518d702d07084673e142ae173166b9010f774758221a",
+      "destination_sha256": "8035dc1c4f473733ab0b518d702d07084673e142ae173166b9010f774758221a",
+      "bytes": 1982
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/normal-config.json",
+      "destination": "vm/normal-config.json",
+      "classification": "configuration",
+      "redaction": "none; exact copy",
+      "original_sha256": "c056cb0cc0f39c3d7bcdb64a6156ea238cd27601035572efacdad153704988e7",
+      "destination_sha256": "c056cb0cc0f39c3d7bcdb64a6156ea238cd27601035572efacdad153704988e7",
+      "bytes": 462
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/error-config.json",
+      "destination": "vm/error-config.json",
+      "classification": "configuration",
+      "redaction": "none; exact copy",
+      "original_sha256": "baf7274468c7692c13145d1dbe703e41b568cebb9289e88261075a2652f22f17",
+      "destination_sha256": "baf7274468c7692c13145d1dbe703e41b568cebb9289e88261075a2652f22f17",
+      "bytes": 460
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/gateway-commands.json",
+      "destination": "vm/gateway-commands.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "21868b5ea158435eb67888c98458cdc1511a019fe2feb6f168a339a3e7c4fee4",
+      "destination_sha256": "21868b5ea158435eb67888c98458cdc1511a019fe2feb6f168a339a3e7c4fee4",
+      "bytes": 579
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/normal-gateway.log",
+      "destination": "vm/normal-gateway.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7368a19256ff0fa9fb601e73682111591a4f3bbc887c464d752602a4fd2f655c",
+      "destination_sha256": "7368a19256ff0fa9fb601e73682111591a4f3bbc887c464d752602a4fd2f655c",
+      "bytes": 6
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/error-gateway.log",
+      "destination": "vm/error-gateway.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "ff3d49d8298548de7ff4840d21b505f5713ebac419523588684a73c82c04e5e5",
+      "destination_sha256": "ff3d49d8298548de7ff4840d21b505f5713ebac419523588684a73c82c04e5e5",
+      "bytes": 6
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/preflight.txt",
+      "destination": "vm/preflight.txt",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "9aea90b0fee792dd3c0f92a747fbb81f21960dfa778b4d5f0e5e62e7fc49d4d8",
+      "destination_sha256": "9aea90b0fee792dd3c0f92a747fbb81f21960dfa778b4d5f0e5e62e7fc49d4d8",
+      "bytes": 641
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/after-git-status.txt",
+      "destination": "vm/after-git-status.txt",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "destination_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/after-source.txt",
+      "destination": "vm/after-source.txt",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "8edc79b8ec5194083d22649c3655012364f0f1e64f52824ba0142fdf364ad5ef",
+      "destination_sha256": "8edc79b8ec5194083d22649c3655012364f0f1e64f52824ba0142fdf364ad5ef",
+      "bytes": 237
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/after-gpu.txt",
+      "destination": "vm/after-gpu.txt",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "6a568bcbbb8a471377a73744100b00e0b00463c1f6952cf2bc7ebda47c71611b",
+      "destination_sha256": "6a568bcbbb8a471377a73744100b00e0b00463c1f6952cf2bc7ebda47c71611b",
+      "bytes": 16
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/after-ollama.json",
+      "destination": "vm/after-ollama.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "e94af4b869a6666ee4b4404919ccab9bbaa8e337060edae51311b5e69426e728",
+      "destination_sha256": "e94af4b869a6666ee4b4404919ccab9bbaa8e337060edae51311b5e69426e728",
+      "bytes": 435
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/runtime-3660187.json",
+      "destination": "vm/runtime-3660187.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "48a1862ffdb859b52e051572148609c218204a141decbab2254f122b948aef31",
+      "destination_sha256": "48a1862ffdb859b52e051572148609c218204a141decbab2254f122b948aef31",
+      "bytes": 237
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/runtime-3660216.json",
+      "destination": "vm/runtime-3660216.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "d4d94636d21754f498e05d9e62136329a93541a3282d15567e7b8eeb19ee6fa5",
+      "destination_sha256": "d4d94636d21754f498e05d9e62136329a93541a3282d15567e7b8eeb19ee6fa5",
+      "bytes": 237
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/receipts.jsonl",
+      "destination": "vm/receipts.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7561f6e13ee1ea36aad8998aaf43f077f9bc06707ae78c7854ecb71d1e814913",
+      "destination_sha256": "7561f6e13ee1ea36aad8998aaf43f077f9bc06707ae78c7854ecb71d1e814913",
+      "bytes": 9432
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/error-receipts.jsonl",
+      "destination": "vm/error-receipts.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "a6dd0034700c63bc8d4a37be5f3849daa428f64e4dabf7fd7efe0edbc3105838",
+      "destination_sha256": "a6dd0034700c63bc8d4a37be5f3849daa428f64e4dabf7fd7efe0edbc3105838",
+      "bytes": 4356
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-marker.json",
+      "destination": "vm/hermes-cancel-marker.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "76d2abb858f1fa6369e5e46499965c9cfbd99799e4492466585f195cade91dff",
+      "destination_sha256": "76d2abb858f1fa6369e5e46499965c9cfbd99799e4492466585f195cade91dff",
+      "bytes": 401
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/claude-cancel-marker.json",
+      "destination": "vm/claude-cancel-marker.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "6a6c88f1ec24b3e80c8d5a9829deb2e3cba083aa2bc63a8cf4fa1776bbaf5b74",
+      "destination_sha256": "6a6c88f1ec24b3e80c8d5a9829deb2e3cba083aa2bc63a8cf4fa1776bbaf5b74",
+      "bytes": 401
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-turn1.jsonl",
+      "destination": "vm/hermes-turn1.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "a6b88f45fbbf3314f0ba527dc6e05656958ffa82480fe46c56bcc3371d49b850",
+      "destination_sha256": "a6b88f45fbbf3314f0ba527dc6e05656958ffa82480fe46c56bcc3371d49b850",
+      "bytes": 2012
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-turn1.err",
+      "destination": "vm/hermes-turn1.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "b8012e950850a00a37c2e41d2f1b15154783ffba204487f9b54cd053f6507539",
+      "destination_sha256": "b8012e950850a00a37c2e41d2f1b15154783ffba204487f9b54cd053f6507539",
+      "bytes": 497
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-turn2.jsonl",
+      "destination": "vm/hermes-turn2.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "9bc3ea4747643e59c644daebedfde8a1d0be176109558c8e447bf30681c6a52f",
+      "destination_sha256": "9bc3ea4747643e59c644daebedfde8a1d0be176109558c8e447bf30681c6a52f",
+      "bytes": 816
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-turn2.err",
+      "destination": "vm/hermes-turn2.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "a7cf07e8106d3a893aa1e434c4f316d837ab5462bfea5209f9a4cb2ca5e141d3",
+      "destination_sha256": "a7cf07e8106d3a893aa1e434c4f316d837ab5462bfea5209f9a4cb2ca5e141d3",
+      "bytes": 193
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-error.jsonl",
+      "destination": "vm/hermes-error.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "30198760367fc680d35dec25fa6be9fd0c89be8d3ef040dc90ddef2c9b629278",
+      "destination_sha256": "30198760367fc680d35dec25fa6be9fd0c89be8d3ef040dc90ddef2c9b629278",
+      "bytes": 114
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-error.err",
+      "destination": "vm/hermes-error.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "ddcbe6cda79b97525040fdf9f3d57563f5ee7469c34ddc314097c1154858298d",
+      "destination_sha256": "ddcbe6cda79b97525040fdf9f3d57563f5ee7469c34ddc314097c1154858298d",
+      "bytes": 278
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-after-error.jsonl",
+      "destination": "vm/hermes-after-error.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "d221ac0cc19c541a75946580ad907f58857dd77c623cf4ff279afdea9a81c55f",
+      "destination_sha256": "d221ac0cc19c541a75946580ad907f58857dd77c623cf4ff279afdea9a81c55f",
+      "bytes": 816
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-after-error.err",
+      "destination": "vm/hermes-after-error.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "a7cf07e8106d3a893aa1e434c4f316d837ab5462bfea5209f9a4cb2ca5e141d3",
+      "destination_sha256": "a7cf07e8106d3a893aa1e434c4f316d837ab5462bfea5209f9a4cb2ca5e141d3",
+      "bytes": 193
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel.jsonl",
+      "destination": "vm/hermes-cancel.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "9609c5bdd3a036d2ad1aa9ed29d8ca6e10ce717e23f9f4ff25accd6df95a16e6",
+      "destination_sha256": "9609c5bdd3a036d2ad1aa9ed29d8ca6e10ce717e23f9f4ff25accd6df95a16e6",
+      "bytes": 5937
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel.err",
+      "destination": "vm/hermes-cancel.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "14852e8909cffc8b108f73a090d5662a71ceec9fc02ef54eca0c957ce43552d0",
+      "destination_sha256": "14852e8909cffc8b108f73a090d5662a71ceec9fc02ef54eca0c957ce43552d0",
+      "bytes": 243
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-after-cancel.jsonl",
+      "destination": "vm/hermes-after-cancel.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "02ace0eebd13461719d7995d8a6017eb7ce0506f3062f4b264d54c3dab3f9f9d",
+      "destination_sha256": "02ace0eebd13461719d7995d8a6017eb7ce0506f3062f4b264d54c3dab3f9f9d",
+      "bytes": 816
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-after-cancel.err",
+      "destination": "vm/hermes-after-cancel.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "a7cf07e8106d3a893aa1e434c4f316d837ab5462bfea5209f9a4cb2ca5e141d3",
+      "destination_sha256": "a7cf07e8106d3a893aa1e434c4f316d837ab5462bfea5209f9a4cb2ca5e141d3",
+      "bytes": 193
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/claude-turn1.jsonl",
+      "destination": "vm/claude-turn1.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "bd331e3c8d78018b30a073aff90f9e65b37a5670e6744c8105a180e02e85c8a7",
+      "destination_sha256": "bd331e3c8d78018b30a073aff90f9e65b37a5670e6744c8105a180e02e85c8a7",
+      "bytes": 17748
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/claude-turn1.err",
+      "destination": "vm/claude-turn1.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "destination_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "bytes": 84
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/claude-turn2.jsonl",
+      "destination": "vm/claude-turn2.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "75b8afd3f5936cccb0ed33c705f82e83f5e94de6b5edbb8e82e6e46344f02da6",
+      "destination_sha256": "75b8afd3f5936cccb0ed33c705f82e83f5e94de6b5edbb8e82e6e46344f02da6",
+      "bytes": 13466
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/claude-turn2.err",
+      "destination": "vm/claude-turn2.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "destination_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "bytes": 84
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/claude-error.jsonl",
+      "destination": "vm/claude-error.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "3a6a77f58b6b5651fadb9609b6800fd5bc7303243eea9973108cb499fb2e7145",
+      "destination_sha256": "3a6a77f58b6b5651fadb9609b6800fd5bc7303243eea9973108cb499fb2e7145",
+      "bytes": 3730
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/claude-error.err",
+      "destination": "vm/claude-error.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "0d16e48e06b304bf29bcc8ab6880519838ff7324bfeb438a1371b95f4db23a21",
+      "destination_sha256": "0d16e48e06b304bf29bcc8ab6880519838ff7324bfeb438a1371b95f4db23a21",
+      "bytes": 311
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/claude-after-error.jsonl",
+      "destination": "vm/claude-after-error.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "d28003bf1dce6c1bd6f065439791429cfacce68046b2c2ae6bd8f1ef64ff9320",
+      "destination_sha256": "d28003bf1dce6c1bd6f065439791429cfacce68046b2c2ae6bd8f1ef64ff9320",
+      "bytes": 13469
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/claude-after-error.err",
+      "destination": "vm/claude-after-error.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "destination_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "bytes": 84
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/claude-cancel.jsonl",
+      "destination": "vm/claude-cancel.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "ed0589bc621d59cc99a782c8eb288153999c01f9b77c4acd6bf0fee8c6d07f18",
+      "destination_sha256": "ed0589bc621d59cc99a782c8eb288153999c01f9b77c4acd6bf0fee8c6d07f18",
+      "bytes": 5386
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/claude-cancel.err",
+      "destination": "vm/claude-cancel.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "destination_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "bytes": 84
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/claude-after-cancel.jsonl",
+      "destination": "vm/claude-after-cancel.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "631860f09c39470031ce52e8c5b66c99a8bbdd2fa22ef5527e74da40523fd696",
+      "destination_sha256": "631860f09c39470031ce52e8c5b66c99a8bbdd2fa22ef5527e74da40523fd696",
+      "bytes": 13466
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/claude-after-cancel.err",
+      "destination": "vm/claude-after-cancel.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "destination_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "bytes": 84
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/project/hermes/fixture.txt",
+      "destination": "vm/project/hermes/fixture.txt",
+      "classification": "synthetic-fixture",
+      "redaction": "none; exact copy",
+      "original_sha256": "785f889adfbac9563213bbe1770315946333fde58a74d678bea98f1aefcd9188",
+      "destination_sha256": "785f889adfbac9563213bbe1770315946333fde58a74d678bea98f1aefcd9188",
+      "bytes": 36
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/project/hermes/objects.txt",
+      "destination": "vm/project/hermes/objects.txt",
+      "classification": "synthetic-fixture",
+      "redaction": "none; exact copy",
+      "original_sha256": "121ce4e9ffc453c0558b7ccf4a618df0a45226f1c7b24e3d56482ba3d7917d5b",
+      "destination_sha256": "121ce4e9ffc453c0558b7ccf4a618df0a45226f1c7b24e3d56482ba3d7917d5b",
+      "bytes": 4358
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/project/claude/fixture.txt",
+      "destination": "vm/project/claude/fixture.txt",
+      "classification": "synthetic-fixture",
+      "redaction": "none; exact copy",
+      "original_sha256": "785f889adfbac9563213bbe1770315946333fde58a74d678bea98f1aefcd9188",
+      "destination_sha256": "785f889adfbac9563213bbe1770315946333fde58a74d678bea98f1aefcd9188",
+      "bytes": 36
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/REPORT.md",
+      "destination": "vm/hermes-cancel-closure/REPORT.md",
+      "classification": "report",
+      "redaction": "none; exact copy",
+      "original_sha256": "377316b07c19273092678ceff34f9553f5fc3d467b25e3f6fbb2b5125f83fbf5",
+      "destination_sha256": "377316b07c19273092678ceff34f9553f5fc3d467b25e3f6fbb2b5125f83fbf5",
+      "bytes": 4304
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/verify.py",
+      "destination": "vm/hermes-cancel-closure/verify.py",
+      "classification": "source-verifier",
+      "redaction": "none; exact copy",
+      "original_sha256": "f47b38cdbcdb880455598e755cfd2b0f073b64e1240bcbba30bdebfcb2359f0a",
+      "destination_sha256": "f47b38cdbcdb880455598e755cfd2b0f073b64e1240bcbba30bdebfcb2359f0a",
+      "bytes": 1937
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/verify.log",
+      "destination": "vm/hermes-cancel-closure/verify.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "3b7c25fafe5fabb24bbce9842243e5991a8c0b7d3e6e299903d9a5140a743ec2",
+      "destination_sha256": "3b7c25fafe5fabb24bbce9842243e5991a8c0b7d3e6e299903d9a5140a743ec2",
+      "bytes": 178
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/observe.py",
+      "destination": "vm/hermes-cancel-closure/observe.py",
+      "classification": "source-verifier",
+      "redaction": "none; exact copy",
+      "original_sha256": "bd6a0beabc84a15927d3ab5e1cafa5db196ac031045992e2dd85f12622043bdf",
+      "destination_sha256": "bd6a0beabc84a15927d3ab5e1cafa5db196ac031045992e2dd85f12622043bdf",
+      "bytes": 2949
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/replay.py",
+      "destination": "vm/hermes-cancel-closure/replay.py",
+      "classification": "source-verifier",
+      "redaction": "none; exact copy",
+      "original_sha256": "2f08084164ea35eb35a4808729f63f6fd8c80404ff6325a5f0fe74fd80ac7ac1",
+      "destination_sha256": "2f08084164ea35eb35a4808729f63f6fd8c80404ff6325a5f0fe74fd80ac7ac1",
+      "bytes": 4485
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/checks.json",
+      "destination": "vm/hermes-cancel-closure/checks.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "6f2431cd4140a4a1d18828c6c0cf9b8c67f9741f8fa9414f4217fd1c1ac91ca0",
+      "destination_sha256": "6f2431cd4140a4a1d18828c6c0cf9b8c67f9741f8fa9414f4217fd1c1ac91ca0",
+      "bytes": 1416
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/replay.log",
+      "destination": "vm/hermes-cancel-closure/replay.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "66c1fe60dd4d02edae3fae216ff58091345b596b3a50fd1de7a98c804ec55106",
+      "destination_sha256": "66c1fe60dd4d02edae3fae216ff58091345b596b3a50fd1de7a98c804ec55106",
+      "bytes": 1417
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/config.json",
+      "destination": "vm/hermes-cancel-closure/config.json",
+      "classification": "configuration",
+      "redaction": "none; exact copy",
+      "original_sha256": "2b9abab3549d0e33b63b966bb18bc5e2e40b2a52740bed14736b4d5c211d8755",
+      "destination_sha256": "2b9abab3549d0e33b63b966bb18bc5e2e40b2a52740bed14736b4d5c211d8755",
+      "bytes": 485
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/gateway.log",
+      "destination": "vm/hermes-cancel-closure/gateway.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "6fdbdd7860148fa7c00fe48c2a2de49edfc625a27aa4780c348aa8d803e43ad6",
+      "destination_sha256": "6fdbdd7860148fa7c00fe48c2a2de49edfc625a27aa4780c348aa8d803e43ad6",
+      "bytes": 6
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/after.txt",
+      "destination": "vm/hermes-cancel-closure/after.txt",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "de6efa159bb941b99aadabb99575c85e7e6f6f3789eb3bc417ea0a95736bedb8",
+      "destination_sha256": "de6efa159bb941b99aadabb99575c85e7e6f6f3789eb3bc417ea0a95736bedb8",
+      "bytes": 2186
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/runtime-3677013.json",
+      "destination": "vm/hermes-cancel-closure/runtime-3677013.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "f129936df85fcfe7f855d1038a545ba59c8fe15b67d4ca54073a855a23526eb5",
+      "destination_sha256": "f129936df85fcfe7f855d1038a545ba59c8fe15b67d4ca54073a855a23526eb5",
+      "bytes": 237
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/launcher-session.txt",
+      "destination": "vm/hermes-cancel-closure/launcher-session.txt",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "b1c274d9dddbbbb16003ab84e6cdb3629262b8319dd7d3b3045291d1c8b08618",
+      "destination_sha256": "b1c274d9dddbbbb16003ab84e6cdb3629262b8319dd7d3b3045291d1c8b08618",
+      "bytes": 37
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/native-session.txt",
+      "destination": "vm/hermes-cancel-closure/native-session.txt",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "2a6f0b9f6253d89937db619b1778d788a9521aa97396ed38fe1b883d601482bc",
+      "destination_sha256": "2a6f0b9f6253d89937db619b1778d788a9521aa97396ed38fe1b883d601482bc",
+      "bytes": 71
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/cancel-marker.json",
+      "destination": "vm/hermes-cancel-closure/cancel-marker.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "2eaaff8d6bb04fc89502c294b32f9451f3f1e8ef72c9d273f7abcf270547ea5b",
+      "destination_sha256": "2eaaff8d6bb04fc89502c294b32f9451f3f1e8ef72c9d273f7abcf270547ea5b",
+      "bytes": 551
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/receipts.jsonl",
+      "destination": "vm/hermes-cancel-closure/receipts.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "59bf4d77b3056f7f20fce62709c3a3923c31eb3c304040ba7ed3bda0c2c75323",
+      "destination_sha256": "59bf4d77b3056f7f20fce62709c3a3923c31eb3c304040ba7ed3bda0c2c75323",
+      "bytes": 3579
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/initial.jsonl",
+      "destination": "vm/hermes-cancel-closure/initial.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "9ecce795a80fb51889729dfc669ccf8141c40cfbc03c96f3b1ad24f35a965767",
+      "destination_sha256": "9ecce795a80fb51889729dfc669ccf8141c40cfbc03c96f3b1ad24f35a965767",
+      "bytes": 814
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/initial.err",
+      "destination": "vm/hermes-cancel-closure/initial.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "757a72328b95ebfad007227da9a0e397305391099ee2a0b6d992cf2f28befcb8",
+      "destination_sha256": "757a72328b95ebfad007227da9a0e397305391099ee2a0b6d992cf2f28befcb8",
+      "bytes": 497
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/cancel.jsonl",
+      "destination": "vm/hermes-cancel-closure/cancel.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "d971eed5b789bd46f4f66985015177f27128e96288568f116502863bf77fe1cb",
+      "destination_sha256": "d971eed5b789bd46f4f66985015177f27128e96288568f116502863bf77fe1cb",
+      "bytes": 442
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/cancel.err",
+      "destination": "vm/hermes-cancel-closure/cancel.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "90a64d166c3c03dd8c24646aff9ec067620135d0ef08bf8d4c56c17cda1b8120",
+      "destination_sha256": "90a64d166c3c03dd8c24646aff9ec067620135d0ef08bf8d4c56c17cda1b8120",
+      "bytes": 243
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/resume.jsonl",
+      "destination": "vm/hermes-cancel-closure/resume.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "c2c7336a0f68616a5cd887573154af4654a016eb8303cbf4a192dd73f5e60437",
+      "destination_sha256": "c2c7336a0f68616a5cd887573154af4654a016eb8303cbf4a192dd73f5e60437",
+      "bytes": 817
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/resume.err",
+      "destination": "vm/hermes-cancel-closure/resume.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "a4f86f73f84afa21ea546b8ea5154ea1737aa89595c3b02b56d26b5d95781668",
+      "destination_sha256": "a4f86f73f84afa21ea546b8ea5154ea1737aa89595c3b02b56d26b5d95781668",
+      "bytes": 193
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/initial-result.json",
+      "destination": "vm/hermes-cancel-closure/initial-result.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "afa4b4daac19a140b4cae92fd998b2558c4c7d3405490dd641b4586d08889a51",
+      "destination_sha256": "afa4b4daac19a140b4cae92fd998b2558c4c7d3405490dd641b4586d08889a51",
+      "bytes": 680
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/cancel-result.json",
+      "destination": "vm/hermes-cancel-closure/cancel-result.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "8a5d2c4877c527ef69460fb9443ede490d83c9b9b06e5561afd38f24f366f177",
+      "destination_sha256": "8a5d2c4877c527ef69460fb9443ede490d83c9b9b06e5561afd38f24f366f177",
+      "bytes": 851
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/hermes-cancel-closure/resume-result.json",
+      "destination": "vm/hermes-cancel-closure/resume-result.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "f6c23f7231193293e66a459b268b50c5376f16452a0a8f5aac1708f99db8025b",
+      "destination_sha256": "f6c23f7231193293e66a459b268b50c5376f16452a0a8f5aac1708f99db8025b",
+      "bytes": 780
+    }
+  ]
+}

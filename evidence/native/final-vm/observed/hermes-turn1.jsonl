@@ -1,0 +1,22 @@
+{"type": "system", "subtype": "init", "model": "open-model-router", "session_id": "", "timestamp": 1793062127149}
+{"type": "tool_use", "name": "read_file", "tool_call_id": "0Lh3YBljtGurX862NKsFtUGoEV9w02jD", "input": {"path": "fixture.txt"}, "timestamp": 1793062132463}
+{"type": "tool_result", "name": "read_file", "tool_call_id": "0Lh3YBljtGurX862NKsFtUGoEV9w02jD", "output": "{\"content\": \"1|OMR_SYNTHETIC_FIXTURE=blue-otter-73\", \"total_lines\": 1, \"file_size\": 36, \"truncated\": false, \"is_binary\": false, \"is_image\": false, \"not_found\": false}", "duration_ms": 135, "is_error": false, "timestamp": 1793062132598}
+{"type": "text", "text": "\n\n1", "timestamp": 1793062132715}
+{"type": "text", "text": "|", "timestamp": 1793062132719}
+{"type": "text", "text": "OM", "timestamp": 1793062132725}
+{"type": "text", "text": "R", "timestamp": 1793062132737}
+{"type": "text", "text": "_SYN", "timestamp": 1793062132737}
+{"type": "text", "text": "TH", "timestamp": 1793062132742}
+{"type": "text", "text": "ET", "timestamp": 1793062132747}
+{"type": "text", "text": "IC", "timestamp": 1793062132752}
+{"type": "text", "text": "_FIX", "timestamp": 1793062132758}
+{"type": "text", "text": "TURE", "timestamp": 1793062132763}
+{"type": "text", "text": "=", "timestamp": 1793062132769}
+{"type": "text", "text": "blue", "timestamp": 1793062132775}
+{"type": "text", "text": "-", "timestamp": 1793062132780}
+{"type": "text", "text": "ot", "timestamp": 1793062132790}
+{"type": "text", "text": "ter", "timestamp": 1793062132791}
+{"type": "text", "text": "-", "timestamp": 1793062132796}
+{"type": "text", "text": "7", "timestamp": 1793062132801}
+{"type": "text", "text": "3", "timestamp": 1793062132807}
+{"type": "result", "session_id": "local-6ada7ef7bba1e6309da598d6091e6cc2d60b0f8d4bf78d2e4de5afc70dea56a3", "exit_code": 0, "text": "1|OMR_SYNTHETIC_FIXTURE=blue-otter-73", "tokens": {"input": 8971, "output": 40, "total": 9011, "cache_read": 8895, "cache_write": 0}, "duration_ms": 7441, "timestamp": 1793062134590}

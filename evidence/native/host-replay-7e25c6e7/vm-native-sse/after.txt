@@ -1,0 +1,51 @@
+2026-10-27T05:37:06+00:00
+7e25c6e7e6547fb9d3bf1f2f1d71602dd3950f3b
+dfd45901284f6948d7d86d23b5a38fbb9773afb1
+ec9c11ac447bf37eb5919d98e535d4c91b82a0b39e36202030d01fd8b8eabb0c  omr.py
+a4ef8463a484a4a5342707ea842da258535257975eb0e7c628c8e13de4175565  host-adapters/launch.py
+M  DELIVERY-STATUS.md
+A  evidence/native/codex-validated/PROVENANCE.json
+A  evidence/native/codex-validated/REPORT.md
+A  evidence/native/codex-validated/first-events.jsonl
+A  evidence/native/codex-validated/interrupt-events.jsonl
+A  evidence/native/codex-validated/interrupt-recovery-events.jsonl
+A  evidence/native/codex-validated/interrupt.json
+A  evidence/native/codex-validated/network-recovery-events.jsonl
+A  evidence/native/codex-validated/network-refused-events.jsonl
+A  evidence/native/codex-validated/operator.py
+A  evidence/native/codex-validated/remote-path.txt
+A  evidence/native/codex-validated/result.json
+A  evidence/native/codex-validated/resume-events.jsonl
+A  evidence/native/codex-validated/stream-observation.jsonl
+A  evidence/reviews/native-sse/native-sse-independent-closed.md
+A  evidence/reviews/native-sse/native-sse-independent-review.md
+A  evidence/reviews/native-sse/native-sse-integration-review.md
+A  evidence/reviews/native-sse/native-sse-review-repair.md
+
+api ps
+{"models":[{"name":"omr-hermes-qwen3-4b:ctx8192","model":"omr-hermes-qwen3-4b:ctx8192","size":3877571133,"digest":"814d45e79cc776294ae4fafa9a7acd47cbe3e614d20b80ee83e4096fdf9e1782","details":{"parent_model":"","format":"gguf","family":"qwen3","families":["qwen3"],"parameter_size":"4.0B","quantization_level":"Q4_K_M"},"expires_at":"2026-10-27T06:37:57.3268337+01:00","size_vram":3877571133,"context_length":8192,"runner":"llamacpp"}]}
+gpu
+4759, 16303, 0
+2026-10-27T05:37:44+00:00
+ec9c11ac447bf37eb5919d98e535d4c91b82a0b39e36202030d01fd8b8eabb0c  omr.py
+a4ef8463a484a4a5342707ea842da258535257975eb0e7c628c8e13de4175565  host-adapters/launch.py
+M  DELIVERY-STATUS.md
+A  evidence/native/codex-validated/PROVENANCE.json
+A  evidence/native/codex-validated/REPORT.md
+A  evidence/native/codex-validated/first-events.jsonl
+A  evidence/native/codex-validated/interrupt-events.jsonl
+A  evidence/native/codex-validated/interrupt-recovery-events.jsonl
+A  evidence/native/codex-validated/interrupt.json
+A  evidence/native/codex-validated/network-recovery-events.jsonl
+A  evidence/native/codex-validated/network-refused-events.jsonl
+A  evidence/native/codex-validated/operator.py
+A  evidence/native/codex-validated/remote-path.txt
+A  evidence/native/codex-validated/result.json
+A  evidence/native/codex-validated/resume-events.jsonl
+A  evidence/native/codex-validated/stream-observation.jsonl
+A  evidence/reviews/native-sse/native-sse-independent-closed.md
+A  evidence/reviews/native-sse/native-sse-independent-review.md
+A  evidence/reviews/native-sse/native-sse-integration-review.md
+A  evidence/reviews/native-sse/native-sse-review-repair.md
+{"models":[{"name":"omr-hermes-qwen3-4b:ctx8192","model":"omr-hermes-qwen3-4b:ctx8192","size":3877571133,"digest":"814d45e79cc776294ae4fafa9a7acd47cbe3e614d20b80ee83e4096fdf9e1782","details":{"parent_model":"","format":"gguf","family":"qwen3","families":["qwen3"],"parameter_size":"4.0B","quantization_level":"Q4_K_M"},"expires_at":"2026-10-27T06:38:31.3069783+01:00","size_vram":3877571133,"context_length":8192,"runner":"llamacpp"}]}
+4742, 16303, 0

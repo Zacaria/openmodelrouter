@@ -1,0 +1,49 @@
+{
+  "baseline": "dd2e02e265efd44ea015d7f1ab87d2244a2c5987",
+  "baseline_module_sha256": "36e01e347f8260b2b28c6c80e70e280158f864a7b993325a037c5cb530c32942",
+  "red": {
+    "tests": 3,
+    "failures": 5,
+    "errors": 1
+  },
+  "green_onboarding": {
+    "tests": 20,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "green_root": {
+    "tests": 219,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "write_boundaries": {
+    "utf8_bytes": 28000,
+    "json_bytes_without_newline": 84014,
+    "request_bytes": 84015,
+    "pipe_bytes": 4096,
+    "deadline_seconds": 0.15,
+    "assert_return_within_seconds": 0.8,
+    "covers_blocked_write": true,
+    "covers_blocked_flush": true,
+    "covers_cancellation": true,
+    "covers_short_writes": true
+  },
+  "generation_guard": {
+    "real_stop_start": true,
+    "old_error_after_new_ready": true,
+    "new_worker_home_preserved": true,
+    "new_classification_succeeds": true
+  },
+  "source_sha256": {
+    "desktop_managed.py": "a4219fe368abb3116a6dd47160d73e3efdf8af2465f6631efd49a9fa5b1f44e6",
+    "test_desktop_onboarding.py": "10b590780e882a86ca0cfa8095ea23bb1da53bb0112b9d332f72e3ea8b80d220"
+  },
+  "logs_sha256": {
+    "red_initial": "c675b79cc291e8c33c2332232af3637fa2e8386a863c79ccaf2e01b8aa07fcfb",
+    "red_full_baseline": "d4634f3957c4b6f252ad5c9bb45994b9f8a6b56d645ac782cbe2f971adbefd9d",
+    "green_onboarding": "df87722cc984be985935bca8b3363127d8b3cb800a9b6a751a3b891ef4940f5c",
+    "root_final": "58d0932f549f024eee8348658a975fd3fb999399394bb95a00d9311d3800c2fe"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "sidecar_sha256": "12fdf1e5e6048f4d16c5a32822da069bda16143fa2545d363752c35526ab2f5b",
+  "source_module_sha256": {
+    "desktop_sidecar.py": "397481301ce5a4357023c1cd18adfa45dbbf6fc1a7c4bc970aec8f55b6c3c5cb",
+    "desktop_engine.py": "9176e1814e29aac1a8b33f3dd053dbecad008fae97b155f08377660479b2c56a",
+    "desktop_managed.py": "ad41e9e71051d07a3d7eef7c94b40b0668e66dc319ff60b5fcaf7b0bce5ebbca",
+    "desktop_deciders.py": "5e82f20476a3a837b38a145f199c3cdd0d58fff1526a6ec3e3848c6e28045bbe",
+    "desktop_pi.py": "d122f33ac7f513e6f68124e9a00dd4c777553c8e0eaec407959bb65920e4cdb0",
+    "desktop_native.py": "1c5d6dca02f6b9c929a62f21aab52def906d46bd7c0812a86c8301aa8c757a43",
+    "jev_decider.py": "4d28c95d95c7d2910d983602fb7ecb15992d81c6bc476413ba272ab161f28034",
+    "omr.py": "57add81b5a7963c3eb9405dc3301d9b1205028127a63b685b1993c15e463feae"
+  },
+  "embedded_pi_sha256": {
+    "desktop/provider-runtime/omr-pi": "51fc8177287664feeb1ad6aaaa0a0e323ba90b553e0fd4e24b5fcb78f533fdb0",
+    "desktop/provider-runtime/pi_natives.darwin-arm64.node": "f29fb7cf778acd76dfb72c55a8fde930e8595b10d24951f22f22f4e581e4c5b1"
+  },
+  "weights_embedded": false,
+  "app_sha256": "6216c47ab5c01437cd8dbef3cc8aea1b386e5356cce58ac59099a898c1b7e800",
+  "frontend": {
+    "index.html": "103ca5d7b94b69c2cdd3aab0be879ebc4dd9ad1843c7bc6bddb507048a0e5767",
+    "brand/app-128.png": "0311054d3cc72126e3a2ea85003c0b047da32d7a446f2e06e585bf1c3eb137bd",
+    "assets/index-CxKtl5Jl.js": "a5a84e64afd5073bb51bbaa57c5a80c690db53410d3d8c6afc0da5a01383bd58",
+    "assets/index-DwtB5vp-.css": "0000b6ed557938e74bc375ef703e1165379dc878d5afa667e5afb68639551398"
+  },
+  "ignored_filenames_only": "co_filename is normalized; all other source code/line/exception metadata matches",
+  "build_python": "3.13.3",
+  "build_packages": {
+    "numpy": "2.5.4",
+    "tokenizers": "0.23.3",
+    "onnxruntime": "1.31.1",
+    "PyInstaller": "6.16.0",
+    "certifi": "2026.10.23"
+  },
+  "source_candidate": "5737f77f8a05f8a87301a0dfd139f1a31834f7b1",
+  "source_tree": "6033bf7337d792d550981b5f7f3720074af14cb3",
+  "tracked_source_files_matched": 765,
+  "installed_app_sha256": "9e6e8e8fad62e3f48b45946e3f596cfbb0b64c106a7190e720af3fb6f2ba03e9"
+}

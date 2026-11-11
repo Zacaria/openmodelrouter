@@ -1,0 +1,38 @@
+{
+  "provenance": "real-local-s1d1",
+  "identity_manifest": "s1d1-identity.json",
+  "wrapper_sha256": "baca9d388504abcc2692da385839be2a892c5bb79256de509173ba066621aee4",
+  "wrapper_upstream": "https://huggingface.co/scombat/s1d1-router/resolve/7fb9a4e3d03e3d942a98648268ff76c6152c18d6/s1d1_router.py",
+  "load_seconds": 2.0485375467687845,
+  "versions": {
+    "numpy": "2.5.4",
+    "tokenizers": "0.23.3",
+    "onnxruntime": "1.31.1"
+  },
+  "results": [
+    {
+      "synthetic_prompt": "Return only the capital of France.",
+      "classification": {
+        "complexity_score": 0.067,
+        "complexity_tier": "trivial",
+        "task": "information_seeking",
+        "needs_tools_probability": 0.015,
+        "needs_tools": false,
+        "prompt_tokens": 9
+      },
+      "elapsed_ms": 8.204502984881401
+    },
+    {
+      "synthetic_prompt": "Implement a cancellable asynchronous request coalescer and test that cancelling one subscriber does not cancel work needed by another.",
+      "classification": {
+        "complexity_score": 0.433,
+        "complexity_tier": "medium",
+        "task": "coding_debugging",
+        "needs_tools_probability": 0.003,
+        "needs_tools": false,
+        "prompt_tokens": 24
+      },
+      "elapsed_ms": 14.074716251343489
+    }
+  ]
+}

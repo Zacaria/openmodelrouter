@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "packaged gateway remains authenticated",
+    "real frozen bootloader and ONNX worker are observable",
+    "explicit UI stop reaps both owned managed processes",
+    "explicit restart creates a different owned worker generation",
+    "own native window exists",
+    "closing our window does not stop the gateway",
+    "native application menu reopens our window",
+    "quit confirmation is native-visible",
+    "cancel quit preserves the authenticated gateway",
+    "confirmed quit stops gateway and the complete managed group"
+  ],
+  "initial_owned_worker_pids": [
+    16560,
+    16566
+  ],
+  "gateway_port": 53924,
+  "personal_processes_stopped": false
+}

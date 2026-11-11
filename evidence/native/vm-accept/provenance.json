@@ -1,0 +1,257 @@
+{
+  "source_root": "/srv/omr-private/workspaces/open-model-router/vm-final-accept",
+  "runtime_matches_commit": "97d2b77d1fd804531e6820800cc2f03bea4aec65",
+  "files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 4632,
+      "sha256": "3c24a97a7de9edd09699fa13202c134615ea68af14cef217019278efec715685"
+    },
+    {
+      "path": "accept-only.diff",
+      "bytes": 803,
+      "sha256": "6616be0406403e2a4d86fa73cdd45366e757785bbc52a7e731ab62a6421bab6c"
+    },
+    {
+      "path": "checks.json",
+      "bytes": 777,
+      "sha256": "57cf24cb3d4e56ea1a10e55c837fb592bccda944079966a65ef3c058589fd098"
+    },
+    {
+      "path": "config-template.json",
+      "bytes": 492,
+      "sha256": "bd10ed6e1312b32d9d2f6b8b283a291bc63eecd08bd081439a3b7d45ee15b083"
+    },
+    {
+      "path": "gpu-after.txt",
+      "bytes": 16,
+      "sha256": "6280f8f9e5be672b7044d12ed2b0e6e976449b3e24f24fbc92528b3a45b9d448"
+    },
+    {
+      "path": "gpu-before.txt",
+      "bytes": 15,
+      "sha256": "47ef5c2881d07123e89353c72ab4ad025c2a1b9bd6398be3a53c4902dcd486d6"
+    },
+    {
+      "path": "ollama-after.json",
+      "bytes": 435,
+      "sha256": "1d4aaa4eb6c6dd83940edf2209a509a049ed966aeb19254f22b6dc31c77c80c1"
+    },
+    {
+      "path": "ollama-before.json",
+      "bytes": 13,
+      "sha256": "a6fe9ec6e26a38d99fca418b69826e0238b7a2bb319ff05eb153a6fcfd1fa28d"
+    },
+    {
+      "path": "ram-before.json",
+      "bytes": 69,
+      "sha256": "35262a714ad2d497ee66dc35e5162eeefe87de7056da95865988bbcac40074c5"
+    },
+    {
+      "path": "replay-observed.py",
+      "bytes": 5278,
+      "sha256": "c9fbe54217d24bc1bc336895495ff92341b641d4d40522243752caa7ff0021b6"
+    },
+    {
+      "path": "source-identities.txt",
+      "bytes": 123,
+      "sha256": "af577b3928a83fe5d88662efae0f51ae8b6414d63633e677022f57bfce55885d"
+    },
+    {
+      "path": "source-verification.log",
+      "bytes": 125,
+      "sha256": "d052eaf40b0da045ceea4c96c8ad9f027eb2fa473c6e09a4803b85a1676383d6"
+    },
+    {
+      "path": "source.sha256",
+      "bytes": 435,
+      "sha256": "8b16b237dfef7f5dc5b28d20e4f35f7edee395568c4af9647063ca3eab8510ad"
+    },
+    {
+      "path": "tests-core.log",
+      "bytes": 105,
+      "sha256": "a540d7958c7d9b0f7387c4ebee2931ab28ccad485073b05f19a96caf78046342"
+    },
+    {
+      "path": "tests-snapshot.log",
+      "bytes": 165,
+      "sha256": "fd14b25527f754c0734d748d370d8d7182e5db62c38ec4fe7654318ca4ef513e"
+    },
+    {
+      "path": "tests.log",
+      "bytes": 165,
+      "sha256": "1352d382a164e64ca4b5fbed9425b1579bd78991395e91952e9246553a5627cd"
+    },
+    {
+      "path": "versions.txt",
+      "bytes": 173,
+      "sha256": "7f28ee1beefd37cb2ad51d5526b2406b304426a8cb9f660baa59e46939949bd4"
+    },
+    {
+      "path": "observed/claude-after-cancel.err",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e"
+    },
+    {
+      "path": "observed/claude-after-cancel.jsonl",
+      "bytes": 10692,
+      "sha256": "7d04e350b3aae2905120ecb182ffb44a09610bcd7c35c66a1c9ace87b7476665"
+    },
+    {
+      "path": "observed/claude-after-error.err",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e"
+    },
+    {
+      "path": "observed/claude-after-error.jsonl",
+      "bytes": 10695,
+      "sha256": "f0a81bb8708308e0651800ec43b6ee70b047acd147d40c7e6a3b6a6ea011b066"
+    },
+    {
+      "path": "observed/claude-cancel.err",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e"
+    },
+    {
+      "path": "observed/claude-cancel.jsonl",
+      "bytes": 7272,
+      "sha256": "262d246f466bd90aaa334396db022883f6af5bc65a353b468bd754a7007d927e"
+    },
+    {
+      "path": "observed/claude-error.err",
+      "bytes": 311,
+      "sha256": "0d16e48e06b304bf29bcc8ab6880519838ff7324bfeb438a1371b95f4db23a21"
+    },
+    {
+      "path": "observed/claude-error.jsonl",
+      "bytes": 3654,
+      "sha256": "f5395e6ef9e859e2a4016fb7d50e66e85397520d4624c7fb7d1980a776b98807"
+    },
+    {
+      "path": "observed/claude-session.txt",
+      "bytes": 37,
+      "sha256": "099d66b52323fa826e25a8bef218f4fa8d8a14835c43a565a01e24b367f87f7b"
+    },
+    {
+      "path": "observed/claude-turn1.err",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e"
+    },
+    {
+      "path": "observed/claude-turn1.jsonl",
+      "bytes": 28285,
+      "sha256": "43a3f0e9da73ea1131595ce74a06b7187e532c7dc70a7fed06fd97fd0313907d"
+    },
+    {
+      "path": "observed/claude-turn2.err",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e"
+    },
+    {
+      "path": "observed/claude-turn2.jsonl",
+      "bytes": 10670,
+      "sha256": "5987a87329755aa136a7b1c1667b3d41aac7f43d07fd8adb80eee63d4ecc799c"
+    },
+    {
+      "path": "observed/claude-uuid.txt",
+      "bytes": 37,
+      "sha256": "ebf507878dc285099085eccbbc425048d6f224bb170855c7b6b455f63485c564"
+    },
+    {
+      "path": "observed/commands.jsonl",
+      "bytes": 8634,
+      "sha256": "52efb32df7cc99e628078b794518734cd2300fd9900f7cbfc3b29134d605b3de"
+    },
+    {
+      "path": "observed/config.json",
+      "bytes": 469,
+      "sha256": "d8e901cc305aed42f1ddcb414f6d3de21d0a623a463dbf58b2b53d303db92a04"
+    },
+    {
+      "path": "observed/gateway.log",
+      "bytes": 6,
+      "sha256": "4de773e1d15117c39fb8f4785b2ea236eef787f02a6ea1dbf50d7bb17545bbde"
+    },
+    {
+      "path": "observed/hermes-after-cancel.err",
+      "bytes": 193,
+      "sha256": "04b666f1b834f430bb85dc63226502430efd90fb37ca521789b8559bef869c01"
+    },
+    {
+      "path": "observed/hermes-after-cancel.jsonl",
+      "bytes": 1374,
+      "sha256": "dc7b2eed8c7df3a1a56baf7988fa7c84a2e4d44f130d44d96310eff983eb2f21"
+    },
+    {
+      "path": "observed/hermes-after-error.err",
+      "bytes": 193,
+      "sha256": "04b666f1b834f430bb85dc63226502430efd90fb37ca521789b8559bef869c01"
+    },
+    {
+      "path": "observed/hermes-after-error.jsonl",
+      "bytes": 1374,
+      "sha256": "a53223953b2a334ad4807f938e97727d3dd312f58820c76b401800c694c0c674"
+    },
+    {
+      "path": "observed/hermes-cancel.err",
+      "bytes": 243,
+      "sha256": "b671f0888608dd4b642673557ba379788480d7fc236175026b9617db9d5253c2"
+    },
+    {
+      "path": "observed/hermes-cancel.jsonl",
+      "bytes": 626,
+      "sha256": "0614a724067f730d73fe107b6d42c3e99940211ae127b8c7a7520d6fda5b0ad2"
+    },
+    {
+      "path": "observed/hermes-error.err",
+      "bytes": 307,
+      "sha256": "91c481e81d9f9372b98ff54ad8d3b810b95f45f8b4720cc3f74eacc14ac8f314"
+    },
+    {
+      "path": "observed/hermes-error.jsonl",
+      "bytes": 114,
+      "sha256": "a0d0424e0f4c373e27837940e6d959157185790d976f445ce1f1c00e7ec7bf2a"
+    },
+    {
+      "path": "observed/hermes-session.txt",
+      "bytes": 71,
+      "sha256": "eedad596dceb04d0386f9d310310904229682b8ca2c8f4054f880a7eb4a86532"
+    },
+    {
+      "path": "observed/hermes-turn1.err",
+      "bytes": 497,
+      "sha256": "34feed78c328860b8460acf1a02843741c9373cb3542616fd543805a8284a676"
+    },
+    {
+      "path": "observed/hermes-turn1.jsonl",
+      "bytes": 2012,
+      "sha256": "667b8ab74d6bd977e194b9ca61df7bd4dfcf9a0b11bff780efe458c92c1324f7"
+    },
+    {
+      "path": "observed/hermes-turn2.err",
+      "bytes": 193,
+      "sha256": "04b666f1b834f430bb85dc63226502430efd90fb37ca521789b8559bef869c01"
+    },
+    {
+      "path": "observed/hermes-turn2.jsonl",
+      "bytes": 1374,
+      "sha256": "13f08ede4496492fe1e1980f7e1cbbcb196b70d46f6e88e083affa311a7b6b91"
+    },
+    {
+      "path": "observed/hermes-uuid.txt",
+      "bytes": 37,
+      "sha256": "9de4c2434abd9cc028b0bc6abbf1a496db3f9c6e4291af524bccb338fbe8953c"
+    },
+    {
+      "path": "observed/receipts.jsonl",
+      "bytes": 8902,
+      "sha256": "c9535cbd6eab17d2e31394d865ad740100b87279e78548f76b8193f6fa9f4d51"
+    }
+  ],
+  "limitations": [
+    "Hermes cancellation receipt was completed; active upstream cancellation is not established by this replay.",
+    "Source hash files refer to the original snapshot; runtime blobs are retained in the matched Git commit, not duplicated here.",
+    "Credential-pattern scan is heuristic, not proof of absence of every sensitive string.",
+    "No Mac or final release qualification."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "purpose": "Candidate upstream source archives only; correspondence to the PyPI wheels and complete native dependency closure are not established.",
+  "archives": [
+    {
+      "name": "flatbuffers",
+      "revision": "7e163021e59cca4f8e1e35a7c828b5c6b7915953",
+      "url": "https://codeload.github.com/google/flatbuffers/tar.gz/7e163021e59cca4f8e1e35a7c828b5c6b7915953",
+      "sha256": "4236c5d22309abeac2384d3800febcc8d60423e8cb2f573abfa8f798352c4536",
+      "bytes": 2359249
+    },
+    {
+      "name": "onnxruntime",
+      "revision": "6af1a932e2286d5c58166085d24c68783033edee",
+      "url": "https://codeload.github.com/microsoft/onnxruntime/tar.gz/6af1a932e2286d5c58166085d24c68783033edee",
+      "sha256": "ca15bee9ccf04f17da55d78834cce95168e3e2178edf402bd38d2e5eb95b1e26",
+      "bytes": 280385122
+    }
+  ]
+}

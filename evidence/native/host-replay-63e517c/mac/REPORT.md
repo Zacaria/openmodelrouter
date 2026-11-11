@@ -1,0 +1,14 @@
+# Mac Codex native acceptance — 2026-10-27
+
+Signed runtime commit `63e517c25caa503b02eb38b2be994f8e2c32e142` verified with Git signature; tree `f6d12bc5532ca1a132edcaf009f0cf73c21f750a`. `omr.py` SHA-256 `6670df32c589ea6a3324eeff79dd10e45c9eaddb5d62f8526c7bf3e5e0b33a3b` matched signed commit, VM and Mac after execution. Gateway and operator were pinned by bytes; native Codex 0.162.1, macOS arm64, Python 3.11.12. Exact config and commands in `operator.py`: existing native account, fixed `gpt-6.1-terra`, low effort, explicit UUID session, request compression disabled, retry limits zero, read-only synthetic project and loopback gateway. No auth files read or copied. No fallback or new spending configured.
+
+- First process used a successful shell tool to read the synthetic fixture and returned its sentinel. A separate second process resumed thread `01a17bfa-c714-7441-b725-8857f27ee3ad`, repeated the sentinel without a tool or sentinel in its prompt, and completed.
+- Observer recorded 51 nonempty forwarded text deltas and five forwarded response terminals, after gateway flush. Six real upstream generation attempts; receipts observed `gpt-6.1-terra` with upstream 200 and low effort.
+- Invalid `X-OMR-Session` caused native failure and local HTTP 400; counted generation attempts did not increase during that phase. Same-thread native recovery completed.
+- SIGINT was sent to the owned process group following a nonempty forwarded delta and before terminal. The interrupted process exited 1; a separate process resumed the same thread and completed.
+- Gateway receipts are five `cancelled`, one `completed`, and one `invalid_request`. Native terminal observations and gateway transport receipt statuses are different facts; `cancelled` is not relabeled `completed`. The previous error-closure explains a possible post-terminal disconnect mechanism but does not prove the exact cause here.
+- Owned process groups were absent after cleanup; independent exact-operator scan found zero. The first broad scan includes its own SSH shell, not a surviving operator. Original evidence, other sessions, canonical files, index and Git were not modified. The Mac job directory is retained for reproducibility.
+
+Raw sanitized event JSONL, result, stream, reject trace, generation count, interrupt record, Mac hashes and cleanup scan are in this directory. `python3 -P verify.py` checks evidence and VM/Mac hash equality; `verifier-output.json` records the passing run. Initial plain `python3 verify.py` failed because local `operator.py` shadows Python's stdlib `operator`; `-P` avoids the import collision. This was a verifier invocation failure, not a native test rerun.
+
+No OMP model qualification is claimed: optional preflight was not run; prior zero-model state remains pending owner login. This is a Codex host journey, not global GOAL completion.

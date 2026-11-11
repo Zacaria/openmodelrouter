@@ -1,0 +1,42 @@
+{
+  "historical": true,
+  "note": "Imported existing synthetic diagnostic and adjacent traces verbatim. Its failed resume predates the successful final-vm replay. Not a run of the integrated candidate; old source identities remain unchanged.",
+  "files": [
+    {
+      "path": "evidence/native/hermes/diagnostic.md",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/hermes/diagnostic.md",
+      "bytes": 3688,
+      "sha256": "c93ed0496014b793868054d8b77edbefef185d3624a78afbe7710919efcfe834"
+    },
+    {
+      "path": "evidence/native/hermes/gateway-config.json",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/hermes/gateway-config.json",
+      "bytes": 482,
+      "sha256": "cbc2a3002ff1ff3b82386e825ea34f1643a23e96a7867a56b5558dcd2ce89660"
+    },
+    {
+      "path": "evidence/native/hermes/multiturn.jsonl",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/hermes/multiturn.jsonl",
+      "bytes": 726,
+      "sha256": "7a19c6540f0f58b1a5633af679098409a16edcf49cc2e61db0e793c2ff476501"
+    },
+    {
+      "path": "evidence/native/hermes/receipts.jsonl",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/hermes/receipts.jsonl",
+      "bytes": 3379,
+      "sha256": "9bc91bf6c6edad91348bfc2935ada783df5c357b93ad90db522283db39e78b93"
+    },
+    {
+      "path": "evidence/native/hermes/simple.jsonl",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/hermes/simple.jsonl",
+      "bytes": 921,
+      "sha256": "0a48412a8e2145d17a70098057f29963c14e9986429313c946823860a9b1a4f2"
+    },
+    {
+      "path": "evidence/native/hermes/tool.jsonl",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/hermes/tool.jsonl",
+      "bytes": 2714,
+      "sha256": "ccf070bea5ccfca2f03409c0979913eb655c750a4f7e83192947c6480029f5c1"
+    }
+  ]
+}

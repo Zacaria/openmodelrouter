@@ -1,0 +1,7 @@
+{
+  "head": "4f80c1d4d7f626d52c24556bcc1efc1f8493c112",
+  "merge_head": "48e77e2f692b729962a0941837061aa1cb8b6820",
+  "index_sha256": "f7c55938f438c76323c7e0a296361a9269302c099e8223a12c8e327726269519",
+  "status": "M  omr.py\nM  test_deadlines.py\n",
+  "unstaged_diff_empty": true
+}

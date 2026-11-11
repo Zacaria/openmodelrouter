@@ -1,0 +1,43 @@
+{
+  "utc": "2026-10-27T00:40:34.203554+00:00",
+  "scope": "canonical gateway merge plus docs; not final release candidate",
+  "results": [
+    {
+      "suite": ".",
+      "returncode": 0,
+      "tests": 20,
+      "skipped": 0
+    },
+    {
+      "suite": "pilot-t_f21a25b3",
+      "returncode": 0,
+      "tests": 16,
+      "skipped": 1
+    },
+    {
+      "suite": "loop-t_daf181c7",
+      "returncode": 0,
+      "tests": 6,
+      "skipped": 0
+    },
+    {
+      "suite": "comparator-t_14313d5b",
+      "returncode": 0,
+      "tests": 5,
+      "skipped": 0
+    },
+    {
+      "suite": "integrated-t_dab1958b",
+      "returncode": 0,
+      "tests": 9,
+      "skipped": 0
+    },
+    {
+      "suite": "demo-t_a3c46d97",
+      "returncode": 0,
+      "tests": 6,
+      "skipped": 0
+    }
+  ],
+  "total_tests": 62
+}

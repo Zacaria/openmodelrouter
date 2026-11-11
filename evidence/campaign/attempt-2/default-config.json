@@ -1,0 +1,31 @@
+{
+  "routes": {
+    "direct": {
+      "url": "http://10.77.0.11:11434/v1",
+      "model": "omr-hermes-qwen3-4b:ctx8192",
+      "protocol": [
+        "chat",
+        "responses",
+        "anthropic"
+      ],
+      "effort": "none",
+      "forward_auth": false
+    },
+    "reasoning": {
+      "url": "http://10.77.0.11:11434/v1",
+      "model": "qwen3:4b",
+      "protocol": [
+        "chat",
+        "responses",
+        "anthropic"
+      ],
+      "forward_auth": false
+    }
+  },
+  "default_route": "direct",
+  "decision": {
+    "type": "fixed"
+  },
+  "timeout_seconds": 60,
+  "receipts": "/srv/omr-private/workspaces/open-model-router/runtime/default-campaign-v2-receipts.jsonl"
+}

@@ -1,0 +1,149 @@
+{
+  "source_sha": "6b4d33b7272b2dc0124f12e0fe2acd2453bbe368",
+  "source_tree": "07589117ac3f0e469bcf6f1b60481e376c2ee0d4",
+  "engine_sha256": "b436f9de6f48fac20dd8eaeb95a76444e5e441e3fea28a9b319eb910e99e3ea3",
+  "artifact_base": "/srv/omr-private/artifacts/open-model-router/chat-400-20261105",
+  "scope": "Real local isolated routes and synthetic frontend; not native GUI, real external benchmarks, Apple acceptance or updated public installation.",
+  "files": [
+    {
+      "path": "composed-candidate-04/review.json",
+      "bytes": 1065,
+      "sha256": "3f1b84f204c4579b60c5196a2437126f848f9467aa0ab7b4bc02ed19f940333c"
+    },
+    {
+      "path": "composed-candidate-04/review.md",
+      "bytes": 1762,
+      "sha256": "88bf7c6b0bcc4383d00ce61a341533fa59cc38527f6bcdbf7c9254e985ef7b8e"
+    },
+    {
+      "path": "composed-candidate-04/package.json",
+      "bytes": 809,
+      "sha256": "3b2f9dbf7325604a2368724d35b483d997e1c707276b669f62d80e14bef32d27"
+    },
+    {
+      "path": "composed-candidate-04/candidate.json",
+      "bytes": 311,
+      "sha256": "6afff038baec886756018fd2b47b14e6d210378abc0e3feef97b50ca555e2d56"
+    },
+    {
+      "path": "composed-candidate-04/source-manifest.json",
+      "bytes": 100628,
+      "sha256": "73ae66ffa0badb72c220b1d8eebb3f50aee2c55006dacaf880e5a624938d9996"
+    },
+    {
+      "path": "composed-candidate-04/omp-live.json",
+      "bytes": 242065,
+      "sha256": "23575d0f71e8d37cd61480cb6c68ff28e501871097d65603bb092759c98a59b4"
+    },
+    {
+      "path": "composed-candidate-04/chat-live.json",
+      "bytes": 30360,
+      "sha256": "b4493d0fe12a101139e9f131348f0d735b60eaa36ec8eec9884b4f34466d1c36"
+    },
+    {
+      "path": "composed-candidate-04/python-build-env.log",
+      "bytes": 6654,
+      "sha256": "430c727b6147195bb93095d5979631289628d686b2300da9d0d6f3b4914848a2"
+    },
+    {
+      "path": "composed-candidate-04/python-std-env.log",
+      "bytes": 8343,
+      "sha256": "41de5d25696d88e19e7aeae17b29824ef7441ae408bef1473c329d6c620ee54f"
+    },
+    {
+      "path": "composed-candidate-04/build-mac.log",
+      "bytes": 22787,
+      "sha256": "7a97521d597750985c6be77600f1603971ca35e00aea53c5ca9740bafbb59b4c"
+    },
+    {
+      "path": "composed-candidate-04/build-mac.sh",
+      "bytes": 2240,
+      "sha256": "95344495b5b89410e647321a5ca52a8a354230fd6103f527c4ca08acff2a4e97"
+    },
+    {
+      "path": "composed-candidate-04/probe-mac-live.py",
+      "bytes": 11382,
+      "sha256": "7c98bf05a9e712339ccce7541cccf081232fe4b7d38421e13af4468dd6bbcbcf"
+    },
+    {
+      "path": "composed-candidate-04/probe-live-chat.py",
+      "bytes": 7872,
+      "sha256": "00a6d99bd05178bec02c84c213965a138f795e20926f4e7812aed80f9b670837"
+    },
+    {
+      "path": "composed-candidate-04/benchmark-replay-with-rename.py",
+      "bytes": 13592,
+      "sha256": "470054f941b9d1226ed0b248944184dcee99b9306546dda1990e33483e99f792"
+    },
+    {
+      "path": "composed-candidate-04/package-mac.py",
+      "bytes": 2888,
+      "sha256": "325d387557d1dd0b1243ea9ec933916881946b15124bc367a3632af230ac3cc8"
+    },
+    {
+      "path": "composed-candidate-04/prepare-signing-inputs.py",
+      "bytes": 3000,
+      "sha256": "eb568a4e291813fb205fa82bca2f3b490a183c3cd62892e9b02b9b7c9111ff55"
+    },
+    {
+      "path": "composed-candidate-04/chat-native-inventory.json",
+      "bytes": 177544,
+      "sha256": "03f6d055bdb54b738060e387f06bc96e002d6601e7dea9a9fdcd2b613176cece"
+    },
+    {
+      "path": "composed-candidate-04/chat-preflight.json",
+      "bytes": 1092,
+      "sha256": "416c120c6adbf0b77a0ac0d04ec164cbd31dba2d04149e0f8e579ff84beb904f"
+    },
+    {
+      "path": "composed-candidate-04/native-state-after.json",
+      "bytes": 421,
+      "sha256": "c3403308802a1ccb8b62cb57146ac1a1116bb35b06446bbbef29508c5b641257"
+    },
+    {
+      "path": "composed-candidate-04/frontend-replay/report.json",
+      "bytes": 786,
+      "sha256": "61d0832463cd9b99cecedcf958960481940683b06ad9d3aba1cf6f829ae20af9"
+    },
+    {
+      "path": "composed-candidate-04/frontend-replay/everyday-chat.png",
+      "bytes": 69244,
+      "sha256": "cba76c325f1d860a61ce8e1bd9de7135a766b77034973201a51bc2d0e0603e5c"
+    },
+    {
+      "path": "composed-candidate-04/frontend-replay/renamed-model-unranked.png",
+      "bytes": 240795,
+      "sha256": "aa1d7df2f6bfdef6e58a6ab27f5df8fa6c94e521907c8d9feaf93cab5515e46f"
+    },
+    {
+      "path": "composed-candidate-04/vm-hosts/checks.json",
+      "bytes": 1775,
+      "sha256": "533022483098dd3abfbfa852d998a2c829c8a33d377644027f2f061cef0f2872"
+    },
+    {
+      "path": "composed-candidate-04/vm-hosts/replay.py",
+      "bytes": 5284,
+      "sha256": "04e0b7fe150bc796d0ab0f222ddc59fe1778eae97bfab3c67a3c1ae372aea35f"
+    },
+    {
+      "path": "composed-candidate-04/vm-hosts/verify.py",
+      "bytes": 2427,
+      "sha256": "0aca8e3cec84a33c99ab9dd410210b88e1d364c83cb09092f1cb08cd9035cee1"
+    },
+    {
+      "path": "composed-candidate-04/vm-hosts/observe.py",
+      "bytes": 2010,
+      "sha256": "7b4c5d455914dd0bf5b65fc54a211e8c11f1cb63504f16bf25d98f26c79feec9"
+    },
+    {
+      "path": "public-downloads/readback.json",
+      "bytes": 2233,
+      "sha256": "b352366e59693b025da95ffb0caf9d98e21230be8dd7869ad98881f7bbc7871a"
+    },
+    {
+      "path": "composed-candidate-04/signing-inputs/private-staging.json",
+      "bytes": 655,
+      "sha256": "82dd0fc4a48229db9538c4e4927b8f1652cd3d94ad9ad8f66ae51d1b6528ee65"
+    }
+  ]
+}

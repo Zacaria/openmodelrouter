@@ -1,0 +1,22 @@
+[
+  [
+    "/opt/hermes/browser-cli/bin/python3",
+    "-B",
+    "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/observe.py",
+    "serve",
+    "--config",
+    "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/recovery-normal-config.json",
+    "--port",
+    "38801"
+  ],
+  [
+    "/opt/hermes/browser-cli/bin/python3",
+    "-B",
+    "/home/operator/repos/open-model-router/omr.py",
+    "serve",
+    "--config",
+    "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/recovery-error-config.json",
+    "--port",
+    "41729"
+  ]
+]

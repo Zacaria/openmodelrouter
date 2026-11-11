@@ -1,0 +1,36 @@
+{
+  "source_root": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-stream-proof",
+  "files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 4388,
+      "sha256": "3a90c90ca0430b1b18cb6ae0b035e16e0376ce316af42dacffc5be030331e8ef"
+    },
+    {
+      "path": "observe.py",
+      "bytes": 6050,
+      "sha256": "9f99e3d6e0ea112e54772ad537c4a57942e96a374b4898997b94cef2519cfe5a"
+    },
+    {
+      "path": "proof.json",
+      "bytes": 910,
+      "sha256": "82be1d3577622caa48d1041e5ddeeb238b666e5173ae70348f51852f09b82ff6"
+    },
+    {
+      "path": "result.json",
+      "bytes": 167,
+      "sha256": "a5c6fa24e27218c520e977be04b9462ff662b574ad00a0ff53a63cfd33800499"
+    },
+    {
+      "path": "run.py",
+      "bytes": 3390,
+      "sha256": "2d990c7c19df1bf3eafdc9f208ad76b9688551ca67e8ba52939d655e29305a25"
+    }
+  ],
+  "limitations": [
+    "One synthetic request, no client-visible successful turn.",
+    "27 events classified as other without semantic qualification.",
+    "No server guarantee and no tool/result round trip established.",
+    "No raw upstream body or credential files preserved."
+  ]
+}

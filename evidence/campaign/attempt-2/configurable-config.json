@@ -1,0 +1,38 @@
+{
+  "routes": {
+    "direct": {
+      "url": "http://10.77.0.11:11434/v1",
+      "model": "omr-hermes-qwen3-4b:ctx8192",
+      "protocol": [
+        "chat",
+        "responses",
+        "anthropic"
+      ],
+      "effort": "none",
+      "forward_auth": false
+    },
+    "reasoning": {
+      "url": "http://10.77.0.11:11434/v1",
+      "model": "qwen3:4b",
+      "protocol": [
+        "chat",
+        "responses",
+        "anthropic"
+      ],
+      "forward_auth": false
+    }
+  },
+  "default_route": "direct",
+  "decision": {
+    "type": "command",
+    "command": [
+      "/home/operator/.hermes/tools/python-3.14.9+20261021-linux-x64/bin/python3",
+      "-I",
+      "/srv/omr-private/workspaces/open-model-router/runtime/native_jev_decision.py"
+    ],
+    "public_prompts": true,
+    "timeout_seconds": 10
+  },
+  "timeout_seconds": 60,
+  "receipts": "/srv/omr-private/workspaces/open-model-router/runtime/configurable-campaign-v2-receipts.jsonl"
+}

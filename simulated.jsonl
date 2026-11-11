@@ -1,0 +1,2 @@
+{"case":"demo-simple","split":"dev","family":"simple","arm":"default","success":true,"elapsed_ms":100,"usage":{"input":1000,"output":200},"rates":{"input":2,"output":10},"decision_cost":0,"retry_cost":0}
+{"case":"demo-simple","split":"dev","family":"simple","arm":"default","success":false,"elapsed_ms":300,"usage":{"input":1000,"output":200},"rates":{"input":2,"output":10},"decision_cost":0,"retry_cost":0}

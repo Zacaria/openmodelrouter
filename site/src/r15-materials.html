@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OMR Desktop 0.3.2 — sources du moteur ARM64</title>
+    <style>
+      code {
+        overflow-wrap: anywhere;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Sources du moteur macOS ARM64 · 0.3.2</h1>
+      <ol>
+        <li>
+          <a href="https://open-model-router-materials-3.vercel.app/"
+            >Télécharger le kit de base 0.3.0, ses dépendances et ses
+            licences</a
+          >.
+        </li>
+        <li>
+          <a href="/assets/materials/0.3.2/rebuild.tar" download
+            >Télécharger le complément 0.3.2</a
+          >.
+        </li>
+        <li>
+          Extraire le kit de base, puis le complément depuis le dossier
+          contenant <code>pi-ai-distribution/</code>. Le complément remplace les
+          fichiers de même nom et contient
+          <code>SOURCE-MANIFEST.json</code> avec leurs empreintes. Le fichier
+          <code>SOURCE-REFERENCE.json</code> répertorie les matériaux de source
+          du moteur, dont l’archive WebKit proposée avec le kit de base.
+        </li>
+      </ol>
+      <p>
+        Le fichier <code>bin/omr-pi</code> du kit de base appartient à la
+        version 0.3.0, pas à la version 0.3.2. Le manifeste du kit de base ne
+        décrit pas les fichiers remplacés par le complément.
+      </p>
+      <p>
+        SHA-256 du complément :
+        <code
+          >be5e73c9cfabf50d11ce3a8d2b9fdebf743344b5d4fc6d1a19de8668e3f51c6d</code
+        >.
+      </p>
+      <h2 lang="en">macOS ARM64 engine sources · 0.3.2</h2>
+      <p lang="en">
+        Download the 0.3.0 base kit and the 0.3.2 update above. Extract the
+        update from the directory containing <code>pi-ai-distribution/</code>;
+        it replaces files of the same name.
+        <code>SOURCE-MANIFEST.json</code> lists the updated files and their
+        checksums. <code>SOURCE-REFERENCE.json</code> lists the engine’s source
+        materials, including the WebKit archive offered with the base kit.
+      </p>
+      <p lang="en">
+        The base kit’s <code>bin/omr-pi</code> is from 0.3.0, not 0.3.2. Its
+        original manifest does not describe the files replaced by this update.
+      </p>
+      <p><a href="/">Open Model Router</a></p>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+test_independent_runs_and_failed_attempts (test_benchmark.BenchmarkTest.test_independent_runs_and_failed_attempts) ... ok
+test_aggregates_failures_and_value (test_compare.CompareTest.test_aggregates_failures_and_value) ... ok
+test_keeps_dev_and_validation_separate (test_compare.CompareTest.test_keeps_dev_and_validation_separate) ... ok
+test_rejects_missing_tariff_and_nan (test_compare.CompareTest.test_rejects_missing_tariff_and_nan) ... ok
+test_offline_cpu_generation_returns_observed_usage (test_local_generator.LocalGenerationTest.test_offline_cpu_generation_returns_observed_usage) ... skipped 'set OMR_GENERATOR_PYTHON and OMR_GENERATOR_WEIGHTS for real local inference'
+test_configurable_classifies_first_user_message_and_returns_generator_receipt (test_pilot_arm.PilotArmTest.test_configurable_classifies_first_user_message_and_returns_generator_receipt) ... ok
+test_child_does_not_inherit_secret_environment (test_router.RouterTest.test_child_does_not_inherit_secret_environment) ... ok
+test_child_failure_is_not_retried (test_router.RouterTest.test_child_failure_is_not_retried) ... ok
+test_configurable_cli_routes_end_to_end (test_router.RouterTest.test_configurable_cli_routes_end_to_end) ... ok
+test_configurable_decider_receives_only_first_prompt (test_router.RouterTest.test_configurable_decider_receives_only_first_prompt) ... ok
+test_executes_selected_route_and_uses_first_user_message (test_router.RouterTest.test_executes_selected_route_and_uses_first_user_message) ... ok
+test_invalid_score_never_executes_route (test_router.RouterTest.test_invalid_score_never_executes_route) ... ok
+test_authorized_messages_only_and_visible_model_effort (test_safe_router.SafetyTests.test_authorized_messages_only_and_visible_model_effort) ... ok
+test_configured_fallback_records_failure (test_safe_router.SafetyTests.test_configured_fallback_records_failure) ... ok
+test_no_fallback_when_not_authorized (test_safe_router.SafetyTests.test_no_fallback_when_not_authorized) ... ok
+test_unknown_context_rejected_before_decider (test_safe_router.SafetyTests.test_unknown_context_rejected_before_decider) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.351s
+
+OK (skipped=1)

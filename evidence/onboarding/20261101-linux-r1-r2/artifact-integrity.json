@@ -1,0 +1,34 @@
+{
+  "sidecar_sha256": "02511db18bd2749ce8e2a51f92b4fda602e2accf55ba0d61808e32684809e0d6",
+  "source_module_sha256": {
+    "desktop_sidecar.py": "397481301ce5a4357023c1cd18adfa45dbbf6fc1a7c4bc970aec8f55b6c3c5cb",
+    "desktop_engine.py": "9176e1814e29aac1a8b33f3dd053dbecad008fae97b155f08377660479b2c56a",
+    "desktop_managed.py": "a4219fe368abb3116a6dd47160d73e3efdf8af2465f6631efd49a9fa5b1f44e6",
+    "desktop_deciders.py": "5e82f20476a3a837b38a145f199c3cdd0d58fff1526a6ec3e3848c6e28045bbe",
+    "desktop_pi.py": "d122f33ac7f513e6f68124e9a00dd4c777553c8e0eaec407959bb65920e4cdb0",
+    "desktop_native.py": "1c5d6dca02f6b9c929a62f21aab52def906d46bd7c0812a86c8301aa8c757a43",
+    "jev_decider.py": "4d28c95d95c7d2910d983602fb7ecb15992d81c6bc476413ba272ab161f28034",
+    "omr.py": "57add81b5a7963c3eb9405dc3301d9b1205028127a63b685b1993c15e463feae"
+  },
+  "embedded_pi_sha256": {
+    "desktop/provider-runtime/omr-pi": "cba3d5ecec01ff282154f73dcecaa97eeaf26ce2658e7f0dd67e828d2cf4e55e",
+    "desktop/provider-runtime/pi_natives.linux-x64-baseline.node": "0139cc76bbbedaf92737f8ca4003899a0626532f63e6da66168a6c4dbb175d3f"
+  },
+  "weights_embedded": false,
+  "app_sha256": "45f50c4f57661d09b6cf0a7c7c3f0110f42a80c902a1b2755e7ca49b7f7136e5",
+  "frontend": {
+    "index.html": "ebaa3238e293c3955635bcbb8602904bdffad2034b5ddfdb5b566eca9f8477a0",
+    "brand/app-128.png": "0311054d3cc72126e3a2ea85003c0b047da32d7a446f2e06e585bf1c3eb137bd",
+    "assets/index-NkxJz9m8.js": "e5c7de92f11af036124b454b4614ed5a1047e54d27630a57fa417a6488c368dc",
+    "assets/index-DwtB5vp-.css": "0000b6ed557938e74bc375ef703e1165379dc878d5afa667e5afb68639551398"
+  },
+  "ignored_filenames_only": "co_filename is normalized; all other source code/line/exception metadata matches",
+  "build_python": "3.13.5",
+  "build_packages": {
+    "numpy": "2.5.4",
+    "tokenizers": "0.23.3",
+    "onnxruntime": "1.31.1",
+    "PyInstaller": "6.16.0",
+    "certifi": "2026.10.23"
+  }
+}

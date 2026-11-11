@@ -1,0 +1,7 @@
+{"type": "thread.started", "thread_id": "01a17bfa-c714-7441-b725-8857f27ee3ad"}
+{"type": "turn.started"}
+{"type": "item.completed", "item_type": "agent_message", "sentinel_seen": false}
+{"type": "item.started", "item_type": "command_execution", "status": "in_progress", "exit_code": null, "sentinel_seen": false}
+{"type": "item.completed", "item_type": "command_execution", "status": "completed", "exit_code": 0, "sentinel_seen": true}
+{"type": "item.completed", "item_type": "agent_message", "sentinel_seen": true}
+{"type": "turn.completed", "usage": {"input_tokens": 46150, "cached_input_tokens": 21760, "cache_write_input_tokens": 0, "output_tokens": 74, "reasoning_output_tokens": 0}}

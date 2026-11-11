@@ -1,0 +1,15 @@
+{
+  "frozen_at_utc": "2026-10-27T00:21:08.824315+00:00",
+  "files": {
+    "/srv/omr-private/workspaces/open-model-router/router-gateway/omr.py": "e361c704c7790578b979e3645f70f619f94a188c6e43063bc619c290b901b568",
+    "/srv/omr-private/workspaces/open-model-router/benchmark/benchmark_runner.py": "d9258897b243f75cb3e8efea0ba139367ba71c5458b0d7b28526a0b127975efe",
+    "/srv/omr-private/workspaces/open-model-router/host-adapters/jev_decider.py": "4d28c95d95c7d2910d983602fb7ecb15992d81c6bc476413ba272ab161f28034",
+    "/home/operator/repos/open-model-router/evidence/campaign/STUDY.md": "938a81c727bca42bb5b8119bacafdeb5e4865c14d379a37cb63757b7a57b4a66",
+    "/srv/omr-private/workspaces/open-model-router/runtime/default-campaign.json": "2b23660cbefd256e73b8a9a17e52e7ee15433e247fda9b5bf168cc72839f92ad",
+    "/srv/omr-private/workspaces/open-model-router/runtime/s1d1-campaign.json": "c825248e79760c25c9fad8b02e7803f5d54f1ec09dd1ae87ebde1b4d0905e498",
+    "/srv/omr-private/workspaces/open-model-router/runtime/configurable-campaign.json": "e1a30d0f93010ca4bc3272bc9472c5306dc11cb71061f6609cc6b08619f07db3"
+  },
+  "ollama_initial_state": {
+    "models": []
+  }
+}

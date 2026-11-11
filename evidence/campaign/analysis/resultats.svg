@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390" role="img" aria-labelledby="title desc">
+<title id="title">Résultats observés par bras</title><desc id="desc">Sur 20 parcours par bras, succès, évaluations négatives et erreurs distincts. Tentative 2 uniquement.</desc>
+<rect width="900" height="390" fill="#101827"/><g font-family="sans-serif" fill="#f0f4fa"><text x="35" y="43" font-size="22">Campagne figée — résultats par bras</text><text x="35" y="69" font-size="14">20 parcours par bras · dev + validation · aucun taux généralisable</text>
+<text x="35" y="130" font-size="17">default</text>
+<rect x="180" y="105" width="378" height="37" fill="#2a9d8f"/><text x="369.0" y="130" text-anchor="middle" font-size="15" fill="#101827">14</text>
+<rect x="558" y="105" width="108" height="37" fill="#e9a03b"/><text x="612.0" y="130" text-anchor="middle" font-size="15" fill="#101827">4</text>
+<rect x="666" y="105" width="54" height="37" fill="#d95757"/><text x="693.0" y="130" text-anchor="middle" font-size="15" fill="#101827">2</text>
+<text x="35" y="198" font-size="17">s1d1</text>
+<rect x="180" y="173" width="324" height="37" fill="#2a9d8f"/><text x="342.0" y="198" text-anchor="middle" font-size="15" fill="#101827">12</text>
+<rect x="504" y="173" width="216" height="37" fill="#e9a03b"/><text x="612.0" y="198" text-anchor="middle" font-size="15" fill="#101827">8</text>
+<text x="35" y="266" font-size="17">configurable</text>
+<rect x="180" y="241" width="378" height="37" fill="#2a9d8f"/><text x="369.0" y="266" text-anchor="middle" font-size="15" fill="#101827">14</text>
+<rect x="558" y="241" width="108" height="37" fill="#e9a03b"/><text x="612.0" y="266" text-anchor="middle" font-size="15" fill="#101827">4</text>
+<rect x="666" y="241" width="54" height="37" fill="#d95757"/><text x="693.0" y="266" text-anchor="middle" font-size="15" fill="#101827">2</text>
+<text x="35" y="335" font-size="15">Vert : pass     Orange : fail évalué     Rouge : erreur non évaluée</text><text x="35" y="360" font-size="13">Oracle borné ; données synthétiques ; aucune économie mesurée.</text></g></svg>

@@ -1,0 +1,2 @@
+6670df32c589ea6a3324eeff79dd10e45c9eaddb5d62f8526c7bf3e5e0b33a3b  /home/operator/repos/open-model-router/omr.py
+a4ef8463a484a4a5342707ea842da258535257975eb0e7c628c8e13de4175565  /home/operator/repos/open-model-router/host-adapters/launch.py

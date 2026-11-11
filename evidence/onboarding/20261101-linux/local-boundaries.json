@@ -1,0 +1,14 @@
+{
+  "oversize_refused_without_truncation": true,
+  "worker_survives_refusal": true,
+  "successful_retry_result": {
+    "required_quality": 1,
+    "reason": "task_requirement",
+    "score": 0.09088727831840515,
+    "usage": {
+      "input_tokens": 9,
+      "output_tokens": 0
+    }
+  },
+  "stopped": true
+}

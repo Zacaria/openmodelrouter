@@ -1,0 +1,18 @@
+2026-10-27T02:31:59+00:00
+API /api/ps
+{"models":[{"name":"omr-hermes-qwen3-4b:ctx8192","model":"omr-hermes-qwen3-4b:ctx8192","size":3877571133,"digest":"814d45e79cc776294ae4fafa9a7acd47cbe3e614d20b80ee83e4096fdf9e1782","details":{"parent_model":"","format":"gguf","family":"qwen3","families":["qwen3"],"parameter_size":"4.0B","quantization_level":"Q4_K_M"},"expires_at":"2026-10-27T03:32:47.6075099+01:00","size_vram":3877571133,"context_length":8192,"runner":"llamacpp"}]}
+GPU + compute apps
+4164, 16303, 0
+2544, C:\Windows\System32\dwm.exe, [N/A]
+2536, C:\Windows\System32\LogonUI.exe, [N/A]
+3472, C:\Users\operator\AppData\Local\Programs\Ollama\lib\ollama\llama-server.exe, [N/A]
+"ollama.exe","15268","Services","0","25ÿ868 Ko"
+
+source hashes
+ea79ee14a0f3085a479042eb0f5b7ab1848726104428c2ee3e24cff6065b15a4  snapshot/omr.py
+a4ef8463a484a4a5342707ea842da258535257975eb0e7c628c8e13de4175565  snapshot/host-adapters/launch.py
+omr.py: OK
+host-adapters/launch.py: OK
+host-adapters/test_launch.py: OK
+host-adapters/README.md: OK
+test_codex_native.py: OK

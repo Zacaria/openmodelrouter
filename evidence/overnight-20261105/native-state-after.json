@@ -1,0 +1,12 @@
+{
+  "providers_sha256_after": "090896996b9ed4efd60d900461a149f077502fd96876dd09446ab622cada475b",
+  "providers_unchanged": true,
+  "console_locked": true,
+  "native_codex": {
+    "path": "/opt/homebrew/Caskroom/codex/0.166.0/bin/codex",
+    "binary_sha256": "39acf979729dd290f9a24ee38b2914e036c91b65952872e28ae2a6b88a7db7c1",
+    "launched": false
+  },
+  "native_app_presented": false,
+  "old_agent_app_pid_alive": true
+}

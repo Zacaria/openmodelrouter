@@ -1,0 +1,21 @@
+{
+  "routes": {
+    "local": {
+      "url": "http://10.77.0.11:11434/v1",
+      "model": "omr-hermes-qwen3-4b:ctx8192",
+      "protocol": [
+        "chat",
+        "responses",
+        "anthropic"
+      ],
+      "effort": "none",
+      "forward_auth": false
+    }
+  },
+  "default_route": "local",
+  "decision": {
+    "type": "fixed"
+  },
+  "timeout_seconds": 120,
+  "receipts": "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/final-vm/observed/receipts.jsonl"
+}

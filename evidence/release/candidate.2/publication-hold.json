@@ -1,0 +1,16 @@
+{
+  "release_tag": "v0.1.0-candidate.2",
+  "source_commit": "7e25c6e7e6547fb9d3bf1f2f1d71602dd3950f3b",
+  "archive_sha256": "3a8ffe5f2557903cd3132f938c0df8a9a118772aa339b6f8ea17ad3637f8c02c",
+  "github_state_last_verified": "draft_prerelease_three_assets",
+  "downloaded_assets_match_local": true,
+  "downloaded_help_exit": 0,
+  "downloaded_core_suite": {"tests_run": 35, "errors": 1, "exit": 1},
+  "failing_test": "test_deadlines.DeadlineTests.test_no_headers_deadline_closes_backend_and_next_request_recovers",
+  "exception": "http.client.RemoteDisconnected",
+  "failure_log": "download-check-1.log",
+  "remaining_downloaded_checks": "Host-adapter and landing checks were not reached after the core-suite failure.",
+  "publication": "held; do not publish this draft based only on earlier passing certification",
+  "repair": "Bounded diagnosis and minimal regression repair delegated in existing router-gateway worktree; cause not yet established.",
+  "preservation": "Original signed tag, draft assets, downloaded source and failed output retained unchanged. No history rewrite or receipt relabeling."
+}

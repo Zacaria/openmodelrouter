@@ -1,0 +1,22 @@
+{
+  "private_repository": true,
+  "draft_release_id": 431721137,
+  "assets": [
+    {
+      "name": "input-chat-6b4d33b-aarch64-apple-darwin.dmg",
+      "id": 712264523,
+      "bytes": 147870996,
+      "sha256": "4dafd947d0b6c36b6a499d0aa7b337eabe65d2900fb621a02ea99989dd208666",
+      "github_digest_matches": true,
+      "redownload_verified": true
+    },
+    {
+      "name": "input-chat-6b4d33b-aarch64-apple-darwin.unsigned.preflight.json",
+      "id": 712264532,
+      "bytes": 1092,
+      "sha256": "416c120c6adbf0b77a0ac0d04ec164cbd31dba2d04149e0f8e579ff84beb904f",
+      "github_digest_matches": true,
+      "redownload_verified": true
+    }
+  ]
+}

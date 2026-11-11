@@ -1,0 +1,104 @@
+{
+  "passes": [
+    "empty state opens resumable onboarding",
+    "empty render performs zero upstream calls",
+    "onboarding can be skipped without a decider",
+    "respondent saved with Responses and pi-ai",
+    "OS vault stores only selected synthetic connection",
+    "saving and navigating perform no inference",
+    "interrupted first run automatically resumes the decider step",
+    "resume never repeats inference",
+    "explicit test step performs zero automatic inference",
+    "real gateway generation uses Responses through actual pi-ai",
+    "explicit decision test succeeds 10",
+    "URL mode uses real pi-ai Chat adapter",
+    "mode change revokes draft consent",
+    "explicit decision test succeeds 13",
+    "BYOK uses vault key once without retry",
+    "upstream refusal creates failed receipt without retry",
+    "explicit decision test succeeds 16",
+    "explicit decision test succeeds 17",
+    "Jev uses SystemOne and actual choice decoder",
+    "explicit decision test succeeds 19",
+    "Imajev synthetic protocol uses typed readout response, never chat",
+    "native cancellation leaves no partial checkpoint or live downloader",
+    "native frozen sidecar downloads and verifies full actual checkpoint",
+    "download does not start inference or send API prompts",
+    "frozen sidecar starts actual ONNX CPU decoder without user Python",
+    "explicit decision test succeeds 25",
+    "real local classification reports actual tokenizer count",
+    "managed decision routes to actual configured respondent 27",
+    "managed decision routes to actual configured respondent 28",
+    "native managed classifier is not constant",
+    "native frozen managed process tree is observable",
+    "explicit stop reaps managed process",
+    "stop reaps both bootloader and ONNX child",
+    "receipts never contain prompts or keys",
+    "config is persisted in isolated application data",
+    "configuration never stores key",
+    "restart restores exact useful configuration",
+    "existing valid configuration is not forced through onboarding",
+    "restart never auto-starts managed process",
+    "restart reloads synthetic key from OS vault",
+    "assistant can resume persisted choices"
+  ],
+  "native_binary_sha256": "45f50c4f57661d09b6cf0a7c7c3f0110f42a80c902a1b2755e7ca49b7f7136e5",
+  "api_calls": [
+    {
+      "path": "/v1/responses",
+      "model": "synthetic-responder",
+      "authenticated": true
+    },
+    {
+      "path": "/v1/chat/completions",
+      "model": "synthetic-decider",
+      "authenticated": true
+    },
+    {
+      "path": "/v1/chat/completions",
+      "model": "synthetic-decider",
+      "authenticated": true
+    },
+    {
+      "path": "/v1/chat/completions",
+      "model": "synthetic-decider",
+      "authenticated": true
+    },
+    {
+      "path": "/v1/chat/completions",
+      "model": "synthetic-decider",
+      "authenticated": true
+    },
+    {
+      "path": "/v1/systemone",
+      "model": "jev-1.13.0",
+      "authenticated": true
+    },
+    {
+      "path": "/v1/systemone",
+      "model": "imajev-2b",
+      "authenticated": true
+    },
+    {
+      "path": "/v1/responses",
+      "model": "synthetic-responder",
+      "authenticated": true
+    },
+    {
+      "path": "/v1/responses",
+      "model": "synthetic-responder",
+      "authenticated": true
+    }
+  ],
+  "managed_checkpoint": "s1d1-dac13b5",
+  "native_required_qualities": [
+    1,
+    2
+  ],
+  "real_providers": [],
+  "qualified_os": "Linux x86_64",
+  "unqualified_os": [
+    "macOS",
+    "Windows"
+  ]
+}

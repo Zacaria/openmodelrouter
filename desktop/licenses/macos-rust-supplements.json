@@ -1,0 +1,23 @@
+{
+  "file": "MacOS-Rust-Upstream-NOTICES.txt",
+  "sha256": "f1886a1b10d31d6a42a97f76095fefcbae2d443089f85220478f2bcad92a5f76",
+  "packages": [
+    ["alloc-stdlib", "0.3.0"],
+    ["block2", "0.6.2"],
+    ["dispatch2", "0.3.1"],
+    ["objc2", "0.6.5"],
+    ["objc2-app-kit", "0.3.2"],
+    ["objc2-core-foundation", "0.3.2"],
+    ["objc2-core-graphics", "0.3.2"],
+    ["objc2-encode", "4.1.0"],
+    ["objc2-exception-helper", "0.1.1"],
+    ["objc2-foundation", "0.3.2"],
+    ["objc2-io-surface", "0.3.2"],
+    ["objc2-quartz-core", "0.3.2"],
+    ["objc2-security", "0.3.2"],
+    ["objc2-service-management", "0.3.2"],
+    ["objc2-web-kit", "0.3.2"],
+    ["selectors", "0.38.0"],
+    ["tauri-plugin", "2.7.2"]
+  ]
+}

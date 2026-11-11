@@ -1,0 +1,29 @@
+{
+  "name": "initial",
+  "cmd": [
+    "/opt/hermes/browser-cli/bin/python",
+    "-B",
+    "host-adapters/launch.py",
+    "hermes",
+    "--port",
+    "42201",
+    "--session",
+    "864bb3bb-55f8-4636-8ddd-9cf04c3f1962",
+    "--project",
+    "/srv/omr-private/workspaces/open-model-router/vm-final-accept/hermes-cancel-replay/project",
+    "--run-timeout",
+    "180",
+    "--",
+    "--ignore-user-config",
+    "--reasoning",
+    "none",
+    "--format",
+    "stream-json",
+    "-q",
+    "Remember this exact synthetic code: blue-otter-73. Reply with the code."
+  ],
+  "exit": 0,
+  "session_ids": [
+    "local-84837aaeb4b38688678aa4d036182343d6d0218d310a020e67b98cfa76354c77"
+  ]
+}

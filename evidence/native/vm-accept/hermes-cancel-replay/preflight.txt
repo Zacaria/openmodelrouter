@@ -1,0 +1,17 @@
+2026-10-27T02:30:07+00:00
+API /api/ps
+{"models":[]}
+GPU + compute apps
+227, 16303, 0
+2544, C:\Windows\System32\dwm.exe, [N/A]
+2536, C:\Windows\System32\LogonUI.exe, [N/A]
+source hashes
+ea79ee14a0f3085a479042eb0f5b7ab1848726104428c2ee3e24cff6065b15a4  snapshot/omr.py
+a4ef8463a484a4a5342707ea842da258535257975eb0e7c628c8e13de4175565  snapshot/host-adapters/launch.py
+omr.py: OK
+host-adapters/launch.py: OK
+host-adapters/test_launch.py: OK
+host-adapters/README.md: OK
+test_codex_native.py: OK
+published core
+ea79ee14a0f3085a479042eb0f5b7ab1848726104428c2ee3e24cff6065b15a4  -

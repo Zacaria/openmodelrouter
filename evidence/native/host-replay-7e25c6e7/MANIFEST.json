@@ -1,0 +1,724 @@
+{
+  "schema": 1,
+  "copied_file_count": 79,
+  "by_destination_root": {
+    "vm-native-sse": 68,
+    "codex-validated/error-closure": 11
+  },
+  "generated_metadata": {
+    "RECONCILIATION.md": "0a5b022dac21ba2dfa79a4af2774d4d85fe0a8f7edfa95fc712da82222210c18"
+  },
+  "files": [
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/REPORT.md",
+      "destination": "vm-native-sse/REPORT.md",
+      "classification": "report",
+      "redaction": "none; exact copy",
+      "original_sha256": "26130232780dbe54f5120998d6a4b9821dfe84f2a809e8625ea8eb93e8691c9e",
+      "destination_sha256": "26130232780dbe54f5120998d6a4b9821dfe84f2a809e8625ea8eb93e8691c9e",
+      "bytes": 5013
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/after.txt",
+      "destination": "vm-native-sse/after.txt",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "aeaa84a6b4ca65630f32c4005cf447b31bfecf2914bfd719a120504acf00ca76",
+      "destination_sha256": "aeaa84a6b4ca65630f32c4005cf447b31bfecf2914bfd719a120504acf00ca76",
+      "bytes": 3350
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/checks.json",
+      "destination": "vm-native-sse/checks.json",
+      "classification": "verification",
+      "redaction": "none; exact copy",
+      "original_sha256": "54b524dd09bca0e96dc381602fc48ce85752acbfa226ebcc9880e99b24bcd349",
+      "destination_sha256": "54b524dd09bca0e96dc381602fc48ce85752acbfa226ebcc9880e99b24bcd349",
+      "bytes": 1729
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/checks.log",
+      "destination": "vm-native-sse/checks.log",
+      "classification": "verification",
+      "redaction": "none; exact copy",
+      "original_sha256": "54b524dd09bca0e96dc381602fc48ce85752acbfa226ebcc9880e99b24bcd349",
+      "destination_sha256": "54b524dd09bca0e96dc381602fc48ce85752acbfa226ebcc9880e99b24bcd349",
+      "bytes": 1729
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-after-cancel.err",
+      "destination": "vm-native-sse/claude-after-cancel.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "destination_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "bytes": 84
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-after-cancel.jsonl",
+      "destination": "vm-native-sse/claude-after-cancel.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "9cc0f3def4636b1e518a5183bd914bfc977e030e873c6af6288601d8550f6f22",
+      "destination_sha256": "9cc0f3def4636b1e518a5183bd914bfc977e030e873c6af6288601d8550f6f22",
+      "bytes": 12981
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-after-error.err",
+      "destination": "vm-native-sse/claude-after-error.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "destination_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "bytes": 84
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-after-error.jsonl",
+      "destination": "vm-native-sse/claude-after-error.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "e7e21ab079d9fb5c4f6151a9d9e31a624c8df84b620b3ca09478f4592778c8c1",
+      "destination_sha256": "e7e21ab079d9fb5c4f6151a9d9e31a624c8df84b620b3ca09478f4592778c8c1",
+      "bytes": 12978
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-cancel-retry-marker.json",
+      "destination": "vm-native-sse/claude-cancel-retry-marker.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "ecb9f8db31699ab1f8d8a6c37b7a9a9ca6ca340836ea9d7414fb8b72cfe9aadd",
+      "destination_sha256": "ecb9f8db31699ab1f8d8a6c37b7a9a9ca6ca340836ea9d7414fb8b72cfe9aadd",
+      "bytes": 401
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-cancel-retry.err",
+      "destination": "vm-native-sse/claude-cancel-retry.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "destination_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "bytes": 84
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-cancel-retry.jsonl",
+      "destination": "vm-native-sse/claude-cancel-retry.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "25f87b219e4e12e4ae7a17230ab4af34475aa95ad0d0e6427deea5adefdbbb96",
+      "destination_sha256": "25f87b219e4e12e4ae7a17230ab4af34475aa95ad0d0e6427deea5adefdbbb96",
+      "bytes": 5396
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-cancel.err",
+      "destination": "vm-native-sse/claude-cancel.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "destination_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "bytes": 84
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-cancel.jsonl",
+      "destination": "vm-native-sse/claude-cancel.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "320a5f39d9097f47b5aa0dfe004ffce28567acfa1d001f4e11ac9eacb4b157a4",
+      "destination_sha256": "320a5f39d9097f47b5aa0dfe004ffce28567acfa1d001f4e11ac9eacb4b157a4",
+      "bytes": 918531
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-error.err",
+      "destination": "vm-native-sse/claude-error.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "0d16e48e06b304bf29bcc8ab6880519838ff7324bfeb438a1371b95f4db23a21",
+      "destination_sha256": "0d16e48e06b304bf29bcc8ab6880519838ff7324bfeb438a1371b95f4db23a21",
+      "bytes": 311
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-error.jsonl",
+      "destination": "vm-native-sse/claude-error.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "87d418f0fe597cbc5c738f51a56a2c906dfc6deefcd30f5aeb1c4e0bfad7f1b2",
+      "destination_sha256": "87d418f0fe597cbc5c738f51a56a2c906dfc6deefcd30f5aeb1c4e0bfad7f1b2",
+      "bytes": 3738
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-recovery-retry.err",
+      "destination": "vm-native-sse/claude-recovery-retry.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "destination_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "bytes": 84
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-recovery-retry.jsonl",
+      "destination": "vm-native-sse/claude-recovery-retry.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "2bc45e95ba9437f720078f6203de125e40d553fa91aa55aeef6df1ff46d0a28a",
+      "destination_sha256": "2bc45e95ba9437f720078f6203de125e40d553fa91aa55aeef6df1ff46d0a28a",
+      "bytes": 12976
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-turn1.err",
+      "destination": "vm-native-sse/claude-turn1.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "destination_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "bytes": 84
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-turn1.jsonl",
+      "destination": "vm-native-sse/claude-turn1.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "c9e77a6748559458b92f13e4512690cdd822ee480bcd0bfbdb35a155113f675a",
+      "destination_sha256": "c9e77a6748559458b92f13e4512690cdd822ee480bcd0bfbdb35a155113f675a",
+      "bytes": 16294
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-turn2.err",
+      "destination": "vm-native-sse/claude-turn2.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "destination_sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "bytes": 84
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/claude-turn2.jsonl",
+      "destination": "vm-native-sse/claude-turn2.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "ab7398523edee68d9f84ba60123c4c13a8b4101a47c695ad8b9888fb69e18808",
+      "destination_sha256": "ab7398523edee68d9f84ba60123c4c13a8b4101a47c695ad8b9888fb69e18808",
+      "bytes": 12975
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/commands.jsonl",
+      "destination": "vm-native-sse/commands.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "209f7997e9d208719f980c347cc85a7456a92eb7caca42621767f6197335d2cc",
+      "destination_sha256": "209f7997e9d208719f980c347cc85a7456a92eb7caca42621767f6197335d2cc",
+      "bytes": 12287
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/error-config.json",
+      "destination": "vm-native-sse/error-config.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "990bfbf751fdd508137e3d2c94bd07efe95fb39e46cf12e21b6ff70450c8d786",
+      "destination_sha256": "990bfbf751fdd508137e3d2c94bd07efe95fb39e46cf12e21b6ff70450c8d786",
+      "bytes": 462
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/error-gateway.log",
+      "destination": "vm-native-sse/error-gateway.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "979426ee8ee86435d387487a2527bbe4697e96ea6aff176a0c2276a5d6c798cb",
+      "destination_sha256": "979426ee8ee86435d387487a2527bbe4697e96ea6aff176a0c2276a5d6c798cb",
+      "bytes": 6
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/error-receipts.jsonl",
+      "destination": "vm-native-sse/error-receipts.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "9533b49f7d2240f75127638ba904b46bc925e8d6d38efff41fffc405c6a5db2e",
+      "destination_sha256": "9533b49f7d2240f75127638ba904b46bc925e8d6d38efff41fffc405c6a5db2e",
+      "bytes": 4362
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/gateway-commands.json",
+      "destination": "vm-native-sse/gateway-commands.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7862bcff2b48341a3ee34ec1035c37dbb79088807d7dc54fd377404f522ae413",
+      "destination_sha256": "7862bcff2b48341a3ee34ec1035c37dbb79088807d7dc54fd377404f522ae413",
+      "bytes": 554
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-after-cancel.err",
+      "destination": "vm-native-sse/hermes-after-cancel.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "ca6016a22c0f03ae1277aed63ba2620ff5ecffacffc165351b2d7e3f77fc24a7",
+      "destination_sha256": "ca6016a22c0f03ae1277aed63ba2620ff5ecffacffc165351b2d7e3f77fc24a7",
+      "bytes": 193
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-after-cancel.jsonl",
+      "destination": "vm-native-sse/hermes-after-cancel.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "f4cb5d4699f023813d951795789008cdf9c8f70e0330bc3f1a6239371dc5a264",
+      "destination_sha256": "f4cb5d4699f023813d951795789008cdf9c8f70e0330bc3f1a6239371dc5a264",
+      "bytes": 5909
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-after-error.err",
+      "destination": "vm-native-sse/hermes-after-error.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "ca6016a22c0f03ae1277aed63ba2620ff5ecffacffc165351b2d7e3f77fc24a7",
+      "destination_sha256": "ca6016a22c0f03ae1277aed63ba2620ff5ecffacffc165351b2d7e3f77fc24a7",
+      "bytes": 193
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-after-error.jsonl",
+      "destination": "vm-native-sse/hermes-after-error.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "cd73744f0f4d5ef14ec56d755e11183701afb24c1b3fe5c86035b5a51d5a5480",
+      "destination_sha256": "cd73744f0f4d5ef14ec56d755e11183701afb24c1b3fe5c86035b5a51d5a5480",
+      "bytes": 1375
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-cancel-marker.json",
+      "destination": "vm-native-sse/hermes-cancel-marker.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "e02fe76a3737aac8e1a4e3c1226d5bd5edb40ce0569afce32211e287dd672e9b",
+      "destination_sha256": "e02fe76a3737aac8e1a4e3c1226d5bd5edb40ce0569afce32211e287dd672e9b",
+      "bytes": 401
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-cancel.err",
+      "destination": "vm-native-sse/hermes-cancel.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "21f4fd38372f225d1f683fb3c3c82bbef8c2000539fc955288c031b530b7b153",
+      "destination_sha256": "21f4fd38372f225d1f683fb3c3c82bbef8c2000539fc955288c031b530b7b153",
+      "bytes": 243
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-cancel.jsonl",
+      "destination": "vm-native-sse/hermes-cancel.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "47bcc026c16218cd26e81b3f70a8d374b8bb9dbe4c272f33d046051606d7666b",
+      "destination_sha256": "47bcc026c16218cd26e81b3f70a8d374b8bb9dbe4c272f33d046051606d7666b",
+      "bytes": 3074
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-error.err",
+      "destination": "vm-native-sse/hermes-error.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "2cbcf961ee8c278ad2e097ea8463c3147e17a86b00fb26a05ca92d7c709eda5d",
+      "destination_sha256": "2cbcf961ee8c278ad2e097ea8463c3147e17a86b00fb26a05ca92d7c709eda5d",
+      "bytes": 278
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-error.jsonl",
+      "destination": "vm-native-sse/hermes-error.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "8484b854462383c4f4310f7c1eba73ea7c6fb0833329e30cea8582544d299cd8",
+      "destination_sha256": "8484b854462383c4f4310f7c1eba73ea7c6fb0833329e30cea8582544d299cd8",
+      "bytes": 114
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-recovery-specific.err",
+      "destination": "vm-native-sse/hermes-recovery-specific.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "ca6016a22c0f03ae1277aed63ba2620ff5ecffacffc165351b2d7e3f77fc24a7",
+      "destination_sha256": "ca6016a22c0f03ae1277aed63ba2620ff5ecffacffc165351b2d7e3f77fc24a7",
+      "bytes": 193
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-recovery-specific.jsonl",
+      "destination": "vm-native-sse/hermes-recovery-specific.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "98eda7106a2758eee84af28a4d3c0c79d3c0754c2f3c19f2bfd10061f7995700",
+      "destination_sha256": "98eda7106a2758eee84af28a4d3c0c79d3c0754c2f3c19f2bfd10061f7995700",
+      "bytes": 1374
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-turn1.err",
+      "destination": "vm-native-sse/hermes-turn1.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "74a91054820cf75b6426e7a96d5b15764071678f7cdb23215b65cf975b7348cb",
+      "destination_sha256": "74a91054820cf75b6426e7a96d5b15764071678f7cdb23215b65cf975b7348cb",
+      "bytes": 497
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-turn1.jsonl",
+      "destination": "vm-native-sse/hermes-turn1.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "5f8160a0cbd9c73d03e143c426e088ed01a78abc46a811dba8c516c7bc5ecd89",
+      "destination_sha256": "5f8160a0cbd9c73d03e143c426e088ed01a78abc46a811dba8c516c7bc5ecd89",
+      "bytes": 2013
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-turn2.err",
+      "destination": "vm-native-sse/hermes-turn2.err",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "ca6016a22c0f03ae1277aed63ba2620ff5ecffacffc165351b2d7e3f77fc24a7",
+      "destination_sha256": "ca6016a22c0f03ae1277aed63ba2620ff5ecffacffc165351b2d7e3f77fc24a7",
+      "bytes": 193
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/hermes-turn2.jsonl",
+      "destination": "vm-native-sse/hermes-turn2.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "fd176d7e29f8fcc90ce097fab16fac6b213bb80bc613c0e37da402102800505c",
+      "destination_sha256": "fd176d7e29f8fcc90ce097fab16fac6b213bb80bc613c0e37da402102800505c",
+      "bytes": 1374
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/normal-config.json",
+      "destination": "vm-native-sse/normal-config.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "02dc2265d4931da94ae11858421a53637b3da953676a30366c35f42cb10fbf92",
+      "destination_sha256": "02dc2265d4931da94ae11858421a53637b3da953676a30366c35f42cb10fbf92",
+      "bytes": 464
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/normal-gateway.log",
+      "destination": "vm-native-sse/normal-gateway.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "95487d5fe5698fa491e0c195d24a7d429168b42099ce1dec03a2e9dccfddc8b1",
+      "destination_sha256": "95487d5fe5698fa491e0c195d24a7d429168b42099ce1dec03a2e9dccfddc8b1",
+      "bytes": 6
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/observe.py",
+      "destination": "vm-native-sse/observe.py",
+      "classification": "historical-operator",
+      "redaction": "none; exact copy",
+      "original_sha256": "28c79533a5175c26cdb8ff002d74843fb837af73ea1308a13d01761307b05a21",
+      "destination_sha256": "28c79533a5175c26cdb8ff002d74843fb837af73ea1308a13d01761307b05a21",
+      "bytes": 1986
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/preflight.txt",
+      "destination": "vm-native-sse/preflight.txt",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "c8f3b7ea58c4031dedfc4a197ddb249226216984884bc3552cfd5ff0c6578c67",
+      "destination_sha256": "c8f3b7ea58c4031dedfc4a197ddb249226216984884bc3552cfd5ff0c6578c67",
+      "bytes": 636
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/project/claude/fixture.txt",
+      "destination": "vm-native-sse/project/claude/fixture.txt",
+      "classification": "synthetic-fixture",
+      "redaction": "none; exact copy",
+      "original_sha256": "785f889adfbac9563213bbe1770315946333fde58a74d678bea98f1aefcd9188",
+      "destination_sha256": "785f889adfbac9563213bbe1770315946333fde58a74d678bea98f1aefcd9188",
+      "bytes": 36
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/project/hermes/fixture.txt",
+      "destination": "vm-native-sse/project/hermes/fixture.txt",
+      "classification": "synthetic-fixture",
+      "redaction": "none; exact copy",
+      "original_sha256": "785f889adfbac9563213bbe1770315946333fde58a74d678bea98f1aefcd9188",
+      "destination_sha256": "785f889adfbac9563213bbe1770315946333fde58a74d678bea98f1aefcd9188",
+      "bytes": 36
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/project/hermes/objects.txt",
+      "destination": "vm-native-sse/project/hermes/objects.txt",
+      "classification": "synthetic-fixture",
+      "redaction": "none; exact copy",
+      "original_sha256": "0a02567ffb8af9fdce80af4e276ae0ffd1c1b0655ccf45d76b36e83766ec1183",
+      "destination_sha256": "0a02567ffb8af9fdce80af4e276ae0ffd1c1b0655ccf45d76b36e83766ec1183",
+      "bytes": 1491
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/receipts.jsonl",
+      "destination": "vm-native-sse/receipts.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "f0268526e1c5588c823a431ce899fed354099be8d0dbe3ebb9f1d4de09860c34",
+      "destination_sha256": "f0268526e1c5588c823a431ce899fed354099be8d0dbe3ebb9f1d4de09860c34",
+      "bytes": 9882
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/recovery-error-config.json",
+      "destination": "vm-native-sse/recovery-error-config.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "4177a42735e6e473f14599ff4a7824cd26014a6c4eeb306aa990f99f844c9e94",
+      "destination_sha256": "4177a42735e6e473f14599ff4a7824cd26014a6c4eeb306aa990f99f844c9e94",
+      "bytes": 471
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/recovery-error-gateway.log",
+      "destination": "vm-native-sse/recovery-error-gateway.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "c3533289ac9596772003ceeb7141c9ac46573328a537bb1f06bdf1d693be906a",
+      "destination_sha256": "c3533289ac9596772003ceeb7141c9ac46573328a537bb1f06bdf1d693be906a",
+      "bytes": 6
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/recovery-gateway-commands.json",
+      "destination": "vm-native-sse/recovery-gateway-commands.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "0c8fd10f95d650f34e15fb1abb0ab10ce6be22664524e61eee1b3b53f2f25de3",
+      "destination_sha256": "0c8fd10f95d650f34e15fb1abb0ab10ce6be22664524e61eee1b3b53f2f25de3",
+      "bytes": 572
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/recovery-hermes.py",
+      "destination": "vm-native-sse/recovery-hermes.py",
+      "classification": "historical-operator",
+      "redaction": "none; exact copy",
+      "original_sha256": "0af3e3105dbbff2018fdaccde122f5c8ddae98dc9b146f1281f2467799351e8a",
+      "destination_sha256": "0af3e3105dbbff2018fdaccde122f5c8ddae98dc9b146f1281f2467799351e8a",
+      "bytes": 4432
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/recovery-normal-config.json",
+      "destination": "vm-native-sse/recovery-normal-config.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "772f4de0403fbe473e6c10f20a21ab36bd4484cae09c483e55fab1d91c87d677",
+      "destination_sha256": "772f4de0403fbe473e6c10f20a21ab36bd4484cae09c483e55fab1d91c87d677",
+      "bytes": 473
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/recovery-normal-gateway.log",
+      "destination": "vm-native-sse/recovery-normal-gateway.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "d64cc48a0237cc6000b2ae25b88e312de7b63830f651d88d900e0dc98598717e",
+      "destination_sha256": "d64cc48a0237cc6000b2ae25b88e312de7b63830f651d88d900e0dc98598717e",
+      "bytes": 6
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/recovery-receipts.jsonl",
+      "destination": "vm-native-sse/recovery-receipts.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "9c89b8e7103bfd663e21e471df0800df30f920517f883d1e28a2734e036f3d75",
+      "destination_sha256": "9c89b8e7103bfd663e21e471df0800df30f920517f883d1e28a2734e036f3d75",
+      "bytes": 891
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/recovery.log",
+      "destination": "vm-native-sse/recovery.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "42694d32d72d8e4e09b2db0d7e33a1bd721e7cd98c924fa0c94bc9176db51d70",
+      "destination_sha256": "42694d32d72d8e4e09b2db0d7e33a1bd721e7cd98c924fa0c94bc9176db51d70",
+      "bytes": 810
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/replay.log",
+      "destination": "vm-native-sse/replay.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "6468dca2c721cda8f43bf090a81713751b7891a3372654e780eb2daa077f7d79",
+      "destination_sha256": "6468dca2c721cda8f43bf090a81713751b7891a3372654e780eb2daa077f7d79",
+      "bytes": 9591
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/replay.py",
+      "destination": "vm-native-sse/replay.py",
+      "classification": "historical-operator",
+      "redaction": "none; exact copy",
+      "original_sha256": "df15958524bb2cd89cfd95bc7be1017f649c04069abfea063374103b6bd5004f",
+      "destination_sha256": "df15958524bb2cd89cfd95bc7be1017f649c04069abfea063374103b6bd5004f",
+      "bytes": 5228
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/retry-claude.py",
+      "destination": "vm-native-sse/retry-claude.py",
+      "classification": "historical-operator",
+      "redaction": "none; exact copy",
+      "original_sha256": "d93817a5af2d31d73648f1d85cf5b02ccd1aad060f9ba6c11549b623d89b2a68",
+      "destination_sha256": "d93817a5af2d31d73648f1d85cf5b02ccd1aad060f9ba6c11549b623d89b2a68",
+      "bytes": 4631
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/retry-error-config.json",
+      "destination": "vm-native-sse/retry-error-config.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "6412b71799ab90745ba264f04490db6768d75685797c54e5144ceaf332c905c0",
+      "destination_sha256": "6412b71799ab90745ba264f04490db6768d75685797c54e5144ceaf332c905c0",
+      "bytes": 468
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/retry-error-gateway.log",
+      "destination": "vm-native-sse/retry-error-gateway.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7594db99fce7dc9685ac6064a7f0e18bdc15ce528283970764b7784c21e35c23",
+      "destination_sha256": "7594db99fce7dc9685ac6064a7f0e18bdc15ce528283970764b7784c21e35c23",
+      "bytes": 6
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/retry-gateway-commands.json",
+      "destination": "vm-native-sse/retry-gateway-commands.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "5af14eb0f920119aeb05e0de3ed4af428ece6bce29f9e6f95745a3826ce395e4",
+      "destination_sha256": "5af14eb0f920119aeb05e0de3ed4af428ece6bce29f9e6f95745a3826ce395e4",
+      "bytes": 566
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/retry-normal-config.json",
+      "destination": "vm-native-sse/retry-normal-config.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "89542752796191a95d256b7a5e1ac75397eea3de7069aa867931a6694096574f",
+      "destination_sha256": "89542752796191a95d256b7a5e1ac75397eea3de7069aa867931a6694096574f",
+      "bytes": 470
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/retry-normal-gateway.log",
+      "destination": "vm-native-sse/retry-normal-gateway.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "84b5de884245ea469fc244529aba62fe115dbc46c6c7f3dba83ffc011a5858ab",
+      "destination_sha256": "84b5de884245ea469fc244529aba62fe115dbc46c6c7f3dba83ffc011a5858ab",
+      "bytes": 6
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/retry-receipts.jsonl",
+      "destination": "vm-native-sse/retry-receipts.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "dad9bfd63a4959b7f63edbb316724b3a44e247d8a553ffe8df365f1e9f6323c8",
+      "destination_sha256": "dad9bfd63a4959b7f63edbb316724b3a44e247d8a553ffe8df365f1e9f6323c8",
+      "bytes": 967
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/retry.log",
+      "destination": "vm-native-sse/retry.log",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "efbc85c7d23e83bace67159fa747995703aef1d113abdafdef2b5cb3e11374f0",
+      "destination_sha256": "efbc85c7d23e83bace67159fa747995703aef1d113abdafdef2b5cb3e11374f0",
+      "bytes": 1886
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/vm-native-sse-accept/verify.py",
+      "destination": "vm-native-sse/verify.py",
+      "classification": "verification",
+      "redaction": "none; exact copy",
+      "original_sha256": "20555a8c0aa4156ed301d75b7bba608df4b778a57059b5eba778a6241375ecbd",
+      "destination_sha256": "20555a8c0aa4156ed301d75b7bba608df4b778a57059b5eba778a6241375ecbd",
+      "bytes": 2572
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/error-closure/REPORT.md",
+      "destination": "codex-validated/error-closure/REPORT.md",
+      "classification": "report",
+      "redaction": "none; exact copy",
+      "original_sha256": "3a1d86c8d7bf128e7109f998e2ab99d264327b37d68a15faaac2b8d50cee4b6e",
+      "destination_sha256": "3a1d86c8d7bf128e7109f998e2ab99d264327b37d68a15faaac2b8d50cee4b6e",
+      "bytes": 5950
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/error-closure/closure.py",
+      "destination": "codex-validated/error-closure/closure.py",
+      "classification": "historical-operator",
+      "redaction": "none; exact copy",
+      "original_sha256": "345eb5be6540587bdf233d9cb9182bd073f5e1aceb89db7fd8ffd0f8aeed9dfa",
+      "destination_sha256": "345eb5be6540587bdf233d9cb9182bd073f5e1aceb89db7fd8ffd0f8aeed9dfa",
+      "bytes": 6363
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/error-closure/error-events.jsonl",
+      "destination": "codex-validated/error-closure/error-events.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "00581cb9dd0e00b03addb8fea9c6a7c6468693e6a95c85fd6ac2f0404c1c56e9",
+      "destination_sha256": "00581cb9dd0e00b03addb8fea9c6a7c6468693e6a95c85fd6ac2f0404c1c56e9",
+      "bytes": 147
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/error-closure/local-reject.jsonl",
+      "destination": "codex-validated/error-closure/local-reject.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "65a2ceb0cd6f583268f04173eb0d5ccf0bf92e2a364766369b5f8740ebf67e06",
+      "destination_sha256": "65a2ceb0cd6f583268f04173eb0d5ccf0bf92e2a364766369b5f8740ebf67e06",
+      "bytes": 714
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/error-closure/offline-results.txt",
+      "destination": "codex-validated/error-closure/offline-results.txt",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "086bbdd27de74512d974ecf67654005ce67805342ac63925ccfc150670540588",
+      "destination_sha256": "086bbdd27de74512d974ecf67654005ce67805342ac63925ccfc150670540588",
+      "bytes": 201
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/error-closure/prior-offline-results.txt",
+      "destination": "codex-validated/error-closure/prior-offline-results.txt",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "dc7842912e853f6e49c4bc72fcc3a34d9db6639b2e2483177f5c42c4609cbfbb",
+      "destination_sha256": "dc7842912e853f6e49c4bc72fcc3a34d9db6639b2e2483177f5c42c4609cbfbb",
+      "bytes": 287
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/error-closure/recovery-events.jsonl",
+      "destination": "codex-validated/error-closure/recovery-events.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7f0972529973562872232d09a97e496361706d4dd5ca37faf10422dd0793cf2f",
+      "destination_sha256": "7f0972529973562872232d09a97e496361706d4dd5ca37faf10422dd0793cf2f",
+      "bytes": 337
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/error-closure/repro.py",
+      "destination": "codex-validated/error-closure/repro.py",
+      "classification": "historical-operator",
+      "redaction": "none; exact copy",
+      "original_sha256": "16220fd12d15698ef33057fbb084215295dd8f9138c4fbdb7544403d606b1887",
+      "destination_sha256": "16220fd12d15698ef33057fbb084215295dd8f9138c4fbdb7544403d606b1887",
+      "bytes": 4055
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/error-closure/result.json",
+      "destination": "codex-validated/error-closure/result.json",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "7fb181c9bb5dd13228e9750e648175499c053bfba3e296b3c4836a2a026bf489",
+      "destination_sha256": "7fb181c9bb5dd13228e9750e648175499c053bfba3e296b3c4836a2a026bf489",
+      "bytes": 2670
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/error-closure/terminal.jsonl",
+      "destination": "codex-validated/error-closure/terminal.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "eb39c9e21bd233813c8e7836f7e358498927e6dda85ce130235c41ed43ab6aa4",
+      "destination_sha256": "eb39c9e21bd233813c8e7836f7e358498927e6dda85ce130235c41ed43ab6aa4",
+      "bytes": 62
+    },
+    {
+      "original": "/srv/omr-private/workspaces/open-model-router/mac-native-codex/full-host-proof/error-closure/upstream-count.jsonl",
+      "destination": "codex-validated/error-closure/upstream-count.jsonl",
+      "classification": "historical-evidence",
+      "redaction": "none; exact copy",
+      "original_sha256": "97271cb37896c477eba597a7020f101e0e90c96c59ee263e80885b4a2aef768a",
+      "destination_sha256": "97271cb37896c477eba597a7020f101e0e90c96c59ee263e80885b4a2aef768a",
+      "bytes": 26
+    }
+  ]
+}

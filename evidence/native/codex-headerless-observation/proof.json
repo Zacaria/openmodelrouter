@@ -1,0 +1,35 @@
+{
+  "body_forwarded_to_client": false,
+  "bytes": 139489,
+  "capture": "eof",
+  "clientrejected_by_unchanged_guard": true,
+  "complete_sse": true,
+  "content_encoding_absent": true,
+  "content_type_absent": true,
+  "direct_original_https": true,
+  "endpoint_pinned": true,
+  "event_counts": {
+    "other": 27,
+    "response.completed": 1,
+    "response.content_part.added": 1,
+    "response.content_part.done": 1,
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 2,
+    "response.output_item.done": 2,
+    "response.output_text.delta": 14,
+    "response.output_text.done": 1
+  },
+  "first_event": "response.created",
+  "json_valid": true,
+  "model_equal_config": true,
+  "redirect_followed": false,
+  "status": 200,
+  "terminal": "response.completed",
+  "tool_calls": 0,
+  "usage": {
+    "input_tokens": 23032,
+    "output_tokens": 56,
+    "total_tokens": 23088
+  }
+}

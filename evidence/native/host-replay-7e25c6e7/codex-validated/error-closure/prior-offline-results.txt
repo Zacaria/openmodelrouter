@@ -1,0 +1,1 @@
+05:24:00 result   | terminal ok 0.9s: {"output": "after: terminal_delivered=True status=cancelled\nbefore: terminal_delivered=False status=cancelled\neof: terminal_delivered=True status=completed\ntruncated: terminal_delivered=True status=upstream_error", "exit_code": 0, "error": null}

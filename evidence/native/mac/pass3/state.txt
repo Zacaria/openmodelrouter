@@ -1,0 +1,39 @@
+owned server 95872
+guard 2026-10-27T01:46:06+0100 37 974766867 vm.swapusage: total = 21504.00M  used = 19988.94M  free = 1515.06M  (encrypted)
+guard 2026-10-27T01:46:11+0100 37 974766867 vm.swapusage: total = 21504.00M  used = 19988.94M  free = 1515.06M  (encrypted)
+guard 2026-10-27T01:46:16+0100 39 974766867 vm.swapusage: total = 21504.00M  used = 19988.94M  free = 1515.06M  (encrypted)
+guard 2026-10-27T01:46:21+0100 39 974766867 vm.swapusage: total = 21504.00M  used = 19988.94M  free = 1515.06M  (encrypted)
+guard 2026-10-27T01:46:26+0100 38 974766867 vm.swapusage: total = 21504.00M  used = 19988.94M  free = 1515.06M  (encrypted)
+pull exit 0
+guard 2026-10-27T01:46:31+0100 34 974766867 vm.swapusage: total = 21504.00M  used = 19988.94M  free = 1515.06M  (encrypted)
+chat {"model":"qwen3:1.7b","created_at":"2026-10-27T00:46:33.483872Z","message":{"role":"assistant","content":""},"done":true,"done_reason":"stop","total_duration":2228771209,"load_duration":1542615750,"prompt_eval_count":145,"prompt_eval_cached_count":0,"prompt_eval_duration":306287000,"eval_count":34,"eval_duration":375155000}
+server exit 0
+STATE
+System-wide memory free percentage: 42%
+vm.swapusage: total = 21504.00M  used = 21146.81M  free = 357.19M  (encrypted)
+Pageouts:                              37573633.
+Swapouts:                             974840971.
+MODELS
+1.3G	models
+models/blobs/sha256-cff3f395ef3756ab63e58b0ad1b32bb6f802905cae1472e6a12034e4246fbbdb
+models/blobs/sha256-3d0b790534fe4b79525fc3692950408dca41171676ed7e21db57af5c65ef6ab6
+models/blobs/sha256-517ccaff02fe9f99718ab2f478e611aa2813c36263eeed86c2427bc122d14ad8
+models/blobs/sha256-8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7
+models/blobs/sha256-d18a5cc71b84bc4af394a31116bd3932b42241de70c77d2b76d69a314ec8aa12
+models/blobs/sha256-ae370d884f108d16e7cc8fd5259ebc5773a0afa6e078b11f4ed7e39a27e0dfc4
+models/metadata/sha256-3d0b790534fe4b79525fc3692950408dca41171676ed7e21db57af5c65ef6ab6.json
+MANIFEST
+0f45bae8cd2fec097cf09b400b078cf42388a1f5702f4058d2d6d641a09db46d  models/manifests/registry.ollama.ai/library/qwen3/1.7b
+VERSION
+Warning: could not connect to a running Ollama instance
+Warning: client version is 0.40.11
+codex-cli 0.162.1
+omp/18.13.0
+8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7  models/blobs/sha256-8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7
+     859 models/blobs/sha256-8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7
+True
+System-wide memory free percentage: 44%
+vm.swapusage: total = 21504.00M  used = 21146.81M  free = 357.19M  (encrypted)
+Pageouts:                              37573667.
+Swapouts:                             974840971.
+3d0b790534fe4b79525fc3692950408dca41171676ed7e21db57af5c65ef6ab6  models/blobs/sha256-3d0b790534fe4b79525fc3692950408dca41171676ed7e21db57af5c65ef6ab6

@@ -1,0 +1,322 @@
+{
+  "sha256": "6670df32c589ea6a3324eeff79dd10e45c9eaddb5d62f8526c7bf3e5e0b33a3b",
+  "tree": "f6d12bc5532ca1a132edcaf009f0cf73c21f750a",
+  "gateway_session": "edddf210-ca78-4b1d-b694-b41af9c2bc7f",
+  "turns": [
+    {
+      "label": "first",
+      "returncode": 0,
+      "reason": "exit",
+      "thread_id": "01a17bfa-c714-7441-b725-8857f27ee3ad",
+      "events": [
+        {
+          "type": "thread.started",
+          "thread_id": "01a17bfa-c714-7441-b725-8857f27ee3ad"
+        },
+        {
+          "type": "turn.started"
+        },
+        {
+          "type": "item.completed",
+          "item_type": "agent_message",
+          "sentinel_seen": false
+        },
+        {
+          "type": "item.started",
+          "item_type": "command_execution",
+          "status": "in_progress",
+          "exit_code": null,
+          "sentinel_seen": false
+        },
+        {
+          "type": "item.completed",
+          "item_type": "command_execution",
+          "status": "completed",
+          "exit_code": 0,
+          "sentinel_seen": true
+        },
+        {
+          "type": "item.completed",
+          "item_type": "agent_message",
+          "sentinel_seen": true
+        },
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 46150,
+            "cached_input_tokens": 21760,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 74,
+            "reasoning_output_tokens": 0
+          }
+        }
+      ],
+      "error_categories": [],
+      "stderr_bytes": 39,
+      "group_absent": true
+    },
+    {
+      "label": "resume",
+      "returncode": 0,
+      "reason": "exit",
+      "thread_id": "01a17bfa-c714-7441-b725-8857f27ee3ad",
+      "events": [
+        {
+          "type": "thread.started",
+          "thread_id": "01a17bfa-c714-7441-b725-8857f27ee3ad"
+        },
+        {
+          "type": "turn.started"
+        },
+        {
+          "type": "item.completed",
+          "item_type": "agent_message",
+          "sentinel_seen": true
+        },
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 76479,
+            "cached_input_tokens": 21760,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 92,
+            "reasoning_output_tokens": 0
+          }
+        }
+      ],
+      "error_categories": [],
+      "stderr_bytes": 0,
+      "group_absent": true
+    },
+    {
+      "label": "invalid-session",
+      "returncode": 1,
+      "reason": "exit",
+      "thread_id": "01a17bfa-c714-7441-b725-8857f27ee3ad",
+      "events": [
+        {
+          "type": "thread.started",
+          "thread_id": "01a17bfa-c714-7441-b725-8857f27ee3ad"
+        },
+        {
+          "type": "turn.started"
+        },
+        {
+          "type": "error"
+        },
+        {
+          "type": "turn.failed"
+        }
+      ],
+      "error_categories": [],
+      "stderr_bytes": 0,
+      "group_absent": true
+    },
+    {
+      "label": "error-recovery",
+      "returncode": 0,
+      "reason": "exit",
+      "thread_id": "01a17bfa-c714-7441-b725-8857f27ee3ad",
+      "events": [
+        {
+          "type": "thread.started",
+          "thread_id": "01a17bfa-c714-7441-b725-8857f27ee3ad"
+        },
+        {
+          "type": "turn.started"
+        },
+        {
+          "type": "item.completed",
+          "item_type": "agent_message",
+          "sentinel_seen": false
+        },
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 115851,
+            "cached_input_tokens": 21760,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 99,
+            "reasoning_output_tokens": 0
+          }
+        }
+      ],
+      "error_categories": [],
+      "stderr_bytes": 0,
+      "group_absent": true
+    },
+    {
+      "label": "interrupt",
+      "returncode": 1,
+      "reason": "exit",
+      "thread_id": "01a17bfa-c714-7441-b725-8857f27ee3ad",
+      "events": [
+        {
+          "type": "thread.started",
+          "thread_id": "01a17bfa-c714-7441-b725-8857f27ee3ad"
+        },
+        {
+          "type": "turn.started"
+        }
+      ],
+      "error_categories": [],
+      "stderr_bytes": 0,
+      "group_absent": true
+    },
+    {
+      "label": "interrupt-recovery",
+      "returncode": 0,
+      "reason": "exit",
+      "thread_id": "01a17bfa-c714-7441-b725-8857f27ee3ad",
+      "events": [
+        {
+          "type": "thread.started",
+          "thread_id": "01a17bfa-c714-7441-b725-8857f27ee3ad"
+        },
+        {
+          "type": "turn.started"
+        },
+        {
+          "type": "item.completed",
+          "item_type": "agent_message",
+          "sentinel_seen": false
+        },
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 162480,
+            "cached_input_tokens": 21760,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 106,
+            "reasoning_output_tokens": 0
+          }
+        }
+      ],
+      "error_categories": [],
+      "stderr_bytes": 0,
+      "group_absent": true
+    }
+  ],
+  "invalid_generation_delta": 0,
+  "owned_groups_absent": true,
+  "receipts": [
+    {
+      "model_requested": "gpt-6.1-terra",
+      "model_observed": "gpt-6.1-terra",
+      "effort_transmitted": "low",
+      "status": "cancelled",
+      "route": "native",
+      "usage": {
+        "input_tokens": 23029,
+        "output_tokens": 56,
+        "total_tokens": 23085,
+        "input_tokens_details": {
+          "cached_tokens": 21760,
+          "cache_write_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "upstream_status": 200
+    },
+    {
+      "model_requested": "gpt-6.1-terra",
+      "model_observed": "gpt-6.1-terra",
+      "effort_transmitted": "low",
+      "status": "cancelled",
+      "route": "native",
+      "usage": {
+        "input_tokens": 23121,
+        "output_tokens": 18,
+        "total_tokens": 23139,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "upstream_status": 200
+    },
+    {
+      "model_requested": "gpt-6.1-terra",
+      "model_observed": "gpt-6.1-terra",
+      "effort_transmitted": "low",
+      "status": "cancelled",
+      "route": "native",
+      "usage": {
+        "input_tokens": 30329,
+        "output_tokens": 18,
+        "total_tokens": 30347,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "upstream_status": 200
+    },
+    {
+      "model_requested": null,
+      "model_observed": null,
+      "effort_transmitted": null,
+      "status": "invalid_request",
+      "route": null,
+      "usage": {},
+      "upstream_status": null
+    },
+    {
+      "model_requested": "gpt-6.1-terra",
+      "model_observed": "gpt-6.1-terra",
+      "effort_transmitted": "low",
+      "status": "cancelled",
+      "route": "native",
+      "usage": {
+        "input_tokens": 39372,
+        "output_tokens": 7,
+        "total_tokens": 39379,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "upstream_status": 200
+    },
+    {
+      "model_requested": "gpt-6.1-terra",
+      "model_observed": "gpt-6.1-terra",
+      "effort_transmitted": "low",
+      "status": "cancelled",
+      "route": "native",
+      "usage": {},
+      "upstream_status": 200
+    },
+    {
+      "model_requested": "gpt-6.1-terra",
+      "model_observed": "gpt-6.1-terra",
+      "effort_transmitted": "low",
+      "status": "completed",
+      "route": "native",
+      "usage": {
+        "input_tokens": 46629,
+        "output_tokens": 7,
+        "total_tokens": 46636,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "upstream_status": 200
+    }
+  ]
+}

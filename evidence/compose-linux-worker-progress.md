@@ -1,0 +1,21 @@
+# Linux onboarding / pi-ai composition — private progress
+
+This is a work-in-progress checkpoint, not a releasable kit or a review PASS. The source-provenance guard deliberately refuses composed-kit creation until corresponding native worker sources are established.
+
+## Observed independently
+
+- The old guard refused the root PyInstaller `n` entry `libgfortran-83c28eba-468e71e5.so.5.0.0`. The proposed guard checks exact `numpy.libs/<same name>\0` links, unique frozen table-of-contents entries, a hash-pinned NumPy wheel, and target bytes; Debian library validation remains in force. The test suite covers malformed links, altered targets, duplicate members, wrong wheel hashes, an altered Debian library and wheelhouse integrity.
+- `uv pip install --no-index --find-links <wheelhouse> --only-binary :all: --require-hashes -r desktop/s1d1-requirements.lock` installed 20 locked Python 3.13 wheels in an isolated environment. The build invokes an offline, forced reinstall from the same lock. `desktop/licenses/worker-pypi-inventory.json` records artifact hashes for 20 wheels and 18 available PyPI sdists; the archive hashes were rechecked. This inventory is not proof of native wheel/source correspondence.
+- The full root suite, `OMR_TEST_ENGINE=<sidecar> OMR_WORKER_WHEELS=<wheelhouse> .venv/bin/python -B -m unittest discover -v`, passed 240 tests with no skips. Black check, Ruff, Python compilation and `git diff --check` passed on the modified Python files.
+- A private Linux sidecar build finished with SHA-256 `53f0dcc0eb2cf4cab0e4cbb4e391e7d89c90da800ad9e07c53c290b652fb7688`. The 21 distribution tests passed without skips against that engine. Four packaged desktop/pi-ai tests passed; pi-ai exercised only synthetic loopback with isolated HOME and empty PATH.
+- A separate real local ONNX test used six already-existing, hash-verified checkpoint files; none were downloaded or bundled. With isolated HOME and empty PATH, an oversized prompt was refused, the worker remained alive, two synthetic public questions produced qualities 1 and 2, and stop removed the worker HOME. This is local inference, not a provider API test.
+
+The raw build, refusal, ONNX probe, full-test and source-inventory logs are retained at `/srv/omr-private/artifacts/open-model-router/t_6adfbaa5/compose-progress-logs-20261102.zip` (SHA-256 `27131b3e2c07059d35cd37c86b4a70499f68a3e342150619bf9dc74b432a8154`).
+
+## Provenance still open
+
+PyPI lists no sdist for `onnxruntime==1.31.1` or `flatbuffers==25.12.19`. The ONNX Runtime cp313 Linux wheel hash is `74a6a52994616c4d18b33db1e13c226333a70a6ba07480a5cab9c2a50dff1430`; PyPI's PEP 740 provenance endpoint returned HTTP 404 for this wheel. The upstream ONNX tag `v1.31.1` points to `6af1a932e2286d5c58166085d24c68783033edee`, but that alone does not establish the wheel's native dependency versions, source closure or build flags. The pinned tokenizers wheel contains a CycloneDX SBOM but no named license file; its sdist has `tokenizers/LICENSE`. FlatBuffers upstream annotated tag `v25.12.19` dereferences to commit `7e163021e59cca4f8e1e35a7c828b5c6b7915953`; wheel correspondence is not established.
+
+Candidate source archives for both upstream tags were downloaded and their hashes recorded in `desktop/licenses/worker-upstream-source-candidates.json`. The ONNX archive contains `.gitmodules` and `cmake/deps.txt`; it is not by itself a verified closure of the binary's native dependencies. The tokenizers wheel's embedded CycloneDX SBOM lists 127 components, including the `tokenizers` Rust crate at 0.23.2 inside the 0.23.3 Python wheel. The 0.23.3 sdist's `tokenizers/Cargo.toml` also declares 0.23.2; the version difference alone is therefore consistent with the sdist.
+
+The kit command reaches and fails the intended guard with `ValueError: worker corresponding source provenance is not established`; no manifest is accepted. Next obtain verifiable binary-to-source/build evidence including native dependencies or rebuild the affected wheels from a fully pinned and verified source/toolchain set, then package all required notices and sources, remove the temporary guard through tested validation, reconstruct the kit and rerun its runtime tests. No release, installation, network inference or cross-OS qualification is implied.

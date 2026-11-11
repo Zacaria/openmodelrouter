@@ -1,0 +1,83 @@
+{
+  "source_sha": "6b4d33b7272b2dc0124f12e0fe2acd2453bbe368",
+  "engine_sha256": "b436f9de6f48fac20dd8eaeb95a76444e5e441e3fea28a9b319eb910e99e3ea3",
+  "checks": [
+    {
+      "name": "cold Ollama start: no model preloaded",
+      "passed": true
+    },
+    {
+      "name": "D3 and generator installed",
+      "passed": true
+    },
+    {
+      "name": "virtual balanced advertised",
+      "passed": true
+    },
+    {
+      "name": "OMP sandbox denies out-of-scope file contents",
+      "passed": true
+    },
+    {
+      "name": "OMP sandbox denies out-of-scope writes",
+      "passed": true
+    },
+    {
+      "name": "OMP sandbox denies external network",
+      "passed": true
+    },
+    {
+      "name": "installed OMP version matches",
+      "passed": true
+    },
+    {
+      "name": "first turn completed",
+      "passed": true
+    },
+    {
+      "name": "first response useful",
+      "passed": true
+    },
+    {
+      "name": "first turn streamed",
+      "passed": true
+    },
+    {
+      "name": "second turn completed with context",
+      "passed": true
+    },
+    {
+      "name": "real read tool called",
+      "passed": true
+    },
+    {
+      "name": "tool answer completed",
+      "passed": true
+    },
+    {
+      "name": "OMP acknowledges cancellation",
+      "passed": true
+    },
+    {
+      "name": "missing decider surfaced by OMP",
+      "passed": true
+    },
+    {
+      "name": "live virtual routing receipts present",
+      "passed": true
+    },
+    {
+      "name": "exact generator observed",
+      "passed": true
+    },
+    {
+      "name": "decision usage observed",
+      "passed": true
+    }
+  ],
+  "omp_version": "omp/18.16.0",
+  "omp_exit": 0,
+  "sidecar_exit": 0,
+  "started": 1793857203.937187,
+  "ended": 1793857239.709356
+}

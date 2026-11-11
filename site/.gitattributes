@@ -1,0 +1,2 @@
+# Keep vendored font licenses deterministic across native checkouts.
+assets/fonts/*-OFL.txt text eol=lf

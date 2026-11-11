@@ -1,0 +1,349 @@
+{
+  "format": "sha256-per-file-v1",
+  "scope": "all packet files except MANIFEST.json",
+  "files": [
+    {
+      "path": "RECONCILIATION.md",
+      "source_path": null,
+      "origin": "generated for this packet",
+      "size": 4256,
+      "sha256": "6bff03d48ba4b6a806e6c84d890e87ce5e93e1191ec1b212f2347de2cb82aed4"
+    },
+    {
+      "path": "candidate3/REPORT.md",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/REPORT.md",
+      "size": 5889,
+      "sha256": "f97e33f543e8f6cbd7e3b342080c615e31361342acdfe5ef96320b5819c524fa"
+    },
+    {
+      "path": "candidate3/build1-SHA256SUMS",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/build1/SHA256SUMS",
+      "size": 109,
+      "sha256": "4678ed864d97eea47ce789562f399504c7b6dd3a0109f275fd55e9a4d5d2b94a"
+    },
+    {
+      "path": "candidate3/build1.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/build1.log",
+      "size": 167,
+      "sha256": "9efcc1255b98cab7742c17e6e08258563a54a1505c9b167c60b699adae0f29f7"
+    },
+    {
+      "path": "candidate3/build2.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/build2.log",
+      "size": 167,
+      "sha256": "f75edf00cad8af2e847dc26ce86147142095cf745755704525f81dbb9e4876b8"
+    },
+    {
+      "path": "candidate3/candidate2-diff.txt",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/candidate2-diff.txt",
+      "size": 7556,
+      "sha256": "770874d95698c519902904be1ca7f40beaee7388860c582a285795509fc3caac"
+    },
+    {
+      "path": "candidate3/certify.exit",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/certify.exit",
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "candidate3/certify.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/certify.log",
+      "size": 6454,
+      "sha256": "3d3e7038971c93245088231cd076fc9ed881a505be594b54779fbf72d9455a20"
+    },
+    {
+      "path": "candidate3/comparator-t_14313d5b.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/comparator-t_14313d5b.log",
+      "size": 739,
+      "sha256": "f7c68203802b69b5b70c76ac7bd088eda8a238f25149f2947dd63e5d30fcbe44"
+    },
+    {
+      "path": "candidate3/demo-t_a3c46d97.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/demo-t_a3c46d97.log",
+      "size": 952,
+      "sha256": "ec78a396c97d9abd7bcfe49a666522961123b818e871f128e6cfaeb3d6cd9cdd"
+    },
+    {
+      "path": "candidate3/download-verification/REPORT.md",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/REPORT.md",
+      "size": 4145,
+      "sha256": "bb4374da5390c64dd160ea5eeb8134087a705bcaa5bfed7b9f9892ac2d97acf5"
+    },
+    {
+      "path": "candidate3/download-verification/certify-command.txt",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/certify-command.txt",
+      "size": 498,
+      "sha256": "ed06c1f525c2e98d509f02c27762cb4b16155421839df7ebc546b85162998e14"
+    },
+    {
+      "path": "candidate3/download-verification/certify.exit",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/certify.exit",
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "candidate3/download-verification/certify.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/certify.log",
+      "size": 6558,
+      "sha256": "1667f2e21cb636093745dab94fc20dbca8c3a32268370e4fc8ad68a710ae332d"
+    },
+    {
+      "path": "candidate3/download-verification/ci-command.txt",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/ci-command.txt",
+      "size": 661,
+      "sha256": "c1449182399ddd4241fc8d79e4c34fb93481ed61f8aee09640da183a10cf854b"
+    },
+    {
+      "path": "candidate3/download-verification/ci-comparator-t_14313d5b.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/ci-comparator-t_14313d5b.log",
+      "size": 739,
+      "sha256": "f7c68203802b69b5b70c76ac7bd088eda8a238f25149f2947dd63e5d30fcbe44"
+    },
+    {
+      "path": "candidate3/download-verification/ci-demo-t_a3c46d97.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/ci-demo-t_a3c46d97.log",
+      "size": 952,
+      "sha256": "ee273db1715a768ea83bbb9c4b0d27b6b881884607e858604f393de8a0faa284"
+    },
+    {
+      "path": "candidate3/download-verification/ci-integrated-t_dab1958b.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/ci-integrated-t_dab1958b.log",
+      "size": 1678,
+      "sha256": "a470dd765f1c21766a789a1b7bb66af543e3b0137ef53975cfcb736925b77816"
+    },
+    {
+      "path": "candidate3/download-verification/ci-loop-t_daf181c7.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/ci-loop-t_daf181c7.log",
+      "size": 806,
+      "sha256": "598f73636dc8d4e606a2c91a2b21c8d05b32b267f7bf0f5c98691fc62ba3a938"
+    },
+    {
+      "path": "candidate3/download-verification/ci-pilot-t_f21a25b3.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/ci-pilot-t_f21a25b3.log",
+      "size": 2225,
+      "sha256": "d64cc5d11dab30b78ae4ad330d1b596a28b1145873e301a0b2eea0b29e098a2c"
+    },
+    {
+      "path": "candidate3/download-verification/ci-results.txt",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/ci-results.txt",
+      "size": 103,
+      "sha256": "7e317058f5ede1499b1f8a211eeff43c9d4ed9e79967565947fc76dca7c915db"
+    },
+    {
+      "path": "candidate3/download-verification/ci.exit",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/ci.exit",
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "candidate3/download-verification/comparator-t_14313d5b.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/comparator-t_14313d5b.log",
+      "size": 739,
+      "sha256": "f5a60f4cc4076498055b59b0cf3306a9bbdc965c8a94d19d02674b64a49a9858"
+    },
+    {
+      "path": "candidate3/download-verification/demo-t_a3c46d97.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/demo-t_a3c46d97.log",
+      "size": 952,
+      "sha256": "0de864da4d8c909d94d355e4340763b662b53960501d248829ffa68d75ec267b"
+    },
+    {
+      "path": "candidate3/download-verification/downloaded-hash-diff.txt",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/downloaded-hash-diff.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "candidate3/download-verification/downloaded-sha256-after.txt",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/downloaded-sha256-after.txt",
+      "size": 551,
+      "sha256": "4b85eb190623edf0be5b9034436c3d154e69fd2500272daf1edbb2b12d41dfb2"
+    },
+    {
+      "path": "candidate3/download-verification/downloaded-sha256-before.txt",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/downloaded-sha256-before.txt",
+      "size": 551,
+      "sha256": "4b85eb190623edf0be5b9034436c3d154e69fd2500272daf1edbb2b12d41dfb2"
+    },
+    {
+      "path": "candidate3/download-verification/downloaded-sha256-final.txt",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/downloaded-sha256-final.txt",
+      "size": 551,
+      "sha256": "4b85eb190623edf0be5b9034436c3d154e69fd2500272daf1edbb2b12d41dfb2"
+    },
+    {
+      "path": "candidate3/download-verification/integrated-t_dab1958b.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/integrated-t_dab1958b.log",
+      "size": 1678,
+      "sha256": "13c0981f53fb310995b0e1339d52697d40e45169eef07263be75c52ce799505f"
+    },
+    {
+      "path": "candidate3/download-verification/loop-t_daf181c7.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/loop-t_daf181c7.log",
+      "size": 806,
+      "sha256": "8c6bc895d57fb5bdc238e3f5ccb6f6c6563efeff9087068d36b28ec226bc32a1"
+    },
+    {
+      "path": "candidate3/download-verification/pilot-t_f21a25b3.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/pilot-t_f21a25b3.log",
+      "size": 2225,
+      "sha256": "6bc497bb5acfd61a3ac641a00680e75ac1856932156afdc704b0c4cd0ce067c7"
+    },
+    {
+      "path": "candidate3/download-verification/subsuite-results.txt",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/subsuite-results.txt",
+      "size": 103,
+      "sha256": "7e317058f5ede1499b1f8a211eeff43c9d4ed9e79967565947fc76dca7c915db"
+    },
+    {
+      "path": "candidate3/download-verification/subsuites-command.txt",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/subsuites-command.txt",
+      "size": 675,
+      "sha256": "c703730d39fa4bcdbfa4dbb55536316d033d03be1c3009d9b5a1e80292131d67"
+    },
+    {
+      "path": "candidate3/download-verification/subsuites.exit",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/download-verification/subsuites.exit",
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "candidate3/draft-readback.json",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/draft-readback.json",
+      "size": 2096,
+      "sha256": "2a6e7c77121d9ae6bd947ba4ba639898d2d9cde0a761a7b1b5d3700e46d63b8e"
+    },
+    {
+      "path": "candidate3/independent-verify.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/independent-verify.log",
+      "size": 256,
+      "sha256": "ee48e61c516fb692aae9dad3930ca91daa51e956424aad271a6dea01c57038ac"
+    },
+    {
+      "path": "candidate3/integrated-t_dab1958b.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/integrated-t_dab1958b.log",
+      "size": 1678,
+      "sha256": "43cb2985e09cf6e75e0641bfc08e6a0d3b081eda02587b545c195b5676e5bc21"
+    },
+    {
+      "path": "candidate3/loop-t_daf181c7.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/loop-t_daf181c7.log",
+      "size": 806,
+      "sha256": "6d5650b6cf0d43289c0937af9f73f876c6f40936274c4c0e27ccddd2b91040d0"
+    },
+    {
+      "path": "candidate3/pilot-t_f21a25b3.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/pilot-t_f21a25b3.log",
+      "size": 2225,
+      "sha256": "a80abf23054965b552ea6c276d743635f1b8e777028bea51ccd6cb5f5be5d97e"
+    },
+    {
+      "path": "candidate3/privacy-review/REPORT.md",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/privacy-review/REPORT.md",
+      "size": 4408,
+      "sha256": "674a37c326b76cb2eb6b7f2e63f2cb93746b45986f9be484798fe9f078cd675e"
+    },
+    {
+      "path": "candidate3/privacy-review/coverage.json",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/privacy-review/coverage.json",
+      "size": 165868,
+      "sha256": "b8520c3e7551b2ff1f1953bbb59378c47e0c857d4d903b68dbc42c5d72ffea8e"
+    },
+    {
+      "path": "candidate3/publication-notes.md",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/publication-notes.md",
+      "size": 1798,
+      "sha256": "8aad55920654388033d2cfa2ea690233afa9030f6049bfe2e87851d3f16cacc5"
+    },
+    {
+      "path": "candidate3/publication-readback.json",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/publication-readback.json",
+      "size": 4117,
+      "sha256": "6e720b07f00ebf9a7591e99183458f142633665395d76cd9228238229b9a4af0"
+    },
+    {
+      "path": "candidate3/subsuite-results.txt",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/subsuite-results.txt",
+      "size": 103,
+      "sha256": "7e317058f5ede1499b1f8a211eeff43c9d4ed9e79967565947fc76dca7c915db"
+    },
+    {
+      "path": "deadline-integration-logs/comparator-t_14313d5b.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/deadline-integration-logs/comparator-t_14313d5b.log",
+      "size": 829,
+      "sha256": "211f1477fbda2257edcb80c417df8a59dad82be2441c8ee085f023018934589c"
+    },
+    {
+      "path": "deadline-integration-logs/composition-after.json",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/deadline-integration-logs/composition-after.json",
+      "size": 282,
+      "sha256": "792bdb2e35473f5561b9fdbb24820ad4301e5a2986c20b2aa7bf8e0fa8639ae2"
+    },
+    {
+      "path": "deadline-integration-logs/composition-before.json",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/deadline-integration-logs/composition-before.json",
+      "size": 703,
+      "sha256": "3a670fcca73fc4fe6530b151112363146fa05b61da262c92d59a0e31cd3a797c"
+    },
+    {
+      "path": "deadline-integration-logs/demo-t_a3c46d97.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/deadline-integration-logs/demo-t_a3c46d97.log",
+      "size": 1036,
+      "sha256": "d1ff7882b7ea7ae22320acb6cdf6219e2031fb0b9579008b495728372c47ea28"
+    },
+    {
+      "path": "deadline-integration-logs/diff-check.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/deadline-integration-logs/diff-check.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "deadline-integration-logs/host-adapters.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/deadline-integration-logs/host-adapters.log",
+      "size": 231,
+      "sha256": "44252735d10c4913ac033474c514cc4c99954ada2700246e4463090d4683c096"
+    },
+    {
+      "path": "deadline-integration-logs/integrated-t_dab1958b.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/deadline-integration-logs/integrated-t_dab1958b.log",
+      "size": 1768,
+      "sha256": "cc41f2c7d8ca9e5a74eed555fff8e2e825845f2893292295bf98c5b7e69f727f"
+    },
+    {
+      "path": "deadline-integration-logs/landing.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/deadline-integration-logs/landing.log",
+      "size": 128,
+      "sha256": "bcad3f8cafd247a49bfb2cf508b75b3b7fa1a990d8c47a5afb1c3b1bf7d27d21"
+    },
+    {
+      "path": "deadline-integration-logs/loop-t_daf181c7.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/deadline-integration-logs/loop-t_daf181c7.log",
+      "size": 890,
+      "sha256": "4a8244f8bfd197e35555401fc6a5831d7d7d34183723bff83e40f4dbc8cf0e2e"
+    },
+    {
+      "path": "deadline-integration-logs/pilot-t_f21a25b3.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/deadline-integration-logs/pilot-t_f21a25b3.log",
+      "size": 2310,
+      "sha256": "143179a82a23511508639b357cc9f4958c2906ef15f40879323cf424b9b4c2b8"
+    },
+    {
+      "path": "deadline-integration-logs/results.json",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/deadline-integration-logs/results.json",
+      "size": 1178,
+      "sha256": "87f786c7badbda7fae6715cc060d3a6f63930ae0c5f22d80f0511e46d1617be4"
+    },
+    {
+      "path": "deadline-integration-logs/root.log",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/deadline-integration-logs/root.log",
+      "size": 15677,
+      "sha256": "09397994e88efcd529aa1146798b640928e95479641bbcda26e7edce1e234714"
+    },
+    {
+      "path": "source-review/deadline-integration-result.md",
+      "source_path": "/home/operator/repos/open-model-router/evidence/reviews/deadline/deadline-integration-result.md",
+      "size": 3542,
+      "sha256": "9093bc906d6c08b303b7425465b41eadbc66c212a992316558337c7887be0dd1"
+    }
+  ]
+}

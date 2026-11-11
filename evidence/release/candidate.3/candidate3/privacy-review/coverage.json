@@ -1,0 +1,5070 @@
+{
+  "scope": "Private prerelease archive content only; not public landing/social, functionality or delivery",
+  "archive_sha256": "44328fc6175cd1ac82527db0fd0b5d0788e381e1973643f55b082069261170bc",
+  "manifest_sha256": "cec82d993febb274152d1c93326758a1e56804118edc82856311e9f0b7e8f287",
+  "commit": "63e517c25caa503b02eb38b2be994f8e2c32e142",
+  "tree": "f6d12bc5532ca1a132edcaf009f0cf73c21f750a",
+  "member_count": 458,
+  "delta": {
+    "added": 107,
+    "modified": 4,
+    "removed": 0
+  },
+  "primary_review_counts": {
+    "host_evidence": 92,
+    "candidate2": 349,
+    "native_sse": 17
+  },
+  "review_sources": {
+    "candidate2": "/srv/omr-private/workspaces/open-model-router/release-native-sse-candidate/privacy-review/privacy-publication-review.md",
+    "native_sse": "/srv/omr-private/workspaces/open-model-router/native-sse-evidence-review.md",
+    "host_evidence": "/srv/omr-private/workspaces/open-model-router/host-evidence-preservation-review.md",
+    "deadline_delta": "/srv/omr-private/workspaces/open-model-router/deadline-disconnect-independent-review.md",
+    "integration": "/srv/omr-private/workspaces/open-model-router/deadline-integration-result.md"
+  },
+  "uncovered": [],
+  "members": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "bytes": 380,
+      "sha256": "b4fccc29bd0e2e8bdfdde01e4143da659c3bebde0a0f2064b7299f525c31f472",
+      "delta": "modified",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "mode": "100644",
+      "bytes": 948,
+      "sha256": "a4c9655009df111d6cfacaa2b59664b101545bd5965753e52791ce02179176c6",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "bytes": 128,
+      "sha256": "abc6ee2af9552f926347c838c9b7709364a579889c6b7bebc8b86bb84506aab4",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "BENCHMARK-PILOT.md",
+      "mode": "100644",
+      "bytes": 4586,
+      "sha256": "ae9a0b99fd6af700767cbda58c39cbea2ed25aaac85facfe3a8529b0443e8911",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "BENCHMARK-PROTOCOL.md",
+      "mode": "100644",
+      "bytes": 17043,
+      "sha256": "c4b497352e9153633619375f414aa54c83a92dedbf8bdcf18e9d6198456ab495",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "BENCHMARK-V2.md",
+      "mode": "100644",
+      "bytes": 4755,
+      "sha256": "43973ed63ce5798e5d637d098b6ffeec8d16a1b38a0f17a06da5ed78e8e464c7",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "BRIEF.md",
+      "mode": "100644",
+      "bytes": 3941,
+      "sha256": "1a76c232df9c2ff10ab3fa2c2ee9d1b3ed56ecddacfdc8c0d2d8b4c044ceb5de",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "DELIVERY-STATUS.md",
+      "mode": "100644",
+      "bytes": 9430,
+      "sha256": "eb19a9a790a07d613d587ba1ad2b01447ad6846a883d993e5ff434b5dc2d0266",
+      "delta": "modified",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "EDITORIAL-DRAFT.md",
+      "mode": "100644",
+      "bytes": 1346,
+      "sha256": "aa4517a831fcb3554a97e6ba9d1b160286426575697c2e64173517aeae019d9d",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "GATEWAY-SPEC.md",
+      "mode": "100644",
+      "bytes": 8128,
+      "sha256": "2c447eacb0ddbb1991090eb2426d910cbe6215799c5ee56bd1eacdd389c16b03",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "GOAL.md",
+      "mode": "100644",
+      "bytes": 7235,
+      "sha256": "b48a4d1cd41bc479b7c3854e2b2f72f79a49258dcd97b678037a97a6f8c7d83b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "INSTALL-S1D1.md",
+      "mode": "100644",
+      "bytes": 1281,
+      "sha256": "c99925018c2e3e80fc61e20609b6150ed9272751c6e0c90cc175ce540040d849",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "INSTALL.md",
+      "mode": "100644",
+      "bytes": 4873,
+      "sha256": "d22c9d434e498ad7f3c4cd08637ced16a6f10413a63f2c81f0786d8b6ef33ac7",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "JEV.md",
+      "mode": "100644",
+      "bytes": 2552,
+      "sha256": "c3fee09fa8f0109d711c5b88516c31d454213d55b84f4aecb6fb1490ea38da93",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "LICENSE-s1d1.txt",
+      "mode": "100644",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "bytes": 5135,
+      "sha256": "b88566526b9f3c1bf9bc9c87b6356baf93f440f561c4a0efabc25ce8dcdc8023",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "RECHERCHE-S1D1-HOTES.md",
+      "mode": "100644",
+      "bytes": 12934,
+      "sha256": "8ba36a49e14fa53d03913bf698156f09b07b2b4131b707ca8a07c853ee0a0b9f",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "ROUTER.md",
+      "mode": "100644",
+      "bytes": 2441,
+      "sha256": "92d77903611ae7f5e875ae5b10a9dbd0c787baafab1dc752c26f371b081c8dde",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "benchmark_runner.py",
+      "mode": "100644",
+      "bytes": 20135,
+      "sha256": "d9258897b243f75cb3e8efea0ba139367ba71c5458b0d7b28526a0b127975efe",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "build_release.py",
+      "mode": "100644",
+      "bytes": 8453,
+      "sha256": "c06a19f3f5d8bc1a1da47212f9a733bba5db33d38ae2e4662ab9c48142482d28",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "comparator-t_14313d5b/README.md",
+      "mode": "100644",
+      "bytes": 2776,
+      "sha256": "38a5d62d53a8d816f3bb3d1d00c24f19e2e22e965ef371d1886adea77f82968e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "comparator-t_14313d5b/runner.py",
+      "mode": "100644",
+      "bytes": 6961,
+      "sha256": "30ecfe25751d0cf9e172a337c0ce3f8a80345c0afefd12d83a05e966f85c9145",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "comparator-t_14313d5b/test_runner.py",
+      "mode": "100644",
+      "bytes": 2853,
+      "sha256": "d6c22061a9b671bb5e3bb2f0608c508dd68b4bd3ade8e920fb03bd937133b7bd",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "compare.py",
+      "mode": "100644",
+      "bytes": 2152,
+      "sha256": "afac1f44f60e8c8cd91ab71883532a69bb4bfcb5f8a69cfdb366cb03d2bca221",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "demo-t_a3c46d97/README.md",
+      "mode": "100644",
+      "bytes": 4346,
+      "sha256": "85ab728eb0774dc3b6fb0ea1709aff4b04c639e1e9cbf7d3ed5d0a315b48e34b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "demo-t_a3c46d97/demo.py",
+      "mode": "100644",
+      "bytes": 7727,
+      "sha256": "73ea1aac9d501ae108b8fc3d1c240237d0773dfeffa1ce9fe7d3e03ac2553ad8",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "demo-t_a3c46d97/example_config.py",
+      "mode": "100644",
+      "bytes": 589,
+      "sha256": "178611e5d84301d1374cd4b6d3ff40eceed70bd4dd5b1a3928ba5b5f99c8df13",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "demo-t_a3c46d97/test_demo.py",
+      "mode": "100644",
+      "bytes": 4186,
+      "sha256": "cfcf8cdbf5b2e1288508c510140b4b2bc9953078369e6eca47246fbdefae319b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "download_s1d1.py",
+      "mode": "100644",
+      "bytes": 2145,
+      "sha256": "e10a8ff5d18de1c874ed3ea7d9b5f2a361039a29771d033c70b9774a73eba3b5",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/README.md",
+      "mode": "100644",
+      "bytes": 6438,
+      "sha256": "e1f7f819ec66af3a99a9c29526520b4fa9f83b775a110f23fe618ac151045e40",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/STUDY.md",
+      "mode": "100644",
+      "bytes": 3191,
+      "sha256": "938a81c727bca42bb5b8119bacafdeb5e4865c14d379a37cb63757b7a57b4a66",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/analysis/DRAFT-LINKEDIN.md",
+      "mode": "100644",
+      "bytes": 1338,
+      "sha256": "f6233560f64a48cb6a26fad4b7505067e926801151307852c5cdbbebec734a9d",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/analysis/DRAFT-X.md",
+      "mode": "100644",
+      "bytes": 299,
+      "sha256": "bc4766152957b0578432956810f86ce9a4c69aedd5a34f17c9c5dee7cc7a6ed2",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/analysis/MANIFEST.sha256",
+      "mode": "100644",
+      "bytes": 2744,
+      "sha256": "58eefa7b87b1f4316fe05b135240d9620e256cd8df89133271aeeb51a57525c4",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/analysis/REPORT.md",
+      "mode": "100644",
+      "bytes": 14010,
+      "sha256": "be817d8264382b48f5cb1418d0790987cb88d2849b513b2149fd645018270480",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/analysis/resultats.svg",
+      "mode": "100644",
+      "bytes": 2154,
+      "sha256": "735b2960326506a492a525b496e406839a04f5543c305c48f816b489099ec16e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/configurable-config.json",
+      "mode": "100644",
+      "bytes": 949,
+      "sha256": "22993204fd93c75da7fbb93894c41552166756c4fac591b4ddd3bf1db7846576",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/configurable-gateway.jsonl",
+      "mode": "100644",
+      "bytes": 20919,
+      "sha256": "bfbf6fd51e5790c33877698a6ba7a357ab938bb2f86b27b5ca27ff9c4a71de8f",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/configurable-server.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/default-config.json",
+      "mode": "100644",
+      "bytes": 686,
+      "sha256": "25c665b793a64b47acb2f1f22e062fefd7a702642eb9b704d0d9954e8357e432",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/default-gateway.jsonl",
+      "mode": "100644",
+      "bytes": 19608,
+      "sha256": "9bbe58cc62eb373a12f748f1950e4c79b2e4260133e3b1f5fe8a58a680a85ed7",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/default-server.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/dev.jsonl",
+      "mode": "100644",
+      "bytes": 50719,
+      "sha256": "50707ad7902e1872d3d69d5f4cb665315bd8237c72a6b68b8665fcd9f87a593d",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/dev.jsonl.plan.json",
+      "mode": "100644",
+      "bytes": 3771,
+      "sha256": "2e6c5d4ecf497635e125f5fac4ce48aa09fbcfa77100593772d39a964ed8cf0f",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/dev.md",
+      "mode": "100644",
+      "bytes": 7825,
+      "sha256": "aa047839c22bad44fe6662c0367a6266a3910f4f72172077411505e7705bb6ff",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/dev.svg",
+      "mode": "100644",
+      "bytes": 2251,
+      "sha256": "469e94bc7601b355b0b889a49a661403eb5926c5d4818a5e9884f1becc91d646",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/frozen-manifest.json",
+      "mode": "100644",
+      "bytes": 1120,
+      "sha256": "a31b77991cdf1d66b0310bfed645d67267e9acdb2bc77b26c84b9fe3eadb1170",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/ports.json",
+      "mode": "100644",
+      "bytes": 64,
+      "sha256": "70888f02ae4789c9d4bf542bf80c4bffcd120d88c082ce6a2abab9a05924e8f7",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/s1d1-config.json",
+      "mode": "100644",
+      "bytes": 844,
+      "sha256": "ffcb8d292e60bf7dde8a4dc19ab0101334eef9702d67bfb8ab9505f5b77f64d9",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/s1d1-gateway.jsonl",
+      "mode": "100644",
+      "bytes": 21233,
+      "sha256": "bf0819b929eee2d980e4dadfeba49c97ea7af4e62c55bb3b5267cc0f18e0a131",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/s1d1-server.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/validation.jsonl",
+      "mode": "100644",
+      "bytes": 55019,
+      "sha256": "f7e6ff193c5fed1a1170ce37bc230522e548807c351d211dcd1cd8a250e76fef",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/validation.jsonl.plan.json",
+      "mode": "100644",
+      "bytes": 3988,
+      "sha256": "1cc6b85589fe526d70569da7f522257c4a322a09144d8800292558a4e476e86f",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/validation.md",
+      "mode": "100644",
+      "bytes": 8654,
+      "sha256": "5efc58fd38f03112a1a2785f2b0cc2cad67164e43bc99ba510491c96c718963e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/attempt-2/validation.svg",
+      "mode": "100644",
+      "bytes": 2360,
+      "sha256": "2528797632dec55ceceb9582a7ffe8151c97b45cf07b237b3ed2ccbe13e2e572",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/configurable-config.json",
+      "mode": "100644",
+      "bytes": 949,
+      "sha256": "e1a30d0f93010ca4bc3272bc9472c5306dc11cb71061f6609cc6b08619f07db3",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/configurable-gateway.jsonl",
+      "mode": "100644",
+      "bytes": 7390,
+      "sha256": "ff2527b158deed9150b9376344712157887d749f65d546431ed97a5950c3c541",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/default-config.json",
+      "mode": "100644",
+      "bytes": 683,
+      "sha256": "2b23660cbefd256e73b8a9a17e52e7ee15433e247fda9b5bf168cc72839f92ad",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/default-gateway.jsonl",
+      "mode": "100644",
+      "bytes": 19606,
+      "sha256": "d5ddb1f9bf34cfe4f1fb190b8c0e99e6e561cde04ffb4f80dcaeee914915b839",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/dev.jsonl",
+      "mode": "100644",
+      "bytes": 42958,
+      "sha256": "3db4f5aff14f6fdb34f1dab6ded96c44001cefc778dd5e54f797fd813a986305",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/dev.jsonl.plan.json",
+      "mode": "100644",
+      "bytes": 3771,
+      "sha256": "2e6c5d4ecf497635e125f5fac4ce48aa09fbcfa77100593772d39a964ed8cf0f",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/dev.md",
+      "mode": "100644",
+      "bytes": 7705,
+      "sha256": "c0f35ee33e349ccdf0ed42f491321798a442e7aaa31816272cfa1c64ee7707f3",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/dev.svg",
+      "mode": "100644",
+      "bytes": 2245,
+      "sha256": "1649da69ea9d3f3f70b191c8d4f67489bba8428ea303fcfd91190d71c5b832bf",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/frozen-manifest.json",
+      "mode": "100644",
+      "bytes": 1156,
+      "sha256": "60c1f5014ac200b26e3e0c8bce56caef02efd24a04b0b89555e94210c547d47a",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/ports.json",
+      "mode": "100644",
+      "bytes": 64,
+      "sha256": "c68969ba2ca4326f44eb0ae1ae448617b2eeb679aefc20adc7d348219ebfcc59",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/s1d1-config.json",
+      "mode": "100644",
+      "bytes": 841,
+      "sha256": "c825248e79760c25c9fad8b02e7803f5d54f1ec09dd1ae87ebde1b4d0905e498",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/s1d1-gateway.jsonl",
+      "mode": "100644",
+      "bytes": 21235,
+      "sha256": "13fe16b40f17ab91a7e2a093cb3562ac698d0aaba7c574babca717c292115030",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/validation.jsonl",
+      "mode": "100644",
+      "bytes": 45344,
+      "sha256": "b00d17d17ff60aaa250794d8f9f1bb8916a3f5590668c261004d62a01c5dd667",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/validation.jsonl.plan.json",
+      "mode": "100644",
+      "bytes": 3988,
+      "sha256": "1cc6b85589fe526d70569da7f522257c4a322a09144d8800292558a4e476e86f",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/validation.md",
+      "mode": "100644",
+      "bytes": 8538,
+      "sha256": "40b5792e853bc82b467df88cda40d99fd219fd22183233363ff63df72fae88d7",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/campaign/validation.svg",
+      "mode": "100644",
+      "bytes": 2352,
+      "sha256": "611a5dc3776d5efcdac1d4be79cc99888a74aecbb80674bff6701e9c5e732044",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/host-adapter-import.json",
+      "mode": "100644",
+      "bytes": 3054,
+      "sha256": "893bab82cbf371d499a14bbe8a649cdcba05a973f33a8604e818848759a2069a",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/initial-review.md",
+      "mode": "100644",
+      "bytes": 4091,
+      "sha256": "79215d187716ad51518ad9d6e71de2c949220cd88688740e413de08360e9bd87",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/jev-smoke.json",
+      "mode": "100644",
+      "bytes": 1010,
+      "sha256": "fc4f37e6da4b7dc8ec73a355962806e9a33f833deddd9d408dac69daed73aa20",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/landing/browser.json",
+      "mode": "100644",
+      "bytes": 618,
+      "sha256": "9b9d0945c8134df5a43987587c008337e32d20de2c0807e3de6e4c2e743007e9",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/landing/deployment.json",
+      "mode": "100644",
+      "bytes": 609,
+      "sha256": "fb017be57c07e43698020f2f0c61305312deef53b5773c6c82ef1f07829dbf72",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/landing/desktop.png",
+      "mode": "100644",
+      "bytes": 86720,
+      "sha256": "32149af5745aa341a918041a361e60c79e42e574d53d775a6094b7e3d5b44171",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/landing/mobile.png",
+      "mode": "100644",
+      "bytes": 50254,
+      "sha256": "3a34271cb4b7083d3fe719a38ee108972ecc06eeb4d6397edbdfc17b9a9d85bf",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/landing/review.md",
+      "mode": "100644",
+      "bytes": 3411,
+      "sha256": "db86463e6a6fdb0f90a3c95df0a32ff3e779e7e777ee1951c18c89a90f0dd34b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native-provenance-manifest.json",
+      "mode": "100644",
+      "bytes": 39739,
+      "sha256": "c4a5092d355624c0e5c00cb2678588016ee1ecab62f5487d9e0ff6b5fe600aee",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native-provenance-verification.json",
+      "mode": "100644",
+      "bytes": 715,
+      "sha256": "3cc32f48715f08832ae770cf29bc5931c3f847b46ee19c5b2dedad0b17c96af3",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/codex-headerless-observation/REPORT.md",
+      "mode": "100644",
+      "bytes": 4388,
+      "sha256": "3a90c90ca0430b1b18cb6ae0b035e16e0376ce316af42dacffc5be030331e8ef",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/codex-headerless-observation/observe.py",
+      "mode": "100644",
+      "bytes": 6050,
+      "sha256": "9f99e3d6e0ea112e54772ad537c4a57942e96a374b4898997b94cef2519cfe5a",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/codex-headerless-observation/proof.json",
+      "mode": "100644",
+      "bytes": 910,
+      "sha256": "82be1d3577622caa48d1041e5ddeeb238b666e5173ae70348f51852f09b82ff6",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/codex-headerless-observation/provenance.json",
+      "mode": "100644",
+      "bytes": 1125,
+      "sha256": "545738cff68e8ef2d1201c2ab4932de1cce34e2693e2673517df9676f43e504e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/codex-headerless-observation/result.json",
+      "mode": "100644",
+      "bytes": 167,
+      "sha256": "a5c6fa24e27218c520e977be04b9462ff662b574ad00a0ff53a63cfd33800499",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/codex-headerless-observation/run.py",
+      "mode": "100644",
+      "bytes": 3390,
+      "sha256": "2d990c7c19df1bf3eafdc9f208ad76b9688551ca67e8ba52939d655e29305a25",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/codex-validated/PROVENANCE.json",
+      "mode": "100644",
+      "bytes": 5263,
+      "sha256": "de38c5f6e8f78afea3d86412cd801609e08e273da5235b4f7226d9759fa70e3c",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/codex-validated/REPORT.md",
+      "mode": "100644",
+      "bytes": 4171,
+      "sha256": "638851c8c6d90c5f42f70a1b6ed2329848dacff0801287573e3a4b076abaec98",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/codex-validated/first-events.jsonl",
+      "mode": "100644",
+      "bytes": 689,
+      "sha256": "07611c2ac256ff225f6422c85d9382aedb18f679d146f95ef36ed7489e7ab97c",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/codex-validated/interrupt-events.jsonl",
+      "mode": "100644",
+      "bytes": 105,
+      "sha256": "a3cd6adacd9e9e3a549cbdcf6f4c95f78c7ff1ccb9498100f4e99d1a192438d7",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/codex-validated/interrupt-recovery-events.jsonl",
+      "mode": "100644",
+      "bytes": 361,
+      "sha256": "9186cd26733a6f219acbde3c4ee82211aebfa89f38c01b13057a13aec29774c2",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/codex-validated/interrupt.json",
+      "mode": "100644",
+      "bytes": 152,
+      "sha256": "77813caea879b398edcf2a59306665f0bd6147f4f1f9a1b99b9c9b301f4e6e5a",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/codex-validated/network-recovery-events.jsonl",
+      "mode": "100644",
+      "bytes": 360,
+      "sha256": "80329fa9203417e5f4171c9a7b7d7ed0ad5f467a58936f0ef86257faeb24a8fd",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/codex-validated/network-refused-events.jsonl",
+      "mode": "100644",
+      "bytes": 226,
+      "sha256": "16820804711d2d94644b48f7fa24cbb6601b8c6561f26239964baba106134de5",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/codex-validated/operator.py",
+      "mode": "100644",
+      "bytes": 6897,
+      "sha256": "cbdff31ea3b8d321adaca8c01db530747d0cf15a359d634b22802f4a2b8ef882",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/codex-validated/remote-path.txt",
+      "mode": "100644",
+      "bytes": 75,
+      "sha256": "d2a9062c763dafbb218db6123beb5e7b72536f102cf963144dc16de33c9be665",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/codex-validated/result.json",
+      "mode": "100644",
+      "bytes": 7985,
+      "sha256": "1ae444c6a1223b1471507b440f83ef2384963328001e3cdeaac3a22801e95ef4",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/codex-validated/resume-events.jsonl",
+      "mode": "100644",
+      "bytes": 358,
+      "sha256": "b2781a00bff137dceca19ef54557db52916bcec41f4b8815b8b45d4c4c829e60",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/codex-validated/stream-observation.jsonl",
+      "mode": "100644",
+      "bytes": 6396,
+      "sha256": "8ff3bcc4dde40906438411e7be32eae9c81aaf7f0c451e69136d2e9ee6d0a11c",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/error-visibility/REPORT.md",
+      "mode": "100644",
+      "bytes": 1285,
+      "sha256": "e2227cf1af64aa825156115498c38cd25c1fb60a054fa7769e70a8b9b353e911",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/error-visibility/green.log",
+      "mode": "100644",
+      "bytes": 1041,
+      "sha256": "472decf5776cff756abf44f9e1690fa023c00ff7d07517a58242e8188c9c4031",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/error-visibility/hermes.stderr",
+      "mode": "100644",
+      "bytes": 278,
+      "sha256": "243a8cc9005547d4a3cc28b548d973e3aca800ca3d67927c3e3efef7b5c263d8",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/error-visibility/hermes.stdout",
+      "mode": "100644",
+      "bytes": 114,
+      "sha256": "5cc00674665385fd836a4ca5edfc0109ee76f98e2f2454cfdcd10676980e2420",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/error-visibility/red.log",
+      "mode": "100644",
+      "bytes": 1135,
+      "sha256": "ee4d5bde5b8331c90b6c1d2aa155dbab072a738c0e3c50a20fa9d6d1f9c83188",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/error-visibility/replay.json",
+      "mode": "100644",
+      "bytes": 619,
+      "sha256": "45d44a54a18abaf7932ca9a657e9a9e4b9eee9a5b3f7036fcd7757c86c36f1bb",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/error-visibility/source.sha256",
+      "mode": "100644",
+      "bytes": 275,
+      "sha256": "dacb6f41c370ddfdb245eb015233600814026fe2e13522df519ac64390109287",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/REPORT.md",
+      "mode": "100644",
+      "bytes": 3392,
+      "sha256": "7e9e9478aad0256d88b2565eae123d00ab0978234ad41e23eb50d6898d805102",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/claude-after-cancel.err",
+      "mode": "100644",
+      "bytes": 276,
+      "sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/claude-after-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 12159,
+      "sha256": "e39b57fccdbd8246f18094c684976f3ef5bc943087a89c1719f8dadf0c1e7ba0",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/claude-after-error.err",
+      "mode": "100644",
+      "bytes": 276,
+      "sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/claude-after-error.jsonl",
+      "mode": "100644",
+      "bytes": 12161,
+      "sha256": "183eb0291e4eebd777c959663beaddee3f747dce64129fe07e22184dcc2375a0",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/claude-cancel.err",
+      "mode": "100644",
+      "bytes": 276,
+      "sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/claude-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 5751,
+      "sha256": "4801c84a496fee60fae35ef03d1e77fafa5690f278faee2ef8ba3c8757b68606",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/claude-error.err",
+      "mode": "100644",
+      "bytes": 329,
+      "sha256": "7f5a5e53f67985ed5b880d0c38b4392a746d07b1a26a3224441a16d1a843d8ba",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/claude-error.jsonl",
+      "mode": "100644",
+      "bytes": 3617,
+      "sha256": "5789b5be686ca1ff7970111b6fd59aa2d37a2017332f3073a037ace029fb6e19",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/claude-session.txt",
+      "mode": "100644",
+      "bytes": 37,
+      "sha256": "5937392846396622ea11852f9ab6deca86828a2ca988ae13e5a5d3f75a27d50d",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/claude-turn1.err",
+      "mode": "100644",
+      "bytes": 276,
+      "sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/claude-turn1.jsonl",
+      "mode": "100644",
+      "bytes": 15674,
+      "sha256": "0b7e7ebe1d029c1ba237379048f6bbe87351c6a2ba4c06b22c08b5c9968cdd3a",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/claude-turn2.err",
+      "mode": "100644",
+      "bytes": 276,
+      "sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/claude-turn2.jsonl",
+      "mode": "100644",
+      "bytes": 12158,
+      "sha256": "5eaaee5a215f0c2a67d78e5ea873d9c8275ccc07be9f251484a8d79837a28c42",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/claude-uuid.txt",
+      "mode": "100644",
+      "bytes": 37,
+      "sha256": "e31eebfd41824b1d62a0d9854b9fb20af7f222c8800b4e0a207e1da8d9d84bbe",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/commands.jsonl",
+      "mode": "100644",
+      "bytes": 7326,
+      "sha256": "e0f19ffb09eeb3e66a27c4e6c838b05f65904b57838783689fede07038f917b4",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/config.json",
+      "mode": "100644",
+      "bytes": 483,
+      "sha256": "b2c3ef4952ce0f02f457e8f05cda042ccc61d767cd2c945a34aa529b76d29b90",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/gateway.log",
+      "mode": "100644",
+      "bytes": 6,
+      "sha256": "85652f206ad0ab0cdc43159cdb70c421356ad5ca7bc3781ba9961d074e9b1869",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/hermes-after-cancel.err",
+      "mode": "100644",
+      "bytes": 164,
+      "sha256": "a2300feef25c95f16fafa65b141ec6a7902bfe182d456575112cb900e2f446e0",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/hermes-after-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 1374,
+      "sha256": "25b4ee3c5863f183076bd8a1cef60bfe764847c30f3a441f10254714125ac277",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/hermes-after-error.err",
+      "mode": "100644",
+      "bytes": 164,
+      "sha256": "a2300feef25c95f16fafa65b141ec6a7902bfe182d456575112cb900e2f446e0",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/hermes-after-error.jsonl",
+      "mode": "100644",
+      "bytes": 1374,
+      "sha256": "89904b19f597b0106afc80c39e3b321303ea7df4175a0e92375e513bc4566447",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/hermes-cancel.err",
+      "mode": "100644",
+      "bytes": 214,
+      "sha256": "b862cb1eb8cae503b51ef77c7ef1af3545d50bcdd9176694a2d1d446f9bb99e9",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/hermes-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 506,
+      "sha256": "c7fe8b19bc928021837d1f85014c2ca5e4f499c053ce5ce3ad6ee7381e7767ff",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/hermes-error.err",
+      "mode": "100644",
+      "bytes": 133,
+      "sha256": "d8178729dbc542dd488771079d2e09cdf5a7f93835a0fccabd847a1f71ee4c2b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/hermes-error.jsonl",
+      "mode": "100644",
+      "bytes": 114,
+      "sha256": "11318f423ec4a66ed3af9c29877de411ac838c4b0193d496485a871eaf377816",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/hermes-session.txt",
+      "mode": "100644",
+      "bytes": 71,
+      "sha256": "8570d2808b074f07f17c1fe0d61ebec553406cf6ca668b743bb363c05f7db677",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/hermes-turn1.err",
+      "mode": "100644",
+      "bytes": 164,
+      "sha256": "a2300feef25c95f16fafa65b141ec6a7902bfe182d456575112cb900e2f446e0",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/hermes-turn1.jsonl",
+      "mode": "100644",
+      "bytes": 2012,
+      "sha256": "b2c4c2a6835425523ab464b2a2fcf9f24e9a0d397d7b0c9ef487b6200ec012fb",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/hermes-turn2.err",
+      "mode": "100644",
+      "bytes": 164,
+      "sha256": "a2300feef25c95f16fafa65b141ec6a7902bfe182d456575112cb900e2f446e0",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/hermes-turn2.jsonl",
+      "mode": "100644",
+      "bytes": 1374,
+      "sha256": "5e17808bdf2a6433a922b7676bee7c686c60dfc161d9850a659886cd10969c1d",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/hermes-uuid.txt",
+      "mode": "100644",
+      "bytes": 37,
+      "sha256": "99dbed06680cf45e486c0a82197b5cae849b8505a730c30fb2cca91c6f2a4dc4",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/claude-after-cancel.err",
+      "mode": "100644",
+      "bytes": 276,
+      "sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/claude-after-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 12159,
+      "sha256": "c1cc3b658311113976fa5e1ab907a4843bfdce6034b24232ca34cec468e23d92",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/claude-after-error.err",
+      "mode": "100644",
+      "bytes": 276,
+      "sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/claude-after-error.jsonl",
+      "mode": "100644",
+      "bytes": 12160,
+      "sha256": "d820aa6a703b22c9271521f02611d1c2740ddc5b590f5a560a340fd0f12872d8",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/claude-cancel.err",
+      "mode": "100644",
+      "bytes": 276,
+      "sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/claude-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 7435,
+      "sha256": "db498da79022a83de10321fe37e0440395665cedfc40de7e4cd50d2131c99c73",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/claude-error.err",
+      "mode": "100644",
+      "bytes": 329,
+      "sha256": "7f5a5e53f67985ed5b880d0c38b4392a746d07b1a26a3224441a16d1a843d8ba",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/claude-error.jsonl",
+      "mode": "100644",
+      "bytes": 3617,
+      "sha256": "396ce1f6afd64bed7ad7ad86d507fce8c477307ac579ebc3bb8e33f0855d89a6",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/claude-session.txt",
+      "mode": "100644",
+      "bytes": 37,
+      "sha256": "6406d80605e79961f7f016e301f9d95bf43d21a4a4e8c8789ff471c5a8ad0f17",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/claude-turn1.err",
+      "mode": "100644",
+      "bytes": 276,
+      "sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/claude-turn1.jsonl",
+      "mode": "100644",
+      "bytes": 15671,
+      "sha256": "27797153ec16d492d69392e493bf31abfc64bbedb67a75b88998c530e445ecb0",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/claude-turn2.err",
+      "mode": "100644",
+      "bytes": 276,
+      "sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/claude-turn2.jsonl",
+      "mode": "100644",
+      "bytes": 12179,
+      "sha256": "5d8c1e6fc95677e4cec6f5e75a091112fb8c0bb1a5566b58b7f249c2da239785",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/claude-uuid.txt",
+      "mode": "100644",
+      "bytes": 37,
+      "sha256": "8c35cc91e9010b4cda46319d26b4561a7c498a1c58d319faff14ccfb78679965",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/commands.jsonl",
+      "mode": "100644",
+      "bytes": 8814,
+      "sha256": "74a650af5c5413426f11fda1dfed4aabe37701704cb590c4a66fb3c862c2f829",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/config.json",
+      "mode": "100644",
+      "bytes": 492,
+      "sha256": "bd10ed6e1312b32d9d2f6b8b283a291bc63eecd08bd081439a3b7d45ee15b083",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/gateway.log",
+      "mode": "100644",
+      "bytes": 6,
+      "sha256": "b063ea9efc56917bf2335ca0723aa9b4e326bd9827f36db4f4b0e9304c4fa355",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/hermes-after-cancel.err",
+      "mode": "100644",
+      "bytes": 164,
+      "sha256": "dcdce169221d04acbfcad027cca6b4316b63d85be91211d8ed7d76bf73872b9b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/hermes-after-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 1374,
+      "sha256": "0002bf684954ac8c8fe396bb65731cfb02aecb2d535c4f6b3f82d4fd806185ec",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/hermes-after-error.err",
+      "mode": "100644",
+      "bytes": 164,
+      "sha256": "dcdce169221d04acbfcad027cca6b4316b63d85be91211d8ed7d76bf73872b9b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/hermes-after-error.jsonl",
+      "mode": "100644",
+      "bytes": 1374,
+      "sha256": "869f6eddb8f6febb90d4843918c63ba1570ce6933e237beeef3b00efc9a81fb7",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/hermes-cancel.err",
+      "mode": "100644",
+      "bytes": 214,
+      "sha256": "fa93599bd7e199c5cd99c76c76d046c296bc215ea62fbb61d81b30afda62553b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/hermes-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 695,
+      "sha256": "71e138dd8e536c08176eb4cac16f427761399baf606f3d48c7981fb0227b6480",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/hermes-error.err",
+      "mode": "100644",
+      "bytes": 133,
+      "sha256": "2cbf1754cf3fdf6dd4633fe8b1331855b9a4d2e6280cfe6b6333bb7c97f7c8d2",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/hermes-error.jsonl",
+      "mode": "100644",
+      "bytes": 114,
+      "sha256": "e45acfb8c063b0ee386a9a011e5d2c46807b94cb729bdf598ec6f3baf861a132",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/hermes-session.txt",
+      "mode": "100644",
+      "bytes": 71,
+      "sha256": "8981c4abf243fa5f4b2f654247d5fb7ea8e2a3a24d4ff9b60ffdc36e6e79b3c4",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/hermes-turn1.err",
+      "mode": "100644",
+      "bytes": 164,
+      "sha256": "dcdce169221d04acbfcad027cca6b4316b63d85be91211d8ed7d76bf73872b9b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/hermes-turn1.jsonl",
+      "mode": "100644",
+      "bytes": 2012,
+      "sha256": "b0293f13c7f74a0da0f1263e318579dd519dee0e0868ccaadae675039311bad3",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/hermes-turn2.err",
+      "mode": "100644",
+      "bytes": 164,
+      "sha256": "dcdce169221d04acbfcad027cca6b4316b63d85be91211d8ed7d76bf73872b9b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/hermes-turn2.jsonl",
+      "mode": "100644",
+      "bytes": 1374,
+      "sha256": "24b51bd153368aba85fa091264a149b000961933302d46e0690c02a209461f63",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/hermes-uuid.txt",
+      "mode": "100644",
+      "bytes": 37,
+      "sha256": "7b5a04204253ba9c36ec64df406d23d09405a02bd9385c3352ea228cec04b3d1",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/observed/receipts.jsonl",
+      "mode": "100644",
+      "bytes": 9319,
+      "sha256": "29b6d293bd948e635cc1bb4bf4cd28b587a3a7f269dd69050ccf83bc827d4a76",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/receipts.jsonl",
+      "mode": "100644",
+      "bytes": 9310,
+      "sha256": "ed99a1c2a87b8e3efe34660f17c53d5578df788642b09c4e876ec1ab8a1d4856",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/red-mutation.log",
+      "mode": "100644",
+      "bytes": 1762,
+      "sha256": "3780321fed25912bf166b129195c25f4c76f98c5e53cf17bca5ec99ada7aaed7",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/replay-observed.py",
+      "mode": "100644",
+      "bytes": 5055,
+      "sha256": "7a6a62295ec5f91a461765091ae3d96531aadcf54fb0ff00b3466c918b81b217",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/replay.py",
+      "mode": "100644",
+      "bytes": 4020,
+      "sha256": "9616e76726df4a4bf8e0872f044b49768ff1822705088e199ec12e11fc53cfd0",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/source.sha256",
+      "mode": "100644",
+      "bytes": 275,
+      "sha256": "dc64f5063512c1ca1e9c0c969f9e9c6f816d66bff33a2cd4492ec1f0a59e4982",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/final-vm/tests.log",
+      "mode": "100644",
+      "bytes": 106,
+      "sha256": "81e9491dcfc87b60974bb71a2a7a5bb40f40ea9099107445f3cab2a7213b1430",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/hermes/diagnostic.md",
+      "mode": "100644",
+      "bytes": 3688,
+      "sha256": "c93ed0496014b793868054d8b77edbefef185d3624a78afbe7710919efcfe834",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/hermes/gateway-config.json",
+      "mode": "100644",
+      "bytes": 482,
+      "sha256": "cbc2a3002ff1ff3b82386e825ea34f1643a23e96a7867a56b5558dcd2ce89660",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/hermes/multiturn.jsonl",
+      "mode": "100644",
+      "bytes": 726,
+      "sha256": "7a19c6540f0f58b1a5633af679098409a16edcf49cc2e61db0e793c2ff476501",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/hermes/provenance.json",
+      "mode": "100644",
+      "bytes": 2015,
+      "sha256": "b8592468a98769287ec06cd07442ec4524db430496627f143e8eec746526ba92",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/hermes/receipts.jsonl",
+      "mode": "100644",
+      "bytes": 3379,
+      "sha256": "9bc91bf6c6edad91348bfc2935ada783df5c357b93ad90db522283db39e78b93",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/hermes/simple.jsonl",
+      "mode": "100644",
+      "bytes": 921,
+      "sha256": "0a48412a8e2145d17a70098057f29963c14e9986429313c946823860a9b1a4f2",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/hermes/tool.jsonl",
+      "mode": "100644",
+      "bytes": 2714,
+      "sha256": "ccf070bea5ccfca2f03409c0979913eb655c750a4f7e83192947c6480029f5c1",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/MANIFEST.json",
+      "mode": "100644",
+      "bytes": 38019,
+      "sha256": "ab7678b77fd970af4bbb865ad07fb0ff2b595ddd5407ddd77ef0da7dbd464d23",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/RECONCILIATION.md",
+      "mode": "100644",
+      "bytes": 3286,
+      "sha256": "0a5b022dac21ba2dfa79a4af2774d4d85fe0a8f7edfa95fc712da82222210c18",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/codex-validated/error-closure/REPORT.md",
+      "mode": "100644",
+      "bytes": 5950,
+      "sha256": "3a1d86c8d7bf128e7109f998e2ab99d264327b37d68a15faaac2b8d50cee4b6e",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/codex-validated/error-closure/closure.py",
+      "mode": "100644",
+      "bytes": 6363,
+      "sha256": "345eb5be6540587bdf233d9cb9182bd073f5e1aceb89db7fd8ffd0f8aeed9dfa",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/codex-validated/error-closure/error-events.jsonl",
+      "mode": "100644",
+      "bytes": 147,
+      "sha256": "00581cb9dd0e00b03addb8fea9c6a7c6468693e6a95c85fd6ac2f0404c1c56e9",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/codex-validated/error-closure/local-reject.jsonl",
+      "mode": "100644",
+      "bytes": 714,
+      "sha256": "65a2ceb0cd6f583268f04173eb0d5ccf0bf92e2a364766369b5f8740ebf67e06",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/codex-validated/error-closure/offline-results.txt",
+      "mode": "100644",
+      "bytes": 201,
+      "sha256": "086bbdd27de74512d974ecf67654005ce67805342ac63925ccfc150670540588",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/codex-validated/error-closure/prior-offline-results.txt",
+      "mode": "100644",
+      "bytes": 287,
+      "sha256": "dc7842912e853f6e49c4bc72fcc3a34d9db6639b2e2483177f5c42c4609cbfbb",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/codex-validated/error-closure/recovery-events.jsonl",
+      "mode": "100644",
+      "bytes": 337,
+      "sha256": "7f0972529973562872232d09a97e496361706d4dd5ca37faf10422dd0793cf2f",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/codex-validated/error-closure/repro.py",
+      "mode": "100644",
+      "bytes": 4055,
+      "sha256": "16220fd12d15698ef33057fbb084215295dd8f9138c4fbdb7544403d606b1887",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/codex-validated/error-closure/result.json",
+      "mode": "100644",
+      "bytes": 2670,
+      "sha256": "7fb181c9bb5dd13228e9750e648175499c053bfba3e296b3c4836a2a026bf489",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/codex-validated/error-closure/terminal.jsonl",
+      "mode": "100644",
+      "bytes": 62,
+      "sha256": "eb39c9e21bd233813c8e7836f7e358498927e6dda85ce130235c41ed43ab6aa4",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/codex-validated/error-closure/upstream-count.jsonl",
+      "mode": "100644",
+      "bytes": 26,
+      "sha256": "97271cb37896c477eba597a7020f101e0e90c96c59ee263e80885b4a2aef768a",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/REPORT.md",
+      "mode": "100644",
+      "bytes": 5013,
+      "sha256": "26130232780dbe54f5120998d6a4b9821dfe84f2a809e8625ea8eb93e8691c9e",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/after.txt",
+      "mode": "100644",
+      "bytes": 3350,
+      "sha256": "aeaa84a6b4ca65630f32c4005cf447b31bfecf2914bfd719a120504acf00ca76",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/checks.json",
+      "mode": "100644",
+      "bytes": 1729,
+      "sha256": "54b524dd09bca0e96dc381602fc48ce85752acbfa226ebcc9880e99b24bcd349",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/checks.log",
+      "mode": "100644",
+      "bytes": 1729,
+      "sha256": "54b524dd09bca0e96dc381602fc48ce85752acbfa226ebcc9880e99b24bcd349",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-after-cancel.err",
+      "mode": "100644",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-after-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 12981,
+      "sha256": "9cc0f3def4636b1e518a5183bd914bfc977e030e873c6af6288601d8550f6f22",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-after-error.err",
+      "mode": "100644",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-after-error.jsonl",
+      "mode": "100644",
+      "bytes": 12978,
+      "sha256": "e7e21ab079d9fb5c4f6151a9d9e31a624c8df84b620b3ca09478f4592778c8c1",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-cancel-retry-marker.json",
+      "mode": "100644",
+      "bytes": 401,
+      "sha256": "ecb9f8db31699ab1f8d8a6c37b7a9a9ca6ca340836ea9d7414fb8b72cfe9aadd",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-cancel-retry.err",
+      "mode": "100644",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-cancel-retry.jsonl",
+      "mode": "100644",
+      "bytes": 5396,
+      "sha256": "25f87b219e4e12e4ae7a17230ab4af34475aa95ad0d0e6427deea5adefdbbb96",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-cancel.err",
+      "mode": "100644",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 918531,
+      "sha256": "320a5f39d9097f47b5aa0dfe004ffce28567acfa1d001f4e11ac9eacb4b157a4",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-error.err",
+      "mode": "100644",
+      "bytes": 311,
+      "sha256": "0d16e48e06b304bf29bcc8ab6880519838ff7324bfeb438a1371b95f4db23a21",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-error.jsonl",
+      "mode": "100644",
+      "bytes": 3738,
+      "sha256": "87d418f0fe597cbc5c738f51a56a2c906dfc6deefcd30f5aeb1c4e0bfad7f1b2",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-recovery-retry.err",
+      "mode": "100644",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-recovery-retry.jsonl",
+      "mode": "100644",
+      "bytes": 12976,
+      "sha256": "2bc45e95ba9437f720078f6203de125e40d553fa91aa55aeef6df1ff46d0a28a",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-turn1.err",
+      "mode": "100644",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-turn1.jsonl",
+      "mode": "100644",
+      "bytes": 16294,
+      "sha256": "c9e77a6748559458b92f13e4512690cdd822ee480bcd0bfbdb35a155113f675a",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-turn2.err",
+      "mode": "100644",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/claude-turn2.jsonl",
+      "mode": "100644",
+      "bytes": 12975,
+      "sha256": "ab7398523edee68d9f84ba60123c4c13a8b4101a47c695ad8b9888fb69e18808",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/commands.jsonl",
+      "mode": "100644",
+      "bytes": 12287,
+      "sha256": "209f7997e9d208719f980c347cc85a7456a92eb7caca42621767f6197335d2cc",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/error-config.json",
+      "mode": "100644",
+      "bytes": 462,
+      "sha256": "990bfbf751fdd508137e3d2c94bd07efe95fb39e46cf12e21b6ff70450c8d786",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/error-gateway.log",
+      "mode": "100644",
+      "bytes": 6,
+      "sha256": "979426ee8ee86435d387487a2527bbe4697e96ea6aff176a0c2276a5d6c798cb",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/error-receipts.jsonl",
+      "mode": "100644",
+      "bytes": 4362,
+      "sha256": "9533b49f7d2240f75127638ba904b46bc925e8d6d38efff41fffc405c6a5db2e",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/gateway-commands.json",
+      "mode": "100644",
+      "bytes": 554,
+      "sha256": "7862bcff2b48341a3ee34ec1035c37dbb79088807d7dc54fd377404f522ae413",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-after-cancel.err",
+      "mode": "100644",
+      "bytes": 193,
+      "sha256": "ca6016a22c0f03ae1277aed63ba2620ff5ecffacffc165351b2d7e3f77fc24a7",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-after-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 5909,
+      "sha256": "f4cb5d4699f023813d951795789008cdf9c8f70e0330bc3f1a6239371dc5a264",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-after-error.err",
+      "mode": "100644",
+      "bytes": 193,
+      "sha256": "ca6016a22c0f03ae1277aed63ba2620ff5ecffacffc165351b2d7e3f77fc24a7",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-after-error.jsonl",
+      "mode": "100644",
+      "bytes": 1375,
+      "sha256": "cd73744f0f4d5ef14ec56d755e11183701afb24c1b3fe5c86035b5a51d5a5480",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-cancel-marker.json",
+      "mode": "100644",
+      "bytes": 401,
+      "sha256": "e02fe76a3737aac8e1a4e3c1226d5bd5edb40ce0569afce32211e287dd672e9b",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-cancel.err",
+      "mode": "100644",
+      "bytes": 243,
+      "sha256": "21f4fd38372f225d1f683fb3c3c82bbef8c2000539fc955288c031b530b7b153",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 3074,
+      "sha256": "47bcc026c16218cd26e81b3f70a8d374b8bb9dbe4c272f33d046051606d7666b",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-error.err",
+      "mode": "100644",
+      "bytes": 278,
+      "sha256": "2cbcf961ee8c278ad2e097ea8463c3147e17a86b00fb26a05ca92d7c709eda5d",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-error.jsonl",
+      "mode": "100644",
+      "bytes": 114,
+      "sha256": "8484b854462383c4f4310f7c1eba73ea7c6fb0833329e30cea8582544d299cd8",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-recovery-specific.err",
+      "mode": "100644",
+      "bytes": 193,
+      "sha256": "ca6016a22c0f03ae1277aed63ba2620ff5ecffacffc165351b2d7e3f77fc24a7",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-recovery-specific.jsonl",
+      "mode": "100644",
+      "bytes": 1374,
+      "sha256": "98eda7106a2758eee84af28a4d3c0c79d3c0754c2f3c19f2bfd10061f7995700",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-turn1.err",
+      "mode": "100644",
+      "bytes": 497,
+      "sha256": "74a91054820cf75b6426e7a96d5b15764071678f7cdb23215b65cf975b7348cb",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-turn1.jsonl",
+      "mode": "100644",
+      "bytes": 2013,
+      "sha256": "5f8160a0cbd9c73d03e143c426e088ed01a78abc46a811dba8c516c7bc5ecd89",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-turn2.err",
+      "mode": "100644",
+      "bytes": 193,
+      "sha256": "ca6016a22c0f03ae1277aed63ba2620ff5ecffacffc165351b2d7e3f77fc24a7",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/hermes-turn2.jsonl",
+      "mode": "100644",
+      "bytes": 1374,
+      "sha256": "fd176d7e29f8fcc90ce097fab16fac6b213bb80bc613c0e37da402102800505c",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/normal-config.json",
+      "mode": "100644",
+      "bytes": 464,
+      "sha256": "02dc2265d4931da94ae11858421a53637b3da953676a30366c35f42cb10fbf92",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/normal-gateway.log",
+      "mode": "100644",
+      "bytes": 6,
+      "sha256": "95487d5fe5698fa491e0c195d24a7d429168b42099ce1dec03a2e9dccfddc8b1",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/observe.py",
+      "mode": "100644",
+      "bytes": 1986,
+      "sha256": "28c79533a5175c26cdb8ff002d74843fb837af73ea1308a13d01761307b05a21",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/preflight.txt",
+      "mode": "100644",
+      "bytes": 636,
+      "sha256": "c8f3b7ea58c4031dedfc4a197ddb249226216984884bc3552cfd5ff0c6578c67",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/project/claude/fixture.txt",
+      "mode": "100644",
+      "bytes": 36,
+      "sha256": "785f889adfbac9563213bbe1770315946333fde58a74d678bea98f1aefcd9188",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/project/hermes/fixture.txt",
+      "mode": "100644",
+      "bytes": 36,
+      "sha256": "785f889adfbac9563213bbe1770315946333fde58a74d678bea98f1aefcd9188",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/project/hermes/objects.txt",
+      "mode": "100644",
+      "bytes": 1491,
+      "sha256": "0a02567ffb8af9fdce80af4e276ae0ffd1c1b0655ccf45d76b36e83766ec1183",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/receipts.jsonl",
+      "mode": "100644",
+      "bytes": 9882,
+      "sha256": "f0268526e1c5588c823a431ce899fed354099be8d0dbe3ebb9f1d4de09860c34",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/recovery-error-config.json",
+      "mode": "100644",
+      "bytes": 471,
+      "sha256": "4177a42735e6e473f14599ff4a7824cd26014a6c4eeb306aa990f99f844c9e94",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/recovery-error-gateway.log",
+      "mode": "100644",
+      "bytes": 6,
+      "sha256": "c3533289ac9596772003ceeb7141c9ac46573328a537bb1f06bdf1d693be906a",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/recovery-gateway-commands.json",
+      "mode": "100644",
+      "bytes": 572,
+      "sha256": "0c8fd10f95d650f34e15fb1abb0ab10ce6be22664524e61eee1b3b53f2f25de3",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/recovery-hermes.py",
+      "mode": "100644",
+      "bytes": 4432,
+      "sha256": "0af3e3105dbbff2018fdaccde122f5c8ddae98dc9b146f1281f2467799351e8a",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/recovery-normal-config.json",
+      "mode": "100644",
+      "bytes": 473,
+      "sha256": "772f4de0403fbe473e6c10f20a21ab36bd4484cae09c483e55fab1d91c87d677",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/recovery-normal-gateway.log",
+      "mode": "100644",
+      "bytes": 6,
+      "sha256": "d64cc48a0237cc6000b2ae25b88e312de7b63830f651d88d900e0dc98598717e",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/recovery-receipts.jsonl",
+      "mode": "100644",
+      "bytes": 891,
+      "sha256": "9c89b8e7103bfd663e21e471df0800df30f920517f883d1e28a2734e036f3d75",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/recovery.log",
+      "mode": "100644",
+      "bytes": 810,
+      "sha256": "42694d32d72d8e4e09b2db0d7e33a1bd721e7cd98c924fa0c94bc9176db51d70",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/replay.log",
+      "mode": "100644",
+      "bytes": 9591,
+      "sha256": "6468dca2c721cda8f43bf090a81713751b7891a3372654e780eb2daa077f7d79",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/replay.py",
+      "mode": "100644",
+      "bytes": 5228,
+      "sha256": "df15958524bb2cd89cfd95bc7be1017f649c04069abfea063374103b6bd5004f",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/retry-claude.py",
+      "mode": "100644",
+      "bytes": 4631,
+      "sha256": "d93817a5af2d31d73648f1d85cf5b02ccd1aad060f9ba6c11549b623d89b2a68",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/retry-error-config.json",
+      "mode": "100644",
+      "bytes": 468,
+      "sha256": "6412b71799ab90745ba264f04490db6768d75685797c54e5144ceaf332c905c0",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/retry-error-gateway.log",
+      "mode": "100644",
+      "bytes": 6,
+      "sha256": "7594db99fce7dc9685ac6064a7f0e18bdc15ce528283970764b7784c21e35c23",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/retry-gateway-commands.json",
+      "mode": "100644",
+      "bytes": 566,
+      "sha256": "5af14eb0f920119aeb05e0de3ed4af428ece6bce29f9e6f95745a3826ce395e4",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/retry-normal-config.json",
+      "mode": "100644",
+      "bytes": 470,
+      "sha256": "89542752796191a95d256b7a5e1ac75397eea3de7069aa867931a6694096574f",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/retry-normal-gateway.log",
+      "mode": "100644",
+      "bytes": 6,
+      "sha256": "84b5de884245ea469fc244529aba62fe115dbc46c6c7f3dba83ffc011a5858ab",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/retry-receipts.jsonl",
+      "mode": "100644",
+      "bytes": 967,
+      "sha256": "dad9bfd63a4959b7f63edbb316724b3a44e247d8a553ffe8df365f1e9f6323c8",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/retry.log",
+      "mode": "100644",
+      "bytes": 1886,
+      "sha256": "efbc85c7d23e83bace67159fa747995703aef1d113abdafdef2b5cb3e11374f0",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/host-replay-7e25c6e7/vm-native-sse/verify.py",
+      "mode": "100644",
+      "bytes": 2572,
+      "sha256": "20555a8c0aa4156ed301d75b7bba608df4b778a57059b5eba778a6241375ecbd",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/native/mac/SOURCE-RECONSTRUCTION.md",
+      "mode": "100644",
+      "bytes": 1321,
+      "sha256": "c5939631c7d389bb46bea8c77c3b76e81f2b1ca042e56025834981c0284fd177",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/config-chat.json",
+      "mode": "100644",
+      "bytes": 334,
+      "sha256": "1210410d19a2aa4c1a73f7c760529a1641540127941233e833fe71118a1bbab2",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/ollama-official-release.txt",
+      "mode": "100644",
+      "bytes": 108,
+      "sha256": "b963697e4fb1b433309dc9c17f3e3bda9005f0fd6dc8eaa35adcbb00f46e48c7",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/pass2/RESULTATS.md",
+      "mode": "100644",
+      "bytes": 3461,
+      "sha256": "c84da0597729a5e306c041d0467acd2fab395826b6aeee31b265f8fe860f5927",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/pass2/mac-gateway-tests.txt",
+      "mode": "100644",
+      "bytes": 2834,
+      "sha256": "69055320cbb2a7ec7397a3b30b0cb7bf902de59219f91d61756bd83ab03291c6",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/pass2/native-probe.txt",
+      "mode": "100644",
+      "bytes": 3734,
+      "sha256": "ec20ee321efe4ff20605624c8de720e5a567110fa72da8b73cd8396db42b8dd5",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/pass2/native_probe.py",
+      "mode": "100644",
+      "bytes": 2990,
+      "sha256": "9850787512ff4ab1dc070f5c307cd4e4661a1b793bbafde72ad120e00151d0ed",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/pass2/resource-sample.txt",
+      "mode": "100644",
+      "bytes": 4316,
+      "sha256": "ef8423db8d73fbbd74578aebe69d3078460ebdfa4543b4cf1cffbab236c2a3b4",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/pass2/retest-timeouts.txt",
+      "mode": "100644",
+      "bytes": 2047,
+      "sha256": "a93360fc5f9affa1bcfc2fd915fcc783e5e59c0f10f33874cbbb40d6d762ee24",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/pass3/RESULTATS.md",
+      "mode": "100644",
+      "bytes": 3462,
+      "sha256": "5dcc45bd9b0c1e83f22e432b2814a281a71334d244614addf96bc38c1deabb12",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/pass3/probe.log",
+      "mode": "100644",
+      "bytes": 9126,
+      "sha256": "2c512211ee206bb6dbbbd9615f4a363ee92723a7dba00ee9b6892877d0049c4d",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/pass3/probe.py",
+      "mode": "100644",
+      "bytes": 3257,
+      "sha256": "25d8ce8fa2a9039d0b3c3ef7fb302c156e3bc744b8357f93ddcabb9b474153a8",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/pass3/state.txt",
+      "mode": "100644",
+      "bytes": 2842,
+      "sha256": "5dc9efe03b49a1cde3226e3150b388ddd57adb55419c8a93071c1899ec32cd4f",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/pass3/tests.txt",
+      "mode": "100644",
+      "bytes": 1496,
+      "sha256": "b763bc4c72f2df15b0c0e8968dfafd899a8e788049c3aacfd8caf2d18e5a6744",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/preflight-source.patch",
+      "mode": "100644",
+      "bytes": 1811,
+      "sha256": "8ac1f5befcf5048b2b10009d51e71a53f2a245c470af52a24a52f30267748c49",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/preflight.txt",
+      "mode": "100644",
+      "bytes": 320,
+      "sha256": "294b2bfeb66b1fab37c22e32c122dde4212f18ccdb17ac5991c75c09b624917d",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/receipts.jsonl",
+      "mode": "100644",
+      "bytes": 391,
+      "sha256": "d7594a2f5a4f9d8f9ea995be81202204b7ad453f029b38e3ef42471a0f95458e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/mac/source-manifest.json",
+      "mode": "100644",
+      "bytes": 163,
+      "sha256": "2091bfaf7aeed67cc066607ad89e61bfdeae85ee2f635a97c52f8fb171e475aa",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/.gitattributes",
+      "mode": "100644",
+      "bytes": 279,
+      "sha256": "85d4e9552f7fd1c4cb450a8f4dd90c13d0bd586dade0a6b0af40655cd2bf2207",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/REPORT.md",
+      "mode": "100644",
+      "bytes": 4632,
+      "sha256": "3c24a97a7de9edd09699fa13202c134615ea68af14cef217019278efec715685",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/accept-only.diff",
+      "mode": "100644",
+      "bytes": 803,
+      "sha256": "6616be0406403e2a4d86fa73cdd45366e757785bbc52a7e731ab62a6421bab6c",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/checks.json",
+      "mode": "100644",
+      "bytes": 777,
+      "sha256": "57cf24cb3d4e56ea1a10e55c837fb592bccda944079966a65ef3c058589fd098",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/config-template.json",
+      "mode": "100644",
+      "bytes": 492,
+      "sha256": "bd10ed6e1312b32d9d2f6b8b283a291bc63eecd08bd081439a3b7d45ee15b083",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/gpu-after.txt",
+      "mode": "100644",
+      "bytes": 16,
+      "sha256": "6280f8f9e5be672b7044d12ed2b0e6e976449b3e24f24fbc92528b3a45b9d448",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/gpu-before.txt",
+      "mode": "100644",
+      "bytes": 15,
+      "sha256": "47ef5c2881d07123e89353c72ab4ad025c2a1b9bd6398be3a53c4902dcd486d6",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/REPORT.md",
+      "mode": "100644",
+      "bytes": 4025,
+      "sha256": "49bb586376df379849c46e8b318fc145ecce2f9210e4cd5d48d0144429b9d204",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/after.txt",
+      "mode": "100644",
+      "bytes": 1056,
+      "sha256": "66445461745326e6c150052ae8a314e5f8b0ffa1aaf7df5616c3097347d7ea0e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/cancel-result.json",
+      "mode": "100644",
+      "bytes": 798,
+      "sha256": "e9262d821a19f567b7b2a4df7248e04fcee6acd872e1df87b2cb4db124774d4b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/cancel.err",
+      "mode": "100644",
+      "bytes": 243,
+      "sha256": "952c651de05fd812346117bd77a0247b9cadc3838546719d78c602b42b4c2049",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/cancel.jsonl",
+      "mode": "100644",
+      "bytes": 442,
+      "sha256": "85bea94cadbdd5e1d6dac8a7c8cc43be8bd4aea137819f36cd9b71600305c85e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/checks.json",
+      "mode": "100644",
+      "bytes": 4173,
+      "sha256": "21dbb0d8027adc092b71d4f5e0e578309eaff0a92752ba88395f1f3ea323746e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/config.json",
+      "mode": "100644",
+      "bytes": 481,
+      "sha256": "14af51e2cb149f06576eaf716732a0678e8edfb87f608339145eb44aeb87b435",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/gateway.log",
+      "mode": "100644",
+      "bytes": 6,
+      "sha256": "d8f52bb2610809a9f825970cb3acd41315fcd3c301daa26a73e4e407da677247",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/initial-result.json",
+      "mode": "100644",
+      "bytes": 676,
+      "sha256": "3c087fb21dbf42469899ae6b27839791ad49056c53b390b0a94d914b365aa3e2",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/initial.err",
+      "mode": "100644",
+      "bytes": 497,
+      "sha256": "1048f31a28478d37857a1c7db2abfd794a5f1245c2ff55245024eded08e6d905",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/initial.jsonl",
+      "mode": "100644",
+      "bytes": 814,
+      "sha256": "e6efc2cb41070b51b6794625fee58ffe3de4f6813befecdbd79404bbcf1aec85",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/launcher-session.txt",
+      "mode": "100644",
+      "bytes": 37,
+      "sha256": "8abad1960fcff2936bf9f97c8a2dff3c6bf2342c1b0b61c8e57d477d80c5e50d",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/marker.json",
+      "mode": "100644",
+      "bytes": 297,
+      "sha256": "8522376ebb3bdbb7265b2921dd56844bfd0b7001b1dd8966a1c28e2ee51e5e41",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/native-session.txt",
+      "mode": "100644",
+      "bytes": 71,
+      "sha256": "943ded0d4aa82f8430f6f04538354d766d422aff63b7362b9fe70f26e9d1f5ac",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/observe.py",
+      "mode": "100644",
+      "bytes": 1693,
+      "sha256": "49a09b588fc67cf43eb627135ff99ef40ab3cd1370b2385a297e2a4683c762f8",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/preflight.txt",
+      "mode": "100644",
+      "bytes": 577,
+      "sha256": "ed367526ce93edbe392d58bc6a1aa72b2c9a03d6a7bc2c77420b46a82107047d",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/provenance.json",
+      "mode": "100644",
+      "bytes": 4069,
+      "sha256": "88b592d028d538c973a7e9c444f4f6b76791d135b5a4b25264ff66b61c7f514f",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/receipts.jsonl",
+      "mode": "100644",
+      "bytes": 3576,
+      "sha256": "bb3774fabc805a70a44c233eaffa3c17e9162d1758fe8d88f69b4f51e386380b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/replay.log",
+      "mode": "100644",
+      "bytes": 4174,
+      "sha256": "2d9861e797b8cfc2cea8ddf74d40cc7da1472730b323f7cb3b4b84e0cf628354",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/replay.py",
+      "mode": "100644",
+      "bytes": 4202,
+      "sha256": "764a5b95a79823e57b9883d0a2f696bef047630bcc83ca06490d736e9d7718f4",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/resume-result.json",
+      "mode": "100644",
+      "bytes": 776,
+      "sha256": "ce75747938dcb32446a7212766ef53b524964b16072e5d84bd947ebc15e71a8d",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/resume.err",
+      "mode": "100644",
+      "bytes": 193,
+      "sha256": "3db00bc0f15e0836758edb33dfe3192bd85e119eae12247a9c3c2a6fac3e395f",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/resume.jsonl",
+      "mode": "100644",
+      "bytes": 817,
+      "sha256": "f57188018ea64620c6d7d1cf33cbfecdc80b4ed5247d18d2dedb4d01ba23f514",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/verify.log",
+      "mode": "100644",
+      "bytes": 126,
+      "sha256": "9e4974348027c7aba89c63de8f9803ffe0645d502da00589903333e94962a096",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/hermes-cancel-replay/verify.py",
+      "mode": "100644",
+      "bytes": 730,
+      "sha256": "4764c28f2569839af3fe3bb06a2639b75bb7cbaa883bd0746ac9264fcf7eda5a",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/claude-after-cancel.err",
+      "mode": "100644",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/claude-after-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 10692,
+      "sha256": "7d04e350b3aae2905120ecb182ffb44a09610bcd7c35c66a1c9ace87b7476665",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/claude-after-error.err",
+      "mode": "100644",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/claude-after-error.jsonl",
+      "mode": "100644",
+      "bytes": 10695,
+      "sha256": "f0a81bb8708308e0651800ec43b6ee70b047acd147d40c7e6a3b6a6ea011b066",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/claude-cancel.err",
+      "mode": "100644",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/claude-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 7272,
+      "sha256": "262d246f466bd90aaa334396db022883f6af5bc65a353b468bd754a7007d927e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/claude-error.err",
+      "mode": "100644",
+      "bytes": 311,
+      "sha256": "0d16e48e06b304bf29bcc8ab6880519838ff7324bfeb438a1371b95f4db23a21",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/claude-error.jsonl",
+      "mode": "100644",
+      "bytes": 3654,
+      "sha256": "f5395e6ef9e859e2a4016fb7d50e66e85397520d4624c7fb7d1980a776b98807",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/claude-session.txt",
+      "mode": "100644",
+      "bytes": 37,
+      "sha256": "099d66b52323fa826e25a8bef218f4fa8d8a14835c43a565a01e24b367f87f7b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/claude-turn1.err",
+      "mode": "100644",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/claude-turn1.jsonl",
+      "mode": "100644",
+      "bytes": 28285,
+      "sha256": "43a3f0e9da73ea1131595ce74a06b7187e532c7dc70a7fed06fd97fd0313907d",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/claude-turn2.err",
+      "mode": "100644",
+      "bytes": 84,
+      "sha256": "7555095581702c885863d81b1a80e2978643cbabb2ddca2e539c5807cf9df12e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/claude-turn2.jsonl",
+      "mode": "100644",
+      "bytes": 10670,
+      "sha256": "5987a87329755aa136a7b1c1667b3d41aac7f43d07fd8adb80eee63d4ecc799c",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/claude-uuid.txt",
+      "mode": "100644",
+      "bytes": 37,
+      "sha256": "ebf507878dc285099085eccbbc425048d6f224bb170855c7b6b455f63485c564",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/commands.jsonl",
+      "mode": "100644",
+      "bytes": 8634,
+      "sha256": "52efb32df7cc99e628078b794518734cd2300fd9900f7cbfc3b29134d605b3de",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/config.json",
+      "mode": "100644",
+      "bytes": 469,
+      "sha256": "d8e901cc305aed42f1ddcb414f6d3de21d0a623a463dbf58b2b53d303db92a04",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/gateway.log",
+      "mode": "100644",
+      "bytes": 6,
+      "sha256": "4de773e1d15117c39fb8f4785b2ea236eef787f02a6ea1dbf50d7bb17545bbde",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/hermes-after-cancel.err",
+      "mode": "100644",
+      "bytes": 193,
+      "sha256": "04b666f1b834f430bb85dc63226502430efd90fb37ca521789b8559bef869c01",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/hermes-after-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 1374,
+      "sha256": "dc7b2eed8c7df3a1a56baf7988fa7c84a2e4d44f130d44d96310eff983eb2f21",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/hermes-after-error.err",
+      "mode": "100644",
+      "bytes": 193,
+      "sha256": "04b666f1b834f430bb85dc63226502430efd90fb37ca521789b8559bef869c01",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/hermes-after-error.jsonl",
+      "mode": "100644",
+      "bytes": 1374,
+      "sha256": "a53223953b2a334ad4807f938e97727d3dd312f58820c76b401800c694c0c674",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/hermes-cancel.err",
+      "mode": "100644",
+      "bytes": 243,
+      "sha256": "b671f0888608dd4b642673557ba379788480d7fc236175026b9617db9d5253c2",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/hermes-cancel.jsonl",
+      "mode": "100644",
+      "bytes": 626,
+      "sha256": "0614a724067f730d73fe107b6d42c3e99940211ae127b8c7a7520d6fda5b0ad2",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/hermes-error.err",
+      "mode": "100644",
+      "bytes": 307,
+      "sha256": "91c481e81d9f9372b98ff54ad8d3b810b95f45f8b4720cc3f74eacc14ac8f314",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/hermes-error.jsonl",
+      "mode": "100644",
+      "bytes": 114,
+      "sha256": "a0d0424e0f4c373e27837940e6d959157185790d976f445ce1f1c00e7ec7bf2a",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/hermes-session.txt",
+      "mode": "100644",
+      "bytes": 71,
+      "sha256": "eedad596dceb04d0386f9d310310904229682b8ca2c8f4054f880a7eb4a86532",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/hermes-turn1.err",
+      "mode": "100644",
+      "bytes": 497,
+      "sha256": "34feed78c328860b8460acf1a02843741c9373cb3542616fd543805a8284a676",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/hermes-turn1.jsonl",
+      "mode": "100644",
+      "bytes": 2012,
+      "sha256": "667b8ab74d6bd977e194b9ca61df7bd4dfcf9a0b11bff780efe458c92c1324f7",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/hermes-turn2.err",
+      "mode": "100644",
+      "bytes": 193,
+      "sha256": "04b666f1b834f430bb85dc63226502430efd90fb37ca521789b8559bef869c01",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/hermes-turn2.jsonl",
+      "mode": "100644",
+      "bytes": 1374,
+      "sha256": "13f08ede4496492fe1e1980f7e1cbbcb196b70d46f6e88e083affa311a7b6b91",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/hermes-uuid.txt",
+      "mode": "100644",
+      "bytes": 37,
+      "sha256": "9de4c2434abd9cc028b0bc6abbf1a496db3f9c6e4291af524bccb338fbe8953c",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/observed/receipts.jsonl",
+      "mode": "100644",
+      "bytes": 8902,
+      "sha256": "c9535cbd6eab17d2e31394d865ad740100b87279e78548f76b8193f6fa9f4d51",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/ollama-after.json",
+      "mode": "100644",
+      "bytes": 435,
+      "sha256": "1d4aaa4eb6c6dd83940edf2209a509a049ed966aeb19254f22b6dc31c77c80c1",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/ollama-before.json",
+      "mode": "100644",
+      "bytes": 13,
+      "sha256": "a6fe9ec6e26a38d99fca418b69826e0238b7a2bb319ff05eb153a6fcfd1fa28d",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/provenance.json",
+      "mode": "100644",
+      "bytes": 8279,
+      "sha256": "bacf08a2a8f80991a7b4b43d77d76b66c3f41222193adda54e471f4604e4ab3e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/ram-before.json",
+      "mode": "100644",
+      "bytes": 69,
+      "sha256": "35262a714ad2d497ee66dc35e5162eeefe87de7056da95865988bbcac40074c5",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/replay-observed.py",
+      "mode": "100644",
+      "bytes": 5278,
+      "sha256": "c9fbe54217d24bc1bc336895495ff92341b641d4d40522243752caa7ff0021b6",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/source-identities.txt",
+      "mode": "100644",
+      "bytes": 123,
+      "sha256": "af577b3928a83fe5d88662efae0f51ae8b6414d63633e677022f57bfce55885d",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/source-verification.log",
+      "mode": "100644",
+      "bytes": 125,
+      "sha256": "d052eaf40b0da045ceea4c96c8ad9f027eb2fa473c6e09a4803b85a1676383d6",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/source.sha256",
+      "mode": "100644",
+      "bytes": 435,
+      "sha256": "8b16b237dfef7f5dc5b28d20e4f35f7edee395568c4af9647063ca3eab8510ad",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/tests-core.log",
+      "mode": "100644",
+      "bytes": 105,
+      "sha256": "a540d7958c7d9b0f7387c4ebee2931ab28ccad485073b05f19a96caf78046342",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/tests-snapshot.log",
+      "mode": "100644",
+      "bytes": 165,
+      "sha256": "fd14b25527f754c0734d748d370d8d7182e5db62c38ec4fe7654318ca4ef513e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/tests.log",
+      "mode": "100644",
+      "bytes": 165,
+      "sha256": "1352d382a164e64ca4b5fbed9425b1579bd78991395e91952e9246553a5627cd",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/native/vm-accept/versions.txt",
+      "mode": "100644",
+      "bytes": 173,
+      "sha256": "7f28ee1beefd37cb2ad51d5526b2406b304426a8cb9f660baa59e46939949bd4",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/offline/comparator-t_14313d5b.txt",
+      "mode": "100644",
+      "bytes": 739,
+      "sha256": "f7c68203802b69b5b70c76ac7bd088eda8a238f25149f2947dd63e5d30fcbe44",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/offline/demo-t_a3c46d97.txt",
+      "mode": "100644",
+      "bytes": 952,
+      "sha256": "e4eccc95ac2449652de60e89a0e5f67803ec1f810c5647658b6c4c4ab75839d2",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/offline/integrated-t_dab1958b.txt",
+      "mode": "100644",
+      "bytes": 1678,
+      "sha256": "d1229f9b605f69d39017268d820ba4306d4179e6f793a6dd5bec5bf07a09b94f",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/offline/loop-t_daf181c7.txt",
+      "mode": "100644",
+      "bytes": 806,
+      "sha256": "f18af2eca013b4cfd4b3073bd8a4f2e703b237b94bf00473a1d4202ceef57790",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/offline/pilot-t_f21a25b3.txt",
+      "mode": "100644",
+      "bytes": 2225,
+      "sha256": "a6ab132b158fed2b11a0e7fd7d9b93a8e63d00a5364e2831fc35cc61112c7ca1",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/offline/root.txt",
+      "mode": "100644",
+      "bytes": 2853,
+      "sha256": "afd0d82068baac429535e4988f80d579172c085e3594111677dce64690496a04",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/offline/run.json",
+      "mode": "100644",
+      "bytes": 807,
+      "sha256": "0221be8a0b86817b380d4d8c2b97a8ac4c8d2d3113aa7c78bb31fd6aaf528c4e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/ollama-protocols-run1.json",
+      "mode": "100644",
+      "bytes": 27976,
+      "sha256": "64bf34a8567ce99054d57bc185a2a3249fd215ee44c226ed1e363c9145517f51",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/ollama-protocols-run2.json",
+      "mode": "100644",
+      "bytes": 27781,
+      "sha256": "1be128245e5c8f01ab8da9bd87531a20559c0b7db328b5253c521a7f9eccd776",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/probe_protocols.py",
+      "mode": "100644",
+      "bytes": 5199,
+      "sha256": "202ced01ad6c447a1a76dce655a227da40e90741a4d0530d4fab82e274174bed",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/release/candidate.2/REPORT.md",
+      "mode": "100644",
+      "bytes": 4041,
+      "sha256": "622aedcc1277e1244a4dbbcfb15a52d5216c1a05db39979840d1b86c9bddc960",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/release/candidate.2/certification.log",
+      "mode": "100644",
+      "bytes": 6505,
+      "sha256": "1f6a03160189b62097098cae327120391959c0bf60389d581e086d1faf89f2d7",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/release/candidate.2/download-check-1.log",
+      "mode": "100644",
+      "bytes": 1305,
+      "sha256": "563c7651bab62fb8ba7076bca4fa33bb2824dffc0b80718afccd62a7369f6f41",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/release/candidate.2/draft-readback.json",
+      "mode": "100644",
+      "bytes": 4798,
+      "sha256": "19b4008868f74878bd6652dceb43a3eb5158f89897706ebc713a6d674bee360d",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/release/candidate.2/privacy-review/coverage.json",
+      "mode": "100644",
+      "bytes": 127124,
+      "sha256": "f1e9cbda06e357a8f0a69b4db55bbe7034a24ee5f0dd710ff421a5ab65e0a35f",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/release/candidate.2/privacy-review/privacy-publication-review.md",
+      "mode": "100644",
+      "bytes": 4919,
+      "sha256": "e1419d5dbc1a0f99eb376d98bc9034c15ddd9b1b877495daa424dcfcfaf85704",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/release/candidate.2/publication-hold.json",
+      "mode": "100644",
+      "bytes": 1106,
+      "sha256": "9c23cf9e35be0e6248227d95e1aaf1db639c8c6824d2ec269f9f28b6d9b22c04",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/release/candidate.2/publication-notes.md",
+      "mode": "100644",
+      "bytes": 2371,
+      "sha256": "34a07ebd08e6fc07d12806d39950eb7f343e64071a67e6da2d40f7e0ce0dca6c",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/release/candidate.2/result.json",
+      "mode": "100644",
+      "bytes": 1905,
+      "sha256": "312ad0e964ad0ef3ad7ed4c682cdbd33eda7c42a04ac5e4a8afe819609c91013",
+      "delta": "added",
+      "review_refs": [
+        "host_evidence"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/reviews/benchmark-review-final.md",
+      "mode": "100644",
+      "bytes": 2407,
+      "sha256": "ce3e032ee914f8aacb6fc8be5f2de475bf8620791b3e2cb527e324b8830089b2",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/reviews/benchmark-review.md",
+      "mode": "100644",
+      "bytes": 4438,
+      "sha256": "cc8346fe81572bb6236dc9775ba2ca8f2e9e4f4bdee63076cd30cc4a1a737841",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/reviews/codex-native-review-closed.md",
+      "mode": "100644",
+      "bytes": 2872,
+      "sha256": "31b43b235d612060327a9b5ae04487d24f11c5909066f7662349859f5105649a",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/reviews/codex-native-review.md",
+      "mode": "100644",
+      "bytes": 7084,
+      "sha256": "c7fd5c217bdc443a582e72f0e3e554ceab781f10e8fe9edbc1d6e37df743aef1",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/reviews/gateway-review-final.md",
+      "mode": "100644",
+      "bytes": 1977,
+      "sha256": "a676db32e9c9709bbbbae85f2bb3eae06983b3801c839ae0c55d3e83ad37fd13",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/reviews/gateway-review-fixed.md",
+      "mode": "100644",
+      "bytes": 5104,
+      "sha256": "ba52809b4264e38f845ad15171f49257d3476796513441ce3e152ada79ce9e78",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/reviews/gateway-review.md",
+      "mode": "100644",
+      "bytes": 3518,
+      "sha256": "36d8600998bd99e17133afe54d414edfc4fe68abff67fe8dd455f91a4b05c766",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/reviews/host-adapter-review-closed.md",
+      "mode": "100644",
+      "bytes": 1474,
+      "sha256": "d4eac137e1c096606b90f47992ef4a5dd19856af4e6460efa1e1ba2fdfc6cfc4",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/reviews/host-adapter-review-final.md",
+      "mode": "100644",
+      "bytes": 3603,
+      "sha256": "3394867a27fc465e5f5f864a4d05832e552c4f4a4b564f120fc197aba6ed0ef0",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/reviews/host-adapter-review.md",
+      "mode": "100644",
+      "bytes": 2972,
+      "sha256": "6ce02d377ddfd2057aa74a672a951948e04ee192aad82d1978ea26e74cec6739",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/reviews/native-sse/native-sse-independent-closed.md",
+      "mode": "100644",
+      "bytes": 2054,
+      "sha256": "6dfcb898156026d32df4eda7c1755b7c6a5dca2521409d387985fc5ede0d5022",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/reviews/native-sse/native-sse-independent-review.md",
+      "mode": "100644",
+      "bytes": 4261,
+      "sha256": "a882424b3b118ca8f89256360f924b34b4446830f244a661cc3f3039d83ef849",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/reviews/native-sse/native-sse-integration-review.md",
+      "mode": "100644",
+      "bytes": 3165,
+      "sha256": "5a72d4e3a1a2c7868b308bad5f0df0234b985d0cbc34083a3d2318bccdde78ca",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/reviews/native-sse/native-sse-review-repair.md",
+      "mode": "100644",
+      "bytes": 3919,
+      "sha256": "fc8936e7d7356df342d3593f99e8e0ee9a3cad8c84f8dbc87cd27bec414aeb2f",
+      "delta": "added",
+      "review_refs": [
+        "native_sse"
+      ],
+      "coverage_basis": "exact bytes and mode match reviewed tree"
+    },
+    {
+      "path": "evidence/reviews/release-analysis-review.md",
+      "mode": "100644",
+      "bytes": 5316,
+      "sha256": "fc69e97dd71e1a5ac82b4c92584c3deabd09675c43a3c21f426f09b10e52b6d6",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/reviews/release-review-final.md",
+      "mode": "100644",
+      "bytes": 3999,
+      "sha256": "ce3dd9436a6c6bbe502f6549df20e52956a3fa0b3533d89b009b14e8ec08b431",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/s1d1-identity.json",
+      "mode": "100644",
+      "bytes": 2358,
+      "sha256": "c915b3f7752a3fa34ee5738bc9ea89bbbaa6f893e4a4384f99d4860d7035d832",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "evidence/s1d1-real-smoke.json",
+      "mode": "100644",
+      "bytes": 1278,
+      "sha256": "42a7b6e224527e6e99214936c56e811a4457f2193097fc825a2ca39391e28e04",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "examples/Modelfile",
+      "mode": "100644",
+      "bytes": 58,
+      "sha256": "989bae877d2a7ff13a2b9b724631f9f819198fb26b6ad6ee05a154a7c35445cf",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "examples/local.json",
+      "mode": "100644",
+      "bytes": 360,
+      "sha256": "cc906be371c2258594ef7f9041909553190d9f1c387c3e4cb2bdcb58baea9537",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "host-adapters/README.md",
+      "mode": "100644",
+      "bytes": 4491,
+      "sha256": "52482688f805031e05343962aa93860f84ce94a938f76b70096ac78675def8d0",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "host-adapters/launch.py",
+      "mode": "100755",
+      "bytes": 8266,
+      "sha256": "a4ef8463a484a4a5342707ea842da258535257975eb0e7c628c8e13de4175565",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "host-adapters/test_launch.py",
+      "mode": "100644",
+      "bytes": 10562,
+      "sha256": "f9714bdda67c6c465b1a789fb4eb173a875f32af38efa276c8c84fa3dd7cbd19",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "integrated-t_dab1958b/GATEWAY.md",
+      "mode": "100644",
+      "bytes": 2976,
+      "sha256": "87593bda3169f645491059d095048574cc4c1129fc1856624be5943720111be3",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "integrated-t_dab1958b/README.md",
+      "mode": "100644",
+      "bytes": 2148,
+      "sha256": "ff33387a47b7497b06b7958bed7acc16e04fed223e6d74c5e802fb877f0456a7",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "integrated-t_dab1958b/evaluator.py",
+      "mode": "100644",
+      "bytes": 401,
+      "sha256": "4b39fc374e9b2da4089152990dc44c9d97ba76996725c1c30a5ddb3f6ed9c2e1",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "integrated-t_dab1958b/fixtures.py",
+      "mode": "100644",
+      "bytes": 2318,
+      "sha256": "2206e7e5a11b7db92039253b9f160552373ab800cb7ba90f7ae5d9cd5eee906c",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "integrated-t_dab1958b/gateway.py",
+      "mode": "100644",
+      "bytes": 6665,
+      "sha256": "121e17965e3fd20953636616a974b936490d7533f37327bcfeb42ffba3fa454a",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "integrated-t_dab1958b/runner.py",
+      "mode": "100644",
+      "bytes": 1214,
+      "sha256": "35704ba98a8ec4834e9bbf06cb07e70cecd11890167b05fc4ff47aa96d06dca3",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "integrated-t_dab1958b/test_cases.py",
+      "mode": "100644",
+      "bytes": 1081,
+      "sha256": "345e4ee78124f0bd869236fdd6c3af787823f137441eab2c45927bee01b8d577",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "integrated-t_dab1958b/test_gateway.py",
+      "mode": "100644",
+      "bytes": 2882,
+      "sha256": "296e72dedf55b9371291407ff5c95fa07ecb3d4bf9a21f670d2e2497ab0ac25b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "integrated-t_dab1958b/test_runner.py",
+      "mode": "100644",
+      "bytes": 584,
+      "sha256": "1e38d8b628734d6db5a128f4d15dc54d22c049eece28a59ec37d126090924cd8",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "jev_decider.py",
+      "mode": "100644",
+      "bytes": 4938,
+      "sha256": "4d28c95d95c7d2910d983602fb7ecb15992d81c6bc476413ba272ab161f28034",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "loop-t_daf181c7/README.md",
+      "mode": "100644",
+      "bytes": 3391,
+      "sha256": "5720368d93208d61df0c5ff36b8da7ddf9928941e4175a6ef7b469f9023c9e36",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "loop-t_daf181c7/loop.py",
+      "mode": "100644",
+      "bytes": 3337,
+      "sha256": "eac9b0b0af53fa81ace1b75fe324eecf9dc2c32e29b5c25a8a2bfc504dbc3586",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "loop-t_daf181c7/test_loop.py",
+      "mode": "100644",
+      "bytes": 3290,
+      "sha256": "d27d3f09d9e6d546b5675aaf2eab516131c7116315b3e7cde7e66a0f38e64fd6",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "omr.py",
+      "mode": "100644",
+      "bytes": 43552,
+      "sha256": "6670df32c589ea6a3324eeff79dd10e45c9eaddb5d62f8526c7bf3e5e0b33a3b",
+      "delta": "modified",
+      "review_refs": [
+        "candidate2",
+        "deadline_delta",
+        "integration"
+      ],
+      "coverage_basis": "candidate.2 baseline plus independently reviewed deadline delta"
+    },
+    {
+      "path": "pilot-t_f21a25b3/BENCHMARK.md",
+      "mode": "100644",
+      "bytes": 1626,
+      "sha256": "6807f0811f470ab362386ee23af253aea6621e2a3ca6c7ac13c3f46d7f483cb6",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/LICENSE-s1d1.txt",
+      "mode": "100644",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/LOCAL-GENERATION-RESULTS.md",
+      "mode": "100644",
+      "bytes": 2060,
+      "sha256": "91af8e58f9c89bafc36239a84457c952f432c7640861e8a906d474670f7706c2",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/LOCAL-PILOT.md",
+      "mode": "100644",
+      "bytes": 1358,
+      "sha256": "e6f410f64ca5def8e94c07ad86fd2e53f66a8d3d7bf68eb6b021c7a98f11d2b1",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/PILOT-RESULTS.md",
+      "mode": "100644",
+      "bytes": 2065,
+      "sha256": "23d2434cb70c7ab5bcf30d49c545943b028016591548d9b1cd12a4013677c87a",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/SAFETY-PROTOTYPE.md",
+      "mode": "100644",
+      "bytes": 1273,
+      "sha256": "531b8e12d8a770011a833e021908743f59d968231f3e5a3f56ec32ad76f52c97",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/benchmark-example-cases.json",
+      "mode": "100644",
+      "bytes": 231,
+      "sha256": "8e1b325e1f869375b13719c6d1dba4046be1e3a048ea6995e734ab9bbaa4fb9c",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/benchmark.py",
+      "mode": "100644",
+      "bytes": 3272,
+      "sha256": "53ca4e3a84602ef96d71722034fc169cc9302c88532e3c88fa28de9e372a0e36",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/compare.py",
+      "mode": "100644",
+      "bytes": 3126,
+      "sha256": "723f5f28e87bc10c36868b812705db88b0a95bd20c85957f5af0b3540782cfcc",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/local_generator.py",
+      "mode": "100644",
+      "bytes": 1345,
+      "sha256": "e7230a9fe52dfbb70faf2cc08502f0ec53d46fee538996e3ed4530aef487b893",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/pilot-local-results.jsonl",
+      "mode": "100644",
+      "bytes": 839,
+      "sha256": "291ffbdf24e73dcce39556f88f2f095c907ca90e9b0fff07fee68609b38db33c",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/pilot_arm.py",
+      "mode": "100644",
+      "bytes": 1033,
+      "sha256": "0ced519613b905fde3d58672ba6cd461325fab2c924c1dc9f7f027f64f07be39",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/router.py",
+      "mode": "100644",
+      "bytes": 3353,
+      "sha256": "9f49282cfe18b54c4515f550c60e751ada419fc5ffc2087860e1ba94ad91ed34",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/s1d1_upstream.py",
+      "mode": "100644",
+      "bytes": 7993,
+      "sha256": "baca9d388504abcc2692da385839be2a892c5bb79256de509173ba066621aee4",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/safe_router.py",
+      "mode": "100644",
+      "bytes": 3696,
+      "sha256": "2068df7e7ceeb2e6c74db68ce9879ace8cf8a6d6231cb639d8c1d42bf81b88bb",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/simulated_backend.py",
+      "mode": "100644",
+      "bytes": 262,
+      "sha256": "ca9aa6950775eb2dfdb874ec12d40f2c03417f00a43bbec62382c3d2a4254b4e",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/test_benchmark.py",
+      "mode": "100644",
+      "bytes": 2364,
+      "sha256": "e8938076ca27b0c089764d4b70496d994eb059db34f68053a404c666b308e066",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/test_compare.py",
+      "mode": "100644",
+      "bytes": 1739,
+      "sha256": "1b629a953b15df38d546ff5c12f597e12a85097222a6e6bb40d1841388f95db7",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/test_local_generator.py",
+      "mode": "100644",
+      "bytes": 1023,
+      "sha256": "0b1532ec2d0a5e4ef76e529abc4d353a3ac5c8a2c0259dc8b0e0b61243bba101",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/test_pilot_arm.py",
+      "mode": "100644",
+      "bytes": 1391,
+      "sha256": "7514beba3134111668686d1d40a6fe94738cc5d050ba4834d67b8d98a758a49f",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/test_router.py",
+      "mode": "100644",
+      "bytes": 3871,
+      "sha256": "15ed917b84f2e1a51608e1f4eb167a5f59bbbac4391c2be1a225aa1e103eef06",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "pilot-t_f21a25b3/test_safe_router.py",
+      "mode": "100644",
+      "bytes": 2082,
+      "sha256": "138f8f05e5921b3ca5698887e5cfb7106cbd26a6cd0e4a7405e7e5c0a199818b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "requirements-s1d1.txt",
+      "mode": "100644",
+      "bytes": 52,
+      "sha256": "962673673e9b348da751dce892957845868a098324c16efee434acce5db0abda",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "router.py",
+      "mode": "100644",
+      "bytes": 3353,
+      "sha256": "9f49282cfe18b54c4515f550c60e751ada419fc5ffc2087860e1ba94ad91ed34",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "s1d1_upstream.py",
+      "mode": "100644",
+      "bytes": 7993,
+      "sha256": "baca9d388504abcc2692da385839be2a892c5bb79256de509173ba066621aee4",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "simulated.jsonl",
+      "mode": "100644",
+      "bytes": 409,
+      "sha256": "90fa822d55a7d681ba0a17e59f9ba489eee4e3165910f4283bb88295a86418af",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "site/index.html",
+      "mode": "100644",
+      "bytes": 11230,
+      "sha256": "3ab910b3d6ce0e333037976bc4c773f1fde2af0d927c6683cbe4a5d2a440a054",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "test_analyze_campaign.py",
+      "mode": "100644",
+      "bytes": 2019,
+      "sha256": "2e2e10f990a1651bb2bdcc5c30889fe2f493e2412a268d05312b04d125956db4",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "test_benchmark_complete.py",
+      "mode": "100644",
+      "bytes": 4859,
+      "sha256": "c5e423d1366b4724c2bd2743475afcde116f0e18a477200770bbec4dffa8d34a",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "test_benchmark_runner.py",
+      "mode": "100644",
+      "bytes": 5617,
+      "sha256": "7c39a46d635f72de6a9354b36fa2e533c166be48982cc99f5b751bfafb3de3dc",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "test_build_release.py",
+      "mode": "100644",
+      "bytes": 9872,
+      "sha256": "80d917bccf5a72bb0d95c93addf68992bc8b645262d8ddbf986526827bb269d7",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "test_codex_native.py",
+      "mode": "100644",
+      "bytes": 19026,
+      "sha256": "c62e69d469adee0c73c1bc5af27d7f596ec10a82a17a574269e2eebdaabfcba8",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "test_compare.py",
+      "mode": "100644",
+      "bytes": 1739,
+      "sha256": "1b629a953b15df38d546ff5c12f597e12a85097222a6e6bb40d1841388f95db7",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "test_deadlines.py",
+      "mode": "100644",
+      "bytes": 7037,
+      "sha256": "9608f05a059897beb20abd22062d02d657cfecd3c95b2a812a4c864fb01cb4bc",
+      "delta": "modified",
+      "review_refs": [
+        "candidate2",
+        "deadline_delta",
+        "integration"
+      ],
+      "coverage_basis": "candidate.2 baseline plus independently reviewed deadline delta"
+    },
+    {
+      "path": "test_download.py",
+      "mode": "100644",
+      "bytes": 1476,
+      "sha256": "6eeee1051ed9de635c2a6849c9259d34d1f2c8b4274f96cb3b51e3344c583579",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "test_headerless_native.py",
+      "mode": "100644",
+      "bytes": 18856,
+      "sha256": "51333c7e86fee59ce12d2bc4f1b156a98f10167a4a7292f47a9e2060722b845b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "test_jev_decider.py",
+      "mode": "100644",
+      "bytes": 5258,
+      "sha256": "d8bd7abef23060126f7d8ff9f015254ecfeda4b173db7401ffbae1b938d2ca77",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "test_omr.py",
+      "mode": "100644",
+      "bytes": 2522,
+      "sha256": "4c046ea5a930d2fb07d3c845fe4ab913eb108d60a74a945338ac2098c6af2e04",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "test_review_regressions.py",
+      "mode": "100644",
+      "bytes": 4639,
+      "sha256": "0f1dac5a63a967cd2b7320a6f0676463f7a54050f61d3f6e376a01d08ada239b",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "test_router.py",
+      "mode": "100644",
+      "bytes": 3871,
+      "sha256": "15ed917b84f2e1a51608e1f4eb167a5f59bbbac4391c2be1a225aa1e103eef06",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "test_transport.py",
+      "mode": "100644",
+      "bytes": 5978,
+      "sha256": "dbef5a231dd9e859e895c9c466a508dc9311c2292e5f96a944f4a3187bc4f21d",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "tests/test_landing.py",
+      "mode": "100644",
+      "bytes": 1236,
+      "sha256": "d128a50aa4ec568199931971f64692056aa175cb17d02e90e132fc93d6a631d6",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    },
+    {
+      "path": "tools/analyze_campaign.py",
+      "mode": "100644",
+      "bytes": 16834,
+      "sha256": "a9d920a5839f73f6ad3e93797087613aa53f504754d046c9dc3583f7e60035fa",
+      "delta": "unchanged",
+      "review_refs": [
+        "candidate2"
+      ],
+      "coverage_basis": "exact candidate.2 bytes, mode and coverage entry"
+    }
+  ]
+}

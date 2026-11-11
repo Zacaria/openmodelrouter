@@ -1,0 +1,743 @@
+[
+  {
+    "path": "/v1/chat/completions",
+    "request": {
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Call read_fixture to find the secret word in this synthetic fixture. Do not guess it. After the tool result, reply only with that word."
+        },
+        {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "9mYYW7AQOWeeH5atgrq0cbCYnGHhQtrm",
+              "index": 0,
+              "type": "function",
+              "function": {
+                "name": "read_fixture",
+                "arguments": "{}"
+              }
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "tool_call_id": "9mYYW7AQOWeeH5atgrq0cbCYnGHhQtrm",
+          "content": "SYNTHETIC-ORCHID"
+        }
+      ],
+      "tools": [
+        {
+          "type": "function",
+          "function": {
+            "name": "read_fixture",
+            "description": "Read synthetic fixture and return its word.",
+            "parameters": {
+              "type": "object",
+              "properties": {},
+              "additionalProperties": false
+            }
+          }
+        }
+      ],
+      "temperature": 0,
+      "max_tokens": 128,
+      "reasoning_effort": "none",
+      "stream": true
+    },
+    "response": {
+      "id": "chatcmpl-498",
+      "object": "chat.completion",
+      "created": 1793058577,
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "system_fingerprint": "fp_ollama",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "9mYYW7AQOWeeH5atgrq0cbCYnGHhQtrm",
+                "index": 0,
+                "type": "function",
+                "function": {
+                  "name": "read_fixture",
+                  "arguments": "{}"
+                }
+              }
+            ]
+          },
+          "finish_reason": "tool_calls"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 162,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 16,
+        "total_tokens": 178
+      }
+    },
+    "elapsed_ms": 1810.8429173007607,
+    "provenance": "real-local-generation"
+  },
+  {
+    "path": "/v1/chat/completions",
+    "request": {
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Call read_fixture to find the secret word in this synthetic fixture. Do not guess it. After the tool result, reply only with that word."
+        },
+        {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "9mYYW7AQOWeeH5atgrq0cbCYnGHhQtrm",
+              "index": 0,
+              "type": "function",
+              "function": {
+                "name": "read_fixture",
+                "arguments": "{}"
+              }
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "tool_call_id": "9mYYW7AQOWeeH5atgrq0cbCYnGHhQtrm",
+          "content": "SYNTHETIC-ORCHID"
+        }
+      ],
+      "tools": [
+        {
+          "type": "function",
+          "function": {
+            "name": "read_fixture",
+            "description": "Read synthetic fixture and return its word.",
+            "parameters": {
+              "type": "object",
+              "properties": {},
+              "additionalProperties": false
+            }
+          }
+        }
+      ],
+      "temperature": 0,
+      "max_tokens": 128,
+      "reasoning_effort": "none",
+      "stream": true
+    },
+    "response": {
+      "frames": [
+        {
+          "ms": 38.136,
+          "line": "data: {\"id\":\"chatcmpl-588\",\"object\":\"chat.completion.chunk\",\"created\":1793058577,\"model\":\"qwen3:4b-instruct-2507-q4_K_M\",\"system_fingerprint\":\"fp_ollama\",\"choices\":[{\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":\"SY\"},\"finish_reason\":null}]}"
+        },
+        {
+          "ms": 44.173,
+          "line": "data: {\"id\":\"chatcmpl-588\",\"object\":\"chat.completion.chunk\",\"created\":1793058577,\"model\":\"qwen3:4b-instruct-2507-q4_K_M\",\"system_fingerprint\":\"fp_ollama\",\"choices\":[{\"index\":0,\"delta\":{\"content\":\"N\"},\"finish_reason\":null}]}"
+        },
+        {
+          "ms": 49.61,
+          "line": "data: {\"id\":\"chatcmpl-588\",\"object\":\"chat.completion.chunk\",\"created\":1793058577,\"model\":\"qwen3:4b-instruct-2507-q4_K_M\",\"system_fingerprint\":\"fp_ollama\",\"choices\":[{\"index\":0,\"delta\":{\"content\":\"TH\"},\"finish_reason\":null}]}"
+        },
+        {
+          "ms": 54.008,
+          "line": "data: {\"id\":\"chatcmpl-588\",\"object\":\"chat.completion.chunk\",\"created\":1793058577,\"model\":\"qwen3:4b-instruct-2507-q4_K_M\",\"system_fingerprint\":\"fp_ollama\",\"choices\":[{\"index\":0,\"delta\":{\"content\":\"ET\"},\"finish_reason\":null}]}"
+        },
+        {
+          "ms": 58.425,
+          "line": "data: {\"id\":\"chatcmpl-588\",\"object\":\"chat.completion.chunk\",\"created\":1793058577,\"model\":\"qwen3:4b-instruct-2507-q4_K_M\",\"system_fingerprint\":\"fp_ollama\",\"choices\":[{\"index\":0,\"delta\":{\"content\":\"IC\"},\"finish_reason\":null}]}"
+        },
+        {
+          "ms": 63.216,
+          "line": "data: {\"id\":\"chatcmpl-588\",\"object\":\"chat.completion.chunk\",\"created\":1793058577,\"model\":\"qwen3:4b-instruct-2507-q4_K_M\",\"system_fingerprint\":\"fp_ollama\",\"choices\":[{\"index\":0,\"delta\":{\"content\":\"-\"},\"finish_reason\":null}]}"
+        },
+        {
+          "ms": 67.807,
+          "line": "data: {\"id\":\"chatcmpl-588\",\"object\":\"chat.completion.chunk\",\"created\":1793058577,\"model\":\"qwen3:4b-instruct-2507-q4_K_M\",\"system_fingerprint\":\"fp_ollama\",\"choices\":[{\"index\":0,\"delta\":{\"content\":\"OR\"},\"finish_reason\":null}]}"
+        },
+        {
+          "ms": 72.364,
+          "line": "data: {\"id\":\"chatcmpl-588\",\"object\":\"chat.completion.chunk\",\"created\":1793058577,\"model\":\"qwen3:4b-instruct-2507-q4_K_M\",\"system_fingerprint\":\"fp_ollama\",\"choices\":[{\"index\":0,\"delta\":{\"content\":\"CH\"},\"finish_reason\":null}]}"
+        },
+        {
+          "ms": 77.187,
+          "line": "data: {\"id\":\"chatcmpl-588\",\"object\":\"chat.completion.chunk\",\"created\":1793058577,\"model\":\"qwen3:4b-instruct-2507-q4_K_M\",\"system_fingerprint\":\"fp_ollama\",\"choices\":[{\"index\":0,\"delta\":{\"content\":\"ID\"},\"finish_reason\":null}]}"
+        },
+        {
+          "ms": 81.815,
+          "line": "data: {\"id\":\"chatcmpl-588\",\"object\":\"chat.completion.chunk\",\"created\":1793058577,\"model\":\"qwen3:4b-instruct-2507-q4_K_M\",\"system_fingerprint\":\"fp_ollama\",\"choices\":[{\"index\":0,\"delta\":{},\"finish_reason\":\"stop\"}]}"
+        },
+        {
+          "ms": 81.842,
+          "line": "data: [DONE]"
+        }
+      ]
+    },
+    "elapsed_ms": 83.29456299543381,
+    "provenance": "real-local-generation"
+  },
+  {
+    "path": "/v1/responses",
+    "request": {
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "input": [
+        {
+          "role": "user",
+          "content": "Call read_fixture to find the secret word in this synthetic fixture. Do not guess it. After the tool result, reply only with that word."
+        },
+        {
+          "id": "fc_resp_309612_0",
+          "type": "function_call",
+          "status": "completed",
+          "call_id": "HpShGEXziJD9VPY1O1wGPgA08F1ikrEY",
+          "name": "read_fixture",
+          "arguments": "{}"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "HpShGEXziJD9VPY1O1wGPgA08F1ikrEY",
+          "output": "SYNTHETIC-ORCHID"
+        }
+      ],
+      "tools": [
+        {
+          "type": "function",
+          "name": "read_fixture",
+          "description": "Read synthetic fixture and return its word.",
+          "parameters": {
+            "type": "object",
+            "properties": {},
+            "additionalProperties": false
+          }
+        }
+      ],
+      "max_output_tokens": 128,
+      "reasoning": {
+        "effort": "none"
+      },
+      "store": false,
+      "stream": true
+    },
+    "response": {
+      "id": "resp_309612",
+      "object": "response",
+      "created_at": 1793058577,
+      "completed_at": 1793058577,
+      "status": "completed",
+      "incomplete_details": null,
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "previous_response_id": null,
+      "instructions": null,
+      "output": [
+        {
+          "id": "fc_resp_309612_0",
+          "type": "function_call",
+          "status": "completed",
+          "call_id": "HpShGEXziJD9VPY1O1wGPgA08F1ikrEY",
+          "name": "read_fixture",
+          "arguments": "{}"
+        }
+      ],
+      "error": null,
+      "tools": [
+        {
+          "type": "function",
+          "name": "read_fixture",
+          "description": "Read synthetic fixture and return its word.",
+          "parameters": {
+            "additionalProperties": false,
+            "properties": {},
+            "type": "object"
+          }
+        }
+      ],
+      "tool_choice": "auto",
+      "truncation": "disabled",
+      "parallel_tool_calls": true,
+      "text": {
+        "format": {
+          "type": "text"
+        }
+      },
+      "top_p": 1,
+      "presence_penalty": 0,
+      "frequency_penalty": 0,
+      "top_logprobs": 0,
+      "temperature": 1,
+      "reasoning": {
+        "effort": "none"
+      },
+      "usage": {
+        "input_tokens": 162,
+        "output_tokens": 16,
+        "total_tokens": 178,
+        "input_tokens_details": {
+          "cached_tokens": 161
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "max_output_tokens": 128,
+      "max_tool_calls": null,
+      "store": false,
+      "background": false,
+      "service_tier": "default",
+      "metadata": {},
+      "safety_identifier": null,
+      "prompt_cache_key": null
+    },
+    "elapsed_ms": 91.14513779059052,
+    "provenance": "real-local-generation"
+  },
+  {
+    "path": "/v1/responses",
+    "request": {
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "input": [
+        {
+          "role": "user",
+          "content": "Call read_fixture to find the secret word in this synthetic fixture. Do not guess it. After the tool result, reply only with that word."
+        },
+        {
+          "id": "fc_resp_309612_0",
+          "type": "function_call",
+          "status": "completed",
+          "call_id": "HpShGEXziJD9VPY1O1wGPgA08F1ikrEY",
+          "name": "read_fixture",
+          "arguments": "{}"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "HpShGEXziJD9VPY1O1wGPgA08F1ikrEY",
+          "output": "SYNTHETIC-ORCHID"
+        }
+      ],
+      "tools": [
+        {
+          "type": "function",
+          "name": "read_fixture",
+          "description": "Read synthetic fixture and return its word.",
+          "parameters": {
+            "type": "object",
+            "properties": {},
+            "additionalProperties": false
+          }
+        }
+      ],
+      "max_output_tokens": 128,
+      "reasoning": {
+        "effort": "none"
+      },
+      "store": false,
+      "stream": true
+    },
+    "response": {
+      "frames": [
+        {
+          "ms": 35.174,
+          "line": "event: response.created"
+        },
+        {
+          "ms": 35.194,
+          "line": "data: {\"response\":{\"background\":false,\"completed_at\":null,\"created_at\":1793058577,\"error\":null,\"frequency_penalty\":0,\"id\":\"resp_353872\",\"incomplete_details\":null,\"instructions\":null,\"max_output_tokens\":128,\"max_tool_calls\":null,\"metadata\":{},\"model\":\"qwen3:4b-instruct-2507-q4_K_M\",\"object\":\"response\",\"output\":[],\"parallel_tool_calls\":true,\"presence_penalty\":0,\"previous_response_id\":null,\"prompt_cache_key\":null,\"reasoning\":{\"effort\":\"none\",\"summary\":null},\"safety_identifier\":null,\"service_tier\":\"default\",\"status\":\"in_progress\",\"store\":false,\"temperature\":1,\"text\":{\"format\":{\"type\":\"text\"}},\"tool_choice\":\"auto\",\"tools\":[{\"type\":\"function\",\"name\":\"read_fixture\",\"description\":\"Read synthetic fixture and return its word.\",\"parameters\":{\"additionalProperties\":false,\"properties\":{},\"type\":\"object\"}}],\"top_logprobs\":0,\"top_p\":1,\"truncation\":\"disabled\",\"usage\":null},\"sequence_number\":0,\"type\":\"response.created\"}"
+        },
+        {
+          "ms": 35.208,
+          "line": "event: response.in_progress"
+        },
+        {
+          "ms": 35.215,
+          "line": "data: {\"response\":{\"background\":false,\"completed_at\":null,\"created_at\":1793058577,\"error\":null,\"frequency_penalty\":0,\"id\":\"resp_353872\",\"incomplete_details\":null,\"instructions\":null,\"max_output_tokens\":128,\"max_tool_calls\":null,\"metadata\":{},\"model\":\"qwen3:4b-instruct-2507-q4_K_M\",\"object\":\"response\",\"output\":[],\"parallel_tool_calls\":true,\"presence_penalty\":0,\"previous_response_id\":null,\"prompt_cache_key\":null,\"reasoning\":{\"effort\":\"none\",\"summary\":null},\"safety_identifier\":null,\"service_tier\":\"default\",\"status\":\"in_progress\",\"store\":false,\"temperature\":1,\"text\":{\"format\":{\"type\":\"text\"}},\"tool_choice\":\"auto\",\"tools\":[{\"type\":\"function\",\"name\":\"read_fixture\",\"description\":\"Read synthetic fixture and return its word.\",\"parameters\":{\"additionalProperties\":false,\"properties\":{},\"type\":\"object\"}}],\"top_logprobs\":0,\"top_p\":1,\"truncation\":\"disabled\",\"usage\":null},\"sequence_number\":1,\"type\":\"response.in_progress\"}"
+        },
+        {
+          "ms": 35.225,
+          "line": "event: response.output_item.added"
+        },
+        {
+          "ms": 35.23,
+          "line": "data: {\"item\":{\"content\":[],\"id\":\"msg_446388\",\"role\":\"assistant\",\"status\":\"in_progress\",\"type\":\"message\"},\"output_index\":0,\"sequence_number\":2,\"type\":\"response.output_item.added\"}"
+        },
+        {
+          "ms": 35.238,
+          "line": "event: response.content_part.added"
+        },
+        {
+          "ms": 35.243,
+          "line": "data: {\"content_index\":0,\"item_id\":\"msg_446388\",\"output_index\":0,\"part\":{\"annotations\":[],\"logprobs\":[],\"text\":\"\",\"type\":\"output_text\"},\"sequence_number\":3,\"type\":\"response.content_part.added\"}"
+        },
+        {
+          "ms": 35.25,
+          "line": "event: response.output_text.delta"
+        },
+        {
+          "ms": 35.254,
+          "line": "data: {\"content_index\":0,\"delta\":\"SY\",\"item_id\":\"msg_446388\",\"logprobs\":[],\"output_index\":0,\"sequence_number\":4,\"type\":\"response.output_text.delta\"}"
+        },
+        {
+          "ms": 41.59,
+          "line": "event: response.output_text.delta"
+        },
+        {
+          "ms": 41.618,
+          "line": "data: {\"content_index\":0,\"delta\":\"N\",\"item_id\":\"msg_446388\",\"logprobs\":[],\"output_index\":0,\"sequence_number\":5,\"type\":\"response.output_text.delta\"}"
+        },
+        {
+          "ms": 46.909,
+          "line": "event: response.output_text.delta"
+        },
+        {
+          "ms": 46.933,
+          "line": "data: {\"content_index\":0,\"delta\":\"TH\",\"item_id\":\"msg_446388\",\"logprobs\":[],\"output_index\":0,\"sequence_number\":6,\"type\":\"response.output_text.delta\"}"
+        },
+        {
+          "ms": 51.408,
+          "line": "event: response.output_text.delta"
+        },
+        {
+          "ms": 51.432,
+          "line": "data: {\"content_index\":0,\"delta\":\"ET\",\"item_id\":\"msg_446388\",\"logprobs\":[],\"output_index\":0,\"sequence_number\":7,\"type\":\"response.output_text.delta\"}"
+        },
+        {
+          "ms": 55.972,
+          "line": "event: response.output_text.delta"
+        },
+        {
+          "ms": 55.998,
+          "line": "data: {\"content_index\":0,\"delta\":\"IC\",\"item_id\":\"msg_446388\",\"logprobs\":[],\"output_index\":0,\"sequence_number\":8,\"type\":\"response.output_text.delta\"}"
+        },
+        {
+          "ms": 60.813,
+          "line": "event: response.output_text.delta"
+        },
+        {
+          "ms": 60.844,
+          "line": "data: {\"content_index\":0,\"delta\":\"-\",\"item_id\":\"msg_446388\",\"logprobs\":[],\"output_index\":0,\"sequence_number\":9,\"type\":\"response.output_text.delta\"}"
+        },
+        {
+          "ms": 65.326,
+          "line": "event: response.output_text.delta"
+        },
+        {
+          "ms": 65.355,
+          "line": "data: {\"content_index\":0,\"delta\":\"OR\",\"item_id\":\"msg_446388\",\"logprobs\":[],\"output_index\":0,\"sequence_number\":10,\"type\":\"response.output_text.delta\"}"
+        },
+        {
+          "ms": 69.869,
+          "line": "event: response.output_text.delta"
+        },
+        {
+          "ms": 69.897,
+          "line": "data: {\"content_index\":0,\"delta\":\"CH\",\"item_id\":\"msg_446388\",\"logprobs\":[],\"output_index\":0,\"sequence_number\":11,\"type\":\"response.output_text.delta\"}"
+        },
+        {
+          "ms": 74.625,
+          "line": "event: response.output_text.delta"
+        },
+        {
+          "ms": 74.649,
+          "line": "data: {\"content_index\":0,\"delta\":\"ID\",\"item_id\":\"msg_446388\",\"logprobs\":[],\"output_index\":0,\"sequence_number\":12,\"type\":\"response.output_text.delta\"}"
+        },
+        {
+          "ms": 79.289,
+          "line": "event: response.output_text.done"
+        },
+        {
+          "ms": 79.319,
+          "line": "data: {\"content_index\":0,\"item_id\":\"msg_446388\",\"logprobs\":[],\"output_index\":0,\"sequence_number\":13,\"text\":\"SYNTHETIC-ORCHID\",\"type\":\"response.output_text.done\"}"
+        },
+        {
+          "ms": 79.333,
+          "line": "event: response.content_part.done"
+        },
+        {
+          "ms": 79.338,
+          "line": "data: {\"content_index\":0,\"item_id\":\"msg_446388\",\"output_index\":0,\"part\":{\"annotations\":[],\"logprobs\":[],\"text\":\"SYNTHETIC-ORCHID\",\"type\":\"output_text\"},\"sequence_number\":14,\"type\":\"response.content_part.done\"}"
+        },
+        {
+          "ms": 79.35,
+          "line": "event: response.output_item.done"
+        },
+        {
+          "ms": 79.358,
+          "line": "data: {\"item\":{\"content\":[{\"annotations\":[],\"logprobs\":[],\"text\":\"SYNTHETIC-ORCHID\",\"type\":\"output_text\"}],\"id\":\"msg_446388\",\"role\":\"assistant\",\"status\":\"completed\",\"type\":\"message\"},\"output_index\":0,\"sequence_number\":15,\"type\":\"response.output_item.done\"}"
+        },
+        {
+          "ms": 79.369,
+          "line": "event: response.completed"
+        },
+        {
+          "ms": 79.376,
+          "line": "data: {\"response\":{\"background\":false,\"completed_at\":1793058577,\"created_at\":1793058577,\"error\":null,\"frequency_penalty\":0,\"id\":\"resp_353872\",\"incomplete_details\":null,\"instructions\":null,\"max_output_tokens\":128,\"max_tool_calls\":null,\"metadata\":{},\"model\":\"qwen3:4b-instruct-2507-q4_K_M\",\"object\":\"response\",\"output\":[{\"content\":[{\"annotations\":[],\"logprobs\":[],\"text\":\"SYNTHETIC-ORCHID\",\"type\":\"output_text\"}],\"id\":\"msg_446388\",\"role\":\"assistant\",\"status\":\"completed\",\"type\":\"message\"}],\"parallel_tool_calls\":true,\"presence_penalty\":0,\"previous_response_id\":null,\"prompt_cache_key\":null,\"reasoning\":{\"effort\":\"none\",\"summary\":null},\"safety_identifier\":null,\"service_tier\":\"default\",\"status\":\"completed\",\"store\":false,\"temperature\":1,\"text\":{\"format\":{\"type\":\"text\"}},\"tool_choice\":\"auto\",\"tools\":[{\"type\":\"function\",\"name\":\"read_fixture\",\"description\":\"Read synthetic fixture and return its word.\",\"parameters\":{\"additionalProperties\":false,\"properties\":{},\"type\":\"object\"}}],\"top_logprobs\":0,\"top_p\":1,\"truncation\":\"disabled\",\"usage\":{\"input_tokens\":200,\"input_tokens_details\":{\"cached_tokens\":177},\"output_tokens\":10,\"output_tokens_details\":{\"reasoning_tokens\":0},\"total_tokens\":210}},\"sequence_number\":16,\"type\":\"response.completed\"}"
+        }
+      ]
+    },
+    "elapsed_ms": 81.12948713824153,
+    "provenance": "real-local-generation"
+  },
+  {
+    "path": "/v1/messages",
+    "request": {
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Call read_fixture to find the secret word in this synthetic fixture. Do not guess it. After the tool result, reply only with that word."
+        },
+        {
+          "role": "assistant",
+          "content": [
+            {
+              "type": "tool_use",
+              "id": "nIM3iYp06sKmgTqMeaSc9m9gdkC7kSw0",
+              "name": "read_fixture",
+              "input": {}
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "tool_result",
+              "tool_use_id": "nIM3iYp06sKmgTqMeaSc9m9gdkC7kSw0",
+              "content": "SYNTHETIC-ORCHID"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "read_fixture",
+          "description": "Read synthetic fixture and return its word.",
+          "input_schema": {
+            "type": "object",
+            "properties": {},
+            "additionalProperties": false
+          }
+        }
+      ],
+      "max_tokens": 128,
+      "thinking": {
+        "type": "disabled"
+      },
+      "stream": true
+    },
+    "response": {
+      "id": "msg_a3c5d28636d675415a90a82f",
+      "type": "message",
+      "role": "assistant",
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "nIM3iYp06sKmgTqMeaSc9m9gdkC7kSw0",
+          "name": "read_fixture",
+          "input": {}
+        }
+      ],
+      "stop_reason": "tool_use",
+      "usage": {
+        "input_tokens": 1,
+        "cache_read_input_tokens": 161,
+        "output_tokens": 16
+      }
+    },
+    "elapsed_ms": 91.61867294460535,
+    "provenance": "real-local-generation"
+  },
+  {
+    "path": "/v1/messages",
+    "request": {
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Call read_fixture to find the secret word in this synthetic fixture. Do not guess it. After the tool result, reply only with that word."
+        },
+        {
+          "role": "assistant",
+          "content": [
+            {
+              "type": "tool_use",
+              "id": "nIM3iYp06sKmgTqMeaSc9m9gdkC7kSw0",
+              "name": "read_fixture",
+              "input": {}
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "tool_result",
+              "tool_use_id": "nIM3iYp06sKmgTqMeaSc9m9gdkC7kSw0",
+              "content": "SYNTHETIC-ORCHID"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "read_fixture",
+          "description": "Read synthetic fixture and return its word.",
+          "input_schema": {
+            "type": "object",
+            "properties": {},
+            "additionalProperties": false
+          }
+        }
+      ],
+      "max_tokens": 128,
+      "thinking": {
+        "type": "disabled"
+      },
+      "stream": true
+    },
+    "response": {
+      "frames": [
+        {
+          "ms": 33.849,
+          "line": "event: message_start"
+        },
+        {
+          "ms": 33.866,
+          "line": "data: {\"type\":\"message_start\",\"message\":{\"id\":\"msg_3765e13cbca20db0c61c7d18\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"qwen3:4b-instruct-2507-q4_K_M\",\"content\":[],\"usage\":{\"input_tokens\":116,\"output_tokens\":0}}}"
+        },
+        {
+          "ms": 33.878,
+          "line": "event: content_block_start"
+        },
+        {
+          "ms": 33.882,
+          "line": "data: {\"type\":\"content_block_start\",\"index\":0,\"content_block\":{\"type\":\"text\",\"text\":\"\"}}"
+        },
+        {
+          "ms": 33.89,
+          "line": "event: content_block_delta"
+        },
+        {
+          "ms": 33.894,
+          "line": "data: {\"type\":\"content_block_delta\",\"index\":0,\"delta\":{\"type\":\"text_delta\",\"text\":\"SY\"}}"
+        },
+        {
+          "ms": 39.825,
+          "line": "event: content_block_delta"
+        },
+        {
+          "ms": 39.847,
+          "line": "data: {\"type\":\"content_block_delta\",\"index\":0,\"delta\":{\"type\":\"text_delta\",\"text\":\"N\"}}"
+        },
+        {
+          "ms": 45.134,
+          "line": "event: content_block_delta"
+        },
+        {
+          "ms": 45.155,
+          "line": "data: {\"type\":\"content_block_delta\",\"index\":0,\"delta\":{\"type\":\"text_delta\",\"text\":\"TH\"}}"
+        },
+        {
+          "ms": 49.747,
+          "line": "event: content_block_delta"
+        },
+        {
+          "ms": 49.785,
+          "line": "data: {\"type\":\"content_block_delta\",\"index\":0,\"delta\":{\"type\":\"text_delta\",\"text\":\"ET\"}}"
+        },
+        {
+          "ms": 54.253,
+          "line": "event: content_block_delta"
+        },
+        {
+          "ms": 54.273,
+          "line": "data: {\"type\":\"content_block_delta\",\"index\":0,\"delta\":{\"type\":\"text_delta\",\"text\":\"IC\"}}"
+        },
+        {
+          "ms": 58.949,
+          "line": "event: content_block_delta"
+        },
+        {
+          "ms": 58.97,
+          "line": "data: {\"type\":\"content_block_delta\",\"index\":0,\"delta\":{\"type\":\"text_delta\",\"text\":\"-\"}}"
+        },
+        {
+          "ms": 63.387,
+          "line": "event: content_block_delta"
+        },
+        {
+          "ms": 63.407,
+          "line": "data: {\"type\":\"content_block_delta\",\"index\":0,\"delta\":{\"type\":\"text_delta\",\"text\":\"OR\"}}"
+        },
+        {
+          "ms": 67.961,
+          "line": "event: content_block_delta"
+        },
+        {
+          "ms": 67.986,
+          "line": "data: {\"type\":\"content_block_delta\",\"index\":0,\"delta\":{\"type\":\"text_delta\",\"text\":\"CH\"}}"
+        },
+        {
+          "ms": 72.314,
+          "line": "event: content_block_delta"
+        },
+        {
+          "ms": 72.334,
+          "line": "data: {\"type\":\"content_block_delta\",\"index\":0,\"delta\":{\"type\":\"text_delta\",\"text\":\"ID\"}}"
+        },
+        {
+          "ms": 77.194,
+          "line": "event: content_block_stop"
+        },
+        {
+          "ms": 77.216,
+          "line": "data: {\"type\":\"content_block_stop\",\"index\":0}"
+        },
+        {
+          "ms": 77.229,
+          "line": "event: message_delta"
+        },
+        {
+          "ms": 77.237,
+          "line": "data: {\"type\":\"message_delta\",\"delta\":{\"stop_reason\":\"end_turn\"},\"usage\":{\"input_tokens\":23,\"cache_read_input_tokens\":177,\"output_tokens\":10}}"
+        },
+        {
+          "ms": 77.244,
+          "line": "event: message_stop"
+        },
+        {
+          "ms": 77.248,
+          "line": "data: {\"type\":\"message_stop\"}"
+        }
+      ]
+    },
+    "elapsed_ms": 78.5210020840168,
+    "provenance": "real-local-generation"
+  },
+  {
+    "path": "/api/generate",
+    "request": {
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "keep_alive": 0
+    },
+    "response": {
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "created_at": "2026-10-26T23:49:37.6866001Z",
+      "response": "",
+      "done": true,
+      "done_reason": "unload"
+    },
+    "elapsed_ms": 5.03082200884819,
+    "provenance": "real-local-generation"
+  }
+]

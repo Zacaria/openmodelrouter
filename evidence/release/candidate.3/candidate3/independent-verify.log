@@ -1,0 +1,4 @@
+build1: 458 archive entries independently match canonical Git blobs and modes
+build2: 458 archive entries independently match canonical Git blobs and modes
+All three build outputs byte-identical; commit and tree match.
+candidate.2 diff: {'M': 4, 'A': 107}

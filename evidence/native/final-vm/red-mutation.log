@@ -1,0 +1,24 @@
+Mutation: timeout exit 125 and context 32768; expected RED. exit=1
+FF
+======================================================================
+FAIL: test_omp_limits_and_validation (__main__.BudgetTests.test_omp_limits_and_validation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/[REDACTED]/.hermes/cache/scratch/omr-red-pmwx8k75/host-adapters/test_launch.py", line 129, in test_omp_limits_and_validation
+    r = subprocess.run(cmd, capture_output=True); self.assertIn(b'contextWindow: 8192', r.stdout); self.assertIn(b'maxTokens: 2048', r.stdout)
+                                                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: b'contextWindow: 8192' not found in b'providers:\n  omr:\n    baseUrl: http://127.0.0.1:41196/v1\n    api: openai-completions\n    auth: none\n    models:\n      - id: open-model-router\n        name: open-model-router\n        contextWindow: 32768\n        maxTokens: 2048\n'
+
+======================================================================
+FAIL: test_timeout_kills_group_and_recovers (__main__.BudgetTests.test_timeout_kills_group_and_recovers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/[REDACTED]/.hermes/cache/scratch/omr-red-pmwx8k75/host-adapters/test_launch.py", line 118, in test_timeout_kills_group_and_recovers
+    self.assertEqual(result.returncode, 124, result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 125 != 124 : b'OMR: run timeout exceeded; terminating process group\n'
+
+----------------------------------------------------------------------
+Ran 2 tests in 3.157s
+
+FAILED (failures=2)

@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS",
+  "candidate_tree": "07589117ac3f0e469bcf6f1b60481e376c2ee0d4",
+  "previous_rejected_tree": "65bd0e54c0240f9a7b5b79cf139a69747a81c511",
+  "scope": "Fermeture des findings précédents, delta de deux fichiers ; pas de qualification native Mac, UI ou source réelle.",
+  "files_reviewed": ["desktop_benchmarks.py", "test_desktop_benchmarks.py"],
+  "findings": [],
+  "verification": {
+    "benchmark_tests": "8 tests OK: PYTHONDONTWRITEBYTECODE=1 python3 -B -m unittest -v test_desktop_benchmarks",
+    "independent_local_http": "Catalogue complet sans scores, quota épuisé : avec et sans cache valide, unavailable puis rate_limited, une seule requête, retry_at persisté ; modèles précédents et fetched_at conservés.",
+    "index_matches_candidate_before_after": true,
+    "working_tree_matches_index_before_after": true,
+    "index_sha256_before_after": "efafcf18256043b5974533f2714ac795a35e05ddddce8dbe77d21adc4a307453",
+    "index_entries_sha256_before_after": "558035a629257a5f74eb3ffccc022dcff1d23050da97725bcb4ba8afb5b14fe1"
+  }
+}

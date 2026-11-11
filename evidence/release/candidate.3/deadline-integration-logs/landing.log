@@ -1,0 +1,2 @@
+command: ['python3', '-B', 'tests/test_landing.py'] cwd: .
+OK: 8 fragment links, 6 unique IDs, French and prototype disclosures

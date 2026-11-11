@@ -1,0 +1,18 @@
+{
+  "artifacts": [
+    {
+      "version": "0.3.1",
+      "os": "macos",
+      "arch": "arm64",
+      "file": "omr-0.3.1-macos-arm64.dmg",
+      "bytes": 147399172,
+      "sha256": "a3c9f45362552936a465d7499f63a8e5392e214cb92154d38d8e09ea0396ae23",
+      "sourceCommit": "fdc83fc014755b4432072fce31b8f6802cd658ed",
+      "prerelease": true,
+      "releaseApproved": true,
+      "native": "verified",
+      "generation": "synthetic-only",
+      "trust": "macos-notarized"
+    }
+  ]
+}

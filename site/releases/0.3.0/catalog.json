@@ -1,0 +1,74 @@
+{
+  "artifacts": [
+    {
+      "version": "0.3.0",
+      "os": "macos",
+      "arch": "arm64",
+      "file": "omr-0.3.0-macos-arm64.dmg",
+      "bytes": 147945727,
+      "sha256": "e6ca38fd0d543435f806d8ccf774860ec31076de39f31b36a88f2ef897c2346a",
+      "sourceCommit": "6b4d33b7272b2dc0124f12e0fe2acd2453bbe368",
+      "prerelease": true,
+      "releaseApproved": true,
+      "native": "verified",
+      "generation": "verified",
+      "trust": "macos-notarized"
+    },
+    {
+      "version": "0.1.0",
+      "os": "macos",
+      "arch": "arm64",
+      "file": "omr-0.1.0-macos-arm64.dmg",
+      "bytes": 12993046,
+      "sha256": "7068e309d31fc0d5851bcc5d7360a2c11ac9e2d4c41e35fb5baa15713563a691",
+      "sourceCommit": "74695fbbd290f8875dbf569254ede228bdfc4150",
+      "releaseApproved": true,
+      "native": "verified",
+      "generation": "synthetic-only",
+      "trust": "macos-notarized",
+      "prerelease": true
+    },
+    {
+      "version": "0.1.0",
+      "os": "macos",
+      "arch": "x64",
+      "file": "omr-0.1.0-macos-x64.dmg",
+      "bytes": 13747988,
+      "sha256": "7c2a7efdfa70450206019cb49a5e7c8e693a87761abbb1d930cd61235eda6c81",
+      "sourceCommit": "74695fbbd290f8875dbf569254ede228bdfc4150",
+      "releaseApproved": true,
+      "native": "verified",
+      "generation": "synthetic-only",
+      "trust": "macos-notarized",
+      "prerelease": true
+    },
+    {
+      "version": "0.1.0",
+      "os": "windows",
+      "arch": "x64",
+      "file": "omr-0.1.0-windows-x64.exe",
+      "bytes": 10945241,
+      "sha256": "caa933c6b07df21963428f11fd50cc63ad01e844bd8b2384db2f68ce5519f9c8",
+      "sourceCommit": "74695fbbd290f8875dbf569254ede228bdfc4150",
+      "releaseApproved": true,
+      "native": "verified",
+      "generation": "synthetic-only",
+      "trust": "windows-unsigned",
+      "prerelease": true
+    },
+    {
+      "version": "0.1.0",
+      "os": "linux",
+      "arch": "x64",
+      "file": "omr-0.1.0-linux-x64.deb",
+      "bytes": 26091712,
+      "sha256": "8e9e3d19bf95a6271f20a956ffa5e8b22c7f2c9801e0f2bfb8dd1ec85f37d9b8",
+      "sourceCommit": "74695fbbd290f8875dbf569254ede228bdfc4150",
+      "releaseApproved": true,
+      "native": "verified",
+      "generation": "synthetic-only",
+      "trust": "linux-unsigned",
+      "prerelease": true
+    }
+  ]
+}

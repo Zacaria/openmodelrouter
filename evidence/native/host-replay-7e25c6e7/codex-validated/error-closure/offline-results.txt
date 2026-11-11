@@ -1,0 +1,4 @@
+after: terminal_delivered=True status=cancelled
+before: terminal_delivered=False status=cancelled
+eof: terminal_delivered=True status=completed
+truncated: terminal_delivered=True status=upstream_error

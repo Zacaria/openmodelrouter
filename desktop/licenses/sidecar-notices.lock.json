@@ -1,0 +1,15 @@
+{
+  "flatbuffers": {
+    "version": "25.12.19",
+    "file": "FlatBuffers-25.12.19-LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "source": "https://raw.githubusercontent.com/google/flatbuffers/v25.12.19/LICENSE"
+  },
+  "tokenizers": {
+    "version": "0.23.3",
+    "file": "Tokenizers-0.23.3-NOTICES.txt",
+    "sha256": "246c06a77eaa4c44727e326a3f50e00881555d3fc2900b092f422bfdbadbba14",
+    "source": "https://files.pythonhosted.org/packages/e0/7c/2cabb2174e772636683008f2c5621949b645da7d303c596589e84516a184/tokenizers-0.23.3.tar.gz",
+    "provenance": "Tokenizers-0.23.3-sources.json"
+  }
+}

@@ -1,0 +1,1778 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="dark light" name="color-scheme" />
+    <meta content="#090d0f" name="theme-color" />
+    <meta
+      content="Open Model Router Desktop. Your models, your rules. A local entry point for your configured models."
+      name="description"
+    />
+    <title>Open Model Router — Every request. Right model.</title>
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/styles.css" rel="stylesheet" />
+    <script defer="" src="/landing.mjs"></script>
+    <link rel="alternate" hreflang="en" href="/en/" />
+    <link rel="alternate" hreflang="fr" href="/fr/" />
+    <script defer src="/language-routing.js"></script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a aria-label="Open Model Router" href="#top"
+          ><span class="brand"
+            ><img alt="" height="44" src="/assets/logo.webp" width="44" /><span
+              >open model<br />router<small>THE CHOICE IS YOURS</small></span
+            ></span
+          ></a
+        >
+        <nav aria-label="Main navigation" class="desktop-nav">
+          <a href="#pourquoi">Why OMR</a><a href="#profils">Scenarios</a
+          ><a href="#capacites">Capabilities</a
+          ><a href="#fonctionnement">How it works</a>
+        </nav>
+        <div class="header-right">
+          <nav aria-label="Language" class="language-switch">
+            <a aria-current="page" href="/en/" data-language="en" lang="en"
+              >EN</a
+            ><span>/</span><a href="/fr/" data-language="fr" lang="fr">FR</a>
+          </nav>
+          <a class="header-cta" href="#download"
+            ><svg
+              aria-hidden="true"
+              class="icon"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.6"
+              viewBox="0 0 24 24"
+            >
+              <path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"></path></svg
+            ><span>Download</span></a
+          ><button
+            aria-controls="mobile-nav"
+            aria-expanded="false"
+            aria-label="Open menu"
+            class="menu-toggle"
+          >
+            <svg
+              aria-hidden="true"
+              class="icon"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.6"
+              viewBox="0 0 24 24"
+            >
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <nav
+        aria-label="Mobile navigation"
+        class="mobile-nav"
+        hidden=""
+        id="mobile-nav"
+      >
+        <a href="#pourquoi">Why OMR</a><a href="#profils">Scenarios</a
+        ><a href="#capacites">Capabilities</a
+        ><a href="#fonctionnement">How it works</a
+        ><a href="#download">Download</a>
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <section aria-labelledby="hero-title" class="hero">
+        <div class="wrap">
+          <div class="hero-layout">
+            <div class="hero-copy">
+              <h1 id="hero-title">Every request.<br /><em>Right model.</em></h1>
+              <p class="hero-lead">
+                One local entry point for your configured models. Let your
+                preferences guide the route — or choose a model directly.
+              </p>
+              <div id="download">
+                <div
+                  aria-label="Desktop download"
+                  class="download-panel"
+                  data-download="hero"
+                >
+                  <div class="download-heading">
+                    <svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <rect height="13" rx="2" width="18" x="3" y="3"></rect>
+                      <path d="M8 21h8m-4-5v5"></path>
+                    </svg>
+                    <div>
+                      <strong class="detected-label"
+                        >Choose your operating system</strong
+                      ><span>Your system. Your models. Your rules.</span>
+                    </div>
+                    <span class="build-tag"><!--version--></span>
+                  </div>
+                  <div
+                    aria-label="Choose your operating system"
+                    class="os-tabs"
+                    role="group"
+                  >
+                    <button
+                      aria-pressed="false"
+                      class="os-tab"
+                      data-os="macos"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M15 5c1-1 2-3 1-4-2 0-4 2-4 4M12 7c-2 0-3-1-5 0-4 2-3 8-1 11s3 4 6 2c3 2 4 1 6-2l2-4c-4-2-4-5-1-7-3-2-4-1-7 0Z"
+                        ></path></svg
+                      ><span>macOS</span></button
+                    ><button
+                      aria-pressed="false"
+                      class="os-tab"
+                      data-os="windows"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M3 4h7v7H3zm11-1 7-1v9h-7ZM3 14h7v7l-7-1zm11 0h7v9l-7-1Z"
+                        ></path></svg
+                      ><span>Windows</span></button
+                    ><button
+                      aria-pressed="false"
+                      class="os-tab"
+                      data-os="linux"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8 10V7a4 4 0 0 1 8 0v3l3 7-3 3H8l-3-3Z"
+                        ></path>
+                        <path d="m10 10 2 2 2-2m-5 9-3 3m9-3 3 3"></path>
+                        <circle cx="10" cy="7" r=".5"></circle>
+                        <circle cx="14" cy="7" r=".5"></circle></svg
+                      ><span>Linux</span>
+                    </button>
+                  </div>
+                  <div aria-label="Architecture" class="package-options">
+                    <span class="neutral-hint"
+                      >Select a platform to see its package.</span
+                    >
+                  </div>
+                  <div class="chip-help" hidden="">
+                    <button
+                      aria-expanded="false"
+                      class="text-link"
+                      type="button"
+                    >
+                      Find my chip
+                      <svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                    <p hidden="">
+                      Apple menu → About This Mac. Your browser cannot reliably
+                      identify your chip.
+                    </p>
+                  </div>
+                  <a
+                    aria-disabled="true"
+                    class="primary download-cta"
+                    role="link"
+                    tabindex="0"
+                    ><svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"></path></svg
+                    ><span>Choose an operating system</span
+                    ><svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M5 12h14m-6-6 6 6-6 6"></path></svg
+                  ></a>
+                  <div class="download-foot">
+                    <span class="package-meta"><!--version--></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <figure aria-label="model routing diagram" class="routing-figure">
+              <div class="diagram-top">
+                <span class="micro">OMR / LOCAL ROUTING</span
+                ><span class="quiet-badge">YOUR RULES</span>
+              </div>
+              <div class="diagram-canvas">
+                <svg
+                  aria-hidden="true"
+                  class="wires"
+                  preserveAspectRatio="none"
+                  viewBox="0 0 650 550"
+                >
+                  <defs>
+                    <filter id="route-glow">
+                      <feGaussianBlur
+                        result="blur"
+                        stdDeviation="2"
+                      ></feGaussianBlur>
+                      <feMerge>
+                        <feMergeNode in="blur"></feMergeNode>
+                        <feMergeNode in="SourceGraphic"></feMergeNode>
+                      </feMerge>
+                    </filter>
+                  </defs>
+                  <path
+                    class="in-wire"
+                    d="M144 289C182 289 178 292 214 292"
+                  ></path>
+                  <path
+                    class="control-wire"
+                    d="M294 145V176Q294 190 282 190V213"
+                  ></path>
+                  <path
+                    class="control-wire"
+                    d="M295 445V407Q295 390 282 390V371"
+                  ></path>
+                  <path
+                    class="route-wire"
+                    d="M350 292C401 292 384 121 435 121"
+                    data-route="quick"
+                  ></path>
+                  <path
+                    class="route-wire active"
+                    d="M350 292C401 292 384 215 435 215"
+                    data-route="chat"
+                  ></path>
+                  <path
+                    class="route-wire"
+                    d="M350 292C401 292 384 309 435 309"
+                    data-route="reason"
+                  ></path>
+                  <path
+                    class="route-wire"
+                    d="M350 292C401 292 384 403 435 403"
+                    data-route="vision"
+                  ></path>
+                </svg>
+                <div class="graph-card engine-node">
+                  <span class="micro">ROUTING DECISION</span
+                  ><strong>The request comes first.</strong>
+                  <div>
+                    <svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="m5 12 4 4L19 6"></path></svg
+                    >Intent &amp; input compatibility
+                  </div>
+                  <div>
+                    <svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="m5 12 4 4L19 6"></path></svg
+                    >Your allowed models
+                  </div>
+                  <div>
+                    <svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="m5 12 4 4L19 6"></path></svg
+                    >Your routing preferences
+                  </div>
+                </div>
+                <div class="graph-card app-node">
+                  <svg
+                    aria-hidden="true"
+                    class="icon"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.6"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M8 3H6v7l-3 2 3 2v7h2m8-18h2v7l3 2-3 2v7h-2"
+                    ></path></svg
+                  ><strong>Your client</strong><span>One request</span>
+                </div>
+                <div class="router-node">
+                  <img
+                    alt=""
+                    height="80"
+                    src="/assets/logo.webp"
+                    width="80"
+                  /><strong>Open Model<br />Router</strong>
+                </div>
+                <div class="graph-models">
+                  <button
+                    aria-label="Quick answer : Lightweight text model"
+                    aria-pressed="false"
+                    class="model-node"
+                    data-scenario="quick"
+                  >
+                    <span class="node-symbol"
+                      ><svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="m13 2-9 12h7l-1 8 10-12h-8Z"
+                        ></path></svg></span
+                    ><span
+                      ><strong>Lightweight text</strong
+                      ><small>Text input</small></span
+                    ><span class="node-indicator"></span></button
+                  ><button
+                    aria-label="Everyday chat : General-purpose text model"
+                    aria-pressed="true"
+                    class="model-node selected"
+                    data-scenario="chat"
+                  >
+                    <span class="node-symbol"
+                      ><svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M21 11a9 9 0 0 1-9 9H3l2-4a9 9 0 1 1 16-5Z"
+                        ></path>
+                        <path d="M8 10h8m-8 4h5"></path></svg></span
+                    ><span
+                      ><strong>General-purpose text</strong
+                      ><small>Text input</small></span
+                    ><span class="node-indicator"></span></button
+                  ><button
+                    aria-label="Deep reasoning : Reasoning text model"
+                    aria-pressed="false"
+                    class="model-node"
+                    data-scenario="reason"
+                  >
+                    <span class="node-symbol"
+                      ><svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M5 3v15a3 3 0 0 0 3 3h2M5 7h9a3 3 0 0 1 3 3v4"
+                        ></path>
+                        <circle cx="5" cy="3" r="2"></circle>
+                        <circle cx="17" cy="17" r="3"></circle></svg></span
+                    ><span
+                      ><strong>Reasoning text</strong
+                      ><small>Text input</small></span
+                    ><span class="node-indicator"></span></button
+                  ><button
+                    aria-label="Visual analysis : Vision-capable model"
+                    aria-pressed="false"
+                    class="model-node"
+                    data-scenario="vision"
+                  >
+                    <span class="node-symbol"
+                      ><svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <rect height="18" rx="3" width="18" x="3" y="3"></rect>
+                        <circle cx="8" cy="8" r="1"></circle>
+                        <path d="m3 17 5-5 4 4 3-6 6 8"></path></svg></span
+                    ><span
+                      ><strong>Vision-capable model</strong
+                      ><small>Image input</small></span
+                    ><span class="node-indicator"></span>
+                  </button>
+                </div>
+                <div class="graph-card signals-node">
+                  <span class="micro">YOU KEEP CONTROL</span>
+                  <div>
+                    <span
+                      ><svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M3 6h8m4 0h6M3 18h4m4 0h10M11 3v6m-4 6v6"
+                        ></path></svg
+                      >Preferences</span
+                    ><span
+                      ><svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6Z"></path>
+                        <path d="m8 12 3 3 5-6"></path></svg
+                      >Eligibility</span
+                    ><span
+                      ><svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"
+                        ></path>
+                        <circle cx="12" cy="12" r="3"></circle></svg
+                      >Inspection</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <figcaption>
+                <a href="#profils"
+                  >Explore a decision
+                  <svg
+                    aria-hidden="true"
+                    class="icon"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.6"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M7 17 17 7M7 7h10v10"></path></svg
+                ></a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="hero-baseline">
+            <span>01 / THE CHOICE IS YOURS</span>
+            <div>
+              <span>LOCAL ROUTER</span><i></i><span>AUTOMATIC OR DIRECT</span>
+            </div>
+            <a href="#pourquoi"
+              >Discover
+              <svg
+                aria-hidden="true"
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.6"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14m-6-6 6 6-6 6"></path></svg
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section class="manifesto light-section" id="pourquoi">
+        <div class="wrap">
+          <div class="manifesto-grid">
+            <p class="eyebrow">The problem with one-model thinking</p>
+            <h2>
+              No single model wins<br />at everything.
+              <span>Your architecture shouldn’t pretend otherwise.</span>
+            </h2>
+          </div>
+          <div class="manifesto-bottom">
+            <span>BUILT AROUND CHOICE. DESIGNED FOR CHANGE.</span
+            ><a
+              aria-label="Explore scenarios"
+              class="circle-link"
+              href="#profils"
+              ><svg
+                aria-hidden="true"
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.6"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14m-6-6 6 6-6 6"></path></svg
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section class="section playground" id="profils">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Understand the choice</p>
+              <h2>Change the task.<br /><em>Watch the route.</em></h2>
+            </div>
+            <p class="section-intro">
+              Different requests need different strengths. Explore a decision
+              under configured preferences.
+            </p>
+          </div>
+          <div class="scenario-explorer">
+            <div class="scenario-sidebar">
+              <p class="micro">01 / SAMPLE TASK</p>
+              <div
+                aria-label="Select a sample task"
+                class="scenario-options"
+                role="group"
+              >
+                <button
+                  aria-pressed="false"
+                  class="scenario-button"
+                  data-scenario="quick"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="icon"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.6"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="m13 2-9 12h7l-1 8 10-12h-8Z"></path></svg
+                  ><span>Quick answer</span><small>01</small></button
+                ><button
+                  aria-pressed="true"
+                  class="scenario-button selected"
+                  data-scenario="chat"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="icon"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.6"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M21 11a9 9 0 0 1-9 9H3l2-4a9 9 0 1 1 16-5Z"></path>
+                    <path d="M8 10h8m-8 4h5"></path></svg
+                  ><span>Everyday chat</span><small>02</small></button
+                ><button
+                  aria-pressed="false"
+                  class="scenario-button"
+                  data-scenario="reason"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="icon"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.6"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M5 3v15a3 3 0 0 0 3 3h2M5 7h9a3 3 0 0 1 3 3v4"
+                    ></path>
+                    <circle cx="5" cy="3" r="2"></circle>
+                    <circle cx="17" cy="17" r="3"></circle></svg
+                  ><span>Deep reasoning</span><small>03</small></button
+                ><button
+                  aria-pressed="false"
+                  class="scenario-button"
+                  data-scenario="vision"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="icon"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.6"
+                    viewBox="0 0 24 24"
+                  >
+                    <rect height="18" rx="3" width="18" x="3" y="3"></rect>
+                    <circle cx="8" cy="8" r="1"></circle>
+                    <path d="m3 17 5-5 4 4 3-6 6 8"></path></svg
+                  ><span>Visual analysis</span><small>04</small>
+                </button>
+              </div>
+            </div>
+            <div class="decision-panel">
+              <div class="panel-heading">
+                <span class="micro">02 / THE DECISION PATH</span>
+              </div>
+              <div class="sample-request">
+                <span class="micro">YOUR REQUEST</span>
+                <blockquote data-request="">
+                  “Draft a thoughtful reply to this customer.”
+                </blockquote>
+              </div>
+              <div class="decision-body">
+                <div class="decision-copy">
+                  <h3 data-family="">General-purpose text model</h3>
+                  <div class="decision-lines">
+                    <p>
+                      <svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="m5 12 4 4L19 6"></path></svg
+                      ><span data-intent=""
+                        >Natural-language drafting with the right context.</span
+                      >
+                    </p>
+                    <p>
+                      <svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="m5 12 4 4L19 6"></path></svg
+                      ><span
+                        >Balance cost and fitness among allowed models.</span
+                      >
+                    </p>
+                    <p>
+                      <svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="m5 12 4 4L19 6"></path></svg
+                      ><span data-fit=""
+                        >A general-purpose text model suited to the
+                        request.</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <aside class="takeaway">
+                  <span class="micro">THE TAKEAWAY</span>
+                  <p data-takeaway="">
+                    A general-purpose model balances the needs of everyday
+                    writing and conversation.
+                  </p>
+                  <svg
+                    aria-hidden="true"
+                    class="icon"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.6"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M7 17 17 7M7 7h10v10"></path>
+                  </svg>
+                </aside>
+              </div>
+              <div class="decision-bottom">
+                <span>Automatic · Balanced preference</span>
+              </div>
+            </div>
+          </div>
+          <p aria-live="polite" class="sr-only" id="scenario-announcement"></p>
+        </div>
+      </section>
+      <section class="section features" id="capacites">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Beyond the endpoint</p>
+              <h2>An architecture<br /><em>built for choice.</em></h2>
+            </div>
+            <p class="section-intro">
+              Move decisions out of scattered application code and into a
+              routing layer you can understand, shape and evolve.
+            </p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <p class="eyebrow">01 / INTENT-AWARE ROUTING</p>
+              <h3>Let the request lead.</h3>
+              <p>
+                Consider the request alongside your configured preferences and
+                allowed models.
+              </p>
+              <div class="feature-art">
+                <div class="intent-art">
+                  <span
+                    ><svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M21 11a9 9 0 0 1-9 9H3l2-4a9 9 0 1 1 16-5Z"
+                      ></path>
+                      <path d="M8 10h8m-8 4h5"></path>
+                    </svg>
+                    Request</span
+                  ><span class="tiny-line"></span
+                  ><span class="art-core"
+                    ><svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <circle cx="18" cy="6" r="3"></circle>
+                      <path
+                        d="M9 18h8a3 3 0 0 0 0-6H7a3 3 0 0 1 0-6h8"
+                      ></path></svg></span
+                  ><span class="tiny-line"></span>
+                  <div class="art-outputs">
+                    <i>Text</i><i>Reasoning</i><i>Vision</i>
+                  </div>
+                </div>
+                <p class="micro">REQUEST → INTENT → ELIGIBLE ROUTES</p>
+              </div>
+            </article>
+            <article class="feature-card">
+              <p class="eyebrow">02 / ROUTING CONTROL</p>
+              <h3>Your priorities. Your rules.</h3>
+              <p>
+                Economy, Balanced or Quality: three automatic preferences.
+                Direct mode preserves your explicit model choice, without a
+                decider call.
+              </p>
+              <div class="feature-art">
+                <div class="mode-art">
+                  <div>
+                    <span>Automatic</span>
+                    <div>
+                      <i>Economy</i><i class="active">Balanced</i><i>Quality</i>
+                    </div>
+                  </div>
+                  <div>
+                    <span>Direct</span
+                    ><strong
+                      >Your explicit model choice
+                      <svg
+                        aria-hidden="true"
+                        class="icon"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.6"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M5 12h14m-6-6 6 6-6 6"></path></svg
+                    ></strong>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="feature-card">
+              <p class="eyebrow">03 / RESILIENCE BY DESIGN</p>
+              <h3>Plan for the unexpected.</h3>
+              <p>
+                Consider alternative eligible routes when configuring your
+                setup. Availability and recovery depend on the provider and
+                configuration.
+              </p>
+              <div class="feature-art">
+                <div class="alt-art">
+                  <div>
+                    <svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <circle cx="18" cy="6" r="3"></circle>
+                      <path d="M9 18h8a3 3 0 0 0 0-6H7a3 3 0 0 1 0-6h8"></path>
+                    </svg>
+                    Primary route<span>Configured</span>
+                  </div>
+                  <div>
+                    <svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <circle cx="18" cy="6" r="3"></circle>
+                      <path d="M9 18h8a3 3 0 0 0 0-6H7a3 3 0 0 1 0-6h8"></path>
+                    </svg>
+                    Alternative route<span>If eligible</span>
+                  </div>
+                </div>
+                <p class="micro">CONCEPT · NOT A LIVE STATUS</p>
+              </div>
+            </article>
+            <article class="feature-card">
+              <p class="eyebrow">04 / MODEL INDEPENDENCE</p>
+              <h3>Beyond a single provider.</h3>
+              <p>
+                Configure multiple providers and models while keeping control of
+                the choices available to your client.
+              </p>
+              <div class="feature-art">
+                <div class="model-matrix">
+                  <span
+                    ><svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <rect height="12" rx="2" width="12" x="6" y="6"></rect>
+                      <path
+                        d="M9 2v4m6-4v4m-6 12v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4"
+                      ></path>
+                    </svg>
+                    MODEL / A</span
+                  ><span
+                    ><svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <rect height="12" rx="2" width="12" x="6" y="6"></rect>
+                      <path
+                        d="M9 2v4m6-4v4m-6 12v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4"
+                      ></path>
+                    </svg>
+                    MODEL / B</span
+                  ><span
+                    ><svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <rect height="12" rx="2" width="12" x="6" y="6"></rect>
+                      <path
+                        d="M9 2v4m6-4v4m-6 12v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4"
+                      ></path>
+                    </svg>
+                    MODEL / C</span
+                  ><span
+                    ><svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <rect height="12" rx="2" width="12" x="6" y="6"></rect>
+                      <path
+                        d="M9 2v4m6-4v4m-6 12v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4"
+                      ></path>
+                    </svg>
+                    MODEL / D</span
+                  >
+                </div>
+                <p class="micro">ONE INTEGRATION / MANY OPTIONS</p>
+              </div>
+            </article>
+          </div>
+          <div class="inspector">
+            <div class="inspector-copy">
+              <p class="eyebrow">INSPECTOR &amp; OBSERVED USAGE</p>
+              <h3>Understand the decision.<br />See what happened.</h3>
+              <p>
+                Connect each decision to the rules, selected model and observed
+                usage. Full conversation text is not retained by default.
+              </p>
+              <p>
+                Duration, errors, input, output, cache and reasoning tokens,
+                when provided. Missing data remains unknown, not zero.
+              </p>
+            </div>
+            <div class="inspector-preview">
+              <div class="panel-heading">
+                <span class="micro">OMR / INSPECTOR</span>
+              </div>
+              <div class="inspect-row">
+                <span>Selected model</span
+                ><strong data-short-family="">General-purpose text</strong>
+              </div>
+              <div class="inspect-row">
+                <span>Tokens</span><strong>— </strong>
+              </div>
+              <div class="inspect-row">
+                <span>API cost</span><strong>Estimated</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section integration" id="integration">
+        <div class="wrap integration-layout">
+          <div>
+            <p class="eyebrow">One connection, more choice</p>
+            <h2>
+              Keep the connection.<br /><em>Change the possibilities.</em>
+            </h2>
+            <p class="section-intro">
+              Connect your client to the local endpoint. Route among your
+              configured models, automatically or directly. Available choices
+              depend on your setup.
+            </p>
+            <a class="text-link" href="#fonctionnement"
+              >See the Desktop journey
+              <svg
+                aria-hidden="true"
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.6"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14m-6-6 6 6-6 6"></path></svg
+            ></a>
+          </div>
+          <figure class="architecture">
+            <div class="architecture-flow">
+              <div>
+                <svg
+                  aria-hidden="true"
+                  class="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.6"
+                  viewBox="0 0 24 24"
+                >
+                  <rect height="13" rx="2" width="18" x="3" y="3"></rect>
+                  <path d="M8 21h8m-4-5v5"></path></svg
+                ><strong>Your client</strong><span>Existing tools</span>
+              </div>
+              <svg
+                aria-hidden="true"
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.6"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14m-6-6 6 6-6 6"></path>
+              </svg>
+              <div class="architecture-router">
+                <img
+                  alt=""
+                  height="52"
+                  src="/assets/logo.webp"
+                  width="52"
+                /><strong>Open Model Router</strong><span>Local endpoint</span>
+              </div>
+              <svg
+                aria-hidden="true"
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.6"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14m-6-6 6 6-6 6"></path>
+              </svg>
+              <div>
+                <svg
+                  aria-hidden="true"
+                  class="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.6"
+                  viewBox="0 0 24 24"
+                >
+                  <rect height="12" rx="2" width="12" x="6" y="6"></rect>
+                  <path
+                    d="M9 2v4m6-4v4m-6 12v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4"
+                  ></path></svg
+                ><strong>Your models</strong><span>Configured access</span>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </section>
+      <section class="section workflow light-section" id="fonctionnement">
+        <div class="wrap workflow-layout">
+          <div>
+            <p class="eyebrow">The Desktop journey</p>
+            <h2>Configure.<br />Choose.<br /><em>Understand.</em></h2>
+            <p class="section-intro">
+              From your access to understanding a decision: a local journey,
+              with no new API to learn.
+            </p>
+            <a class="outline-button" href="#download"
+              ><svg
+                aria-hidden="true"
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.6"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"></path></svg
+              >Choose your download<svg
+                aria-hidden="true"
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.6"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14m-6-6 6 6-6 6"></path></svg
+            ></a>
+          </div>
+          <div class="workflow-panel">
+            <div class="panel-heading">
+              <span class="window-dots"><i></i><i></i><i></i></span
+              ><span class="micro">OMR DESKTOP / THE STEPS</span>
+            </div>
+            <ol>
+              <li>
+                <span class="step-num">01</span>
+                <div>
+                  <h3>Configure your access</h3>
+                  <p>
+                    Declare providers and models, then verify access before
+                    using them.
+                  </p>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.6"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M3 6h8m4 0h6M3 18h4m4 0h10M11 3v6m-4 6v6"></path>
+                </svg>
+              </li>
+              <li>
+                <span class="step-num">02</span>
+                <div>
+                  <h3>Choose your mode</h3>
+                  <p>
+                    An automatic preference, or an explicit model without a
+                    decider call.
+                  </p>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.6"
+                  viewBox="0 0 24 24"
+                >
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <circle cx="18" cy="6" r="3"></circle>
+                  <path d="M9 18h8a3 3 0 0 0 0-6H7a3 3 0 0 1 0-6h8"></path>
+                </svg>
+              </li>
+              <li>
+                <span class="step-num">03</span>
+                <div>
+                  <h3>Connect your client</h3>
+                  <p>Connect a client to the local endpoint.</p>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.6"
+                  viewBox="0 0 24 24"
+                >
+                  <rect height="13" rx="2" width="18" x="3" y="3"></rect>
+                  <path d="M8 21h8m-4-5v5"></path>
+                </svg>
+              </li>
+              <li>
+                <span class="step-num">04</span>
+                <div>
+                  <h3>Inspect and adjust</h3>
+                  <p>
+                    Read the decision and observed usage, then review your
+                    preferences.
+                  </p>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.6"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <section class="section faq-section" id="faq">
+        <div class="wrap faq-layout">
+          <div>
+            <p class="eyebrow">Before you begin</p>
+            <h2>Essential<br /><em>questions.</em></h2>
+            <p class="section-intro">
+              Your access, your data and what is available today.
+            </p>
+          </div>
+          <div class="faq-list">
+            <details open="">
+              <summary>
+                What is Open Model Router?<svg
+                  aria-hidden="true"
+                  class="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.6"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="m6 9 6 6 6-6"></path>
+                </svg>
+              </summary>
+              <p>
+                A model-routing layer designed to choose an appropriate model
+                for a request using configurable preferences, rather than tying
+                every task to one default model.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Is it another AI model?<svg
+                  aria-hidden="true"
+                  class="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.6"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="m6 9 6 6 6-6"></path>
+                </svg>
+              </summary>
+              <p>
+                No. It is a routing layer between your client and the models it
+                may use, not a new foundation model.
+              </p>
+            </details>
+            <details>
+              <summary>
+                How is a model selected?<svg
+                  aria-hidden="true"
+                  class="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.6"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="m6 9 6 6 6-6"></path>
+                </svg>
+              </summary>
+              <p>
+                The decider considers the request, your configured preferences
+                and eligible models. Direct mode uses your explicit choice.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Is my subscription enough?<svg
+                  aria-hidden="true"
+                  class="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.6"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="m6 9 6 6 6-6"></path>
+                </svg>
+              </summary>
+              <p>
+                A subscription does not automatically provide API access usable
+                by OMR. Access depends on each provider’s supported methods.
+              </p>
+            </details>
+            <details>
+              <summary>
+                What does “local” mean?<svg
+                  aria-hidden="true"
+                  class="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.6"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="m6 9 6 6 6-6"></path>
+                </svg>
+              </summary>
+              <p>
+                The router runs on your machine. A remote model receives the
+                data needed for the request; local does not mean offline.
+                Context sent to an external decider must be explicitly
+                configured and consented to. Configured local commands are
+                trusted code, not isolated from the system.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+      <section class="section availability" id="disponibilite">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Your next step</p>
+              <h2>Your models.<br /><em>The choice is yours.</em></h2>
+            </div>
+            <p class="section-intro">
+              The same selection as above. Choose your package.
+            </p>
+          </div>
+          <div class="availability-grid">
+            <div>
+              <div
+                aria-label="Desktop download"
+                class="download-panel"
+                data-download="footer"
+              >
+                <div class="download-heading">
+                  <svg
+                    aria-hidden="true"
+                    class="icon"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.6"
+                    viewBox="0 0 24 24"
+                  >
+                    <rect height="13" rx="2" width="18" x="3" y="3"></rect>
+                    <path d="M8 21h8m-4-5v5"></path>
+                  </svg>
+                  <div>
+                    <strong class="detected-label"
+                      >Choose your operating system</strong
+                    ><span>Your system. Your models. Your rules.</span>
+                  </div>
+                  <span class="build-tag"><!--version--></span>
+                </div>
+                <div
+                  aria-label="Choose your operating system"
+                  class="os-tabs"
+                  role="group"
+                >
+                  <button
+                    aria-pressed="false"
+                    class="os-tab"
+                    data-os="macos"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15 5c1-1 2-3 1-4-2 0-4 2-4 4M12 7c-2 0-3-1-5 0-4 2-3 8-1 11s3 4 6 2c3 2 4 1 6-2l2-4c-4-2-4-5-1-7-3-2-4-1-7 0Z"
+                      ></path></svg
+                    ><span>macOS</span></button
+                  ><button
+                    aria-pressed="false"
+                    class="os-tab"
+                    data-os="windows"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 4h7v7H3zm11-1 7-1v9h-7ZM3 14h7v7l-7-1zm11 0h7v9l-7-1Z"
+                      ></path></svg
+                    ><span>Windows</span></button
+                  ><button
+                    aria-pressed="false"
+                    class="os-tab"
+                    data-os="linux"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M8 10V7a4 4 0 0 1 8 0v3l3 7-3 3H8l-3-3Z"></path>
+                      <path d="m10 10 2 2 2-2m-5 9-3 3m9-3 3 3"></path>
+                      <circle cx="10" cy="7" r=".5"></circle>
+                      <circle cx="14" cy="7" r=".5"></circle></svg
+                    ><span>Linux</span>
+                  </button>
+                </div>
+                <div aria-label="Architecture" class="package-options">
+                  <span class="neutral-hint"
+                    >Select a platform to see its package.</span
+                  >
+                </div>
+                <div class="chip-help" hidden="">
+                  <button aria-expanded="false" class="text-link" type="button">
+                    Find my chip
+                    <svg
+                      aria-hidden="true"
+                      class="icon"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.6"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                  </button>
+                  <p hidden="">
+                    Apple menu → About This Mac. Your browser cannot reliably
+                    identify your chip.
+                  </p>
+                </div>
+                <a
+                  aria-disabled="true"
+                  class="primary download-cta"
+                  role="link"
+                  tabindex="0"
+                  ><svg
+                    aria-hidden="true"
+                    class="icon"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.6"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"></path></svg
+                  ><span>Choose an operating system</span
+                  ><svg
+                    aria-hidden="true"
+                    class="icon"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.6"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14m-6-6 6 6-6 6"></path></svg
+                ></a>
+                <div class="download-foot">
+                  <span class="package-meta"><!--version--></span>
+                </div>
+              </div>
+            </div>
+            <div class="package-details" id="package-details">
+              <div class="panel-heading">
+                <span class="micro">Package details</span
+                ><svg
+                  aria-hidden="true"
+                  class="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.6"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6Z"></path>
+                  <path d="m8 12 3 3 5-6"></path>
+                </svg>
+              </div>
+              <div class="package-details-content">
+                <p>Select a platform above to see the package and checksum.</p>
+              </div>
+            </div>
+          </div>
+          <details class="all-packages">
+            <summary>
+              All published packages<svg
+                aria-hidden="true"
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.6"
+                viewBox="0 0 24 24"
+              >
+                <path d="m6 9 6 6 6-6"></path>
+              </svg>
+            </summary>
+            <div class="package-table" role="list"><!--packages--></div>
+          </details>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-main">
+          <a aria-label="Open Model Router" href="#top"
+            ><span class="brand"
+              ><img
+                alt=""
+                height="44"
+                src="/assets/logo.webp"
+                width="44"
+              /><span
+                >open model<br />router<small>THE CHOICE IS YOURS</small></span
+              ></span
+            ></a
+          >
+          <p>A local entry point for your models.<br />The choice is yours.</p>
+          <a class="text-link" href="#top"
+            >Back to top<svg
+              aria-hidden="true"
+              class="icon"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.6"
+              viewBox="0 0 24 24"
+            >
+              <path d="M7 17 17 7M7 7h10v10"></path></svg
+          ></a>
+        </div>
+        <div class="footer-bottom">
+          <span>AN INDEPENDENT PROJECT</span
+          ><a href="#faq">Your data &amp; access</a>
+          <a
+            class="source-materials"
+            href="https://open-model-router-materials-3.vercel.app/"
+            >Sources &amp; licenses · macOS 0.3.0 ARM64</a
+          >
+          <a href="/assets/materials/0.3.1/">Engine sources · 0.3.1 ARM64</a>
+          <!--r15-materials-->
+          <span class="github-unavailable"
+            ><svg aria-hidden="true" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.13c-3.09.67-3.74-1.32-3.74-1.32-.5-1.28-1.23-1.62-1.23-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.7 2.6 1.21 3.23.92.1-.72.39-1.21.7-1.49-2.47-.28-5.07-1.24-5.07-5.49 0-1.21.43-2.2 1.14-2.98-.11-.28-.49-1.4.11-2.94 0 0 .93-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.12-1.44 3.04-1.14 3.04-1.14.6 1.54.22 2.66.11 2.94.71.78 1.14 1.77 1.14 2.98 0 4.26-2.6 5.2-5.08 5.48.4.35.75 1.02.75 2.06v3.02c0 .3.2.65.76.54A11.1 11.1 0 0 0 12 .9Z"
+              ></path></svg
+            >GitHub · unavailable</span
+          >
+        </div>
+      </div>
+    </footer>
+    <div aria-live="polite" class="toast" hidden="" role="status"></div>
+    <noscript
+      ><div class="noscript-note">
+        JavaScript enables automatic OS detection and interactive examples. All
+        package links remain available at the bottom of the page.
+        <a href="#disponibilite">See downloads</a>
+      </div></noscript
+    >
+    <script id="release-data" type="application/json">
+      <!--release-data-->
+    </script>
+    <script id="ui-copy" type="application/json">
+      {
+        "osLabels": {
+          "macos": "macOS",
+          "windows": "Windows",
+          "linux": "Linux"
+        },
+        "detect": "Detected: {os}",
+        "chooseOS": "Choose your operating system",
+        "mobile": "Desktop app · choose a computer OS",
+        "manual": "Selected: {os}",
+        "archQuestion": "Which chip does your Mac have?",
+        "archHelp": "Apple menu → About This Mac. Your browser cannot reliably identify your chip.",
+        "archHelpLabel": "Find my chip",
+        "chooseChip": "Choose your Mac chip",
+        "download": "Download for {os}",
+        "noOS": "Choose an operating system",
+        "architecture": "Architecture",
+        "package": "Package",
+        "macos": { "arm64": "Apple Silicon", "x64": "Intel" },
+        "archHint": "Chip not detected",
+        "unsupportedArch": "No native package is available for this architecture. Only the x64 package is listed.",
+        "choosePackage": "Choose a package",
+        "linux": "Debian / Ubuntu · x64",
+        "windows": "Windows · x64",
+        "releaseMeta": "<!--version-->",
+        "notes": "Installation notes",
+        "sha": "SHA-256",
+        "copy": "Copy checksum",
+        "copied": "Checksum copied.",
+        "copyFailed": "Copy unavailable. Select the checksum below.",
+        "details": "Package details",
+        "checksums": "Checksum & source",
+        "sourceCommit": "Source commit",
+        "unselectedDetail": "Select a platform above to see the package and checksum.",
+        "allPackages": "All published packages"
+      }
+    </script>
+    <script id="scenario-data" type="application/json">
+      [
+        {
+          "key": "quick",
+          "icon": "bolt",
+          "title": "Quick answer",
+          "family": "Lightweight text model",
+          "short": "Lightweight text",
+          "input": "Text input",
+          "request": "Summarize this note in one sentence.",
+          "intent": "A short, straightforward summary.",
+          "fit": "A compatible text model among the models you allow.",
+          "takeaway": "A lightweight model fits a short summary without unnecessary complexity."
+        },
+        {
+          "key": "chat",
+          "icon": "chat",
+          "title": "Everyday chat",
+          "family": "General-purpose text model",
+          "short": "General-purpose text",
+          "input": "Text input",
+          "request": "Draft a thoughtful reply to this customer.",
+          "intent": "Natural-language drafting with the right context.",
+          "fit": "A general-purpose text model suited to the request.",
+          "takeaway": "A general-purpose model balances the needs of everyday writing and conversation."
+        },
+        {
+          "key": "reason",
+          "icon": "logic",
+          "title": "Deep reasoning",
+          "family": "Reasoning text model",
+          "short": "Reasoning text",
+          "input": "Text input",
+          "request": "Analyze the trade-offs in this complex proposal.",
+          "intent": "Multi-step analysis of a complex problem.",
+          "fit": "An allowed model suited to deeper reasoning.",
+          "takeaway": "A reasoning model fits multi-step analysis, despite its potentially greater cost."
+        },
+        {
+          "key": "vision",
+          "icon": "image",
+          "title": "Visual analysis",
+          "family": "Vision-capable model",
+          "short": "Vision-capable model",
+          "input": "Image input",
+          "request": "Describe the attached image.",
+          "intent": "Understand and describe an image.",
+          "fit": "Only allowed models that accept image input.",
+          "takeaway": "Image input requires a vision-capable model. Compatibility comes before preference."
+        }
+      ]
+    </script>
+  </body>
+</html>

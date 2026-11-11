@@ -1,0 +1,53 @@
+{
+  "artifacts": [
+    {
+      "filename": "omr-0.1.0-macos-arm64.dmg",
+      "url": "https://open-model-router.vercel.app/downloads/0.1.0/omr-0.1.0-macos-arm64.dmg",
+      "http": 200,
+      "effective_url": "https://open-model-router.vercel.app/downloads/0.1.0/omr-0.1.0-macos-arm64.dmg",
+      "content_type": "application/x-apple-diskimage",
+      "bytes": 12993046,
+      "sha256": "7068e309d31fc0d5851bcc5d7360a2c11ac9e2d4c41e35fb5baa15713563a691",
+      "checksum_verified": true,
+      "binary_magic_verified": true,
+      "installed_in_this_run": false
+    },
+    {
+      "filename": "omr-0.1.0-macos-x64.dmg",
+      "url": "https://open-model-router.vercel.app/downloads/0.1.0/omr-0.1.0-macos-x64.dmg",
+      "http": 200,
+      "effective_url": "https://open-model-router.vercel.app/downloads/0.1.0/omr-0.1.0-macos-x64.dmg",
+      "content_type": "application/x-apple-diskimage",
+      "bytes": 13747988,
+      "sha256": "7c2a7efdfa70450206019cb49a5e7c8e693a87761abbb1d930cd61235eda6c81",
+      "checksum_verified": true,
+      "binary_magic_verified": true,
+      "installed_in_this_run": false
+    },
+    {
+      "filename": "omr-0.1.0-windows-x64.exe",
+      "url": "https://open-model-router.vercel.app/downloads/0.1.0/omr-0.1.0-windows-x64.exe",
+      "http": 200,
+      "effective_url": "https://open-model-router.vercel.app/downloads/0.1.0/omr-0.1.0-windows-x64.exe",
+      "content_type": "application/x-msdos-program",
+      "bytes": 10945241,
+      "sha256": "caa933c6b07df21963428f11fd50cc63ad01e844bd8b2384db2f68ce5519f9c8",
+      "checksum_verified": true,
+      "binary_magic_verified": true,
+      "installed_in_this_run": false
+    },
+    {
+      "filename": "omr-0.1.0-linux-x64.deb",
+      "url": "https://open-model-router.vercel.app/downloads/0.1.0/omr-0.1.0-linux-x64.deb",
+      "http": 200,
+      "effective_url": "https://open-model-router.vercel.app/downloads/0.1.0/omr-0.1.0-linux-x64.deb",
+      "content_type": "application/x-debian-package",
+      "bytes": 26091712,
+      "sha256": "8e9e3d19bf95a6271f20a956ffa5e8b22c7f2c9801e0f2bfb8dd1ec85f37d9b8",
+      "checksum_verified": true,
+      "binary_magic_verified": true,
+      "installed_in_this_run": false
+    }
+  ],
+  "all_verified": true
+}

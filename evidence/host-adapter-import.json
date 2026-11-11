@@ -1,0 +1,58 @@
+{
+  "source_commit": "2527e02b4a7fbc766edba1f17e18e2e274e6d23b",
+  "source_tree": "011e2185e22a293130cba489116ed277b558ca8b",
+  "remote_verified": true,
+  "files": [
+    {
+      "path": "host-adapters/launch.py",
+      "sha256": "a4ef8463a484a4a5342707ea842da258535257975eb0e7c628c8e13de4175565",
+      "source_commit": "2527e02b4a7fbc766edba1f17e18e2e274e6d23b"
+    },
+    {
+      "path": "host-adapters/test_launch.py",
+      "sha256": "f9714bdda67c6c465b1a789fb4eb173a875f32af38efa276c8c84fa3dd7cbd19",
+      "source_commit": "2527e02b4a7fbc766edba1f17e18e2e274e6d23b"
+    },
+    {
+      "path": "host-adapters/README.md",
+      "sha256": "2affd962439cffdf1ea84b14cfaf0e155a633b602b942bd54f648490b0c7f7dd",
+      "source_commit": "2527e02b4a7fbc766edba1f17e18e2e274e6d23b"
+    },
+    {
+      "path": "evidence/native/error-visibility/REPORT.md",
+      "sha256": "e2227cf1af64aa825156115498c38cd25c1fb60a054fa7769e70a8b9b353e911",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/error-visibility/REPORT.md"
+    },
+    {
+      "path": "evidence/native/error-visibility/green.log",
+      "sha256": "472decf5776cff756abf44f9e1690fa023c00ff7d07517a58242e8188c9c4031",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/error-visibility/green.log"
+    },
+    {
+      "path": "evidence/native/error-visibility/hermes.stderr",
+      "sha256": "243a8cc9005547d4a3cc28b548d973e3aca800ca3d67927c3e3efef7b5c263d8",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/error-visibility/hermes.stderr"
+    },
+    {
+      "path": "evidence/native/error-visibility/hermes.stdout",
+      "sha256": "5cc00674665385fd836a4ca5edfc0109ee76f98e2f2454cfdcd10676980e2420",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/error-visibility/hermes.stdout"
+    },
+    {
+      "path": "evidence/native/error-visibility/red.log",
+      "sha256": "ee4d5bde5b8331c90b6c1d2aa155dbab072a738c0e3c50a20fa9d6d1f9c83188",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/error-visibility/red.log"
+    },
+    {
+      "path": "evidence/native/error-visibility/replay.json",
+      "sha256": "45d44a54a18abaf7932ca9a657e9a9e4b9eee9a5b3f7036fcd7757c86c36f1bb",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/error-visibility/replay.json"
+    },
+    {
+      "path": "evidence/native/error-visibility/source.sha256",
+      "sha256": "dacb6f41c370ddfdb245eb015233600814026fe2e13522df519ac64390109287",
+      "source_path": "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/error-visibility/source.sha256"
+    }
+  ],
+  "note": "Historical replay test hash predates the synchronization-only test repair; runtime bytes are unchanged. Reviewer unexpectedly committed despite read-only scope; parent verified signature/tree/six paths and reused the existing commit without rewriting it."
+}

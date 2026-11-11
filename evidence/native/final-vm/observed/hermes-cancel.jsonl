@@ -1,0 +1,7 @@
+{"type": "system", "subtype": "init", "model": "open-model-router", "session_id": "", "timestamp": 1793062184935}
+{"type": "text", "text": "I", "timestamp": 1793062190162}
+{"type": "text", "text": " cannot", "timestamp": 1793062190162}
+{"type": "text", "text": " generate", "timestamp": 1793062190167}
+{"type": "text", "text": " or", "timestamp": 1793062190172}
+{"type": "text", "text": " write", "timestamp": 1793062190179}
+{"type": "result", "session_id": "local-6ada7ef7bba1e6309da598d6091e6cc2d60b0f8d4bf78d2e4de5afc70dea56a3", "exit_code": 130, "text": "", "tokens": {"input": 0, "output": 0, "total": 0, "cache_read": 0, "cache_write": 0}, "duration_ms": 5246, "timestamp": 1793062190182}

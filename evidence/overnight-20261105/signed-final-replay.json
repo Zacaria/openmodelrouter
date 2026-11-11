@@ -1,0 +1,210 @@
+{
+  "product_sha": "6b4d33b7272b2dc0124f12e0fe2acd2453bbe368",
+  "signed_dmg_sha256": "e6ca38fd0d543435f806d8ccf774860ec31076de39f31b36a88f2ef897c2346a",
+  "engine_sha256": "032efbee15826579f8a47fd8750a4ae54102b54fdb1a5eaa83d6abaa0acb1b41",
+  "runs": {
+    "omp": {
+      "receipt_path": "/srv/omr-private/artifacts/open-model-router/chat-400-20261105/signed-6b4-replay/omp.json",
+      "receipt_sha256": "edb3f4b5018cb7205027c28adbe7716ec262253409e18081db358eb70ebffa26",
+      "ended": 1793861885.6745431,
+      "checks": [
+        {
+          "name": "no unrelated Ollama model preloaded",
+          "passed": true
+        },
+        {
+          "name": "D3 and generator installed",
+          "passed": true
+        },
+        {
+          "name": "virtual balanced advertised",
+          "passed": true
+        },
+        {
+          "name": "OMP sandbox denies out-of-scope file contents",
+          "passed": true
+        },
+        {
+          "name": "OMP sandbox denies out-of-scope writes",
+          "passed": true
+        },
+        {
+          "name": "OMP sandbox denies external network",
+          "passed": true
+        },
+        {
+          "name": "installed OMP version matches",
+          "passed": true
+        },
+        {
+          "name": "first turn completed",
+          "passed": true
+        },
+        {
+          "name": "first response useful",
+          "passed": true
+        },
+        {
+          "name": "first turn streamed",
+          "passed": true
+        },
+        {
+          "name": "second turn completed with context",
+          "passed": true
+        },
+        {
+          "name": "real read tool called",
+          "passed": true
+        },
+        {
+          "name": "tool answer completed",
+          "passed": true
+        },
+        {
+          "name": "OMP acknowledges cancellation",
+          "passed": true
+        },
+        {
+          "name": "missing decider surfaced by OMP",
+          "passed": true
+        },
+        {
+          "name": "live virtual routing receipts present",
+          "passed": true
+        },
+        {
+          "name": "exact generator observed",
+          "passed": true
+        },
+        {
+          "name": "decision usage observed",
+          "passed": true
+        }
+      ],
+      "sidecar_exit": 0
+    },
+    "chat": {
+      "receipt_path": "/srv/omr-private/artifacts/open-model-router/chat-400-20261105/signed-6b4-replay/chat.json",
+      "receipt_sha256": "84299c5293b16c34a785786461c1ecc3a43603f780ecc4c54a0bf4e50b873e4d",
+      "ended": 1793861943.7711732,
+      "checks": [
+        {
+          "name": "no unrelated Ollama model loaded",
+          "passed": true
+        },
+        {
+          "name": "existing D3 and generator available",
+          "passed": true
+        },
+        {
+          "name": "economy complete text stream",
+          "passed": true
+        },
+        {
+          "name": "economy concrete identity confirmed",
+          "passed": true
+        },
+        {
+          "name": "economy useful first response",
+          "passed": true
+        },
+        {
+          "name": "economy complete text stream",
+          "passed": true
+        },
+        {
+          "name": "economy concrete identity confirmed",
+          "passed": true
+        },
+        {
+          "name": "economy second-turn context retained",
+          "passed": true
+        },
+        {
+          "name": "balanced complete text stream",
+          "passed": true
+        },
+        {
+          "name": "balanced concrete identity confirmed",
+          "passed": true
+        },
+        {
+          "name": "balanced useful first response",
+          "passed": true
+        },
+        {
+          "name": "balanced complete text stream",
+          "passed": true
+        },
+        {
+          "name": "balanced concrete identity confirmed",
+          "passed": true
+        },
+        {
+          "name": "balanced second-turn context retained",
+          "passed": true
+        },
+        {
+          "name": "quality complete text stream",
+          "passed": true
+        },
+        {
+          "name": "quality concrete identity confirmed",
+          "passed": true
+        },
+        {
+          "name": "quality useful first response",
+          "passed": true
+        },
+        {
+          "name": "quality complete text stream",
+          "passed": true
+        },
+        {
+          "name": "quality concrete identity confirmed",
+          "passed": true
+        },
+        {
+          "name": "quality second-turn context retained",
+          "passed": true
+        },
+        {
+          "name": "balanced cancellation acknowledged",
+          "passed": true
+        },
+        {
+          "name": "balanced cancellation receipt",
+          "passed": true
+        },
+        {
+          "name": "six completed turns and one cancellation",
+          "passed": true
+        },
+        {
+          "name": "six typed SystemOne decisions accepted by strict D3 decoder",
+          "passed": true
+        },
+        {
+          "name": "missing consent refuses before fallback",
+          "passed": true
+        }
+      ],
+      "sidecar_exit": 0
+    }
+  },
+  "limits": [
+    "No native OMR GUI launch",
+    "No user installation or public release",
+    "No cold-cache claim",
+    "No new Codex call",
+    "Existing Hermes/Claude observations are source-based, not macOS-installer-based"
+  ],
+  "stage": {
+    "receipt_path": "/srv/omr-private/artifacts/open-model-router/chat-400-20261105/signed-6b4-replay/stage.json",
+    "receipt_sha256": "95283c37c7c62917881db4f32b65527bf0d67de7bc881e05a56a5d73b149c6da",
+    "signature_reverified": true,
+    "mount_detached": true,
+    "personal_config_unchanged": true
+  },
+  "matrix_rows": 7
+}

@@ -1,0 +1,31 @@
+{
+  "name": "omr-landing",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "build": "tsx scripts/build.tsx",
+    "check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "npm run test:language && npm run test:downloads && node --test tests/ready.test.mjs && python3 -B tests/test_payload_inventory.py && python3 -B tests/test_r15_source_delta.py && python3 -B tests/test_retained_downloads.py && python3 -B tests/test_remote_collision.py && python3 -B tests/test_publish_guard.py && python3 -B tests/test_historical_identity.py && python3 -B ../tests/test_landing.py --built && html-validate dist/index.html dist/fr/index.html",
+    "test:language": "node --test tests/language-routing.test.mjs",
+    "test:bilingual-browser": "node tests/ready-browser.mjs",
+    "test:downloads": "tsx --test tests/stage-downloads.test.ts tests/r15-materials.test.ts",
+    "test:staging": "tsx tests/staging.ts",
+    "test:browser": "node tests/ready-browser.mjs",
+    "test:r15-browser": "tsx tests/r15-materials-browser.mts"
+  },
+  "devDependencies": {
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "@types/node": "26.6.6",
+    "@playwright/test": "1.64.1",
+    "@axe-core/playwright": "4.14.0",
+    "prettier": "3.9.10",
+    "html-validate": "11.17.0"
+  }
+}

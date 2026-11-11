@@ -1,0 +1,1 @@
+OMR_SYNTHETIC_FIXTURE=blue-otter-73

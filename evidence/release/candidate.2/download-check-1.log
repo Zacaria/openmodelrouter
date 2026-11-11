@@ -1,0 +1,21 @@
+======================================================================
+ERROR: test_no_headers_deadline_closes_backend_and_next_request_recovers (test_deadlines.DeadlineTests.test_no_headers_deadline_closes_backend_and_next_request_recovers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/srv/omr-private/workspaces/open-model-router/release-native-sse-candidate/download-install/source/test_deadlines.py", line 36, in test_no_headers_deadline_closes_backend_and_next_request_recovers
+    response = client.getresponse(); statuses.append(response.status); response.read(); client.close()
+  File "/usr/lib/python3.13/http/client.py", line 1459, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/http/client.py", line 305, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+----------------------------------------------------------------------
+Ran 35 tests in 13.373s
+
+FAILED (errors=1)

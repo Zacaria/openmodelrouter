@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OMR Desktop 0.3.1 — sources du moteur ARM64</title>
+  </head>
+  <body>
+    <main>
+      <h1>Sources du moteur macOS ARM64 · 0.3.1</h1>
+      <p>
+        Le complément 0.3.1 s’applique aux sources de reconstruction du moteur
+        fournies avec le kit 0.3.0. Le complément ne modifie pas le pont Bun ni
+        l’extension native du kit de base.
+      </p>
+      <ol>
+        <li>
+          <a href="https://open-model-router-materials-3.vercel.app/"
+            >Télécharger le kit de base, ses dépendances et ses licences</a
+          >.
+        </li>
+        <li>
+          <a href="rebuild.patch" download>Télécharger le complément 0.3.1</a>.
+        </li>
+        <li>
+          Extraire le kit de base, puis exécuter
+          <code>patch -p1 &lt; rebuild.patch</code> depuis le dossier contenant
+          <code>pi-ai-distribution/</code>.
+        </li>
+        <li>
+          Suivre les instructions de
+          <code>pi-ai-distribution/rebuild/REBUILD-MAC-T_ABD8669B.md</code> et
+          vérifier les fichiers avec
+          <code>pi-ai-distribution/manifest.json</code>.
+        </li>
+      </ol>
+      <p>
+        Source produit : <code>fdc83fc014755b4432072fce31b8f6802cd658ed</code>.
+      </p>
+      <p>
+        SHA-256 du complément :
+        <code
+          >fba83d8165afe54297f81903b90c0905b4c9cb85d6bcf4f2758d77cb38056372</code
+        >.
+      </p>
+      <h2 lang="en">macOS ARM64 engine sources · 0.3.1</h2>
+      <p lang="en">
+        Download the base kit and the 0.3.1 patch above. Extract the base kit,
+        apply the patch from the directory containing
+        <code>pi-ai-distribution/</code>, then follow its rebuild instructions
+        and verify its manifest. The patch leaves the base kit’s Bun bridge and
+        native addon unchanged.
+      </p>
+      <p><a href="/">Open Model Router</a></p>
+    </main>
+  </body>
+</html>

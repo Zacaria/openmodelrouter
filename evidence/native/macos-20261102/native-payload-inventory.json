@@ -1,0 +1,1426 @@
+{
+  "engine_sha256": "12fdf1e5e6048f4d16c5a32822da069bda16143fa2545d363752c35526ab2f5b",
+  "native_files": [
+    {
+      "file": "Python.framework/Python",
+      "type": "n",
+      "bytes": 24,
+      "sha256": "d40912f18bc605459717c783f85c2af755e09f13155ba6517b42758dec0a7504",
+      "format": "data",
+      "otool_L": [],
+      "load_dependencies": [],
+      "rpaths": []
+    },
+    {
+      "file": "Python.framework/Versions/3.13/Python",
+      "type": "b",
+      "bytes": 5081136,
+      "sha256": "5184839e8763223140681e6aa1d9eef39e30ab52e9da7576e5034ea3ee5bfe0e",
+      "format": "Mach-O 64-bit dynamically linked shared library arm64",
+      "otool_L": [
+        "\t@rpath/Python (compatibility version 3.13.0, current version 3.13.0)",
+        "\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 3208.0.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "desktop/provider-runtime/omr-pi",
+      "type": "b",
+      "bytes": 94493282,
+      "sha256": "51fc8177287664feeb1ad6aaaa0a0e323ba90b553e0fd4e24b5fcb78f533fdb0",
+      "format": "Mach-O 64-bit executable arm64",
+      "otool_L": [
+        "\t/usr/lib/libicucore.A.dylib (compatibility version 1.0.0, current version 78.1.0)",
+        "\t/usr/lib/libresolv.9.dylib (compatibility version 1.0.0, current version 1.0.0)",
+        "\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2100.43.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libicucore.A.dylib",
+        "/usr/lib/libresolv.9.dylib",
+        "/usr/lib/libc++.1.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "desktop/provider-runtime/pi_natives.darwin-arm64.node",
+      "type": "x",
+      "bytes": 105758336,
+      "sha256": "f29fb7cf778acd76dfb72c55a8fde930e8595b10d24951f22f22f4e581e4c5b1",
+      "format": "Mach-O 64-bit dynamically linked shared library arm64",
+      "otool_L": [
+        "\tbazel-out/k8-opt-ST-025589578833/bin/crates/pi-natives/libpi_natives.dylib (compatibility version 0.0.0, current version 0.0.0)",
+        "\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 5027.0.69)",
+        "\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)",
+        "\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5027.0.69)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.0.0)",
+        "\t/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices (compatibility version 1.0.0, current version 66.0.0)",
+        "\t/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics (compatibility version 64.0.0, current version 2050.0.0)",
+        "\t/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices (compatibility version 1.0.0, current version 1226.0.0)",
+        "\t/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText (compatibility version 1.0.0, current version 904.0.0)",
+        "\t/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO (compatibility version 1.0.0, current version 1.0.0)",
+        "\t/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon (compatibility version 2.0.0, current version 170.0.0)",
+        "\t/System/Library/Frameworks/DeviceCheck.framework/Versions/A/DeviceCheck (compatibility version 1.0.0, current version 1.0.0)",
+        "\t/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 62460.1.2)",
+        "\t/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit (compatibility version 1.0.0, current version 275.0.0)",
+        "\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)",
+        "\t/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia (compatibility version 1.0.0, current version 3350.77.5)",
+        "\t/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio (compatibility version 1.0.0, current version 1.0.0)",
+        "\t/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation (compatibility version 1.0.0, current version 2.0.0)",
+        "\t/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio (compatibility version 1.0.0, current version 1.0.0)",
+        "\t/System/Library/Frameworks/MediaToolbox.framework/Versions/A/MediaToolbox (compatibility version 1.0.0, current version 3350.77.5)",
+        "\t/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit (compatibility version 45.0.0, current version 2775.10.103)",
+        "\t/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo (compatibility version 1.2.0, current version 758.27.0)",
+        "\t/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData (compatibility version 1.0.0, current version 1629.1.0)",
+        "\t/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage (compatibility version 1.0.1, current version 7.0.0)",
+        "\t/System/Library/Frameworks/Metal.framework/Versions/A/Metal (compatibility version 1.0.0, current version 382.5.3)",
+        "\t/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit (compatibility version 1.0.0, current version 2710.120.0)",
+        "\t/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore (compatibility version 1.2.0, current version 1223.2.2)",
+        "\t/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox (compatibility version 1.0.0, current version 1000.0.0)",
+        "\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2200.27.0)"
+      ],
+      "load_dependencies": [
+        "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+        "/usr/lib/libobjc.A.dylib",
+        "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+        "/usr/lib/libSystem.B.dylib",
+        "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+        "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+        "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+        "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+        "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+        "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+        "/System/Library/Frameworks/DeviceCheck.framework/Versions/A/DeviceCheck",
+        "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+        "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+        "/usr/lib/libiconv.2.dylib",
+        "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia",
+        "/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio",
+        "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation",
+        "/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio",
+        "/System/Library/Frameworks/MediaToolbox.framework/Versions/A/MediaToolbox",
+        "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+        "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+        "/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData",
+        "/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage",
+        "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+        "/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit",
+        "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+        "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",
+        "/usr/lib/libc++.1.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "hf_xet/hf_xet.abi3.so",
+      "type": "b",
+      "bytes": 7502000,
+      "sha256": "4dc41855df87d53402c309c84c0588b43fcd7da62bdf96bb196655b7d71f78ca",
+      "format": "Mach-O 64-bit dynamically linked shared library arm64",
+      "otool_L": [
+        "\t@rpath/hf_xet.abi3.so (compatibility version 0.0.0, current version 0.0.0)",
+        "\t/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration (compatibility version 1.0.0, current version 1300.120.2)",
+        "\t/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 61123.121.1)",
+        "\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)",
+        "\t/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit (compatibility version 1.0.0, current version 275.0.0)",
+        "\t/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory (compatibility version 1.0.0, current version 1.0.0)",
+        "\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 2503.1.0)",
+        "\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 2503.1.0)",
+        "\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)"
+      ],
+      "load_dependencies": [
+        "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+        "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+        "/usr/lib/libobjc.A.dylib",
+        "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+        "/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory",
+        "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+        "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+        "/usr/lib/libiconv.2.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "libcrypto.3.dylib",
+      "type": "b",
+      "bytes": 4888816,
+      "sha256": "f74c5c06adcc775bcb3361774a9939101cb2c463ca3bbb598e14220b384ed2c9",
+      "format": "Mach-O 64-bit dynamically linked shared library arm64",
+      "otool_L": [
+        "\t@rpath/libcrypto.3.dylib (compatibility version 3.0.0, current version 3.0.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "liblzma.5.dylib",
+      "type": "b",
+      "bytes": 185520,
+      "sha256": "c0c2ad578bf465a5cf3f74c9a4a8aa75e1f202304ad2cdfcd8bf899611573ab7",
+      "format": "Mach-O 64-bit dynamically linked shared library arm64",
+      "otool_L": [
+        "\t@rpath/liblzma.5.dylib (compatibility version 14.0.0, current version 14.4.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "libmpdec.4.dylib",
+      "type": "b",
+      "bytes": 189472,
+      "sha256": "cd152e29b6b2bc2e083d9449450eeb093a177bd33918e6fca063ad4255694d54",
+      "format": "Mach-O 64-bit dynamically linked shared library arm64",
+      "otool_L": [
+        "\t@rpath/libmpdec.4.dylib (compatibility version 4.0.0, current version 4.0.1)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "libsqlite3.dylib",
+      "type": "b",
+      "bytes": 1240784,
+      "sha256": "857383a36f833844d3252caf192c8306ebeb135463f7a3ceb668e3500c853e00",
+      "format": "Mach-O 64-bit dynamically linked shared library arm64",
+      "otool_L": [
+        "\t@rpath/libsqlite3.dylib (compatibility version 9.0.0, current version 9.6.0)",
+        "\t/usr/lib/libz.1.dylib (compatibility version 1.0.0, current version 1.2.12)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libz.1.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "libssl.3.dylib",
+      "type": "b",
+      "bytes": 906320,
+      "sha256": "854e17a5fe5f0a6c4cfab4959055970a9f0e805275052e23844adb12ce94e631",
+      "format": "Mach-O 64-bit dynamically linked shared library arm64",
+      "otool_L": [
+        "\t@rpath/libssl.3.dylib (compatibility version 3.0.0, current version 3.0.0)",
+        "\t@rpath/libcrypto.3.dylib (compatibility version 3.0.0, current version 3.0.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "@rpath/libcrypto.3.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": [
+        "@loader_path"
+      ]
+    },
+    {
+      "file": "numpy/_core/_multiarray_tests.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 139120,
+      "sha256": "ba02f78ff533f180a227ac27873248487339a2d1f1e630492f6245ff35df04a0",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "numpy/_core/_multiarray_umath.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 4013840,
+      "sha256": "984befe98a724880fb93a07888fc16c4c5b82e397ce3f4382542a082154ab691",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate (compatibility version 1.0.0, current version 4.0.0)",
+        "\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 1700.255.5)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)"
+      ],
+      "load_dependencies": [
+        "/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate",
+        "/usr/lib/libc++.1.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "numpy/fft/_pocketfft_umath.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 348016,
+      "sha256": "af958e8890baaac5cffb6c75105fd2b9fbf274432868c0f2e914d0d2251a92af",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 1700.255.5)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libc++.1.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "numpy/linalg/_umath_linalg.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 172992,
+      "sha256": "469d259fa4f4098d125697852ed343732112c1bec010173fc9f4a70df5a84544",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate (compatibility version 1.0.0, current version 4.0.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)"
+      ],
+      "load_dependencies": [
+        "/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "numpy/random/_bounded_integers.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 315968,
+      "sha256": "3a0c1e5d7782c790290e4620da8e272608a46e2c51ea5f323020226fc23d3af1",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "numpy/random/_common.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 268736,
+      "sha256": "f65b710b979daf9eede62c5474445027ef1b95fd00969c41cdfa8aecea515261",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "numpy/random/_generator.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 709072,
+      "sha256": "e16bf06b5901e679dc427f48c5950f52b6481ed05da922f0f11fb17838bd91ff",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "numpy/random/_mt19937.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 151584,
+      "sha256": "c0fa1f0bf416915686163ef7965f14b1526eabadd6d20003dfc0fbed0b7a2e3a",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "numpy/random/_pcg64.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 170544,
+      "sha256": "3b9a47d197f8d15fabfdca688bbca04fa918dd57e0c315f0871f3a7998ec1463",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "numpy/random/_philox.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 151792,
+      "sha256": "d231e4067ba70eb093392a41029b37e5ccda9517de9b5bbd6ca6d21e1f6efe0b",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "numpy/random/_sfc64.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 116272,
+      "sha256": "ea6ad867471ee56bd2aa368e7e2edaa9732794c8311734b173b2ce3b07c99bbb",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "numpy/random/bit_generator.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 228080,
+      "sha256": "eaa2ce3a435c4c426a3f79a5dbb5da3705b4c9d8bf3aa9cfb1b2d192280a2ba7",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "numpy/random/mtrand.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 599056,
+      "sha256": "3eea83d184b261051ac35de4a808b37050ef29a48978e9321eb98b2dcab07dd5",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "onnxruntime/capi/libonnxruntime.1.31.1.dylib",
+      "type": "b",
+      "bytes": 33055440,
+      "sha256": "78985b458322f32c7296146730f23d0b087fcc8ed50e9ccadae7192c84ddc6ec",
+      "format": "Mach-O 64-bit dynamically linked shared library arm64",
+      "otool_L": [
+        "\t@rpath/libonnxruntime.1.dylib (compatibility version 1.0.0, current version 1.31.1)",
+        "\t/System/Library/Frameworks/CoreML.framework/Versions/A/CoreML (compatibility version 1.0.0, current version 1.0.0)",
+        "\t/usr/lib/libsqlite3.dylib (compatibility version 9.0.0, current version 380.0.0)",
+        "\t/usr/lib/libz.1.dylib (compatibility version 1.0.0, current version 1.2.12)",
+        "\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 4201.0.0)",
+        "\t/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork (compatibility version 1.0.0, current version 3860.255.31)",
+        "\t/System/Library/Frameworks/Network.framework/Versions/A/Network (compatibility version 1.0.0, current version 5569.60.39)",
+        "\t/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration (compatibility version 1.0.0, current version 1385.60.3)",
+        "\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 4201.0.0)",
+        "\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)",
+        "\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2000.67.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)",
+        "\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)"
+      ],
+      "load_dependencies": [
+        "/System/Library/Frameworks/CoreML.framework/Versions/A/CoreML",
+        "/usr/lib/libsqlite3.dylib",
+        "/usr/lib/libz.1.dylib",
+        "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+        "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",
+        "/System/Library/Frameworks/Network.framework/Versions/A/Network",
+        "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+        "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+        "/usr/lib/libiconv.2.dylib",
+        "/usr/lib/libc++.1.dylib",
+        "/usr/lib/libSystem.B.dylib",
+        "/usr/lib/libobjc.A.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "onnxruntime/capi/onnxruntime_pybind11_state.so",
+      "type": "b",
+      "bytes": 40789776,
+      "sha256": "6ab2fd0ff2e4d28880e7328ff0419b7015ed5d215a1258afffaf6f80ab6521c6",
+      "format": "Mach-O 64-bit dynamically linked shared library arm64",
+      "otool_L": [
+        "\t@rpath/onnxruntime_pybind11_state.so (compatibility version 0.0.0, current version 0.0.0)",
+        "\t/System/Library/Frameworks/CoreML.framework/Versions/A/CoreML (compatibility version 1.0.0, current version 1.0.0)",
+        "\t/usr/lib/libsqlite3.dylib (compatibility version 9.0.0, current version 380.0.0)",
+        "\t/usr/lib/libz.1.dylib (compatibility version 1.0.0, current version 1.2.12)",
+        "\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 4201.0.0)",
+        "\t/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork (compatibility version 1.0.0, current version 3860.255.31)",
+        "\t/System/Library/Frameworks/Network.framework/Versions/A/Network (compatibility version 1.0.0, current version 5569.60.39)",
+        "\t/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration (compatibility version 1.0.0, current version 1385.60.3)",
+        "\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 4201.0.0)",
+        "\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)",
+        "\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2000.67.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)",
+        "\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)"
+      ],
+      "load_dependencies": [
+        "/System/Library/Frameworks/CoreML.framework/Versions/A/CoreML",
+        "/usr/lib/libsqlite3.dylib",
+        "/usr/lib/libz.1.dylib",
+        "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+        "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",
+        "/System/Library/Frameworks/Network.framework/Versions/A/Network",
+        "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+        "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+        "/usr/lib/libiconv.2.dylib",
+        "/usr/lib/libc++.1.dylib",
+        "/usr/lib/libSystem.B.dylib",
+        "/usr/lib/libobjc.A.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_asyncio.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 118320,
+      "sha256": "1f1e12933289985f655c40ec255c91e953764bf03e348ab1fe96fd90900c2e9c",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_bisect.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 70992,
+      "sha256": "f29d8803a8ed411cf0bc17a56f04fbb272c7a8bd68a8bcf96a514997ff37a557",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_blake2.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 89488,
+      "sha256": "9f72db48b9b110f268e42f2b4b8ccb92503f7e8eaad57090a7986cc1e2cfe3e6",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_bz2.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 73040,
+      "sha256": "3816819276bf396c2e38666c3efc01c449850433fa150ec61a5f3cbe79621034",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libbz2.1.0.dylib (compatibility version 1.0.0, current version 1.0.8)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libbz2.1.0.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_codecs_cn.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 186192,
+      "sha256": "eab9f9e13ffac213676669d224191dbba312aa186b29fa9d45a44a4b5d5c8b2e",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_codecs_hk.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 202800,
+      "sha256": "6683996b735a2e4c5c02ec933722f3a0d273fe4040fc2e15b51a3d8aaf9d389b",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_codecs_iso2022.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 72304,
+      "sha256": "2c187db84b307be6acadf4827b67c351fb62c9021d7e4fd198374f2ee7f46a6e",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_codecs_jp.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 302704,
+      "sha256": "9c953d493cfa01a5b3d4c10be64ac568ea55e63483a4753ed5ee4a445e2b7c90",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_codecs_kr.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 169760,
+      "sha256": "3e231fc1ad62aa2ebf09137ca7a9859c7b7f98e64d189fde3b61bd644a70d7d0",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_codecs_tw.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 169264,
+      "sha256": "0ee6ec325646defd3eeede6297e0eeb5a530947c76e8dfaf51ea47e28b628fdc",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_contextvars.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 68672,
+      "sha256": "bc3f74eb4e7d361eb54cb4f675315f16cf739f6abf5dc9eea401513f13cffd13",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_csv.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 91648,
+      "sha256": "775551177f2442f4d520c28f51ed88563d0d4fa816c8bb0e09adffcabcc5973a",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_ctypes.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 161664,
+      "sha256": "b8630877d5108d1dbd186e37f55a1b4922518a26179bf821a849a433a8fd7893",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libffi.dylib (compatibility version 1.0.0, current version 39.0.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libffi.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_datetime.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 135632,
+      "sha256": "fd57745ca9780875193547de7610c1b302e25aaa70f2f6d1a94bd16381107512",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_decimal.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 195120,
+      "sha256": "89afa7fd1e781ef633c49fd36406c825e42ee93407fbcb0175ec81c28c68af04",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t@rpath/libmpdec.4.dylib (compatibility version 4.0.0, current version 4.0.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "@rpath/libmpdec.4.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": [
+        "@loader_path/../.."
+      ]
+    },
+    {
+      "file": "python3.13/lib-dynload/_hashlib.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 98352,
+      "sha256": "1fd0f7abd8c488892b2c6c5f16f2c71f36c3e9f7851db0d39924627fb40ce35d",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t@rpath/libcrypto.3.dylib (compatibility version 3.0.0, current version 3.0.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "@rpath/libcrypto.3.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": [
+        "@loader_path/../.."
+      ]
+    },
+    {
+      "file": "python3.13/lib-dynload/_heapq.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 69904,
+      "sha256": "e7613eeb8503c6cdcc71ae11dc2a0ab5fa45fa1a8e1abc3d3b9f615399653abe",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_interpqueues.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 74384,
+      "sha256": "f46c597302be92ea7d809a54dd9424b5233fb982522ca6b75cf2e7af7710a582",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_interpreters.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 93872,
+      "sha256": "5efe4d0ed7c8f098ef411fb4234ff4f3e55fe9d6265be35829f9cf6fb2f990e6",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_json.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 90800,
+      "sha256": "8f70e26b09af63b13685b1c83110672355b6ef5ae3776db416a918924cd2e79e",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_lzma.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 92448,
+      "sha256": "f71b5efb979502dacac9c5269b7b59d06bd8ee5e6c0823660da3f21e68fe6e81",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t@rpath/liblzma.5.dylib (compatibility version 14.0.0, current version 14.1.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "@rpath/liblzma.5.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": [
+        "@loader_path/../.."
+      ]
+    },
+    {
+      "file": "python3.13/lib-dynload/_md5.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 71744,
+      "sha256": "836edd3a4107f6fa0b8cba0d6097777f863dc822dcbb54a9c8681ab811c900aa",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_multibytecodec.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 96656,
+      "sha256": "116faf078399a3fadcdbef54a3eb97521445eb87e910c47d2382971ff97faaf4",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_multiprocessing.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 73920,
+      "sha256": "e8f826d659aabf394dbb7b2c2c8ca62d81884663de9794f61068e602000e14e7",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_opcode.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 72816,
+      "sha256": "efd2e4d3b6cda0b2f8f4f73444b324cf4b2bb166f33eb4b6e803eaf20f5f44a1",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_pickle.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 169712,
+      "sha256": "b475e630b46bde2228d5f77b916ee74112b925be760a385127aece3a082b97ec",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_posixshmem.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 69600,
+      "sha256": "0bcb5c2459ab095970192409935baa2afb9f11283e7f64edd242fce06e184984",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_posixsubprocess.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 72720,
+      "sha256": "787ec5aaee449bbcf2996577d56c2aa1fcd745a53180cd7ed738c8c83dad10f2",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_queue.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 72240,
+      "sha256": "ecb259aba911ca72af109707ba4542dfd48e4dccf4721776fcef3f6512edffc7",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_random.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 71888,
+      "sha256": "6ee561fb874c0d52776f250c8f85b04ebad84708823463ba99b3ec711e4393a4",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_scproxy.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 71344,
+      "sha256": "01ae73ff46c8f5cc8bc8b8ee59620d04fa7b5a8c4647d20f1d588a0091cd4a2c",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration (compatibility version 1.0.0, current version 1351.0.0)",
+        "\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 3208.0.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+        "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_sha1.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 71728,
+      "sha256": "97122614d1a17becb34f1e5bf07a7944b99028ae16574922a609c2ba68190fbb",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_sha2.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 89920,
+      "sha256": "dbea6b37b6854b162db4341b2b5f5ddfb7497897d7898dcbf66328b63b59b064",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_sha3.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 73456,
+      "sha256": "517da3ac38b1861b03d3f1a37ccfd665ba7bcd78966840456e1b0b6d68abe61e",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_socket.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 133424,
+      "sha256": "8bab3f0ef497790258672af5a189d3590e99e9a041919ea42f4cf9357f5ace8f",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_sqlite3.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 166096,
+      "sha256": "4a043a1365e9c2c9116a43ffed2fea2fe1dc7993b8c0493d6d83d67db04697e8",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t@rpath/libsqlite3.dylib (compatibility version 9.0.0, current version 9.6.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "@rpath/libsqlite3.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": [
+        "@loader_path/../.."
+      ]
+    },
+    {
+      "file": "python3.13/lib-dynload/_ssl.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 222624,
+      "sha256": "2b38ee2dde087e7e3709217957d07f25c6f1f2efe1eda5e54324e0857e898c53",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t@rpath/libssl.3.dylib (compatibility version 3.0.0, current version 3.0.0)",
+        "\t@rpath/libcrypto.3.dylib (compatibility version 3.0.0, current version 3.0.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "@rpath/libssl.3.dylib",
+        "@rpath/libcrypto.3.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": [
+        "@loader_path/../.."
+      ]
+    },
+    {
+      "file": "python3.13/lib-dynload/_statistics.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 68800,
+      "sha256": "0d985998827edbe383a7433111290e38c96c06e496dc4b951500e2c1ee9f85d6",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_struct.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 94944,
+      "sha256": "0f76566d9fb5826788bcf3b1f2069c1a573b10ebd0a6e0c1c85a6866f4722863",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/_uuid.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 68640,
+      "sha256": "4dc9242a31f4f04553712c6f0f71e9a88319699a9f3bd9fd6cbb1158a47ac70b",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/array.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 97824,
+      "sha256": "bc00f9b56fe3889ca45501c854fd9505d8aed58a7ba7fc33ac52449e73439389",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/binascii.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 72368,
+      "sha256": "70621640a90922233bddcdedea5fc612ec3b16c4196ad43f182762d4265c4ff8",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libz.1.dylib (compatibility version 1.0.0, current version 1.2.12)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libz.1.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/fcntl.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 70608,
+      "sha256": "10003108e282f67f6cecfc3e004612c420eb2446f048ef4b2dabe046d6f1b234",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/grp.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 71136,
+      "sha256": "63de1fe23bf4c73bda27153a86397f52225c22d686b520fe6948c73057b6c048",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/math.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 111792,
+      "sha256": "75abd6e5d3ad8da0d0945c63787defb5c700b70d49dbcee3edd9ecc2131ff88c",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/mmap.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 73680,
+      "sha256": "750668e09d95190785cba0cebcd6eb1cdbd553206b89825bbe7b0495baa64d9f",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/pyexpat.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 99648,
+      "sha256": "e1f5dcaf70ae5549afcf9830efa98ed10e41e8ed292857aa517a1a99fbd4f12e",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libexpat.1.dylib (compatibility version 7.0.0, current version 8.0.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libexpat.1.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/readline.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 95056,
+      "sha256": "6616225c784591dab398b3467af34703f17730aa0852bdd9bbf6e4d5a6773624",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libedit.3.dylib (compatibility version 2.0.0, current version 3.0.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libedit.3.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/resource.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 70896,
+      "sha256": "82b76db6391b96f3ad0a6c839a5a79ad854f7cd5a7463c4277b7d1c8ad2137b9",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/select.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 92912,
+      "sha256": "ee0ff1adc02d3de3f68831bcc7be0d09a12f83058f738fe6ada4cde7ab4a5485",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/termios.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 71792,
+      "sha256": "1965baf45310cb5ba459ad6a59fd39af8e60497284f177a6204eaaf5dcbf499d",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/unicodedata.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 751808,
+      "sha256": "696993c516f89a93ba8f2af23ad902c02a24273f13c4f3d29de9f731867e41a7",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "python3.13/lib-dynload/zlib.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 94016,
+      "sha256": "5d0928ce9510155866a32461fd6e6beb64a4e9b3df50c0e2b2fb3ebe2db159ce",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libz.1.dylib (compatibility version 1.0.0, current version 1.2.12)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libz.1.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "tokenizers/tokenizers.abi3.so",
+      "type": "b",
+      "bytes": 9637328,
+      "sha256": "298effb6c303e402c6ffa6b61063287e35fc4d0e565c5298ede7eeea6797f3e9",
+      "format": "Mach-O 64-bit dynamically linked shared library arm64",
+      "otool_L": [
+        "\t@rpath/tokenizers.tokenizers.abi3.so (compatibility version 0.0.0, current version 0.0.0)",
+        "\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2100.43.0)",
+        "\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libc++.1.dylib",
+        "/usr/lib/libiconv.2.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    },
+    {
+      "file": "yaml/_yaml.cpython-313-darwin.so",
+      "type": "b",
+      "bytes": 399312,
+      "sha256": "459a5aed3e0736ef0eaf0d1680ce0b10be278463a2f89281246c4133c965f62d",
+      "format": "Mach-O 64-bit bundle arm64",
+      "otool_L": [
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1351.0.0)"
+      ],
+      "load_dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rpaths": []
+    }
+  ],
+  "frozen_notice_paths": [
+    "click-8.5.0.dist-info/licenses/LICENSE.txt",
+    "httpcore2-2.16.0.dist-info/licenses/LICENSE.md",
+    "httpx2-2.16.0.dist-info/licenses/LICENSE.md",
+    "licenses/Certifi-LICENSE.txt",
+    "licenses/PI-AI-MATERIALS.json",
+    "licenses/PI-AI-NOTICES.txt",
+    "licenses/PyInstaller-COPYING.txt",
+    "licenses/runtime/Bun-LICENSE.md",
+    "licenses/runtime/CPython-LICENSE.txt",
+    "licenses/runtime/PyInstaller-COPYING.txt",
+    "licenses/runtime/pi-ai-sources.lock.json",
+    "licenses/runtime/worker-pypi-inventory.json",
+    "licenses/runtime/worker-upstream-source-candidates.json",
+    "numpy-2.5.4.dist-info/licenses/LICENSE.txt",
+    "numpy-2.5.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+    "numpy-2.5.4.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+    "numpy-2.5.4.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+    "numpy-2.5.4.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+    "numpy-2.5.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+    "numpy-2.5.4.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+    "numpy-2.5.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+    "numpy-2.5.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+    "numpy-2.5.4.dist-info/licenses/numpy/ma/LICENSE",
+    "numpy-2.5.4.dist-info/licenses/numpy/random/LICENSE.md",
+    "numpy-2.5.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+    "numpy-2.5.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+    "numpy-2.5.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+    "numpy-2.5.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+    "numpy-2.5.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+    "numpy-2.5.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+    "tqdm-4.70.1.dist-info/licenses/LICENCE"
+  ],
+  "wheels": [
+    {
+      "file": "anyio-4.16.0-py3-none-any.whl",
+      "sha256": "c66ae634e0b8228396b801741beb3294326d4b6102f7bba4041c0dfb58c29026"
+    },
+    {
+      "file": "click-8.5.0-py3-none-any.whl",
+      "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360"
+    },
+    {
+      "file": "filelock-4.2.6-py3-none-any.whl",
+      "sha256": "fd7d4fca497bf3e3d0945a13261f8e684f2aef12ce7cf76aef26e13bf7388b88"
+    },
+    {
+      "file": "flatbuffers-25.12.19-py2.py3-none-any.whl",
+      "sha256": "7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4"
+    },
+    {
+      "file": "fsspec-2026.9.0-py3-none-any.whl",
+      "sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f"
+    },
+    {
+      "file": "h11-0.16.0-py3-none-any.whl",
+      "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86"
+    },
+    {
+      "file": "hf_xet-1.8.0-cp38-abi3-macosx_11_0_arm64.whl",
+      "sha256": "3e8934784425781f0f779b91044df441f3a7af4dab47375d7e3aeaecbb8eecb4"
+    },
+    {
+      "file": "httpcore2-2.16.0-py3-none-any.whl",
+      "sha256": "5c4358319f2602d984ad93182c9fee5160f22e9da7babdda870a5e7c4e2dc34f"
+    },
+    {
+      "file": "httpx2-2.16.0-py3-none-any.whl",
+      "sha256": "fd2c5d7909e8d86fe92d53020c310ca0e4e431b838c207c5754b9bbf0308d49a"
+    },
+    {
+      "file": "huggingface_hub-2.4.0-py3-none-any.whl",
+      "sha256": "42ecfd93ede47bdd333daebbf66a32d7bfe2e18752754fe4d2d4f98a0179d801"
+    },
+    {
+      "file": "idna-3.20-py3-none-any.whl",
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+    },
+    {
+      "file": "numpy-2.5.4-cp313-cp313-macosx_14_0_arm64.whl",
+      "sha256": "6d6a71b9d9a97c03633aa12565ef2825ffa036cc1d99cfd50dacf0f128af4fe2"
+    },
+    {
+      "file": "onnxruntime-1.31.1-cp313-cp313-macosx_14_0_arm64.whl",
+      "sha256": "e4ad067d36e2220218e085d7223283b2ee1bc73d887e811fd14d21cf901a11ee"
+    },
+    {
+      "file": "packaging-26.3-py3-none-any.whl",
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+    },
+    {
+      "file": "protobuf-7.36.2-cp310-abi3-macosx_10_9_universal2.whl",
+      "sha256": "cbc70b17ee27e28894c7fee8bb04be1abead49e936bc70eb60052531eee2079e"
+    },
+    {
+      "file": "pyyaml-6.0.3-cp313-cp313-macosx_11_0_arm64.whl",
+      "sha256": "2283a07e2c21a2aa78d9c4442724ec1eb15f5e42a723b99cb3d822d48f5f7ad1"
+    },
+    {
+      "file": "tokenizers-0.23.3-cp310-abi3-macosx_11_0_arm64.whl",
+      "sha256": "68649e97d5b43c44c031d8d848874a6eecae8f8fe40ea989aa777a5a83aca716"
+    },
+    {
+      "file": "tqdm-4.70.1-py3-none-any.whl",
+      "sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73"
+    },
+    {
+      "file": "truststore-0.10.5-py3-none-any.whl",
+      "sha256": "9aaaedaefaf06d8b206278cf8b5012bc897f485a874503501e12d776df78951c"
+    },
+    {
+      "file": "typing_extensions-4.16.0-py3-none-any.whl",
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+    }
+  ],
+  "scope": "Observed macOS ARM64 frozen bytes and native load commands. Wheel hashes do not attest upstream source correspondence; no Linux native-library inventory is inherited."
+}

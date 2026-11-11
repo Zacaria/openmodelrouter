@@ -1,0 +1,9 @@
+{"type": "system", "subtype": "init", "model": "open-model-router", "session_id": "", "timestamp": 1793081500647}
+{"type": "text", "text": "blue", "timestamp": 1793081508880}
+{"type": "text", "text": "-", "timestamp": 1793081508880}
+{"type": "text", "text": "ot", "timestamp": 1793081508887}
+{"type": "text", "text": "ter", "timestamp": 1793081508896}
+{"type": "text", "text": "-", "timestamp": 1793081508907}
+{"type": "text", "text": "7", "timestamp": 1793081508913}
+{"type": "text", "text": "3", "timestamp": 1793081508924}
+{"type": "result", "session_id": "local-308e2df644b00af92266c68248f27b597f9b5a9d60adc53e2537c35390c9efed", "exit_code": 0, "text": "blue-otter-73", "tokens": {"input": 4035, "output": 8, "total": 4043, "cache_read": 3999, "cache_write": 0}, "duration_ms": 9318, "timestamp": 1793081509965}

@@ -1,0 +1,17 @@
+test_exact_answer_and_missing_second_turn (test_cases.CasesTest.test_exact_answer_and_missing_second_turn) ... ok
+test_fixture_coverage_and_unique_ids (test_cases.CasesTest.test_fixture_coverage_and_unique_ids) ... ok
+test_unsafe_and_human_oracles_are_not_executed (test_cases.CasesTest.test_unsafe_and_human_oracles_are_not_executed) ... ok
+test_complete_and_usage (test_gateway.GatewayTests.test_complete_and_usage) ... {"route": "local", "model_requested": "tiny", "effort_requested": "low", "effort_applied": null, "fallback_reason": null, "elapsed_ms": 1, "generation_provenance": "simulated", "usage": {"input": 3, "output": 1}}
+ok
+test_no_content_in_logs (test_gateway.GatewayTests.test_no_content_in_logs) ... ok
+test_omp_text_blocks_and_store_false (test_gateway.GatewayTests.test_omp_text_blocks_and_store_false) ... {"route": "local", "model_requested": "tiny", "effort_requested": "low", "effort_applied": null, "fallback_reason": null, "elapsed_ms": 1, "generation_provenance": "simulated", "usage": {"input": 3, "output": 1}}
+ok
+test_stream_ends_with_done (test_gateway.GatewayTests.test_stream_ends_with_done) ... {"route": "local", "model_requested": "tiny", "effort_requested": "low", "effort_applied": null, "fallback_reason": null, "elapsed_ms": 1, "generation_provenance": "simulated", "usage": {"input": 3, "output": 1}}
+ok
+test_tools_and_unknown_fields_are_rejected_before_routing (test_gateway.GatewayTests.test_tools_and_unknown_fields_are_rejected_before_routing) ... ok
+test_seed_and_absent_arms (test_runner.RunnerTest.test_seed_and_absent_arms) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.025s
+
+OK

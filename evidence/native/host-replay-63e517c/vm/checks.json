@@ -1,0 +1,54 @@
+{
+  "hermes": {
+    "tool_call_and_result": true,
+    "first_final_fixture": true,
+    "resumed_final_fixture": true,
+    "resumed_same_session": true,
+    "no_tool_on_resume": true,
+    "native_streaming": true,
+    "upstream_error_receipts": [
+      "fb0c1b67-9b32-4ef6-bc89-f6c77cead43d",
+      "46e3ace2-bb83-423d-86cc-8175a88aa86a",
+      "53f3441f-7767-46d1-b172-94d10d0c2029",
+      "8a9c6d2a-b444-4cb2-ba3f-a6d75fc3a9c8"
+    ],
+    "error_timeout": true,
+    "cancel_exit_130": true,
+    "terminal_not_seen": true,
+    "upstream_established_before": true,
+    "child_group_observed": true,
+    "no_group_survivors": true,
+    "no_upstream_socket_after": true,
+    "cancelled_receipts": [],
+    "recovered_same_session": true,
+    "recovered_fixture": true
+  },
+  "claude": {
+    "tool_call_and_result": true,
+    "first_final_fixture": true,
+    "resumed_final_fixture": true,
+    "resumed_same_session": true,
+    "no_tool_on_resume": true,
+    "native_streaming": true,
+    "upstream_error_receipts": [
+      "4867d5bf-9b6e-46eb-ac8c-673f91cc85cd",
+      "ecbb4e21-278f-42f3-992f-1f70e4981617",
+      "d6067a48-ab89-404a-98cf-005d22671b23",
+      "b41f6c3b-8a9b-4620-8844-fee10aa8eef8",
+      "88aad145-44ac-4dde-924e-db8d98694f54",
+      "b71fb3e0-34ce-4827-9889-024df041ceeb"
+    ],
+    "error_timeout": true,
+    "cancel_exit_130": true,
+    "terminal_not_seen": true,
+    "upstream_established_before": true,
+    "child_group_observed": true,
+    "no_group_survivors": true,
+    "no_upstream_socket_after": true,
+    "cancelled_receipts": [
+      "2f0cd418-5261-4229-a80b-9205d3bc65e7"
+    ],
+    "recovered_same_session": true,
+    "recovered_fixture": true
+  }
+}

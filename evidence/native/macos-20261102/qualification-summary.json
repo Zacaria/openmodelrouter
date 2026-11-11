@@ -1,0 +1,31 @@
+{
+  "source_candidate": "5737f77f8a05f8a87301a0dfd139f1a31834f7b1",
+  "native_success_assertions": 48,
+  "ax_captures": 11,
+  "screenshot_permission": false,
+  "screenshot_permission_requested": false,
+  "generator_result": "not_qualified_resource_guard",
+  "classifier_result": "real_frozen_onnx_nonconstant_1_then_2",
+  "personal_app_replaced": false,
+  "linux_provenance_guard_changed": false,
+  "attempts": [
+    {
+      "variant": "default_gpu",
+      "reason": "resource_guard",
+      "swapout_delta_pages": 52188,
+      "swapout_delta_bytes": 855048192,
+      "minimum_free_percent": 27,
+      "source_weights_unchanged": true,
+      "completed_generations": 0
+    },
+    {
+      "variant": "cpu_offloaded_0_of_29",
+      "reason": "resource_guard",
+      "swapout_delta_pages": 30092,
+      "swapout_delta_bytes": 493027328,
+      "minimum_free_percent": 30,
+      "source_weights_unchanged": true,
+      "completed_generations": 0
+    }
+  ]
+}

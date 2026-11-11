@@ -1,0 +1,13 @@
+OMR Desktop 0.3.0 — préversion macOS Apple Silicon
+
+- Chat intégré avec les profils Économie, Équilibré et Qualité, interruption et nouvelle conversation.
+- Navigation regroupée autour d’État, Fournisseurs, Chat et Réglages ; les outils supplémentaires restent dans Avancé.
+- Motifs de refus Chat affichés avec leur code et leur statut.
+- Niveaux des modèles modifiables manuellement.
+
+Installation : ouvrez le DMG, copiez OMR Desktop dans Applications, puis configurez vos fournisseurs et les accès que vous souhaitez autoriser. Les coûts et quotas restent ceux de vos fournisseurs.
+
+Le fil Chat n’est pas conservé si vous quittez cet écran. Cette préversion concerne uniquement macOS Apple Silicon ; les installateurs Intel, Windows et Linux 0.1.0 restent disponibles sur le site.
+
+Sources, licences et instructions de remplacement pour macOS ARM64 0.3.0 :
+https://open-model-router-materials-3.vercel.app/

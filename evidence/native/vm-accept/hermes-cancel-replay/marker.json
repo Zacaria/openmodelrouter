@@ -1,0 +1,1 @@
+{"event": "first_nonempty_chat_delta_after_flush", "signal": "SIGINT", "time_ns": 1793068285437627465, "launcher_pid": 3358399, "child_groups": [3358403], "upstream_before": [{"local": ["10.77.0.10", 43990], "remote": ["10.77.0.11", 11434], "status": "ESTABLISHED"}], "terminal_seen": false}

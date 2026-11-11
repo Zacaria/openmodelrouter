@@ -1,0 +1,869 @@
+{
+  "version": 1,
+  "algorithm": "sha256",
+  "files": [
+    {
+      "source": "host-adapters/evidence/native/final-vm/REPORT.md",
+      "package": "native/final-vm/REPORT.md",
+      "original_sha256": "7e9e9478aad0256d88b2565eae123d00ab0978234ad41e23eb50d6898d805102",
+      "published_sha256": "7e9e9478aad0256d88b2565eae123d00ab0978234ad41e23eb50d6898d805102",
+      "original_bytes": 3392,
+      "published_bytes": 3392,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/claude-after-cancel.err",
+      "package": "native/final-vm/claude-after-cancel.err",
+      "original_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "published_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "original_bytes": 276,
+      "published_bytes": 276,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/claude-after-cancel.jsonl",
+      "package": "native/final-vm/claude-after-cancel.jsonl",
+      "original_sha256": "168bc9b1aa7ea919c7f35b6086a35dbac1b562cddd0db6fa3b54cb2dffebd3f3",
+      "published_sha256": "e39b57fccdbd8246f18094c684976f3ef5bc943087a89c1719f8dadf0c1e7ba0",
+      "original_bytes": 12155,
+      "published_bytes": 12159,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/claude-after-error.err",
+      "package": "native/final-vm/claude-after-error.err",
+      "original_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "published_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "original_bytes": 276,
+      "published_bytes": 276,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/claude-after-error.jsonl",
+      "package": "native/final-vm/claude-after-error.jsonl",
+      "original_sha256": "6150fa2b4ffcb69947aef6e9e5a4a8f06a837a26cc7fd74e9e8443f3a98b8b56",
+      "published_sha256": "183eb0291e4eebd777c959663beaddee3f747dce64129fe07e22184dcc2375a0",
+      "original_bytes": 12157,
+      "published_bytes": 12161,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/claude-cancel.err",
+      "package": "native/final-vm/claude-cancel.err",
+      "original_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "published_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "original_bytes": 276,
+      "published_bytes": 276,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/claude-cancel.jsonl",
+      "package": "native/final-vm/claude-cancel.jsonl",
+      "original_sha256": "7e1b264f7122d1f1c1479e6360d9bff37dd748c980fd672bb4ae7ac84379b8ab",
+      "published_sha256": "4801c84a496fee60fae35ef03d1e77fafa5690f278faee2ef8ba3c8757b68606",
+      "original_bytes": 5747,
+      "published_bytes": 5751,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/claude-error.err",
+      "package": "native/final-vm/claude-error.err",
+      "original_sha256": "7f5a5e53f67985ed5b880d0c38b4392a746d07b1a26a3224441a16d1a843d8ba",
+      "published_sha256": "7f5a5e53f67985ed5b880d0c38b4392a746d07b1a26a3224441a16d1a843d8ba",
+      "original_bytes": 329,
+      "published_bytes": 329,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/claude-error.jsonl",
+      "package": "native/final-vm/claude-error.jsonl",
+      "original_sha256": "8fbef4c50f5be4a64a8cf044a796fa7a837a7a8c9389fcb7494d872bf7ce42d1",
+      "published_sha256": "5789b5be686ca1ff7970111b6fd59aa2d37a2017332f3073a037ace029fb6e19",
+      "original_bytes": 3613,
+      "published_bytes": 3617,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/claude-session.txt",
+      "package": "native/final-vm/claude-session.txt",
+      "original_sha256": "5937392846396622ea11852f9ab6deca86828a2ca988ae13e5a5d3f75a27d50d",
+      "published_sha256": "5937392846396622ea11852f9ab6deca86828a2ca988ae13e5a5d3f75a27d50d",
+      "original_bytes": 37,
+      "published_bytes": 37,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/claude-turn1.err",
+      "package": "native/final-vm/claude-turn1.err",
+      "original_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "published_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "original_bytes": 276,
+      "published_bytes": 276,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/claude-turn1.jsonl",
+      "package": "native/final-vm/claude-turn1.jsonl",
+      "original_sha256": "ca80dfe3cb2c0a81fbb6c43a02aba565a5aaf59c9d9a2c6e1e3ad5fd7f4260b4",
+      "published_sha256": "0b7e7ebe1d029c1ba237379048f6bbe87351c6a2ba4c06b22c08b5c9968cdd3a",
+      "original_bytes": 15670,
+      "published_bytes": 15674,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/claude-turn2.err",
+      "package": "native/final-vm/claude-turn2.err",
+      "original_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "published_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "original_bytes": 276,
+      "published_bytes": 276,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/claude-turn2.jsonl",
+      "package": "native/final-vm/claude-turn2.jsonl",
+      "original_sha256": "4d3d848c6be70b7c3f6eba5480cfafc568c0446d7c40e72b7f8deefa9c39e2a7",
+      "published_sha256": "5eaaee5a215f0c2a67d78e5ea873d9c8275ccc07be9f251484a8d79837a28c42",
+      "original_bytes": 12154,
+      "published_bytes": 12158,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/claude-uuid.txt",
+      "package": "native/final-vm/claude-uuid.txt",
+      "original_sha256": "e31eebfd41824b1d62a0d9854b9fb20af7f222c8800b4e0a207e1da8d9d84bbe",
+      "published_sha256": "e31eebfd41824b1d62a0d9854b9fb20af7f222c8800b4e0a207e1da8d9d84bbe",
+      "original_bytes": 37,
+      "published_bytes": 37,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/commands.jsonl",
+      "package": "native/final-vm/commands.jsonl",
+      "original_sha256": "e0f19ffb09eeb3e66a27c4e6c838b05f65904b57838783689fede07038f917b4",
+      "published_sha256": "e0f19ffb09eeb3e66a27c4e6c838b05f65904b57838783689fede07038f917b4",
+      "original_bytes": 7326,
+      "published_bytes": 7326,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/config.json",
+      "package": "native/final-vm/config.json",
+      "original_sha256": "b2c3ef4952ce0f02f457e8f05cda042ccc61d767cd2c945a34aa529b76d29b90",
+      "published_sha256": "b2c3ef4952ce0f02f457e8f05cda042ccc61d767cd2c945a34aa529b76d29b90",
+      "original_bytes": 483,
+      "published_bytes": 483,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/gateway.log",
+      "package": "native/final-vm/gateway.log",
+      "original_sha256": "85652f206ad0ab0cdc43159cdb70c421356ad5ca7bc3781ba9961d074e9b1869",
+      "published_sha256": "85652f206ad0ab0cdc43159cdb70c421356ad5ca7bc3781ba9961d074e9b1869",
+      "original_bytes": 6,
+      "published_bytes": 6,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/hermes-after-cancel.err",
+      "package": "native/final-vm/hermes-after-cancel.err",
+      "original_sha256": "a2300feef25c95f16fafa65b141ec6a7902bfe182d456575112cb900e2f446e0",
+      "published_sha256": "a2300feef25c95f16fafa65b141ec6a7902bfe182d456575112cb900e2f446e0",
+      "original_bytes": 164,
+      "published_bytes": 164,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/hermes-after-cancel.jsonl",
+      "package": "native/final-vm/hermes-after-cancel.jsonl",
+      "original_sha256": "25b4ee3c5863f183076bd8a1cef60bfe764847c30f3a441f10254714125ac277",
+      "published_sha256": "25b4ee3c5863f183076bd8a1cef60bfe764847c30f3a441f10254714125ac277",
+      "original_bytes": 1374,
+      "published_bytes": 1374,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/hermes-after-error.err",
+      "package": "native/final-vm/hermes-after-error.err",
+      "original_sha256": "a2300feef25c95f16fafa65b141ec6a7902bfe182d456575112cb900e2f446e0",
+      "published_sha256": "a2300feef25c95f16fafa65b141ec6a7902bfe182d456575112cb900e2f446e0",
+      "original_bytes": 164,
+      "published_bytes": 164,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/hermes-after-error.jsonl",
+      "package": "native/final-vm/hermes-after-error.jsonl",
+      "original_sha256": "89904b19f597b0106afc80c39e3b321303ea7df4175a0e92375e513bc4566447",
+      "published_sha256": "89904b19f597b0106afc80c39e3b321303ea7df4175a0e92375e513bc4566447",
+      "original_bytes": 1374,
+      "published_bytes": 1374,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/hermes-cancel.err",
+      "package": "native/final-vm/hermes-cancel.err",
+      "original_sha256": "b862cb1eb8cae503b51ef77c7ef1af3545d50bcdd9176694a2d1d446f9bb99e9",
+      "published_sha256": "b862cb1eb8cae503b51ef77c7ef1af3545d50bcdd9176694a2d1d446f9bb99e9",
+      "original_bytes": 214,
+      "published_bytes": 214,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/hermes-cancel.jsonl",
+      "package": "native/final-vm/hermes-cancel.jsonl",
+      "original_sha256": "c7fe8b19bc928021837d1f85014c2ca5e4f499c053ce5ce3ad6ee7381e7767ff",
+      "published_sha256": "c7fe8b19bc928021837d1f85014c2ca5e4f499c053ce5ce3ad6ee7381e7767ff",
+      "original_bytes": 506,
+      "published_bytes": 506,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/hermes-error.err",
+      "package": "native/final-vm/hermes-error.err",
+      "original_sha256": "d8178729dbc542dd488771079d2e09cdf5a7f93835a0fccabd847a1f71ee4c2b",
+      "published_sha256": "d8178729dbc542dd488771079d2e09cdf5a7f93835a0fccabd847a1f71ee4c2b",
+      "original_bytes": 133,
+      "published_bytes": 133,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/hermes-error.jsonl",
+      "package": "native/final-vm/hermes-error.jsonl",
+      "original_sha256": "11318f423ec4a66ed3af9c29877de411ac838c4b0193d496485a871eaf377816",
+      "published_sha256": "11318f423ec4a66ed3af9c29877de411ac838c4b0193d496485a871eaf377816",
+      "original_bytes": 114,
+      "published_bytes": 114,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/hermes-session.txt",
+      "package": "native/final-vm/hermes-session.txt",
+      "original_sha256": "8570d2808b074f07f17c1fe0d61ebec553406cf6ca668b743bb363c05f7db677",
+      "published_sha256": "8570d2808b074f07f17c1fe0d61ebec553406cf6ca668b743bb363c05f7db677",
+      "original_bytes": 71,
+      "published_bytes": 71,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/hermes-turn1.err",
+      "package": "native/final-vm/hermes-turn1.err",
+      "original_sha256": "a2300feef25c95f16fafa65b141ec6a7902bfe182d456575112cb900e2f446e0",
+      "published_sha256": "a2300feef25c95f16fafa65b141ec6a7902bfe182d456575112cb900e2f446e0",
+      "original_bytes": 164,
+      "published_bytes": 164,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/hermes-turn1.jsonl",
+      "package": "native/final-vm/hermes-turn1.jsonl",
+      "original_sha256": "b2c4c2a6835425523ab464b2a2fcf9f24e9a0d397d7b0c9ef487b6200ec012fb",
+      "published_sha256": "b2c4c2a6835425523ab464b2a2fcf9f24e9a0d397d7b0c9ef487b6200ec012fb",
+      "original_bytes": 2012,
+      "published_bytes": 2012,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/hermes-turn2.err",
+      "package": "native/final-vm/hermes-turn2.err",
+      "original_sha256": "a2300feef25c95f16fafa65b141ec6a7902bfe182d456575112cb900e2f446e0",
+      "published_sha256": "a2300feef25c95f16fafa65b141ec6a7902bfe182d456575112cb900e2f446e0",
+      "original_bytes": 164,
+      "published_bytes": 164,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/hermes-turn2.jsonl",
+      "package": "native/final-vm/hermes-turn2.jsonl",
+      "original_sha256": "5e17808bdf2a6433a922b7676bee7c686c60dfc161d9850a659886cd10969c1d",
+      "published_sha256": "5e17808bdf2a6433a922b7676bee7c686c60dfc161d9850a659886cd10969c1d",
+      "original_bytes": 1374,
+      "published_bytes": 1374,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/hermes-uuid.txt",
+      "package": "native/final-vm/hermes-uuid.txt",
+      "original_sha256": "99dbed06680cf45e486c0a82197b5cae849b8505a730c30fb2cca91c6f2a4dc4",
+      "published_sha256": "99dbed06680cf45e486c0a82197b5cae849b8505a730c30fb2cca91c6f2a4dc4",
+      "original_bytes": 37,
+      "published_bytes": 37,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/claude-after-cancel.err",
+      "package": "native/final-vm/observed/claude-after-cancel.err",
+      "original_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "published_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "original_bytes": 276,
+      "published_bytes": 276,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/claude-after-cancel.jsonl",
+      "package": "native/final-vm/observed/claude-after-cancel.jsonl",
+      "original_sha256": "d0917314752bc6127c0af0dc3ed46fee78990f321ddd32b31a869e311140e494",
+      "published_sha256": "c1cc3b658311113976fa5e1ab907a4843bfdce6034b24232ca34cec468e23d92",
+      "original_bytes": 12155,
+      "published_bytes": 12159,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/claude-after-error.err",
+      "package": "native/final-vm/observed/claude-after-error.err",
+      "original_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "published_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "original_bytes": 276,
+      "published_bytes": 276,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/claude-after-error.jsonl",
+      "package": "native/final-vm/observed/claude-after-error.jsonl",
+      "original_sha256": "3da99757142601ee6b1ad4fee0032dbcf6c73a1a718e727cf74ff295f6dde7b3",
+      "published_sha256": "d820aa6a703b22c9271521f02611d1c2740ddc5b590f5a560a340fd0f12872d8",
+      "original_bytes": 12156,
+      "published_bytes": 12160,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/claude-cancel.err",
+      "package": "native/final-vm/observed/claude-cancel.err",
+      "original_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "published_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "original_bytes": 276,
+      "published_bytes": 276,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/claude-cancel.jsonl",
+      "package": "native/final-vm/observed/claude-cancel.jsonl",
+      "original_sha256": "be8de567d7017c8faa91daeb7b7b2221421e5764a9bce1f7a1856c45b43375b9",
+      "published_sha256": "db498da79022a83de10321fe37e0440395665cedfc40de7e4cd50d2131c99c73",
+      "original_bytes": 7431,
+      "published_bytes": 7435,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/claude-error.err",
+      "package": "native/final-vm/observed/claude-error.err",
+      "original_sha256": "7f5a5e53f67985ed5b880d0c38b4392a746d07b1a26a3224441a16d1a843d8ba",
+      "published_sha256": "7f5a5e53f67985ed5b880d0c38b4392a746d07b1a26a3224441a16d1a843d8ba",
+      "original_bytes": 329,
+      "published_bytes": 329,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/claude-error.jsonl",
+      "package": "native/final-vm/observed/claude-error.jsonl",
+      "original_sha256": "8d2faa52f70959955f1cfdcb7c6a5672bfa607a66282d76ea98abcf06d991fc5",
+      "published_sha256": "396ce1f6afd64bed7ad7ad86d507fce8c477307ac579ebc3bb8e33f0855d89a6",
+      "original_bytes": 3613,
+      "published_bytes": 3617,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/claude-session.txt",
+      "package": "native/final-vm/observed/claude-session.txt",
+      "original_sha256": "6406d80605e79961f7f016e301f9d95bf43d21a4a4e8c8789ff471c5a8ad0f17",
+      "published_sha256": "6406d80605e79961f7f016e301f9d95bf43d21a4a4e8c8789ff471c5a8ad0f17",
+      "original_bytes": 37,
+      "published_bytes": 37,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/claude-turn1.err",
+      "package": "native/final-vm/observed/claude-turn1.err",
+      "original_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "published_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "original_bytes": 276,
+      "published_bytes": 276,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/claude-turn1.jsonl",
+      "package": "native/final-vm/observed/claude-turn1.jsonl",
+      "original_sha256": "21128888e76a9fd869feb6f443061fd3c70cb4e0a306d03e967206a01a188668",
+      "published_sha256": "27797153ec16d492d69392e493bf31abfc64bbedb67a75b88998c530e445ecb0",
+      "original_bytes": 15667,
+      "published_bytes": 15671,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/claude-turn2.err",
+      "package": "native/final-vm/observed/claude-turn2.err",
+      "original_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "published_sha256": "4b170e01ec0be8dce806e235cfa6b683c3ba904849f4ff262141a3e4a2da196b",
+      "original_bytes": 276,
+      "published_bytes": 276,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/claude-turn2.jsonl",
+      "package": "native/final-vm/observed/claude-turn2.jsonl",
+      "original_sha256": "f99f03a8eda466a860d13762da1889fff0d216d4ccc072df163f78364188dd5d",
+      "published_sha256": "5d8c1e6fc95677e4cec6f5e75a091112fb8c0bb1a5566b58b7f249c2da239785",
+      "original_bytes": 12175,
+      "published_bytes": 12179,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/claude-uuid.txt",
+      "package": "native/final-vm/observed/claude-uuid.txt",
+      "original_sha256": "8c35cc91e9010b4cda46319d26b4561a7c498a1c58d319faff14ccfb78679965",
+      "published_sha256": "8c35cc91e9010b4cda46319d26b4561a7c498a1c58d319faff14ccfb78679965",
+      "original_bytes": 37,
+      "published_bytes": 37,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/commands.jsonl",
+      "package": "native/final-vm/observed/commands.jsonl",
+      "original_sha256": "74a650af5c5413426f11fda1dfed4aabe37701704cb590c4a66fb3c862c2f829",
+      "published_sha256": "74a650af5c5413426f11fda1dfed4aabe37701704cb590c4a66fb3c862c2f829",
+      "original_bytes": 8814,
+      "published_bytes": 8814,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/config.json",
+      "package": "native/final-vm/observed/config.json",
+      "original_sha256": "bd10ed6e1312b32d9d2f6b8b283a291bc63eecd08bd081439a3b7d45ee15b083",
+      "published_sha256": "bd10ed6e1312b32d9d2f6b8b283a291bc63eecd08bd081439a3b7d45ee15b083",
+      "original_bytes": 492,
+      "published_bytes": 492,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/gateway.log",
+      "package": "native/final-vm/observed/gateway.log",
+      "original_sha256": "b063ea9efc56917bf2335ca0723aa9b4e326bd9827f36db4f4b0e9304c4fa355",
+      "published_sha256": "b063ea9efc56917bf2335ca0723aa9b4e326bd9827f36db4f4b0e9304c4fa355",
+      "original_bytes": 6,
+      "published_bytes": 6,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/hermes-after-cancel.err",
+      "package": "native/final-vm/observed/hermes-after-cancel.err",
+      "original_sha256": "dcdce169221d04acbfcad027cca6b4316b63d85be91211d8ed7d76bf73872b9b",
+      "published_sha256": "dcdce169221d04acbfcad027cca6b4316b63d85be91211d8ed7d76bf73872b9b",
+      "original_bytes": 164,
+      "published_bytes": 164,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/hermes-after-cancel.jsonl",
+      "package": "native/final-vm/observed/hermes-after-cancel.jsonl",
+      "original_sha256": "0002bf684954ac8c8fe396bb65731cfb02aecb2d535c4f6b3f82d4fd806185ec",
+      "published_sha256": "0002bf684954ac8c8fe396bb65731cfb02aecb2d535c4f6b3f82d4fd806185ec",
+      "original_bytes": 1374,
+      "published_bytes": 1374,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/hermes-after-error.err",
+      "package": "native/final-vm/observed/hermes-after-error.err",
+      "original_sha256": "dcdce169221d04acbfcad027cca6b4316b63d85be91211d8ed7d76bf73872b9b",
+      "published_sha256": "dcdce169221d04acbfcad027cca6b4316b63d85be91211d8ed7d76bf73872b9b",
+      "original_bytes": 164,
+      "published_bytes": 164,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/hermes-after-error.jsonl",
+      "package": "native/final-vm/observed/hermes-after-error.jsonl",
+      "original_sha256": "869f6eddb8f6febb90d4843918c63ba1570ce6933e237beeef3b00efc9a81fb7",
+      "published_sha256": "869f6eddb8f6febb90d4843918c63ba1570ce6933e237beeef3b00efc9a81fb7",
+      "original_bytes": 1374,
+      "published_bytes": 1374,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/hermes-cancel.err",
+      "package": "native/final-vm/observed/hermes-cancel.err",
+      "original_sha256": "fa93599bd7e199c5cd99c76c76d046c296bc215ea62fbb61d81b30afda62553b",
+      "published_sha256": "fa93599bd7e199c5cd99c76c76d046c296bc215ea62fbb61d81b30afda62553b",
+      "original_bytes": 214,
+      "published_bytes": 214,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/hermes-cancel.jsonl",
+      "package": "native/final-vm/observed/hermes-cancel.jsonl",
+      "original_sha256": "71e138dd8e536c08176eb4cac16f427761399baf606f3d48c7981fb0227b6480",
+      "published_sha256": "71e138dd8e536c08176eb4cac16f427761399baf606f3d48c7981fb0227b6480",
+      "original_bytes": 695,
+      "published_bytes": 695,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/hermes-error.err",
+      "package": "native/final-vm/observed/hermes-error.err",
+      "original_sha256": "2cbf1754cf3fdf6dd4633fe8b1331855b9a4d2e6280cfe6b6333bb7c97f7c8d2",
+      "published_sha256": "2cbf1754cf3fdf6dd4633fe8b1331855b9a4d2e6280cfe6b6333bb7c97f7c8d2",
+      "original_bytes": 133,
+      "published_bytes": 133,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/hermes-error.jsonl",
+      "package": "native/final-vm/observed/hermes-error.jsonl",
+      "original_sha256": "e45acfb8c063b0ee386a9a011e5d2c46807b94cb729bdf598ec6f3baf861a132",
+      "published_sha256": "e45acfb8c063b0ee386a9a011e5d2c46807b94cb729bdf598ec6f3baf861a132",
+      "original_bytes": 114,
+      "published_bytes": 114,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/hermes-session.txt",
+      "package": "native/final-vm/observed/hermes-session.txt",
+      "original_sha256": "8981c4abf243fa5f4b2f654247d5fb7ea8e2a3a24d4ff9b60ffdc36e6e79b3c4",
+      "published_sha256": "8981c4abf243fa5f4b2f654247d5fb7ea8e2a3a24d4ff9b60ffdc36e6e79b3c4",
+      "original_bytes": 71,
+      "published_bytes": 71,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/hermes-turn1.err",
+      "package": "native/final-vm/observed/hermes-turn1.err",
+      "original_sha256": "dcdce169221d04acbfcad027cca6b4316b63d85be91211d8ed7d76bf73872b9b",
+      "published_sha256": "dcdce169221d04acbfcad027cca6b4316b63d85be91211d8ed7d76bf73872b9b",
+      "original_bytes": 164,
+      "published_bytes": 164,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/hermes-turn1.jsonl",
+      "package": "native/final-vm/observed/hermes-turn1.jsonl",
+      "original_sha256": "b0293f13c7f74a0da0f1263e318579dd519dee0e0868ccaadae675039311bad3",
+      "published_sha256": "b0293f13c7f74a0da0f1263e318579dd519dee0e0868ccaadae675039311bad3",
+      "original_bytes": 2012,
+      "published_bytes": 2012,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/hermes-turn2.err",
+      "package": "native/final-vm/observed/hermes-turn2.err",
+      "original_sha256": "dcdce169221d04acbfcad027cca6b4316b63d85be91211d8ed7d76bf73872b9b",
+      "published_sha256": "dcdce169221d04acbfcad027cca6b4316b63d85be91211d8ed7d76bf73872b9b",
+      "original_bytes": 164,
+      "published_bytes": 164,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/hermes-turn2.jsonl",
+      "package": "native/final-vm/observed/hermes-turn2.jsonl",
+      "original_sha256": "24b51bd153368aba85fa091264a149b000961933302d46e0690c02a209461f63",
+      "published_sha256": "24b51bd153368aba85fa091264a149b000961933302d46e0690c02a209461f63",
+      "original_bytes": 1374,
+      "published_bytes": 1374,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/hermes-uuid.txt",
+      "package": "native/final-vm/observed/hermes-uuid.txt",
+      "original_sha256": "7b5a04204253ba9c36ec64df406d23d09405a02bd9385c3352ea228cec04b3d1",
+      "published_sha256": "7b5a04204253ba9c36ec64df406d23d09405a02bd9385c3352ea228cec04b3d1",
+      "original_bytes": 37,
+      "published_bytes": 37,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/observed/receipts.jsonl",
+      "package": "native/final-vm/observed/receipts.jsonl",
+      "original_sha256": "29b6d293bd948e635cc1bb4bf4cd28b587a3a7f269dd69050ccf83bc827d4a76",
+      "published_sha256": "29b6d293bd948e635cc1bb4bf4cd28b587a3a7f269dd69050ccf83bc827d4a76",
+      "original_bytes": 9319,
+      "published_bytes": 9319,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/receipts.jsonl",
+      "package": "native/final-vm/receipts.jsonl",
+      "original_sha256": "ed99a1c2a87b8e3efe34660f17c53d5578df788642b09c4e876ec1ab8a1d4856",
+      "published_sha256": "ed99a1c2a87b8e3efe34660f17c53d5578df788642b09c4e876ec1ab8a1d4856",
+      "original_bytes": 9310,
+      "published_bytes": 9310,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/red-mutation.log",
+      "package": "native/final-vm/red-mutation.log",
+      "original_sha256": "6ace2dc825352843f1a1ff4ba8c66727a18f320f98a5095811304d197b1432a7",
+      "published_sha256": "3780321fed25912bf166b129195c25f4c76f98c5e53cf17bca5ec99ada7aaed7",
+      "original_bytes": 1754,
+      "published_bytes": 1762,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/replay-observed.py",
+      "package": "native/final-vm/replay-observed.py",
+      "original_sha256": "7a6a62295ec5f91a461765091ae3d96531aadcf54fb0ff00b3466c918b81b217",
+      "published_sha256": "7a6a62295ec5f91a461765091ae3d96531aadcf54fb0ff00b3466c918b81b217",
+      "original_bytes": 5055,
+      "published_bytes": 5055,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/replay.py",
+      "package": "native/final-vm/replay.py",
+      "original_sha256": "9616e76726df4a4bf8e0872f044b49768ff1822705088e199ec12e11fc53cfd0",
+      "published_sha256": "9616e76726df4a4bf8e0872f044b49768ff1822705088e199ec12e11fc53cfd0",
+      "original_bytes": 4020,
+      "published_bytes": 4020,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/source.sha256",
+      "package": "native/final-vm/source.sha256",
+      "original_sha256": "dc64f5063512c1ca1e9c0c969f9e9c6f816d66bff33a2cd4492ec1f0a59e4982",
+      "published_sha256": "dc64f5063512c1ca1e9c0c969f9e9c6f816d66bff33a2cd4492ec1f0a59e4982",
+      "original_bytes": 275,
+      "published_bytes": 275,
+      "redaction_reasons": []
+    },
+    {
+      "source": "host-adapters/evidence/native/final-vm/tests.log",
+      "package": "native/final-vm/tests.log",
+      "original_sha256": "81e9491dcfc87b60974bb71a2a7a5bb40f40ea9099107445f3cab2a7213b1430",
+      "published_sha256": "81e9491dcfc87b60974bb71a2a7a5bb40f40ea9099107445f3cab2a7213b1430",
+      "original_bytes": 106,
+      "published_bytes": 106,
+      "redaction_reasons": []
+    },
+    {
+      "source": "mac-native-evidence/config-chat.json",
+      "package": "native/mac/config-chat.json",
+      "original_sha256": "1210410d19a2aa4c1a73f7c760529a1641540127941233e833fe71118a1bbab2",
+      "published_sha256": "1210410d19a2aa4c1a73f7c760529a1641540127941233e833fe71118a1bbab2",
+      "original_bytes": 334,
+      "published_bytes": 334,
+      "redaction_reasons": []
+    },
+    {
+      "source": "mac-native-evidence/ollama-official-release.txt",
+      "package": "native/mac/ollama-official-release.txt",
+      "original_sha256": "b963697e4fb1b433309dc9c17f3e3bda9005f0fd6dc8eaa35adcbb00f46e48c7",
+      "published_sha256": "b963697e4fb1b433309dc9c17f3e3bda9005f0fd6dc8eaa35adcbb00f46e48c7",
+      "original_bytes": 108,
+      "published_bytes": 108,
+      "redaction_reasons": []
+    },
+    {
+      "source": "mac-native-evidence/pass2/RESULTATS.md",
+      "package": "native/mac/pass2/RESULTATS.md",
+      "original_sha256": "c84da0597729a5e306c041d0467acd2fab395826b6aeee31b265f8fe860f5927",
+      "published_sha256": "c84da0597729a5e306c041d0467acd2fab395826b6aeee31b265f8fe860f5927",
+      "original_bytes": 3461,
+      "published_bytes": 3461,
+      "redaction_reasons": []
+    },
+    {
+      "source": "mac-native-evidence/pass2/mac-gateway-tests.txt",
+      "package": "native/mac/pass2/mac-gateway-tests.txt",
+      "original_sha256": "8703de5ff0126332c9f9e69cdf3cd03d921c574a0f242f6367ee8fa22b3b915d",
+      "published_sha256": "69055320cbb2a7ec7397a3b30b0cb7bf902de59219f91d61756bd83ab03291c6",
+      "original_bytes": 2842,
+      "published_bytes": 2834,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "mac-native-evidence/pass2/native-probe.txt",
+      "package": "native/mac/pass2/native-probe.txt",
+      "original_sha256": "e174c3ac487b67b089b6d20c038bb91f1296ca8d5deea0d61f5aaafdeb753163",
+      "published_sha256": "ec20ee321efe4ff20605624c8de720e5a567110fa72da8b73cd8396db42b8dd5",
+      "original_bytes": 3742,
+      "published_bytes": 3734,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "mac-native-evidence/pass2/native_probe.py",
+      "package": "native/mac/pass2/native_probe.py",
+      "original_sha256": "9850787512ff4ab1dc070f5c307cd4e4661a1b793bbafde72ad120e00151d0ed",
+      "published_sha256": "9850787512ff4ab1dc070f5c307cd4e4661a1b793bbafde72ad120e00151d0ed",
+      "original_bytes": 2990,
+      "published_bytes": 2990,
+      "redaction_reasons": []
+    },
+    {
+      "source": "mac-native-evidence/pass2/resource-sample.txt",
+      "package": "native/mac/pass2/resource-sample.txt",
+      "original_sha256": "670490826a3df0ebd69dfa76b129699fd142d09e63e87a3523c9ee74382f83e8",
+      "published_sha256": "ef8423db8d73fbbd74578aebe69d3078460ebdfa4543b4cf1cffbab236c2a3b4",
+      "original_bytes": 4466,
+      "published_bytes": 4316,
+      "redaction_reasons": [
+        "account identity in home path",
+        "directory listing owner and group identities"
+      ]
+    },
+    {
+      "source": "mac-native-evidence/pass2/retest-timeouts.txt",
+      "package": "native/mac/pass2/retest-timeouts.txt",
+      "original_sha256": "e841591d85a207712ff7030a8cb8e6825a71f9cf3890041442bf3c0b9f7e8996",
+      "published_sha256": "a93360fc5f9affa1bcfc2fd915fcc783e5e59c0f10f33874cbbb40d6d762ee24",
+      "original_bytes": 2055,
+      "published_bytes": 2047,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "mac-native-evidence/pass3/RESULTATS.md",
+      "package": "native/mac/pass3/RESULTATS.md",
+      "original_sha256": "5dcc45bd9b0c1e83f22e432b2814a281a71334d244614addf96bc38c1deabb12",
+      "published_sha256": "5dcc45bd9b0c1e83f22e432b2814a281a71334d244614addf96bc38c1deabb12",
+      "original_bytes": 3462,
+      "published_bytes": 3462,
+      "redaction_reasons": []
+    },
+    {
+      "source": "mac-native-evidence/pass3/probe.log",
+      "package": "native/mac/pass3/probe.log",
+      "original_sha256": "2c512211ee206bb6dbbbd9615f4a363ee92723a7dba00ee9b6892877d0049c4d",
+      "published_sha256": "2c512211ee206bb6dbbbd9615f4a363ee92723a7dba00ee9b6892877d0049c4d",
+      "original_bytes": 9126,
+      "published_bytes": 9126,
+      "redaction_reasons": []
+    },
+    {
+      "source": "mac-native-evidence/pass3/probe.py",
+      "package": "native/mac/pass3/probe.py",
+      "original_sha256": "25d8ce8fa2a9039d0b3c3ef7fb302c156e3bc744b8357f93ddcabb9b474153a8",
+      "published_sha256": "25d8ce8fa2a9039d0b3c3ef7fb302c156e3bc744b8357f93ddcabb9b474153a8",
+      "original_bytes": 3257,
+      "published_bytes": 3257,
+      "redaction_reasons": []
+    },
+    {
+      "source": "mac-native-evidence/pass3/state.txt",
+      "package": "native/mac/pass3/state.txt",
+      "original_sha256": "5dc9efe03b49a1cde3226e3150b388ddd57adb55419c8a93071c1899ec32cd4f",
+      "published_sha256": "5dc9efe03b49a1cde3226e3150b388ddd57adb55419c8a93071c1899ec32cd4f",
+      "original_bytes": 2842,
+      "published_bytes": 2842,
+      "redaction_reasons": []
+    },
+    {
+      "source": "mac-native-evidence/pass3/tests.txt",
+      "package": "native/mac/pass3/tests.txt",
+      "original_sha256": "b763bc4c72f2df15b0c0e8968dfafd899a8e788049c3aacfd8caf2d18e5a6744",
+      "published_sha256": "b763bc4c72f2df15b0c0e8968dfafd899a8e788049c3aacfd8caf2d18e5a6744",
+      "original_bytes": 1496,
+      "published_bytes": 1496,
+      "redaction_reasons": []
+    },
+    {
+      "source": "mac-native-evidence/preflight.txt",
+      "package": "native/mac/preflight.txt",
+      "original_sha256": "294b2bfeb66b1fab37c22e32c122dde4212f18ccdb17ac5991c75c09b624917d",
+      "published_sha256": "294b2bfeb66b1fab37c22e32c122dde4212f18ccdb17ac5991c75c09b624917d",
+      "original_bytes": 320,
+      "published_bytes": 320,
+      "redaction_reasons": []
+    },
+    {
+      "source": "mac-native-evidence/receipts.jsonl",
+      "package": "native/mac/receipts.jsonl",
+      "original_sha256": "d7594a2f5a4f9d8f9ea995be81202204b7ad453f029b38e3ef42471a0f95458e",
+      "published_sha256": "d7594a2f5a4f9d8f9ea995be81202204b7ad453f029b38e3ef42471a0f95458e",
+      "original_bytes": 391,
+      "published_bytes": 391,
+      "redaction_reasons": []
+    },
+    {
+      "source": "mac-native-evidence/source-manifest.json",
+      "package": "native/mac/source-manifest.json",
+      "original_sha256": "2091bfaf7aeed67cc066607ad89e61bfdeae85ee2f635a97c52f8fb171e475aa",
+      "published_sha256": "2091bfaf7aeed67cc066607ad89e61bfdeae85ee2f635a97c52f8fb171e475aa",
+      "original_bytes": 163,
+      "published_bytes": 163,
+      "redaction_reasons": []
+    },
+    {
+      "source": "gateway-review-final.md",
+      "package": "reviews/gateway-review-final.md",
+      "original_sha256": "a676db32e9c9709bbbbae85f2bb3eae06983b3801c839ae0c55d3e83ad37fd13",
+      "published_sha256": "a676db32e9c9709bbbbae85f2bb3eae06983b3801c839ae0c55d3e83ad37fd13",
+      "original_bytes": 1977,
+      "published_bytes": 1977,
+      "redaction_reasons": []
+    },
+    {
+      "source": "gateway-review-fixed.md",
+      "package": "reviews/gateway-review-fixed.md",
+      "original_sha256": "ba52809b4264e38f845ad15171f49257d3476796513441ce3e152ada79ce9e78",
+      "published_sha256": "ba52809b4264e38f845ad15171f49257d3476796513441ce3e152ada79ce9e78",
+      "original_bytes": 5104,
+      "published_bytes": 5104,
+      "redaction_reasons": []
+    },
+    {
+      "source": "gateway-review.md",
+      "package": "reviews/gateway-review.md",
+      "original_sha256": "36d8600998bd99e17133afe54d414edfc4fe68abff67fe8dd455f91a4b05c766",
+      "published_sha256": "36d8600998bd99e17133afe54d414edfc4fe68abff67fe8dd455f91a4b05c766",
+      "original_bytes": 3518,
+      "published_bytes": 3518,
+      "redaction_reasons": []
+    },
+    {
+      "source": "benchmark-review-final.md",
+      "package": "reviews/benchmark-review-final.md",
+      "original_sha256": "ebf37b01d9b2b0f4e62609b2f70460d1b6c96d2165f12f60f71e000b7ca392df",
+      "published_sha256": "ce3e032ee914f8aacb6fc8be5f2de475bf8620791b3e2cb527e324b8830089b2",
+      "original_bytes": 2403,
+      "published_bytes": 2407,
+      "redaction_reasons": [
+        "account identity in home path"
+      ]
+    },
+    {
+      "source": "benchmark-review.md",
+      "package": "reviews/benchmark-review.md",
+      "original_sha256": "cc8346fe81572bb6236dc9775ba2ca8f2e9e4f4bdee63076cd30cc4a1a737841",
+      "published_sha256": "cc8346fe81572bb6236dc9775ba2ca8f2e9e4f4bdee63076cd30cc4a1a737841",
+      "original_bytes": 4438,
+      "published_bytes": 4438,
+      "redaction_reasons": []
+    }
+  ],
+  "omissions": [
+    {
+      "source": "mac-native-evidence/source.tar.gz",
+      "reason": "Archive reconstructible omise ; source-manifest.json identifie un objet Git tree et le SHA-256 de omr.py. Un commit correspondant n’a pas été établi localement."
+    }
+  ],
+  "source_identity": "native/final-vm/source.sha256 est conservé inchangé ; il décrit la source originale, non les hashes de ce paquet."
+}

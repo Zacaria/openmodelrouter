@@ -1,0 +1,26 @@
+{
+  "head": "4f80c1d4d7f626d52c24556bcc1efc1f8493c112",
+  "merge_head": "48e77e2f692b729962a0941837061aa1cb8b6820",
+  "candidate_tree": "f6d12bc5532ca1a132edcaf009f0cf73c21f750a",
+  "union_equal": true,
+  "index_equal_tree": true,
+  "changed_paths": [
+    "omr.py",
+    "test_deadlines.py"
+  ],
+  "feature_entries": {
+    "omr.py": [
+      "100644",
+      "blob",
+      "f314c85b179e13cf3a2ead18fcd862416c25aea1"
+    ],
+    "test_deadlines.py": [
+      "100644",
+      "blob",
+      "e75f0b36f81d4d89a12ce048d638d7e2ad8132e7"
+    ]
+  },
+  "unstaged_diff_empty": true,
+  "status": "M  omr.py\nM  test_deadlines.py\n",
+  "index_sha256": "f7c55938f438c76323c7e0a296361a9269302c099e8223a12c8e327726269519"
+}

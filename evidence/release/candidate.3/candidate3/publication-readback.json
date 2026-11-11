@@ -1,0 +1,52 @@
+{
+  "assets": [
+    {
+      "apiUrl": "https://api.github.com/repos/Zacaria/open-model-router/releases/assets/680668014",
+      "contentType": "application/json",
+      "createdAt": "2026-10-27T06:21:24Z",
+      "digest": "sha256:cec82d993febb274152d1c93326758a1e56804118edc82856311e9f0b7e8f287",
+      "downloadCount": 0,
+      "id": "RA_kwDOVYgLZM4okitu",
+      "label": "",
+      "name": "manifest.json",
+      "size": 84548,
+      "state": "uploaded",
+      "updatedAt": "2026-10-27T06:21:25Z",
+      "url": "https://github.com/Zacaria/open-model-router/releases/download/v0.1.0-candidate.3/manifest.json"
+    },
+    {
+      "apiUrl": "https://api.github.com/repos/Zacaria/open-model-router/releases/assets/680668009",
+      "contentType": "application/x-gtar",
+      "createdAt": "2026-10-27T06:21:24Z",
+      "digest": "sha256:44328fc6175cd1ac82527db0fd0b5d0788e381e1973643f55b082069261170bc",
+      "downloadCount": 0,
+      "id": "RA_kwDOVYgLZM4okitp",
+      "label": "",
+      "name": "open-model-router-0.1.0-candidate.3.tar.gz",
+      "size": 619964,
+      "state": "uploaded",
+      "updatedAt": "2026-10-27T06:21:24Z",
+      "url": "https://github.com/Zacaria/open-model-router/releases/download/v0.1.0-candidate.3/open-model-router-0.1.0-candidate.3.tar.gz"
+    },
+    {
+      "apiUrl": "https://api.github.com/repos/Zacaria/open-model-router/releases/assets/680668012",
+      "contentType": "application/octet-stream",
+      "createdAt": "2026-10-27T06:21:24Z",
+      "digest": "sha256:4678ed864d97eea47ce789562f399504c7b6dd3a0109f275fd55e9a4d5d2b94a",
+      "downloadCount": 0,
+      "id": "RA_kwDOVYgLZM4okits",
+      "label": "",
+      "name": "SHA256SUMS",
+      "size": 109,
+      "state": "uploaded",
+      "updatedAt": "2026-10-27T06:21:24Z",
+      "url": "https://github.com/Zacaria/open-model-router/releases/download/v0.1.0-candidate.3/SHA256SUMS"
+    }
+  ],
+  "body": "# Open Model Router \u2014 candidate.3\n\nPr\u00e9version priv\u00e9e, pas une livraison finale des quatre int\u00e9grations.\n\nSource sign\u00e9e : `63e517c25caa503b02eb38b2be994f8e2c32e142`. Corrige la classification des d\u00e9lais apr\u00e8s fermeture de la connexion amont et le signalement du d\u00e9lai apr\u00e8s EOF en streaming. La classification d'un reset amont brut hors d\u00e9lai reste une limite connue.\n\n- CI r\u00e9ussie sur ce commit. Installation isol\u00e9e de l'archive : 114 tests r\u00e9ussis, un test d'inf\u00e9rence ignor\u00e9, contr\u00f4le landing r\u00e9ussi.\n- Parcours synth\u00e9tiques r\u00e9els sur Hermes VM, Claude Code VM et Codex Mac : outils/r\u00e9sultats, reprise, streaming, mod\u00e8le observ\u00e9, erreur contr\u00f4l\u00e9e et interruption/reprise. L'annulation Hermes a n\u00e9cessit\u00e9 un essai cibl\u00e9 ; le premier essai inconclusif est conserv\u00e9. Une fermeture de socket ne prouve pas l'arr\u00eat du calcul GPU. Les fins natives et les re\u00e7us de transport restent distincts.\n- **oh-my-pi Mac non qualifi\u00e9** : son pr\u00e9flight natif ne propose aucun mod\u00e8le disponible. Authentification native ou backend utilisable requis avant les essais.\n- Les r\u00e9sultats de benchmark restent born\u00e9s aux cas document\u00e9s ; aucune \u00e9conomie g\u00e9n\u00e9rale ou baisse de facture d\u00e9montr\u00e9e.\n\nArchive SHA-256 : `44328fc6175cd1ac82527db0fd0b5d0788e381e1973643f55b082069261170bc`.\n\nLes trois assets sont l'archive source, `manifest.json` et `SHA256SUMS`. Utiliser `build_release.py certify` avec un d\u00e9p\u00f4t de confiance et le SHA complet attendu fourni s\u00e9par\u00e9ment ; voir `INSTALL.md`. Ne pas extraire une archive non fiable directement avec tar. Aucun poids, abonnement, identifiant ou service automatique n'est install\u00e9.\n\nCette pr\u00e9version ne remplace pas les assets de candidate.2, dont l'\u00e9chec d'installation historique demeure conserv\u00e9. L'objectif global reste ouvert.\n",
+  "isDraft": false,
+  "isPrerelease": true,
+  "publishedAt": "2026-10-27T06:25:15Z",
+  "tagName": "v0.1.0-candidate.3",
+  "url": "https://github.com/Zacaria/open-model-router/releases/tag/v0.1.0-candidate.3"
+}

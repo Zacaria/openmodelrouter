@@ -1,0 +1,45 @@
+{
+  "name": "omr-desktop",
+  "version": "0.3.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/build_notices.mjs && tsc --noEmit && vite build",
+    "check": "tsc --noEmit",
+    "format": "prettier --write src *.json *.ts index.html",
+    "format:check": "prettier --check src *.json *.ts index.html",
+    "test": "vitest run",
+    "test:build": "node scripts/test_build_sources.mjs",
+    "test:native": "uv run --python 3.13.5 --with selenium==4.38.0 python scripts/native_replay.py",
+    "native:dev": "node scripts/build_notices.mjs && tauri dev",
+    "native:build": "tauri build"
+  },
+  "dependencies": {
+    "@ai-sdk/react": "4.0.166",
+    "@tauri-apps/api": "2.12.4",
+    "@tauri-apps/plugin-autostart": "2.7.0",
+    "ai": "7.0.162",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "1.65.0",
+    "radix-ui": "1.8.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-joyride": "3.2.0",
+    "tailwind-merge": "3.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@tauri-apps/cli": "2.12.4",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.1.2",
+    "prettier": "3.9.10",
+    "tailwindcss": "4.3.3",
+    "typescript": "6.0.3",
+    "vite": "8.3.5",
+    "vitest": "5.0.5"
+  }
+}

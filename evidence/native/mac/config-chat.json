@@ -1,0 +1,16 @@
+{
+  "routes": {
+    "local-chat": {
+      "url": "http://127.0.0.1:56617/v1/chat/completions",
+      "protocol": "chat",
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "effort": "none"
+    }
+  },
+  "default_route": "local-chat",
+  "decision": {
+    "type": "fixed"
+  },
+  "receipts": "receipts.jsonl",
+  "timeout_seconds": 5
+}

@@ -1,0 +1,22 @@
+{"type": "system", "subtype": "init", "model": "open-model-router", "session_id": "", "timestamp": 1793081446719}
+{"type": "tool_use", "name": "read_file", "tool_call_id": "5SXq6Mq0stMPWkGxTSNlOKZ51sjIo2G8", "input": {"path": "fixture.txt"}, "timestamp": 1793081465857}
+{"type": "tool_result", "name": "read_file", "tool_call_id": "5SXq6Mq0stMPWkGxTSNlOKZ51sjIo2G8", "output": "{\"content\": \"1|OMR_SYNTHETIC_FIXTURE=blue-otter-73\", \"total_lines\": 1, \"file_size\": 36, \"truncated\": false, \"is_binary\": false, \"is_image\": false, \"not_found\": false}", "duration_ms": 62, "is_error": false, "timestamp": 1793081465920}
+{"type": "text", "text": "\n\n1", "timestamp": 1793081466010}
+{"type": "text", "text": "|", "timestamp": 1793081466014}
+{"type": "text", "text": "OM", "timestamp": 1793081466020}
+{"type": "text", "text": "R", "timestamp": 1793081466031}
+{"type": "text", "text": "_SYN", "timestamp": 1793081466032}
+{"type": "text", "text": "TH", "timestamp": 1793081466036}
+{"type": "text", "text": "ET", "timestamp": 1793081466041}
+{"type": "text", "text": "IC", "timestamp": 1793081466047}
+{"type": "text", "text": "_FIX", "timestamp": 1793081466052}
+{"type": "text", "text": "TURE", "timestamp": 1793081466058}
+{"type": "text", "text": "=", "timestamp": 1793081466063}
+{"type": "text", "text": "blue", "timestamp": 1793081466068}
+{"type": "text", "text": "-", "timestamp": 1793081466074}
+{"type": "text", "text": "ot", "timestamp": 1793081466079}
+{"type": "text", "text": "ter", "timestamp": 1793081466085}
+{"type": "text", "text": "-", "timestamp": 1793081466090}
+{"type": "text", "text": "7", "timestamp": 1793081466095}
+{"type": "text", "text": "3", "timestamp": 1793081466101}
+{"type": "result", "session_id": "local-308e2df644b00af92266c68248f27b597f9b5a9d60adc53e2537c35390c9efed", "exit_code": 0, "text": "1|OMR_SYNTHETIC_FIXTURE=blue-otter-73", "tokens": {"input": 7695, "output": 40, "total": 7735, "cache_read": 3820, "cache_write": 0}, "duration_ms": 20983, "timestamp": 1793081467702}

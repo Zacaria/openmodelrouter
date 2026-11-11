@@ -1,0 +1,29 @@
+{
+  "command": [
+    "/opt/hermes/browser-cli/bin/python3",
+    "-B",
+    "host-adapters/launch.py",
+    "hermes",
+    "--port",
+    "60441",
+    "--session",
+    "1fbcddce-07d5-4061-8ec2-c865c28a4021",
+    "--project",
+    "/srv/omr-private/workspaces/open-model-router/host-adapters/evidence/native/project",
+    "--run-timeout",
+    "30",
+    "--",
+    "--ignore-user-config",
+    "--reasoning",
+    "none",
+    "--format",
+    "stream-json",
+    "-q",
+    "Reply with OK."
+  ],
+  "exit": 124,
+  "elapsed_seconds": 30.37,
+  "child_process_group": 3256201,
+  "live_group_after": [],
+  "stderr_has_adapter_502": true
+}

@@ -1,0 +1,42 @@
+--- a/pi-ai-distribution/rebuild/desktop/package-lock.json
++++ b/pi-ai-distribution/rebuild/desktop/package-lock.json
+@@ -3 +3 @@
+-  "version": "0.3.0",
++  "version": "0.3.1",
+@@ -9 +9 @@
+-      "version": "0.3.0",
++      "version": "0.3.1",
+--- a/pi-ai-distribution/rebuild/desktop/package.json
++++ b/pi-ai-distribution/rebuild/desktop/package.json
+@@ -3 +3 @@
+-  "version": "0.3.0",
++  "version": "0.3.1",
+--- a/pi-ai-distribution/rebuild/desktop/src-tauri/Cargo.lock
++++ b/pi-ai-distribution/rebuild/desktop/src-tauri/Cargo.lock
+@@ -2598 +2598 @@
+-version = "0.3.0"
++version = "0.3.1"
+--- a/pi-ai-distribution/rebuild/desktop/src-tauri/Cargo.toml
++++ b/pi-ai-distribution/rebuild/desktop/src-tauri/Cargo.toml
+@@ -3 +3 @@
+-version = "0.3.0"
++version = "0.3.1"
+--- a/pi-ai-distribution/manifest.json
++++ b/pi-ai-distribution/manifest.json
+@@ -3153 +3153 @@
+-      "sha256": "b1c3da5282ad23f97700ff1e22c3dcc66d46f24e983381a5edadbe5a411a8bff",
++      "sha256": "11565fe41fb1fb42a55c67576c77acd63fdb0fdb1ac69271f48ffab8e3594edc",
+@@ -3157 +3157 @@
+-      "sha256": "79a461781e7991dd58b594eeefcc30c808145864ac1b23a4d8f0d9627f6dda97",
++      "sha256": "3953436fa928b5177c98c3e0cc3df5223e92ba1a8a13d7fa832629658c142a7a",
+@@ -3165 +3165 @@
+-      "sha256": "efd977316f96f9e716af37537a741cbd89f33caacbad642d8375e8ee72dd6775",
++      "sha256": "b8337e4302a82c3fe257ff7bb35a84dfc8343ce519588dc84bd47c1db514a693",
+@@ -3169 +3169 @@
+-      "sha256": "bd0de6feef43382ff0a4cd69b7910dd49d8e6f896fd27f7f9be15f5b79ae4b7f",
++      "sha256": "119bb7d70255859aba609c02b85734515f6dcb938e1633eabf209ed3d2580e64",
+@@ -3253 +3253,3 @@
+-  }
++  },
++  "product_source": "fdc83fc014755b4432072fce31b8f6802cd658ed",
++  "product_version": "0.3.1"

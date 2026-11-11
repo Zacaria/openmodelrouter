@@ -1,0 +1,35 @@
+diff --git a/omr.py b/omr.py
+index cafd639..3e89576 100644
+--- a/omr.py
++++ b/omr.py
+@@ -392,8 +392,6 @@ def handler(config):
+                 self.close_connection = True
+                 total = 0
+                 buffered = b''
+-                event_lines = []
+-                event_size = 0
+                 terminal_seen = False
+                 provider_failed = False
+                 while not stopped.is_set():
+@@ -407,19 +405,12 @@ def handler(config):
+                     if is_stream:
+                         while b'\n' in buffered:
+                             line, buffered = buffered.split(b'\n', 1)
+-                            line = line.removesuffix(b'\r')
+                             if line.startswith(b'data:'):
+-                                event_lines.append(line[5:].removeprefix(b' '))
+-                                event_size += len(line)
+-                                if event_size > 1_000_000: raise ValueError('event limit')
+-                            elif not line and event_lines:
+-                                event_data = b'\n'.join(event_lines)
+-                                event_lines.clear(); event_size = 0
+-                                if event_data.strip() == b'[DONE]':
++                                if line[5:].strip() == b'[DONE]':
+                                     terminal_seen = PATHS[parsed.path] == 'chat'
+                                 else:
+                                     try:
+-                                        event = json.loads(event_data)
++                                        event = json.loads(line[5:])
+                                         observe(event, row)
+                                         if isinstance(event, dict):
+                                             kind = event.get('type')

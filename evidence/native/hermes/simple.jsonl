@@ -1,0 +1,11 @@
+{"type": "system", "subtype": "init", "model": "open-model-router", "session_id": "", "timestamp": 1793059774096}
+Session: local-4ff429cad21c354bef616ecaca351302c3106396787a57a2adf0323b4c92a4e7
+{"type": "text", "text": "OM", "timestamp": 1793059782838}
+{"type": "text", "text": "R", "timestamp": 1793059782844}
+{"type": "text", "text": "_H", "timestamp": 1793059782844}
+{"type": "text", "text": "ERM", "timestamp": 1793059782849}
+{"type": "text", "text": "ES", "timestamp": 1793059782854}
+{"type": "text", "text": "_OK", "timestamp": 1793059782860}
+{"type": "result", "session_id": "local-4ff429cad21c354bef616ecaca351302c3106396787a57a2adf0323b4c92a4e7", "exit_code": 0, "text": "OMR_HERMES_OK", "tokens": {"input": 4433, "output": 7, "total": 4440, "cache_read": 0, "cache_write": 0}, "duration_ms": 10877, "timestamp": 1793059784973}
+
+session_id: local-4ff429cad21c354bef616ecaca351302c3106396787a57a2adf0323b4c92a4e7

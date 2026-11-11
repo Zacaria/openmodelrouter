@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "source": "synthetic",
+  "native_boundary": "substituted",
+  "checks": [
+    "everyday navigation hides advanced pages",
+    "native keyboard disclosure",
+    "engine polling preserves user disclosure",
+    "advanced navigation and shortcut reveal selection",
+    "return to Chat closes advanced disclosure",
+    "visible source/score/levels",
+    "debounced bulk selection",
+    "automatic source tiers",
+    "unmatched stays unranked",
+    "late response preserves manual override",
+    "restore benchmark mode",
+    "explicit source association",
+    "renaming upstream clears old association and effective level",
+    "debounced removal",
+    "hidden away from providers",
+    "no JavaScript errors"
+  ],
+  "refresh_calls": 6,
+  "configuration_revision": 7
+}

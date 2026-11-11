@@ -1,0 +1,57 @@
+{
+  "hermes": {
+    "tool_call_and_result": true,
+    "first_final_fixture": true,
+    "resumed_final_fixture": true,
+    "resumed_same_session": true,
+    "no_tool_on_resume": true,
+    "native_streaming": true,
+    "upstream_error_receipts": [
+      "d98fe0ee-d761-4b62-a674-319fed7b6b7b",
+      "bedc2d64-7786-42bc-b481-db01481246e5",
+      "66618550-1b6c-4a83-a938-1600d078263e",
+      "6bec0a97-f7da-4b37-8cd1-33f47f91ce17"
+    ],
+    "error_timeout": true,
+    "cancel_exit_130": true,
+    "terminal_not_seen": true,
+    "upstream_established_before": true,
+    "child_group_observed": true,
+    "no_group_survivors": true,
+    "no_upstream_socket_after": true,
+    "cancelled_receipts": [
+      "32a798ff-f038-4beb-965f-871cbedde9cd",
+      "db79d52b-ba1e-4dac-bbc6-78afb01e2d89"
+    ],
+    "recovered_same_session": true,
+    "recovered_fixture": true
+  },
+  "claude": {
+    "tool_call_and_result": true,
+    "first_final_fixture": true,
+    "resumed_final_fixture": true,
+    "resumed_same_session": true,
+    "no_tool_on_resume": true,
+    "native_streaming": true,
+    "upstream_error_receipts": [
+      "62f67217-d7b0-4cce-a584-f1facb2716de",
+      "6cedbee8-380e-4479-9639-4f2264651228",
+      "48e2a295-db23-453f-8674-9ae44b9c6a91",
+      "9e3d4b20-5259-4a6c-9973-072ae4f06bc2",
+      "8288ffb1-ba40-44c6-ba4d-19390d2d8235",
+      "89574ea8-894c-49b7-95ea-27ea62d3e1aa"
+    ],
+    "error_timeout": true,
+    "cancel_exit_130": true,
+    "terminal_not_seen": true,
+    "upstream_established_before": true,
+    "child_group_observed": true,
+    "no_group_survivors": true,
+    "no_upstream_socket_after": true,
+    "cancelled_receipts": [
+      "695f0b7e-bd57-4191-8807-63eb51f71c28"
+    ],
+    "recovered_same_session": true,
+    "recovered_fixture": true
+  }
+}

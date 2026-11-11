@@ -1,0 +1,27 @@
+{
+  "request_id": "3b8880a9-f5d2-40cb-a0ec-bd009406cba0",
+  "session": "66b78358-bc3c-4812-8c3f-7a5cf55c3635",
+  "upstream_status": 200,
+  "event": "first_nonempty_chat_delta_after_flush",
+  "signal": "SIGINT",
+  "time_ns": 1793081859836364214,
+  "launcher_pid": 3680595,
+  "child_groups": [
+    3680597
+  ],
+  "upstream_before": [
+    {
+      "local": [
+        "10.77.0.10",
+        59848
+      ],
+      "remote": [
+        "10.77.0.11",
+        11434
+      ],
+      "status": "ESTABLISHED",
+      "fd": 5
+    }
+  ],
+  "terminal_seen": false
+}

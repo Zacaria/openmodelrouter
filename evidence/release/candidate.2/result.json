@@ -1,0 +1,20 @@
+{
+  "status": "candidate_only_not_final_release",
+  "version": "0.1.0-candidate.2",
+  "commit": "7e25c6e7e6547fb9d3bf1f2f1d71602dd3950f3b",
+  "tree": "dfd45901284f6948d7d86d23b5a38fbb9773afb1",
+  "archive": "/srv/omr-private/workspaces/open-model-router/release-native-sse-candidate/build-one/open-model-router-0.1.0-candidate.2.tar.gz",
+  "archive_sha256": "3a8ffe5f2557903cd3132f938c0df8a9a118772aa339b6f8ea17ad3637f8c02c",
+  "manifest": "/srv/omr-private/workspaces/open-model-router/release-native-sse-candidate/build-one/manifest.json",
+  "manifest_sha256": "108c7035bb8adb442af311e3c0695e37965d7f8351f2aba668e177f7e03e205f",
+  "deterministic_builds": 2,
+  "member_count": 351,
+  "commands": {
+    "build": "python3 -B /home/operator/repos/open-model-router/build_release.py build --repo /home/operator/repos/open-model-router --revision 7e25c6e7e6547fb9d3bf1f2f1d71602dd3950f3b --version 0.1.0-candidate.2 --output <build-one-or-build-two>",
+    "certify": "python3 -B /home/operator/repos/open-model-router/build_release.py certify --repo /home/operator/repos/open-model-router --revision 7e25c6e7e6547fb9d3bf1f2f1d71602dd3950f3b --bundle /srv/omr-private/workspaces/open-model-router/release-native-sse-candidate/build-one --scratch /srv/omr-private/workspaces/open-model-router/release-native-sse-candidate/install"
+  },
+  "tests": {"offline_certification": "pass", "help": "pass", "root_unittest": "62 passed", "host_adapter_synthetic": "9 passed", "landing": "8 fragment links, 6 unique IDs; passed"},
+  "install": "Archive safely extracted and exercised in isolated no-pip venv; disposable install removed after verification.",
+  "evidence": "certification.log, inventory-check.log, REPORT.md",
+  "limitations": ["Not a real-host replay", "OMP native availability unresolved", "No publication", "Limited credential scan is not a comprehensive secret audit", "Checksums and manifest are not signatures"]
+}

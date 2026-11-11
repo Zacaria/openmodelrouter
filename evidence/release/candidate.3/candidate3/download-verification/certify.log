@@ -1,0 +1,134 @@
++ /srv/omr-private/workspaces/open-model-router/candidate3-download-install-20261027/freshinstall/venv/bin/python omr.py --help
+usage: omr.py [-h] {serve} ...
+
+positional arguments:
+  {serve}
+
+options:
+  -h, --help  show this help message and exit
++ /srv/omr-private/workspaces/open-model-router/candidate3-download-install-20261027/freshinstall/venv/bin/python -m unittest discover
+...........b74b83a4acca91a60a82a7f287de0a74b6443b178e43cf90f709b8817a2c6e38  /tmp/tmpsg_4oxit/bundle-test_extra.py/open-model-router-test.tar.gz
++ /tmp/tmpsg_4oxit/scratch-test_extra.py/venv/bin/python omr.py --help
+help
++ /tmp/tmpsg_4oxit/scratch-test_extra.py/venv/bin/python -m unittest discover
+F
+======================================================================
+FAIL: test_it (test_extra.T.test_it)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/tmpsg_4oxit/scratch-test_extra.py/source/test_extra.py", line 3, in test_it
+    def test_it(self): self.fail("suite ran")
+                       ~~~~~~~~~^^^^^^^^^^^^^
+AssertionError: suite ran
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+add255a1c76fbf6bb92d3bbf39f44cd708d40af8fe261dbf28d0abe8c75e09e3  /tmp/tmpsg_4oxit/bundle-host-adapters-test_launch.py/open-model-router-test.tar.gz
++ /tmp/tmpsg_4oxit/scratch-host-adapters-test_launch.py/venv/bin/python omr.py --help
+help
++ /tmp/tmpsg_4oxit/scratch-host-adapters-test_launch.py/venv/bin/python -m unittest discover
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
++ /tmp/tmpsg_4oxit/scratch-host-adapters-test_launch.py/venv/bin/python host-adapters/test_launch.py
+F
+======================================================================
+FAIL: test_it (__main__.T.test_it)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/tmpsg_4oxit/scratch-host-adapters-test_launch.py/source/host-adapters/test_launch.py", line 3, in test_it
+    def test_it(self): self.fail("suite ran")
+                       ~~~~~~~~~^^^^^^^^^^^^^
+AssertionError: suite ran
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+9878f96cdf356c2da4515c6267b5a3a894fc3cead01fcc7095b0855f8ab9d57b  /tmp/tmpsg_4oxit/bundle-tests-test_landing.py/open-model-router-test.tar.gz
++ /tmp/tmpsg_4oxit/scratch-tests-test_landing.py/venv/bin/python omr.py --help
+help
++ /tmp/tmpsg_4oxit/scratch-tests-test_landing.py/venv/bin/python -m unittest discover
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
++ /tmp/tmpsg_4oxit/scratch-tests-test_landing.py/venv/bin/python host-adapters/test_launch.py
++ /tmp/tmpsg_4oxit/scratch-tests-test_landing.py/venv/bin/python tests/test_landing.py
+F
+======================================================================
+FAIL: test_it (__main__.T.test_it)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/tmpsg_4oxit/scratch-tests-test_landing.py/source/tests/test_landing.py", line 3, in test_it
+    def test_it(self): self.fail("suite ran")
+                       ~~~~~~~~~^^^^^^^^^^^^^
+AssertionError: suite ran
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+a03a5a46d2e4212f79b3f2ded7d57c52a49cd4cae9e31cbbb91909ceb038005b  /tmp/tmpsg_4oxit/bundle-tests-test_other.py/open-model-router-test.tar.gz
++ /tmp/tmpsg_4oxit/scratch-tests-test_other.py/venv/bin/python omr.py --help
+help
++ /tmp/tmpsg_4oxit/scratch-tests-test_other.py/venv/bin/python -m unittest discover
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
++ /tmp/tmpsg_4oxit/scratch-tests-test_other.py/venv/bin/python host-adapters/test_launch.py
++ /tmp/tmpsg_4oxit/scratch-tests-test_other.py/venv/bin/python tests/test_landing.py
++ /tmp/tmpsg_4oxit/scratch-tests-test_other.py/venv/bin/python -m unittest discover -s tests -p test_other.py
+F
+======================================================================
+FAIL: test_it (test_other.T.test_it)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/tmpsg_4oxit/scratch-tests-test_other.py/source/tests/test_other.py", line 3, in test_it
+    def test_it(self): self.fail("suite ran")
+                       ~~~~~~~~~^^^^^^^^^^^^^
+AssertionError: suite ran
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+.329783447472084f06b97301304ff00243931a7fcfb4ee444ac1892598d33375  /tmp/tmphbz_0upl/old-bundle/open-model-router-test.tar.gz
++ /tmp/tmphbz_0upl/old-scratch/venv/bin/python omr.py --help
+help
++ /tmp/tmphbz_0upl/old-scratch/venv/bin/python -m unittest discover
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+....................................................
+----------------------------------------------------------------------
+Ran 64 tests in 20.003s
+
+OK
+Offline certification passed; no host integration was tested.
+043cad99f0c831be6c6bfbbc0ac5acf2b84132eda3503f0c85670ad3f962bf86  /tmp/tmphqzkn2eg/one/open-model-router-test.tar.gz
+043cad99f0c831be6c6bfbbc0ac5acf2b84132eda3503f0c85670ad3f962bf86  /tmp/tmphqzkn2eg/two/open-model-router-test.tar.gz
+043cad99f0c831be6c6bfbbc0ac5acf2b84132eda3503f0c85670ad3f962bf86  /tmp/tmphyzj049w/bundle/open-model-router-test.tar.gz
+c3f5a42c707a77672cd61658b71b74338898f3178ffb82b83d5eceedc8f07d2e  /tmp/tmpc6ae5a9v/bundle/open-model-router-test.tar.gz
+043cad99f0c831be6c6bfbbc0ac5acf2b84132eda3503f0c85670ad3f962bf86  /tmp/tmpnxu34dtw/bundle/open-model-router-test.tar.gz
+fe5137b50cf76f74c7397953a5b9742f4088036b43ddf6a22e503ede910cc61a  /tmp/tmpc5owshtf/png-bundle/open-model-router-test.tar.gz
++ /srv/omr-private/workspaces/open-model-router/candidate3-download-install-20261027/freshinstall/venv/bin/python host-adapters/test_launch.py
+..OMR: upstream HTTP error 502
+......OMR: upstream HTTP error 502
+.
+----------------------------------------------------------------------
+Ran 9 tests in 9.483s
+
+OK
++ /srv/omr-private/workspaces/open-model-router/candidate3-download-install-20261027/freshinstall/venv/bin/python tests/test_landing.py
+OK: 8 fragment links, 6 unique IDs, French and prototype disclosures
+Offline certification passed; no host integration was tested.

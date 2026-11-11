@@ -1,0 +1,22 @@
+{"type": "system", "subtype": "init", "model": "open-model-router", "session_id": "", "timestamp": 1793067222329}
+{"type": "tool_use", "name": "read_file", "tool_call_id": "drNy0Rn6BDmALkVOjDuzNiOerNGt3744", "input": {"path": "fixture.txt"}, "timestamp": 1793067240002}
+{"type": "tool_result", "name": "read_file", "tool_call_id": "drNy0Rn6BDmALkVOjDuzNiOerNGt3744", "output": "{\"content\": \"1|OMR_SYNTHETIC_FIXTURE=blue-otter-73\", \"total_lines\": 1, \"file_size\": 36, \"truncated\": false, \"is_binary\": false, \"is_image\": false, \"not_found\": false}", "duration_ms": 69, "is_error": false, "timestamp": 1793067240071}
+{"type": "text", "text": "\n\n1", "timestamp": 1793067240167}
+{"type": "text", "text": "|", "timestamp": 1793067240172}
+{"type": "text", "text": "OM", "timestamp": 1793067240178}
+{"type": "text", "text": "R", "timestamp": 1793067240189}
+{"type": "text", "text": "_SYN", "timestamp": 1793067240190}
+{"type": "text", "text": "TH", "timestamp": 1793067240194}
+{"type": "text", "text": "ET", "timestamp": 1793067240199}
+{"type": "text", "text": "IC", "timestamp": 1793067240205}
+{"type": "text", "text": "_FIX", "timestamp": 1793067240210}
+{"type": "text", "text": "TURE", "timestamp": 1793067240215}
+{"type": "text", "text": "=", "timestamp": 1793067240221}
+{"type": "text", "text": "blue", "timestamp": 1793067240227}
+{"type": "text", "text": "-", "timestamp": 1793067240232}
+{"type": "text", "text": "ot", "timestamp": 1793067240237}
+{"type": "text", "text": "ter", "timestamp": 1793067240243}
+{"type": "text", "text": "-", "timestamp": 1793067240248}
+{"type": "text", "text": "7", "timestamp": 1793067240253}
+{"type": "text", "text": "3", "timestamp": 1793067240259}
+{"type": "result", "session_id": "local-40c65cc743cdfb11df07d11deebae60d11a3bd6e8fa7505d58725b2ff0db9649", "exit_code": 0, "text": "1|OMR_SYNTHETIC_FIXTURE=blue-otter-73", "tokens": {"input": 7675, "output": 40, "total": 7715, "cache_read": 3810, "cache_write": 0}, "duration_ms": 19814, "timestamp": 1793067242143}

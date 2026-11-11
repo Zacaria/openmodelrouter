@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "DMG-extracted native app launches with empty PATH",
+    "configuration is restored without migration or rewrite",
+    "restart performs no inference or automatic managed start",
+    "correct native product version survives package extraction",
+    "installed weights remain stopped until an explicit action",
+    "DMG-extracted candidate quits cleanly"
+  ],
+  "app": "/Users/operator/Library/Caches/omr-native-t_5c86c079/final/install-from-dmg/OMR Desktop.app",
+  "code": 0,
+  "path_empty": true,
+  "config_sha256": "f0a8d1a2f5d33215da6f6d5f5945d2d35f08f38005dab21eb564e138bd067b34",
+  "config_seeded": false,
+  "receipts_unchanged_at_start": true
+}

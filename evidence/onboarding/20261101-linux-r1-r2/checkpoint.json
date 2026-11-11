@@ -1,0 +1,26 @@
+{
+  "model_int8.onnx": {
+    "sha256": "878975a81da55f27744c3b6a0f5c2f38b1723c322f1a348abae33b1586dbad51",
+    "bytes": 24742151
+  },
+  "tokenizer.json": {
+    "sha256": "aebee76d0312011b0d73b08a255d4d11d25c83e9639324870c7b916ea102e13e",
+    "bytes": 34363287
+  },
+  "vocab_map.npy": {
+    "sha256": "3466512656f2b9ca115751505e310b799aa7a2028bf36d43e6b06413b608e104",
+    "bytes": 2048128
+  },
+  "variant.json": {
+    "sha256": "0739ab58f9e4480772bf24f5493c4b307fe14ee3c44deccaa337de6e5b2f38fd",
+    "bytes": 257
+  },
+  "config.json": {
+    "sha256": "811b936540d9bf542027a81de32251c4bb549cdaa4757b3322da981f15bc2a6b",
+    "bytes": 3055
+  },
+  "tokenizer_config.json": {
+    "sha256": "80fd3e43697c68f25c40c6a6a7573709de6e2032edf0bcf5bd4b042185c39afc",
+    "bytes": 682
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "version": {
+    "version": "0.40.9"
+  },
+  "generator": "omr-hermes-qwen3-4b:ctx8192",
+  "decider": "d3:4b",
+  "gateway_timeout_seconds": 120,
+  "elapsed_seconds": 19.194,
+  "http_status": 200,
+  "response": {
+    "id": "chatcmpl-79",
+    "object": "chat.completion",
+    "created": 1793832091,
+    "model": "omr-hermes-qwen3-4b:ctx8192",
+    "system_fingerprint": "fp_ollama",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "HELLO"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 16,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens": 3,
+      "total_tokens": 19
+    }
+  },
+  "receipts": [
+    {
+      "request_id": "257961be-31f9-464a-8633-311ea4ea5b48",
+      "session": "194284a165753aad",
+      "route": "e4ad6ec7-e56e-436e-8c14-3d44a05dacee",
+      "model_requested": "omr-hermes-qwen3-4b:ctx8192",
+      "model_observed": "omr-hermes-qwen3-4b:ctx8192",
+      "effort_transmitted": null,
+      "effort_acknowledged": null,
+      "effort_applied": null,
+      "usage": {
+        "total_tokens": 19,
+        "prompt_tokens": 16,
+        "completion_tokens": 3,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "decision_ms": 2544.963637832552,
+      "status": "completed",
+      "upstream_status": 200,
+      "mode": "automatic",
+      "profile": "balanced",
+      "policy_version": "desktop-v1",
+      "config_revision": 1,
+      "protocol": "chat",
+      "source": "api_client_unidentified",
+      "candidates": [
+        "e4ad6ec7-e56e-436e-8c14-3d44a05dacee"
+      ],
+      "context": {
+        "reduced": false,
+        "conversation_estimated_tokens": 64,
+        "total_estimated_tokens": 680,
+        "estimator": "utf8-byte-upper-bound"
+      },
+      "decision_usage": {
+        "input_tokens": 156,
+        "output_tokens": 0
+      },
+      "required_quality": 1,
+      "estimated_keep_cost": null,
+      "estimated_switch_cost": null,
+      "context_estimated_tokens": 116,
+      "cache_assumption": "unknown_no_discount",
+      "reason": "task_requirement",
+      "connection": "46acb4ac-89c2-4e62-abfd-08ff41ac43b1",
+      "prices": {
+        "input_price": null,
+        "output_price": null
+      },
+      "baseline": {
+        "id": "e4ad6ec7-e56e-436e-8c14-3d44a05dacee",
+        "upstream": "omr-hermes-qwen3-4b:ctx8192",
+        "protocols": [
+          "chat"
+        ],
+        "enabled": true,
+        "tools": true,
+        "quality": 3,
+        "input_price": null,
+        "output_price": null,
+        "effort": null,
+        "revision": 1
+      },
+      "elapsed_ms": 19183.26460570097,
+      "timestamp": 1793832091.4659064,
+      "observed_input_tokens": 16,
+      "observed_output_tokens": 3,
+      "comparison": {
+        "baseline_revision": 1,
+        "baseline_id": "e4ad6ec7-e56e-436e-8c14-3d44a05dacee",
+        "actual_repriced": null,
+        "reference_repriced": null,
+        "kind": "same_volume_list_price_estimate_not_bill",
+        "cache_discount": "unknown"
+      }
+    }
+  ]
+}

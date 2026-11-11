@@ -1,0 +1,105 @@
+{
+  "core_sha256": "ec9c11ac447bf37eb5919d98e535d4c91b82a0b39e36202030d01fd8b8eabb0c",
+  "candidate": "7e25c6e7e6547fb9d3bf1f2f1d71602dd3950f3b",
+  "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c",
+  "valid_session": "a613b532-750f-4663-92cc-33aada43c022",
+  "invalid_session": "not-a-uuid",
+  "turns": [
+    {
+      "label": "error",
+      "returncode": 1,
+      "reason": "exit",
+      "elapsed_seconds": 1.623,
+      "events": [
+        {
+          "type": "thread.started",
+          "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c"
+        },
+        {
+          "type": "turn.started"
+        },
+        {
+          "type": "error"
+        },
+        {
+          "type": "turn.failed"
+        }
+      ],
+      "error_categories": [
+        "invalid_request"
+      ],
+      "stderr_bytes": 0,
+      "group_absent": true
+    },
+    {
+      "label": "recovery",
+      "returncode": 0,
+      "reason": "exit",
+      "elapsed_seconds": 2.951,
+      "events": [
+        {
+          "type": "thread.started",
+          "thread_id": "01a17bd1-7a2a-77e3-b368-7330bedd8b7c"
+        },
+        {
+          "type": "turn.started"
+        },
+        {
+          "type": "item.completed",
+          "item_type": "agent_message"
+        },
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 226015,
+            "cached_input_tokens": 96000,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 113,
+            "reasoning_output_tokens": 0
+          }
+        }
+      ],
+      "error_categories": [],
+      "stderr_bytes": 0,
+      "group_absent": true
+    }
+  ],
+  "gateway_port": 59783,
+  "gateway_host": "127.0.0.1",
+  "upstream_generation_after_error": 0,
+  "owned_groups_absent": true,
+  "receipts": [
+    {
+      "session": null,
+      "status": "invalid_request",
+      "upstream_status": null,
+      "route": null,
+      "model_requested": null,
+      "model_observed": null,
+      "effort_transmitted": null,
+      "usage": {}
+    },
+    {
+      "session": "a613b532-750f-4663-92cc-33aada43c022",
+      "status": "cancelled",
+      "upstream_status": 200,
+      "route": "native",
+      "model_requested": "gpt-6.1-terra",
+      "model_observed": "gpt-6.1-terra",
+      "effort_transmitted": "low",
+      "usage": {
+        "input_tokens": 60667,
+        "output_tokens": 7,
+        "total_tokens": 60674,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "core_post_sha256": "ec9c11ac447bf37eb5919d98e535d4c91b82a0b39e36202030d01fd8b8eabb0c"
+}

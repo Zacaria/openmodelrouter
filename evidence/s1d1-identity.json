@@ -1,0 +1,79 @@
+{
+  "repo": "scombat/s1d1-router-6src-tiny-onnx-int8",
+  "revision": "dac13b5c0356864ea4501fa151d74dcd8b3ea22a",
+  "identity": "verified-against-huggingface-https-revision-metadata",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "size": 1570,
+      "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+      "upstream_verified": true
+    },
+    {
+      "file": "LICENSE",
+      "size": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "upstream_verified": true
+    },
+    {
+      "file": "NOTICE",
+      "size": 1543,
+      "sha256": "aece0bcc4516876f01ed2363c9bbe0572e586341950c3eb810ca57a114c8a09e",
+      "upstream_verified": true
+    },
+    {
+      "file": "README.md",
+      "size": 3171,
+      "sha256": "b022d3e23d0128c3256b13f470fbbf7d72b537b24aa30c4201b737f70e21999a",
+      "upstream_verified": true
+    },
+    {
+      "file": "config.json",
+      "size": 3055,
+      "sha256": "811b936540d9bf542027a81de32251c4bb549cdaa4757b3322da981f15bc2a6b",
+      "upstream_verified": true
+    },
+    {
+      "file": "eval.json",
+      "size": 11123,
+      "sha256": "0bcde18397c8e65c8f681e57c6ed0b0ebb72e11f1a11ae89c5a610196fc46d62",
+      "upstream_verified": true
+    },
+    {
+      "file": "footprint.json",
+      "size": 78,
+      "sha256": "7f312d8570d2c0f39278d9439cfd98d4ddda1c0298d50973faca1be279a5812d",
+      "upstream_verified": true
+    },
+    {
+      "file": "model_int8.onnx",
+      "size": 24742151,
+      "sha256": "878975a81da55f27744c3b6a0f5c2f38b1723c322f1a348abae33b1586dbad51",
+      "upstream_verified": true
+    },
+    {
+      "file": "tokenizer.json",
+      "size": 34363287,
+      "sha256": "aebee76d0312011b0d73b08a255d4d11d25c83e9639324870c7b916ea102e13e",
+      "upstream_verified": true
+    },
+    {
+      "file": "tokenizer_config.json",
+      "size": 682,
+      "sha256": "80fd3e43697c68f25c40c6a6a7573709de6e2032edf0bcf5bd4b042185c39afc",
+      "upstream_verified": true
+    },
+    {
+      "file": "variant.json",
+      "size": 257,
+      "sha256": "0739ab58f9e4480772bf24f5493c4b307fe14ee3c44deccaa337de6e5b2f38fd",
+      "upstream_verified": true
+    },
+    {
+      "file": "vocab_map.npy",
+      "size": 2048128,
+      "sha256": "3466512656f2b9ca115751505e310b799aa7a2028bf36d43e6b06413b608e104",
+      "upstream_verified": true
+    }
+  ]
+}

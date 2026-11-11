@@ -1,0 +1,66 @@
+Tue Oct 27 01:31:31 CET 2026
+System-wide memory free percentage: 36%
+Pages occupied by compressor:            442206.
+Pageouts:                              37388793.
+Swapins:                              922349322.
+Swapouts:                             974704899.
+vm.swapusage: total = 20480.00M  used = 19508.75M  free = 971.25M  (encrypted)
+Tue Oct 27 01:31:51 CET 2026
+System-wide memory free percentage: 35%
+Pages occupied by compressor:            454940.
+Pageouts:                              37388938.
+Swapins:                              922349418.
+Swapouts:                             974704899.
+vm.swapusage: total = 20480.00M  used = 19508.75M  free = 971.25M  (encrypted)
+---
+total 383744
+drwx------   10 [REDACTED]  [REDACTED]        320 Oct 27 01:16 .
+drwxr-x---@ 170 [REDACTED]  [REDACTED]       5440 Oct 27 01:15 ..
+-rw-r--r--    1 [REDACTED]  [REDACTED]        334 Oct 27 01:16 config-chat.json
+-rw-r--r--    1 [REDACTED]  [REDACTED]  181324349 Oct 27 01:15 ollama-darwin.tgz
+-rw-------    1 [REDACTED]  [REDACTED]      25713 Jan  1  1970 omr.py
+-rw-r--r--    1 [REDACTED]  [REDACTED]        320 Oct 27 01:16 preflight.txt
+-rw-r--r--    1 [REDACTED]  [REDACTED]        391 Oct 27 01:16 receipts.jsonl
+drwxr-xr-x   50 [REDACTED]  [REDACTED]       1600 Oct 27 01:16 runtime
+-rw-------    1 [REDACTED]  [REDACTED]        163 Jan  1  1970 source-manifest.json
+-rw-r--r--    1 [REDACTED]  [REDACTED]       7258 Oct 27 01:15 source.tar.gz
+/Users/[REDACTED]/omr-native-mac-20261027/source-manifest.json
+/Users/[REDACTED]/omr-native-mac-20261027/receipts.jsonl
+/Users/[REDACTED]/omr-native-mac-20261027/ollama-darwin.tgz
+/Users/[REDACTED]/omr-native-mac-20261027/source.tar.gz
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libggml-cpu-icelake.so
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/MLX_C_LICENSE
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libggml-cpu-sapphirerapids.so
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libllama.0.7.0.dylib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libmtmd.0.7.0.dylib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libllama-common.0.7.0.dylib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/LLAMA_CPP_VENDORS_LICENSE
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/FMT_LICENSE
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libggml-cpu-sse42.so
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libggml-cpu-haswell.so
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libggml.0.27.0.dylib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/GO_LICENSE
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/CPP_HTTPLIB_LICENSE
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libllama-server-impl.dylib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libggml-cpu-cannonlake.so
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/DLPACK_LICENSE
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libggml-cpu-zen4.so
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libggml-blas.so
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/PICOJSON_LICENSE
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libggml-cpu-alderlake.so
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/mlx_metal_v3/libmlx.dylib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/mlx_metal_v3/mlx.metallib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/mlx_metal_v3/libmlxc.dylib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/mlx_metal_v3/libollama_xgrammar.dylib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/mlx_metal_v4/libjaccl.dylib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/mlx_metal_v4/libmlx.dylib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/mlx_metal_v4/mlx.metallib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/mlx_metal_v4/libmlxc.dylib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/mlx_metal_v4/libollama_xgrammar.dylib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libggml-cpu-sandybridge.so
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/LLAMA_CPP_LICENSE
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/MLX_LICENSE
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libggml-base.0.27.0.dylib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libllama-quantize-impl.dylib
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/libggml-cpu-x64.so
+/Users/[REDACTED]/omr-native-mac-20261027/runtime/XGRAMMAR_LICENSE

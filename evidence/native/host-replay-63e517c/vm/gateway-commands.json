@@ -1,0 +1,22 @@
+[
+  [
+    "/opt/hermes/browser-cli/bin/python3",
+    "-B",
+    "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/observe.py",
+    "serve",
+    "--config",
+    "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/normal-config.json",
+    "--port",
+    "45299"
+  ],
+  [
+    "/opt/hermes/browser-cli/bin/python3",
+    "-B",
+    "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/observe.py",
+    "serve",
+    "--config",
+    "/srv/omr-private/workspaces/open-model-router/vm-deadline-accept/error-config.json",
+    "--port",
+    "54727"
+  ]
+]

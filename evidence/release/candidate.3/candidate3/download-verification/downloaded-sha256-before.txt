@@ -1,0 +1,3 @@
+4678ed864d97eea47ce789562f399504c7b6dd3a0109f275fd55e9a4d5d2b94a  /srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/downloaded/SHA256SUMS
+cec82d993febb274152d1c93326758a1e56804118edc82856311e9f0b7e8f287  /srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/downloaded/manifest.json
+44328fc6175cd1ac82527db0fd0b5d0788e381e1973643f55b082069261170bc  /srv/omr-private/workspaces/open-model-router/release-deadline-candidate/.candidate3/downloaded/open-model-router-0.1.0-candidate.3.tar.gz
