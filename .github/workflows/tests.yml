@@ -37,4 +37,9 @@ jobs:
           python -B host-adapters/test_launch.py
           python -B tests/test_landing.py
       - name: Check whitespace
-        run: git diff --check HEAD^
+        run: |
+          if git rev-parse --verify HEAD^ >/dev/null 2>&1; then
+            git diff --check HEAD^
+          else
+            git diff-tree --root --check HEAD
+          fi
